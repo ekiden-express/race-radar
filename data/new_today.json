@@ -1,40 +1,845 @@
 [
  {
-  "name": "13th Katsushika Fureai RUN Festa 2027",
-  "name_local": "第13回かつしかふれあいＲＵＮフェスタ2027",
-  "region": "East Asia",
-  "country": "Japan",
-  "city": "葛飾区, Tokyo",
-  "race_date": "2027-03-14",
+  "name": "500 Thailand",
+  "name_local": null,
+  "region": "Southeast Asia",
+  "country": "Thailand",
+  "city": "Pai",
+  "race_date": "2026-11-29",
   "date_tbd": false,
-  "distances": [
-   "5K",
-   "10K",
-   "Half Marathon",
-   "Other"
-  ],
-  "distances_raw": "【チャレンジＲＵＮ】ハーフマラソン, 【チャレンジＲＵＮ】10km, 【ふれあい健康ＲＵＮ】5km, 【ふれあい健康ＲＵＮ】3km, 【ふれあい健康ＲＵＮ】1km, 【ふれあい健康ＲＵＮ】ファミリーＲＵＮ2km",
+  "distances": [],
+  "distances_raw": null,
   "surface": "Road",
   "cost_original": null,
-  "cost_currency": "JPY",
+  "cost_currency": null,
   "cost_cad": null,
   "cost_cad_max": null,
-  "reg_open_date": "2026-10-22",
-  "reg_close_date": "2027-01-04",
+  "reg_open_date": null,
+  "reg_close_date": null,
   "reg_state_raw": null,
   "reg_closed": false,
   "entry_type": null,
   "sold_out": false,
   "aims_certified": false,
-  "registration_url": "https://runnet.jp/entry/runtes/user/pc/competitionDetailAction.do?raceId=397494&div=1",
+  "registration_url": "https://worldsmarathons.com/marathon/500-thailand",
   "source_urls": [
-   "https://runnet.jp/entry/runtes/user/pc/competitionDetailAction.do?raceId=397494&div=1"
+   "https://worldsmarathons.com/marathon/500-thailand"
   ],
   "sources": [
-   "RUNNET"
+   "World's Marathons"
   ],
   "note": null,
-  "id": "2cf16329b74f",
+  "id": "fa49be4a92c5",
+  "popularity_flag": false,
+  "popularity_reason": null,
+  "first_seen_date": "2026-11-23",
+  "last_seen_date": "2026-11-23"
+ },
+ {
+  "name": "Amazing Thailand Marathon Bangkok",
+  "name_local": null,
+  "region": "Southeast Asia",
+  "country": "Thailand",
+  "city": "Bangkok",
+  "race_date": "2026-11-29",
+  "date_tbd": false,
+  "distances": [
+   "Marathon"
+  ],
+  "distances_raw": null,
+  "surface": "Road",
+  "cost_original": null,
+  "cost_currency": null,
+  "cost_cad": null,
+  "cost_cad_max": null,
+  "reg_open_date": null,
+  "reg_close_date": null,
+  "reg_state_raw": null,
+  "reg_closed": false,
+  "entry_type": null,
+  "sold_out": false,
+  "aims_certified": true,
+  "registration_url": "https://worldsmarathons.com/marathon/amazing-thailand-marathon-bangkok",
+  "source_urls": [
+   "https://worldsmarathons.com/marathon/amazing-thailand-marathon-bangkok",
+   "https://www.aims-worldrunning.org/races/10342.html"
+  ],
+  "sources": [
+   "World's Marathons",
+   "AIMS"
+  ],
+  "note": null,
+  "id": "0acea92f0be5",
+  "popularity_flag": true,
+  "popularity_reason": "AIMS Certified",
+  "first_seen_date": "2026-11-23",
+  "last_seen_date": "2026-11-23"
+ },
+ {
+  "name": "Brunei Half Marathon BMW Edition",
+  "name_local": null,
+  "region": "Southeast Asia",
+  "country": "Brunei",
+  "city": "Bandar Seri Begawan",
+  "race_date": "2026-12-06",
+  "date_tbd": false,
+  "distances": [
+   "Half Marathon"
+  ],
+  "distances_raw": null,
+  "surface": "Road",
+  "cost_original": null,
+  "cost_currency": null,
+  "cost_cad": null,
+  "cost_cad_max": null,
+  "reg_open_date": null,
+  "reg_close_date": null,
+  "reg_state_raw": null,
+  "reg_closed": false,
+  "entry_type": null,
+  "sold_out": false,
+  "aims_certified": false,
+  "registration_url": "https://worldsmarathons.com/marathon/brunei-half-marathon",
+  "source_urls": [
+   "https://worldsmarathons.com/marathon/brunei-half-marathon"
+  ],
+  "sources": [
+   "World's Marathons"
+  ],
+  "note": null,
+  "id": "429de36e15df",
+  "popularity_flag": false,
+  "popularity_reason": null,
+  "first_seen_date": "2026-11-23",
+  "last_seen_date": "2026-11-23"
+ },
+ {
+  "name": "Guangdong-Hong Kong-Macao Greater Bay Area Women's Half Marathon",
+  "name_local": null,
+  "region": "East Asia",
+  "country": "China",
+  "city": "广州市",
+  "race_date": "2027-01-01",
+  "date_tbd": false,
+  "distances": [
+   "Half Marathon"
+  ],
+  "distances_raw": null,
+  "surface": "Road",
+  "cost_original": null,
+  "cost_currency": null,
+  "cost_cad": null,
+  "cost_cad_max": null,
+  "reg_open_date": null,
+  "reg_close_date": null,
+  "reg_state_raw": null,
+  "reg_closed": false,
+  "entry_type": null,
+  "sold_out": false,
+  "aims_certified": false,
+  "registration_url": "https://worldsmarathons.com/marathon/guangdong-hongkong-macao-greater-bay-area-womens-half-marathon",
+  "source_urls": [
+   "https://worldsmarathons.com/marathon/guangdong-hongkong-macao-greater-bay-area-womens-half-marathon"
+  ],
+  "sources": [
+   "World's Marathons"
+  ],
+  "note": null,
+  "id": "6e3d7fb92beb",
+  "popularity_flag": false,
+  "popularity_reason": null,
+  "first_seen_date": "2026-11-23",
+  "last_seen_date": "2026-11-23"
+ },
+ {
+  "name": "Cebu Marathon",
+  "name_local": null,
+  "region": "Southeast Asia",
+  "country": "Philippines",
+  "city": "Cebu City",
+  "race_date": "2027-01-10",
+  "date_tbd": false,
+  "distances": [
+   "Marathon"
+  ],
+  "distances_raw": null,
+  "surface": "Road",
+  "cost_original": null,
+  "cost_currency": null,
+  "cost_cad": null,
+  "cost_cad_max": null,
+  "reg_open_date": null,
+  "reg_close_date": null,
+  "reg_state_raw": null,
+  "reg_closed": false,
+  "entry_type": null,
+  "sold_out": false,
+  "aims_certified": false,
+  "registration_url": "https://worldsmarathons.com/marathon/cebu-marathon",
+  "source_urls": [
+   "https://worldsmarathons.com/marathon/cebu-marathon"
+  ],
+  "sources": [
+   "World's Marathons"
+  ],
+  "note": null,
+  "id": "aba18d664598",
+  "popularity_flag": false,
+  "popularity_reason": null,
+  "first_seen_date": "2026-11-23",
+  "last_seen_date": "2026-11-23"
+ },
+ {
+  "name": "Chongqing Marathon",
+  "name_local": null,
+  "region": "East Asia",
+  "country": "China",
+  "city": "Chongqing",
+  "race_date": "2027-01-10",
+  "date_tbd": false,
+  "distances": [
+   "Marathon"
+  ],
+  "distances_raw": null,
+  "surface": "Road",
+  "cost_original": null,
+  "cost_currency": null,
+  "cost_cad": null,
+  "cost_cad_max": null,
+  "reg_open_date": null,
+  "reg_close_date": null,
+  "reg_state_raw": null,
+  "reg_closed": false,
+  "entry_type": null,
+  "sold_out": false,
+  "aims_certified": false,
+  "registration_url": "https://worldsmarathons.com/marathon/chongqing-international-marathon",
+  "source_urls": [
+   "https://worldsmarathons.com/marathon/chongqing-international-marathon"
+  ],
+  "sources": [
+   "World's Marathons"
+  ],
+  "note": null,
+  "id": "cbdbf8fadde7",
+  "popularity_flag": false,
+  "popularity_reason": null,
+  "first_seen_date": "2026-11-23",
+  "last_seen_date": "2026-11-23"
+ },
+ {
+  "name": "EastWest Dream Run - Clark",
+  "name_local": null,
+  "region": "Southeast Asia",
+  "country": "Philippines",
+  "city": "Central Luzon",
+  "race_date": "2027-01-17",
+  "date_tbd": false,
+  "distances": [],
+  "distances_raw": null,
+  "surface": "Road",
+  "cost_original": null,
+  "cost_currency": null,
+  "cost_cad": null,
+  "cost_cad_max": null,
+  "reg_open_date": null,
+  "reg_close_date": null,
+  "reg_state_raw": null,
+  "reg_closed": false,
+  "entry_type": null,
+  "sold_out": false,
+  "aims_certified": false,
+  "registration_url": "https://worldsmarathons.com/marathon/eastwest-dream-run-clark",
+  "source_urls": [
+   "https://worldsmarathons.com/marathon/eastwest-dream-run-clark"
+  ],
+  "sources": [
+   "World's Marathons"
+  ],
+  "note": null,
+  "id": "52cdcdded93a",
+  "popularity_flag": false,
+  "popularity_reason": null,
+  "first_seen_date": "2026-11-23",
+  "last_seen_date": "2026-11-23"
+ },
+ {
+  "name": "Buriram Marathon",
+  "name_local": null,
+  "region": "Southeast Asia",
+  "country": "Thailand",
+  "city": "Buri Ram",
+  "race_date": "2027-01-23",
+  "date_tbd": false,
+  "distances": [
+   "Marathon"
+  ],
+  "distances_raw": null,
+  "surface": "Road",
+  "cost_original": null,
+  "cost_currency": null,
+  "cost_cad": null,
+  "cost_cad_max": null,
+  "reg_open_date": null,
+  "reg_close_date": null,
+  "reg_state_raw": null,
+  "reg_closed": false,
+  "entry_type": null,
+  "sold_out": false,
+  "aims_certified": true,
+  "registration_url": "https://worldsmarathons.com/marathon/buriram-marathon",
+  "source_urls": [
+   "https://worldsmarathons.com/marathon/buriram-marathon",
+   "https://www.aims-worldrunning.org/races/10224.html"
+  ],
+  "sources": [
+   "World's Marathons",
+   "AIMS"
+  ],
+  "note": null,
+  "id": "41c1747a2c3a",
+  "popularity_flag": true,
+  "popularity_reason": "AIMS Certified",
+  "first_seen_date": "2026-11-23",
+  "last_seen_date": "2026-11-23"
+ },
+ {
+  "name": "BougeBouge Quebec",
+  "name_local": null,
+  "region": "Canada",
+  "country": "Canada",
+  "city": "Québec",
+  "race_date": "2027-01-24",
+  "date_tbd": false,
+  "distances": [
+   "5K",
+   "Other"
+  ],
+  "distances_raw": null,
+  "surface": "Road",
+  "cost_original": null,
+  "cost_currency": null,
+  "cost_cad": null,
+  "cost_cad_max": null,
+  "reg_open_date": null,
+  "reg_close_date": null,
+  "reg_state_raw": null,
+  "reg_closed": false,
+  "entry_type": null,
+  "sold_out": false,
+  "aims_certified": false,
+  "registration_url": "https://worldsmarathons.com/marathon/bougebouge-quebec",
+  "source_urls": [
+   "https://worldsmarathons.com/marathon/bougebouge-quebec"
+  ],
+  "sources": [
+   "World's Marathons"
+  ],
+  "note": null,
+  "id": "738e015f9d13",
+  "popularity_flag": false,
+  "popularity_reason": null,
+  "first_seen_date": "2026-11-23",
+  "last_seen_date": "2026-11-23"
+ },
+ {
+  "name": "BougeBouge Montreal Underground",
+  "name_local": null,
+  "region": "Canada",
+  "country": "Canada",
+  "city": "Montréal",
+  "race_date": "2027-02-14",
+  "date_tbd": false,
+  "distances": [
+   "5K"
+  ],
+  "distances_raw": null,
+  "surface": "Road",
+  "cost_original": null,
+  "cost_currency": null,
+  "cost_cad": null,
+  "cost_cad_max": null,
+  "reg_open_date": null,
+  "reg_close_date": null,
+  "reg_state_raw": null,
+  "reg_closed": false,
+  "entry_type": null,
+  "sold_out": false,
+  "aims_certified": false,
+  "registration_url": "https://worldsmarathons.com/marathon/bougebouge-montreal-underground-souterrain",
+  "source_urls": [
+   "https://worldsmarathons.com/marathon/bougebouge-montreal-underground-souterrain"
+  ],
+  "sources": [
+   "World's Marathons"
+  ],
+  "note": null,
+  "id": "67ca7a86a370",
+  "popularity_flag": false,
+  "popularity_reason": null,
+  "first_seen_date": "2026-11-23",
+  "last_seen_date": "2026-11-23"
+ },
+ {
+  "name": "AVOHK Gammon China Coast Marathon",
+  "name_local": null,
+  "region": "East Asia",
+  "country": "Hong Kong",
+  "city": "Hong-Kong",
+  "race_date": "2027-02-21",
+  "date_tbd": false,
+  "distances": [
+   "Half Marathon",
+   "Marathon"
+  ],
+  "distances_raw": null,
+  "surface": "Road",
+  "cost_original": null,
+  "cost_currency": null,
+  "cost_cad": null,
+  "cost_cad_max": null,
+  "reg_open_date": null,
+  "reg_close_date": null,
+  "reg_state_raw": null,
+  "reg_closed": false,
+  "entry_type": null,
+  "sold_out": false,
+  "aims_certified": false,
+  "registration_url": "https://worldsmarathons.com/marathon/gammon-china-coast-marathon-half",
+  "source_urls": [
+   "https://worldsmarathons.com/marathon/gammon-china-coast-marathon-half"
+  ],
+  "sources": [
+   "World's Marathons"
+  ],
+  "note": null,
+  "id": "0834dd7bab1e",
+  "popularity_flag": false,
+  "popularity_reason": null,
+  "first_seen_date": "2026-11-23",
+  "last_seen_date": "2026-11-23"
+ },
+ {
+  "name": "BougeBouge West Edmonton Mall",
+  "name_local": null,
+  "region": "Canada",
+  "country": "Canada",
+  "city": "Edmonton",
+  "race_date": "2027-02-28",
+  "date_tbd": false,
+  "distances": [
+   "5K"
+  ],
+  "distances_raw": null,
+  "surface": "Road",
+  "cost_original": null,
+  "cost_currency": null,
+  "cost_cad": null,
+  "cost_cad_max": null,
+  "reg_open_date": null,
+  "reg_close_date": null,
+  "reg_state_raw": null,
+  "reg_closed": false,
+  "entry_type": null,
+  "sold_out": false,
+  "aims_certified": false,
+  "registration_url": "https://worldsmarathons.com/marathon/bougebouge-west-edmonton-mall",
+  "source_urls": [
+   "https://worldsmarathons.com/marathon/bougebouge-west-edmonton-mall"
+  ],
+  "sources": [
+   "World's Marathons"
+  ],
+  "note": null,
+  "id": "5dcba7f28066",
+  "popularity_flag": false,
+  "popularity_reason": null,
+  "first_seen_date": "2026-11-23",
+  "last_seen_date": "2026-11-23"
+ },
+ {
+  "name": "Dalat Ultra Trail",
+  "name_local": null,
+  "region": "Southeast Asia",
+  "country": "Vietnam",
+  "city": "Lâm Viên - Đà Lạt",
+  "race_date": "2027-03-21",
+  "date_tbd": false,
+  "distances": [
+   "Ultra"
+  ],
+  "distances_raw": null,
+  "surface": "Road",
+  "cost_original": null,
+  "cost_currency": null,
+  "cost_cad": null,
+  "cost_cad_max": null,
+  "reg_open_date": null,
+  "reg_close_date": null,
+  "reg_state_raw": null,
+  "reg_closed": false,
+  "entry_type": null,
+  "sold_out": false,
+  "aims_certified": false,
+  "registration_url": "https://worldsmarathons.com/marathon/dalat-ultra-trail",
+  "source_urls": [
+   "https://worldsmarathons.com/marathon/dalat-ultra-trail"
+  ],
+  "sources": [
+   "World's Marathons"
+  ],
+  "note": null,
+  "id": "877ee31c45e7",
+  "popularity_flag": false,
+  "popularity_reason": null,
+  "first_seen_date": "2026-11-23",
+  "last_seen_date": "2026-11-23"
+ },
+ {
+  "name": "Borneo Ultra Trail Marathon",
+  "name_local": null,
+  "region": "Southeast Asia",
+  "country": "Malaysia",
+  "city": "Tamparuli",
+  "race_date": "2027-04-03",
+  "date_tbd": false,
+  "distances": [
+   "Marathon",
+   "Ultra"
+  ],
+  "distances_raw": null,
+  "surface": "Road",
+  "cost_original": null,
+  "cost_currency": null,
+  "cost_cad": null,
+  "cost_cad_max": null,
+  "reg_open_date": null,
+  "reg_close_date": null,
+  "reg_state_raw": null,
+  "reg_closed": false,
+  "entry_type": null,
+  "sold_out": false,
+  "aims_certified": false,
+  "registration_url": "https://worldsmarathons.com/marathon/borneo-ultra-trail-marathon",
+  "source_urls": [
+   "https://worldsmarathons.com/marathon/borneo-ultra-trail-marathon"
+  ],
+  "sources": [
+   "World's Marathons"
+  ],
+  "note": null,
+  "id": "3aa7a19d9b23",
+  "popularity_flag": false,
+  "popularity_reason": null,
+  "first_seen_date": "2026-11-23",
+  "last_seen_date": "2026-11-23"
+ },
+ {
+  "name": "Aqua Warriors Halong Bay Vietnam ( TRIATHLON, AQUATHLON, DUATHLON)",
+  "name_local": null,
+  "region": "Southeast Asia",
+  "country": "Vietnam",
+  "city": "Ha Long",
+  "race_date": "2027-04-04",
+  "date_tbd": false,
+  "distances": [],
+  "distances_raw": null,
+  "surface": "Road",
+  "cost_original": null,
+  "cost_currency": null,
+  "cost_cad": null,
+  "cost_cad_max": null,
+  "reg_open_date": null,
+  "reg_close_date": null,
+  "reg_state_raw": null,
+  "reg_closed": false,
+  "entry_type": null,
+  "sold_out": false,
+  "aims_certified": false,
+  "registration_url": "https://worldsmarathons.com/marathon/aqua-warriors-halong-bay-vietnam",
+  "source_urls": [
+   "https://worldsmarathons.com/marathon/aqua-warriors-halong-bay-vietnam"
+  ],
+  "sources": [
+   "World's Marathons"
+  ],
+  "note": null,
+  "id": "ee85b20390c1",
+  "popularity_flag": false,
+  "popularity_reason": null,
+  "first_seen_date": "2026-11-23",
+  "last_seen_date": "2026-11-23"
+ },
+ {
+  "name": "Great Wall of China Marathon (GWCM)",
+  "name_local": null,
+  "region": "East Asia",
+  "country": "China",
+  "city": "",
+  "race_date": "2027-05-01",
+  "date_tbd": false,
+  "distances": [
+   "Marathon"
+  ],
+  "distances_raw": null,
+  "surface": "Road",
+  "cost_original": null,
+  "cost_currency": null,
+  "cost_cad": null,
+  "cost_cad_max": null,
+  "reg_open_date": null,
+  "reg_close_date": null,
+  "reg_state_raw": null,
+  "reg_closed": false,
+  "entry_type": null,
+  "sold_out": false,
+  "aims_certified": false,
+  "registration_url": "https://worldsmarathons.com/marathon/great-wall-of-china-marathon",
+  "source_urls": [
+   "https://worldsmarathons.com/marathon/great-wall-of-china-marathon"
+  ],
+  "sources": [
+   "World's Marathons"
+  ],
+  "note": null,
+  "id": "39d24b3590c1",
+  "popularity_flag": false,
+  "popularity_reason": null,
+  "first_seen_date": "2026-11-23",
+  "last_seen_date": "2026-11-23"
+ },
+ {
+  "name": "Fredericton Marathon",
+  "name_local": null,
+  "region": "Canada",
+  "country": "Canada",
+  "city": "Fredericton",
+  "race_date": "2027-05-09",
+  "date_tbd": false,
+  "distances": [
+   "Half Marathon",
+   "Marathon"
+  ],
+  "distances_raw": null,
+  "surface": "Road",
+  "cost_original": null,
+  "cost_currency": null,
+  "cost_cad": null,
+  "cost_cad_max": null,
+  "reg_open_date": null,
+  "reg_close_date": null,
+  "reg_state_raw": null,
+  "reg_closed": false,
+  "entry_type": null,
+  "sold_out": false,
+  "aims_certified": false,
+  "registration_url": "https://worldsmarathons.com/marathon/fredericton-marathon",
+  "source_urls": [
+   "https://worldsmarathons.com/marathon/fredericton-marathon"
+  ],
+  "sources": [
+   "World's Marathons"
+  ],
+  "note": null,
+  "id": "4c823c995466",
+  "popularity_flag": false,
+  "popularity_reason": null,
+  "first_seen_date": "2026-11-23",
+  "last_seen_date": "2026-11-23"
+ },
+ {
+  "name": "Great Wall Marathon",
+  "name_local": null,
+  "region": "East Asia",
+  "country": "China",
+  "city": "Huangyaguan",
+  "race_date": "2027-05-15",
+  "date_tbd": false,
+  "distances": [
+   "Marathon",
+   "Other"
+  ],
+  "distances_raw": null,
+  "surface": "Road",
+  "cost_original": null,
+  "cost_currency": null,
+  "cost_cad": null,
+  "cost_cad_max": null,
+  "reg_open_date": null,
+  "reg_close_date": null,
+  "reg_state_raw": null,
+  "reg_closed": false,
+  "entry_type": null,
+  "sold_out": false,
+  "aims_certified": true,
+  "registration_url": "https://worldsmarathons.com/marathon/great-wall-marathon-half-marathon",
+  "source_urls": [
+   "https://worldsmarathons.com/marathon/great-wall-marathon-half-marathon",
+   "https://www.aims-worldrunning.org/races/731.html"
+  ],
+  "sources": [
+   "World's Marathons",
+   "AIMS"
+  ],
+  "note": null,
+  "id": "18384a3c61d1",
+  "popularity_flag": true,
+  "popularity_reason": "AIMS Certified",
+  "first_seen_date": "2026-11-23",
+  "last_seen_date": "2026-11-23"
+ },
+ {
+  "name": "Beneva Calgary Marathon",
+  "name_local": null,
+  "region": "Canada",
+  "country": "Canada",
+  "city": "Calgary",
+  "race_date": "2027-05-30",
+  "date_tbd": false,
+  "distances": [
+   "Half Marathon",
+   "Marathon"
+  ],
+  "distances_raw": null,
+  "surface": "Road",
+  "cost_original": null,
+  "cost_currency": null,
+  "cost_cad": null,
+  "cost_cad_max": null,
+  "reg_open_date": null,
+  "reg_close_date": null,
+  "reg_state_raw": null,
+  "reg_closed": false,
+  "entry_type": null,
+  "sold_out": false,
+  "aims_certified": false,
+  "registration_url": "https://worldsmarathons.com/marathon/calgary-marathon",
+  "source_urls": [
+   "https://worldsmarathons.com/marathon/calgary-marathon"
+  ],
+  "sources": [
+   "World's Marathons"
+  ],
+  "note": null,
+  "id": "7da2d7f0365b",
+  "popularity_flag": false,
+  "popularity_reason": null,
+  "first_seen_date": "2026-11-23",
+  "last_seen_date": "2026-11-23"
+ },
+ {
+  "name": "Banff Half Marathon & 10K",
+  "name_local": null,
+  "region": "Canada",
+  "country": "Canada",
+  "city": "Banff",
+  "race_date": "2027-06-20",
+  "date_tbd": false,
+  "distances": [
+   "10K",
+   "Half Marathon",
+   "Marathon"
+  ],
+  "distances_raw": null,
+  "surface": "Road",
+  "cost_original": null,
+  "cost_currency": null,
+  "cost_cad": null,
+  "cost_cad_max": null,
+  "reg_open_date": null,
+  "reg_close_date": null,
+  "reg_state_raw": null,
+  "reg_closed": false,
+  "entry_type": null,
+  "sold_out": false,
+  "aims_certified": false,
+  "registration_url": "https://worldsmarathons.com/marathon/banff-marathon",
+  "source_urls": [
+   "https://worldsmarathons.com/marathon/banff-marathon"
+  ],
+  "sources": [
+   "World's Marathons"
+  ],
+  "note": null,
+  "id": "1dc6d7ed6306",
+  "popularity_flag": false,
+  "popularity_reason": null,
+  "first_seen_date": "2026-11-23",
+  "last_seen_date": "2026-11-23"
+ },
+ {
+  "name": "Servus Edmonton Marathon",
+  "name_local": null,
+  "region": "Canada",
+  "country": "Canada",
+  "city": "Edmonton",
+  "race_date": "2027-08-15",
+  "date_tbd": false,
+  "distances": [
+   "Marathon"
+  ],
+  "distances_raw": null,
+  "surface": "Road",
+  "cost_original": null,
+  "cost_currency": null,
+  "cost_cad": null,
+  "cost_cad_max": null,
+  "reg_open_date": null,
+  "reg_close_date": null,
+  "reg_state_raw": null,
+  "reg_closed": false,
+  "entry_type": null,
+  "sold_out": false,
+  "aims_certified": false,
+  "registration_url": "https://worldsmarathons.com/marathon/edmonton-marathon",
+  "source_urls": [
+   "https://worldsmarathons.com/marathon/edmonton-marathon"
+  ],
+  "sources": [
+   "World's Marathons"
+  ],
+  "note": null,
+  "id": "c963993148ec",
+  "popularity_flag": false,
+  "popularity_reason": null,
+  "first_seen_date": "2026-11-23",
+  "last_seen_date": "2026-11-23"
+ },
+ {
+  "name": "Canmore Rocky Mountain Half Marathon, 10km & 5km",
+  "name_local": null,
+  "region": "Canada",
+  "country": "Canada",
+  "city": "Canmore",
+  "race_date": "2027-09-12",
+  "date_tbd": false,
+  "distances": [
+   "5K",
+   "10K",
+   "Half Marathon"
+  ],
+  "distances_raw": null,
+  "surface": "Road",
+  "cost_original": null,
+  "cost_currency": null,
+  "cost_cad": null,
+  "cost_cad_max": null,
+  "reg_open_date": null,
+  "reg_close_date": null,
+  "reg_state_raw": null,
+  "reg_closed": false,
+  "entry_type": null,
+  "sold_out": false,
+  "aims_certified": false,
+  "registration_url": "https://worldsmarathons.com/marathon/canmore-rocky-mountain-half-marathon",
+  "source_urls": [
+   "https://worldsmarathons.com/marathon/canmore-rocky-mountain-half-marathon"
+  ],
+  "sources": [
+   "World's Marathons"
+  ],
+  "note": null,
+  "id": "4eb73ab02583",
   "popularity_flag": false,
   "popularity_reason": null,
   "first_seen_date": "2026-11-23",
