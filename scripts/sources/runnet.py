@@ -45,7 +45,8 @@ def parse_results(html: str) -> list[dict]:
         race_date = _jdate(item.select_one("p.date"))
         if not race_date:
             continue
-        place = (item.select_one("p.place") or a).get_text(strip=True)
+        pel = item.select_one("p.place")
+        place = pel.get_text(strip=True) if pel else ""
         pm = re.match(r"(.+?[都道府県])(?:（(.+?)）)?", place)
         pref, town = (pm.group(1), pm.group(2)) if pm else (place, None)
         dists, reg_open, reg_close = "", None, None
@@ -64,7 +65,7 @@ def parse_results(html: str) -> list[dict]:
         en_pref = PREF_EN.get(pref, pref)
         out.append(blank_race(
             name=name, region="East Asia", country="Japan",
-            city=f"{town}, {en_pref}" if town else en_pref, race_date=race_date,
+            city=(f"{town}, {en_pref}" if town else en_pref) or None, race_date=race_date,
             distances=norm_distances(dists.replace("フル", "marathon ").replace("ハーフ", "half marathon ")),
             distances_raw=dists or None, surface="Trail" if "トレイル" in name else "Road",
             reg_open_date=reg_open, reg_close_date=reg_close, cost_currency="JPY",

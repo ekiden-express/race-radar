@@ -33,7 +33,7 @@ CONFIG = json.loads((ROOT / "config" / "sources.json").read_text(encoding="utf-8
 MANUAL = ROOT / "config" / "manual_races.json"
 FX_URL = "https://open.er-api.com/v6/latest/CAD"
 CURRENCIES = ["TWD", "JPY", "KRW", "HKD", "MYR", "SGD", "THB", "IDR", "PHP", "VND", "CNY", "MOP", "BND", "KHR", "USD", "CAD"]
-MAJORS = re.compile(r"tokyo marathon|東京マラソン|東京馬拉松", re.I)  # World Marathon Majors in our regions
+MAJORS = re.compile(r"^(?:\d{4}\s*)?(?:tokyo marathon|東京マラソン|東京馬拉松)(?:\s*\d{4})?$", re.I)  # World Marathon Majors in our regions
 START = time.time()
 
 
@@ -281,7 +281,7 @@ def finalise(r: dict, fx: dict, previous: dict[str, dict]) -> dict:
     elif r.get("cost_amount") is not None:  # manual races
         r["cost_cad"] = to_cad(r.pop("cost_amount"), r.get("cost_currency"), fx)
     reasons = []
-    if MAJORS.search((r.get("name") or "") + (r.get("name_local") or "")):
+    if MAJORS.search((r.get("name") or "").strip()) or MAJORS.search((r.get("name_local") or "").strip()):
         reasons.append("World Marathon Major")
     if r.get("aims_certified"):
         reasons.append("AIMS Certified")
