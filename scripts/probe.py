@@ -5,9 +5,7 @@ OUT = pathlib.Path("data/probe"); OUT.mkdir(parents=True, exist_ok=True)
 H = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36 GlobalRaceRadar/1.0",
      "Accept-Language": "en-CA,en;q=0.9"}
 URLS = {
-    "mindex_sitemap0": "https://marathon-index.com/sitemap-0.xml",
-    "mindex_lp": "https://marathon-index.com/races/luang-prabang-half-marathon/",
-    "mindex_races": "https://marathon-index.com/races/",
+    "wm_sitemap_index": "https://www.worldsmarathons.com/index-sitemap-en.xml",
 }
 report = {}
 for name, url in URLS.items():
@@ -21,5 +19,15 @@ for name, url in URLS.items():
     except Exception as e:
         report[name] = {"url": url, "error": str(e)}
     time.sleep(2)
-(OUT / "report2.json").write_text(json.dumps(report, indent=1), encoding="utf-8")
+import re as _re
+idx = (OUT / "wm_sitemap_index.html").read_text(encoding="utf-8", errors="replace")
+for i, u in enumerate(_re.findall(r"<loc>([^<]+)</loc>", idx)[:12]):
+    try:
+        r = requests.get(u, headers=H, timeout=30); c = r.content
+        if c[:2] == b"\x1f\x8b": c = gzip.decompress(c)
+        (OUT / f"wm_sm_{i}.xml").write_bytes(c); report[f"wm_sm_{i}"] = {"url": u, "status": r.status_code, "bytes": len(c)}
+    except Exception as e:
+        report[f"wm_sm_{i}"] = {"url": u, "error": str(e)}
+    time.sleep(2)
+(OUT / "report3.json").write_text(json.dumps(report, indent=1), encoding="utf-8")
 print(json.dumps(report, indent=1))
