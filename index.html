@@ -68,6 +68,7 @@ select{border:1px solid var(--line);border-radius:8px;padding:8px 10px;backgroun
 .pill{font-size:12px;border:1px solid var(--line);border-radius:6px;padding:2px 7px;background:var(--soft)}
 .badge{font-size:11px;font-weight:700;letter-spacing:.03em;border-radius:5px;padding:3px 7px}
 .b-new{background:var(--blue-soft);color:var(--blue)}
+.b-exp{background:var(--soft);color:var(--muted);border:1px dashed var(--line)}
 .b-closing{background:var(--warn-soft);color:var(--warn)}
 .b-lottery{background:var(--violet-soft);color:var(--violet)}
 .b-aims{background:var(--accent-soft);color:var(--accent)}
@@ -87,7 +88,7 @@ select{border:1px solid var(--line);border-radius:8px;padding:8px 10px;backgroun
 .st-Opening{background:var(--blue-soft);color:var(--blue)}
 .st-Closed{background:var(--soft);color:var(--muted)}
 .st-Lottery{background:var(--violet-soft);color:var(--violet)}
-.st-Check,.st-Not,.st-Finished{background:var(--soft);color:var(--muted)}
+.st-Check,.st-Not,.st-Finished,.st-Expected,.st-Date{background:var(--soft);color:var(--muted)}
 .reg-btn{background:var(--accent);color:var(--accent-ink);text-decoration:none;font-weight:650;border-radius:8px;padding:8px 14px;white-space:nowrap}
 .mine{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-top:10px;padding-top:10px;border-top:1px dashed var(--line)}
 .star{border:1px solid var(--line);background:var(--bg);border-radius:8px;padding:4px 10px;cursor:pointer;font-size:13px}
@@ -138,6 +139,7 @@ footer{margin-top:28px;font-size:12px;color:var(--muted)}
   <section class="panel" aria-label="Filters">
     <div class="row">
       <input class="search" id="q" type="search" placeholder="Search race, city or country (English, 中文, 日本語, 한국어)" aria-label="Search">
+      <select id="month" aria-label="Month"><option value="">Any month</option></select>
       <select id="sort" aria-label="Sort">
         <option value="date">Race date (soonest)</option>
         <option value="close">Registration closing soonest</option>
@@ -153,6 +155,7 @@ footer{margin-top:28px;font-size:12px;color:var(--muted)}
       <label class="toggle"><input type="checkbox" id="t-hot"> High demand only</label>
       <label class="toggle"><input type="checkbox" id="t-price"> Has a CAD price</label>
       <label class="toggle"><input type="checkbox" id="t-done" checked> Hide races I've marked Done</label>
+      <label class="toggle"><input type="checkbox" id="t-exp" checked> Include expected races (date TBC)</label>
     </div>
   </section>
 
@@ -177,7 +180,7 @@ let store = null;             // "db" | "local" | null
 let col = null;
 const writeChains = {};
 const S = { view:"all", region:"All", countries:new Set(), dists:new Set(), q:"", sort:"date",
-            open:true, hot:false, price:false, hideDone:true };
+            month:"", expected:true, open:true, hot:false, price:false, hideDone:true };
 
 // ---------- helpers ----------
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
@@ -188,7 +191,9 @@ const fmt = s => { const d = parse(s); return d ? `${d.getDate()} ${MONTHS[d.get
 const money = n => "C$" + (n >= 100 ? Math.round(n).toLocaleString("en-CA") : n.toFixed(0));
 
 function status(r) {
+  if (r.expected) return "Expected";
   if (daysUntil(r.race_date) < 0) return "Finished";
+  if (r.date_unconfirmed) return "Date TBC";
   if (r.sold_out) return "Sold Out";
   const close = daysUntil(r.reg_close_date), open = daysUntil(r.reg_open_date);
   if (r.reg_closed || (close !== null && close < 0)) return "Closed";
@@ -273,6 +278,8 @@ function baseFilter(r, ignoreRegion) {
   if (S.hot && !r.popularity_flag) return false;
   if (S.price && r.cost_cad == null) return false;
   if (S.hideDone && t(r.id).status === "Done") return false;
+  if (S.month && r.race_date.slice(0, 7) !== S.month) return false;
+  if (!S.expected && (r.expected || r.date_unconfirmed)) return false;
   return true;
 }
 const nullsLast = (a, b, f, dir = 1) => {
@@ -301,6 +308,8 @@ function gcalLink(title, dateStr, details) {
 function card(r) {
   const d = parse(r.race_date), until = daysUntil(r.race_date), st = status(r), me = t(r.id);
   const badges = [];
+  if (r.expected) badges.push('<span class="badge b-exp" title="Held before; next date not announced">EXPECTED</span>');
+  if (r.date_unconfirmed) badges.push('<span class="badge b-exp" title="Date from a race directory – may be an estimate">DATE TBC</span>');
   if (isNew(r)) badges.push('<span class="badge b-new">NEW</span>');
   if (st === "Closing Soon") badges.push('<span class="badge b-closing">CLOSING SOON</span>');
   if (r.entry_type === "Lottery") badges.push('<span class="badge b-lottery">LOTTERY</span>');
@@ -324,11 +333,12 @@ function card(r) {
   const cost = r.cost_cad != null
     ? `<div class="cad">${money(r.cost_cad)}${r.cost_cad_max && Math.round(r.cost_cad_max) !== Math.round(r.cost_cad) ? "–" + money(r.cost_cad_max).slice(2) : ""}</div><div class="orig">${esc(r.cost_original)}</div>`
     : `<div class="none">Check site</div>`;
-  const dateTop = r.date_tbd ? `<div class="m">${MONTHS[d.getMonth()]}</div><div class="d">TBA</div><div class="w">${d.getFullYear()}</div>`
+  const dateTop = r.date_tbd ? `<div class="m">${MONTHS[d.getMonth()]}</div><div class="d">TBC</div><div class="w">${d.getFullYear()}</div>`
     : `<div class="m">${MONTHS[d.getMonth()]}${d.getFullYear() !== today.getFullYear() ? " ’" + String(d.getFullYear()).slice(2) : ""}</div><div class="d">${d.getDate()}</div><div class="w">${WD[d.getDay()]}</div>`;
-  const untilTxt = r.date_tbd ? "" : until === 0 ? "Today" : until === 1 ? "Tomorrow" : until < 0 ? `${-until} day${until === -1 ? "" : "s"} ago` : `in ${until} days`;
+  const untilTxt = r.expected ? "expected" : r.date_tbd ? "" : until === 0 ? "Today" : until === 1 ? "Tomorrow" : until < 0 ? `${-until} day${until === -1 ? "" : "s"} ago` : `in ${until} days`;
   const regLabel = /google\.com\/search/.test(r.registration_url) ? "Find official site →"
-    : /aims-worldrunning\.org/.test(r.registration_url) ? "Race info →" : "Register →";
+    : r.expected ? "Last edition →"
+    : /aims-worldrunning\.org|marathon-index\.com/.test(r.registration_url) ? "Race info →" : "Register →";
   const details = `${r.name}${r.name_local ? " / " + r.name_local : ""}\n${r.city}, ${r.country}\nRegistration: ${r.registration_url}`;
   const calRace = `<button type="button" class="star" data-act="ics" title="Race day plus registration dates">📅 .ics</button>` +
     (r.date_tbd ? "" : ` <a class="cal" href="${esc(gcalLink("🏃 " + r.name, r.race_date, details))}" target="_blank" rel="noopener">+ Google Calendar</a>`);
@@ -411,7 +421,17 @@ let qTimer;
 $("q").addEventListener("input", e => { clearTimeout(qTimer); qTimer = setTimeout(() => { S.q = e.target.value.trim().toLowerCase(); render(); }, 150); });
 $("import").addEventListener("change", e => { if (e.target.files[0]) importSaved(e.target.files[0]); e.target.value = ""; });
 $("sort").addEventListener("change", e => { S.sort = e.target.value; render(); });
-[["t-open","open"],["t-hot","hot"],["t-price","price"],["t-done","hideDone"]].forEach(([id,k]) =>
+$("month").addEventListener("change", e => { S.month = e.target.value; render(); });
+const MONTHS_LONG = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+function fillMonths() {
+  const counts = {};
+  RACES.forEach(r => { if (daysUntil(r.race_date) >= -7) { const k = r.race_date.slice(0, 7); counts[k] = (counts[k] || 0) + 1; } });
+  $("month").innerHTML = '<option value="">Any month</option>' + Object.keys(counts).sort().map(k => {
+    const [y, m] = k.split("-").map(Number);
+    return `<option value="${k}">${MONTHS_LONG[m - 1]} ${y} (${counts[k]})</option>`;
+  }).join("");
+}
+[["t-open","open"],["t-hot","hot"],["t-price","price"],["t-done","hideDone"],["t-exp","expected"]].forEach(([id,k]) =>
   $(id).addEventListener("change", e => { S[k] = e.target.checked; render(); }));
 $("dists").insertAdjacentHTML("beforeend", DISTS.map(d => `<button type="button" class="chip" data-dist="${d}" aria-pressed="false">${d}</button>`).join(""));
 
@@ -422,6 +442,7 @@ if (location.protocol === "file:") {
 loadLocal(); setSync();
 fetch("data/races.json", { cache: "no-store" }).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }).then(d => {
   DATA = d; RACES = d.races;
+  fillMonths();
   FIRST_RUN = RACES.reduce((m, r) => !m || r.first_seen_date < m ? r.first_seen_date : m, "");
   const g = new Date(d.generated_at);
   $("updated").textContent = "Last updated " + g.toLocaleString("en-CA", { timeZone:"America/Vancouver", dateStyle:"medium", timeStyle:"short" }) + " Pacific" + (d.fx && d.fx.date ? " · Fees converted at rates from " + fmt(d.fx.date) : "");

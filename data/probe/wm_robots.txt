@@ -1,6 +1,0 @@
-﻿User-agent: *
-Sitemap: https://www.worldsmarathons.com/index-sitemap-en.xml
-Sitemap: https://www.worldsmarathons.com/index-sitemap-de.xml
-Sitemap: https://www.worldsmarathons.com/index-sitemap-it.xml
-Sitemap: https://www.worldsmarathons.com/index-sitemap-es.xml
-Sitemap: https://www.worldsmarathons.com/index-sitemap-zh.xml

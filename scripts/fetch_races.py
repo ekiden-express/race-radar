@@ -20,6 +20,8 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 sys.path.insert(0, str(Path(__file__).resolve().parent / "sources"))
 
 import aims  # noqa: E402
+import directories  # noqa: E402
+import history  # noqa: E402
 import biji  # noqa: E402
 import jomrun  # noqa: E402
 import roadrun  # noqa: E402
@@ -169,7 +171,19 @@ def run_roadrun(f: Fetcher, cache: dict) -> list[dict]:
     return out
 
 
-SOURCES = {"biji": run_biji, "jomrun": run_jomrun, "runnet": run_runnet, "roadrun": run_roadrun}
+PAST_EDITIONS: list[dict] = []
+DIRECTORY_STATS: dict = {}
+
+
+def run_directories(f: Fetcher, cache: dict) -> list[dict]:
+    up, past, stats = directories.run(f, budget=src_cfg("directories").get("pages_per_run", 120))
+    PAST_EDITIONS.extend(past)
+    DIRECTORY_STATS.update(stats)
+    log("directories:", stats, f"upcoming {len(up)}, past editions {len(past)}")
+    return up
+
+
+SOURCES = {"directories": run_directories, "biji": run_biji, "jomrun": run_jomrun, "runnet": run_runnet, "roadrun": run_roadrun}
 
 
 def apply_detail(r: dict, d: dict) -> None:
@@ -412,8 +426,18 @@ def main() -> int:
     # merge duplicates across sources (higher priority first)
     collected.sort(key=lambda r: (r["_priority"], r["race_date"]))
     merged: list[dict] = []
+    directory_srcs = {"World's Marathons", "Marathon Index", "Ahotu", "Watched link"}
     for r in collected:
-        twin = next((m for m in merged if same_race(m, r)), None)
+        from_dir = bool(directory_srcs & set(r.get("sources", [])))
+        if r.get("date_unconfirmed"):
+            near = [m for m in merged if m["country"] == r["country"] and
+                    abs((dt.date.fromisoformat(m["race_date"]) - dt.date.fromisoformat(r["race_date"])).days) <= 45 and
+                    (same_race(dict(m, race_date=r["race_date"]), r) or aims_name_match(dict(m, race_date=r["race_date"]), r))]
+            if near:
+                merge_into(near[0], {k: v for k, v in r.items() if k not in ("race_date", "date_unconfirmed", "note")})
+                continue
+        twin = next((m for m in merged if same_race(m, r) or
+                     (from_dir and m["race_date"] == r["race_date"] and m["country"] == r["country"] and aims_name_match(m, r))), None)
         if twin:
             merge_into(twin, r)
         else:
@@ -449,7 +473,7 @@ def main() -> int:
     seen_ids = {r["id"] for r in races}
     unseen_limit = (TODAY - dt.timedelta(days=CONFIG.get("drop_unseen_after_days", 14))).isoformat()
     for old in previous.values():
-        if old["id"] in seen_ids:
+        if old["id"] in seen_ids or old.get("expected"):
             continue
         if any(s not in ok_sources for s in old.get("sources", [])) or old.get("last_seen_date", "") >= unseen_limit:
             races.append(old)
@@ -457,15 +481,28 @@ def main() -> int:
     not_races = re.compile(r"練習会|バーチャル|オンライン|virtual|online|취소", re.I)
     races = [r for r in races if r["race_date"] >= past_limit
              and not not_races.search((r.get("name_local") or "") + " " + r["name"])]
+
+    # remember every edition, then add "expected" next editions for races with no new date yet
+    hist = history.load()
+    history.record(hist, list(previous.values()) + races + PAST_EDITIONS)
+    expected = history.project(hist, races, TODAY)
+    for r in expected:
+        r["id"] = race_id(r.get("name_local") or r["name"], "expected", r["country"])
+        old = previous.get(r["id"])
+        r["first_seen_date"] = old["first_seen_date"] if old else TODAY.isoformat()
+        r["last_seen_date"] = TODAY.isoformat()
+    races += expected
+    history.save(hist)
+    log(f"history: {len(hist)} race series; expected editions added: {len(expected)}")
     races.sort(key=lambda r: (r["race_date"], r["name"]))
 
     requests_made = f.requests_made + sum(x.requests_made for x in fetchers)
     doc = {"generated_at": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"), "fx": fx,
-           "source_health": health, "requests_made": requests_made, "english_names": names_stats, "races": races}
+           "source_health": health, "requests_made": requests_made, "english_names": names_stats, "directories": DIRECTORY_STATS, "races": races}
     DATA.write_text(json.dumps(doc, ensure_ascii=False, indent=1), encoding="utf-8")
     CACHE.parent.mkdir(parents=True, exist_ok=True)
     CACHE.write_text(json.dumps(cache, ensure_ascii=False, indent=0), encoding="utf-8")
-    new = [] if first_run else [r for r in races if r["id"] not in previous]  # not in the previous run's data
+    new = [] if first_run else [r for r in races if r["id"] not in previous and not r.get("expected")]
     NEW_TODAY.write_text(json.dumps(new, ensure_ascii=False, indent=1), encoding="utf-8")
 
     by_region = {}

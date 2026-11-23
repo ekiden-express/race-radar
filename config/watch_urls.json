@@ -1,0 +1,6 @@
+{
+ "_comment": "Paste the web address of any race page from worldsmarathons.com, marathon-index.com or ahotu.com that you want tracked, even if the other sources miss it. Each run reads the latest edition's date: an upcoming date shows as a race; a past date shows next year's edition as 'Expected \u2013 date TBC'.",
+ "urls": [
+  "https://worldsmarathons.com/marathon/luang-prabang-half-marathon"
+ ]
+}

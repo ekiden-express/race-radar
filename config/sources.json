@@ -33,6 +33,15 @@
    "detail_pages_per_run": 30
   },
   {
+   "id": "directories",
+   "name": "Race directories",
+   "enabled": true,
+   "priority": 8,
+   "region": null,
+   "pages_per_run": 120,
+   "_note": "World's Marathons (races in our regions, found by place names in their web addresses) and Marathon Index. Past editions feed the 'Expected – date TBC' entries."
+  },
+  {
    "id": "aims",
    "name": "AIMS",
    "enabled": true,
