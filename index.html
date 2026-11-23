@@ -328,7 +328,7 @@ function card(r) {
     reg = parts.join(", ").replace(/^c/, "C") + cd;
   } else if (r.reg_state_raw === "已截止報名") reg = "Registration closed";
   else if (r.reg_state_raw === "報名時間未定") reg = "Registration dates not announced yet";
-  else reg = "Registration dates not listed – check site";
+  else reg = r.expected ? "" : "Registration dates not listed – check site";
 
   const cost = r.cost_cad != null
     ? `<div class="cad">${money(r.cost_cad)}${r.cost_cad_max && Math.round(r.cost_cad_max) !== Math.round(r.cost_cad) ? "–" + money(r.cost_cad_max).slice(2) : ""}</div><div class="orig">${esc(r.cost_original)}</div>`
@@ -351,7 +351,7 @@ function card(r) {
       <div class="name">${esc(r.name)}${r.name_local ? ` <span class="local">(${esc(r.name_local)})</span>` : ""}</div>
       <div class="loc">${[r.city, r.country].filter(Boolean).map(esc).join(" · ")}${r.surface === "Trail" ? " · Trail" : ""} <span class="src">· ${(r.sources || []).map(esc).join(", ")}</span></div>
       <div class="pills">${r.distances.map(x => `<span class="pill">${esc(x)}</span>`).join("")}${badges.join("")}</div>
-      <div class="reg">${reg}</div>
+      ${reg ? `<div class="reg">${reg}</div>` : ""}
       ${r.note ? `<div class="note">${esc(r.note)}</div>` : ""}
       <div class="mine">
         <button type="button" class="star" data-act="star" aria-pressed="${!!me.starred}">${me.starred ? "★ Saved" : "☆ Save"}</button>

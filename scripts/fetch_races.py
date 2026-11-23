@@ -478,7 +478,8 @@ def main() -> int:
         if any(s not in ok_sources for s in old.get("sources", [])) or old.get("last_seen_date", "") >= unseen_limit:
             races.append(old)
     past_limit = (TODAY - dt.timedelta(days=CONFIG.get("drop_past_after_days", 7))).isoformat()
-    not_races = re.compile(r"練習会|バーチャル|オンライン|virtual|online|취소", re.I)
+    not_races = re.compile(r"練習会|バーチャル|オンライン|virtual|online|취소|triathlon|duathlon|aquathlon|swimrun|"
+                           r"\borgani[sz]er\b|\bcycling\b|gran ?fondo|鐵人|トライアスロン", re.I)
     races = [r for r in races if r["race_date"] >= past_limit
              and not not_races.search((r.get("name_local") or "") + " " + r["name"])]
 
