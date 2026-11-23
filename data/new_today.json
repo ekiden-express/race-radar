@@ -1,1 +1,581 @@
-[]
+[
+ {
+  "name": "Macau Galaxy Entertainment International Marathon",
+  "name_local": null,
+  "region": "East Asia",
+  "country": "Macau",
+  "city": "Macau",
+  "race_date": "2026-12-06",
+  "date_tbd": false,
+  "distances": [
+   "Marathon"
+  ],
+  "distances_raw": null,
+  "surface": "Road",
+  "cost_original": null,
+  "cost_currency": null,
+  "cost_cad": null,
+  "cost_cad_max": null,
+  "reg_open_date": null,
+  "reg_close_date": null,
+  "reg_state_raw": null,
+  "reg_closed": false,
+  "entry_type": null,
+  "sold_out": false,
+  "aims_certified": false,
+  "registration_url": "https://worldsmarathons.com/marathon/macau-international-marathon",
+  "source_urls": [
+   "https://worldsmarathons.com/marathon/macau-international-marathon"
+  ],
+  "sources": [
+   "World's Marathons"
+  ],
+  "note": null,
+  "id": "faa05ab951f7",
+  "popularity_flag": false,
+  "popularity_reason": null,
+  "first_seen_date": "2026-11-23",
+  "last_seen_date": "2026-11-23"
+ },
+ {
+  "name": "Naha Marathon",
+  "name_local": null,
+  "region": "East Asia",
+  "country": "Japan",
+  "city": "Naha",
+  "race_date": "2026-12-06",
+  "date_tbd": false,
+  "distances": [
+   "Marathon"
+  ],
+  "distances_raw": null,
+  "surface": "Road",
+  "cost_original": null,
+  "cost_currency": null,
+  "cost_cad": null,
+  "cost_cad_max": null,
+  "reg_open_date": null,
+  "reg_close_date": null,
+  "reg_state_raw": null,
+  "reg_closed": false,
+  "entry_type": null,
+  "sold_out": false,
+  "aims_certified": false,
+  "registration_url": "https://worldsmarathons.com/marathon/naha-marathon",
+  "source_urls": [
+   "https://worldsmarathons.com/marathon/naha-marathon"
+  ],
+  "sources": [
+   "World's Marathons"
+  ],
+  "note": null,
+  "id": "fd118c824eb6",
+  "popularity_flag": false,
+  "popularity_reason": null,
+  "first_seen_date": "2026-11-23",
+  "last_seen_date": "2026-11-23"
+ },
+ {
+  "name": "Langkawi International Half Marathon",
+  "name_local": null,
+  "region": "Southeast Asia",
+  "country": "Malaysia",
+  "city": "Langkawi",
+  "race_date": "2026-12-12",
+  "date_tbd": false,
+  "distances": [
+   "Half Marathon"
+  ],
+  "distances_raw": null,
+  "surface": "Road",
+  "cost_original": null,
+  "cost_currency": null,
+  "cost_cad": null,
+  "cost_cad_max": null,
+  "reg_open_date": null,
+  "reg_close_date": null,
+  "reg_state_raw": null,
+  "reg_closed": false,
+  "entry_type": null,
+  "sold_out": false,
+  "aims_certified": false,
+  "registration_url": "https://worldsmarathons.com/marathon/langkawi-international-half-marathon",
+  "source_urls": [
+   "https://worldsmarathons.com/marathon/langkawi-international-half-marathon"
+  ],
+  "sources": [
+   "World's Marathons"
+  ],
+  "note": null,
+  "id": "9a58b6dbc773",
+  "popularity_flag": false,
+  "popularity_reason": null,
+  "first_seen_date": "2026-11-23",
+  "last_seen_date": "2026-11-23"
+ },
+ {
+  "name": "Ho Chi Minh City Marathon",
+  "name_local": null,
+  "region": "Southeast Asia",
+  "country": "Vietnam",
+  "city": "Ho Chi Minh City",
+  "race_date": "2027-01-17",
+  "date_tbd": false,
+  "distances": [
+   "Marathon"
+  ],
+  "distances_raw": null,
+  "surface": "Road",
+  "cost_original": null,
+  "cost_currency": null,
+  "cost_cad": null,
+  "cost_cad_max": null,
+  "reg_open_date": null,
+  "reg_close_date": null,
+  "reg_state_raw": null,
+  "reg_closed": false,
+  "entry_type": null,
+  "sold_out": false,
+  "aims_certified": false,
+  "registration_url": "https://worldsmarathons.com/marathon/ho-chi-minh-city-marathon",
+  "source_urls": [
+   "https://worldsmarathons.com/marathon/ho-chi-minh-city-marathon"
+  ],
+  "sources": [
+   "World's Marathons"
+  ],
+  "note": null,
+  "id": "4b3bdfc47eb6",
+  "popularity_flag": false,
+  "popularity_reason": null,
+  "first_seen_date": "2026-11-23",
+  "last_seen_date": "2026-11-23"
+ },
+ {
+  "name": "Standard Chartered Hong Kong Marathon",
+  "name_local": null,
+  "region": "East Asia",
+  "country": "China",
+  "city": "Hong Kong",
+  "race_date": "2027-01-17",
+  "date_tbd": false,
+  "distances": [
+   "10K",
+   "Half Marathon",
+   "Marathon"
+  ],
+  "distances_raw": null,
+  "surface": "Road",
+  "cost_original": null,
+  "cost_currency": null,
+  "cost_cad": null,
+  "cost_cad_max": null,
+  "reg_open_date": null,
+  "reg_close_date": null,
+  "reg_state_raw": null,
+  "reg_closed": false,
+  "entry_type": null,
+  "sold_out": false,
+  "aims_certified": false,
+  "registration_url": "https://worldsmarathons.com/marathon/hong-kong-marathon",
+  "source_urls": [
+   "https://worldsmarathons.com/marathon/hong-kong-marathon"
+  ],
+  "sources": [
+   "World's Marathons"
+  ],
+  "note": null,
+  "id": "20e6d3d56c05",
+  "popularity_flag": false,
+  "popularity_reason": null,
+  "first_seen_date": "2026-11-23",
+  "last_seen_date": "2026-11-23"
+ },
+ {
+  "name": "Osaka International Women's Marathon",
+  "name_local": null,
+  "region": "East Asia",
+  "country": "Japan",
+  "city": "Osaka",
+  "race_date": "2027-01-31",
+  "date_tbd": false,
+  "distances": [
+   "Marathon",
+   "Ultra"
+  ],
+  "distances_raw": null,
+  "surface": "Road",
+  "cost_original": null,
+  "cost_currency": null,
+  "cost_cad": null,
+  "cost_cad_max": null,
+  "reg_open_date": null,
+  "reg_close_date": null,
+  "reg_state_raw": null,
+  "reg_closed": false,
+  "entry_type": null,
+  "sold_out": false,
+  "aims_certified": true,
+  "registration_url": "https://worldsmarathons.com/marathon/osaka-women-s-marathon",
+  "source_urls": [
+   "https://worldsmarathons.com/marathon/osaka-women-s-marathon",
+   "https://www.aims-worldrunning.org/races/643.html"
+  ],
+  "sources": [
+   "World's Marathons",
+   "AIMS"
+  ],
+  "note": null,
+  "id": "bf9ebf7f4598",
+  "popularity_flag": true,
+  "popularity_reason": "AIMS Certified",
+  "first_seen_date": "2026-11-23",
+  "last_seen_date": "2026-11-23"
+ },
+ {
+  "name": "Hypothermic Half Marathon - Halifax",
+  "name_local": null,
+  "region": "Canada",
+  "country": "Canada",
+  "city": "Halifax",
+  "race_date": "2027-02-14",
+  "date_tbd": false,
+  "distances": [
+   "Half Marathon"
+  ],
+  "distances_raw": null,
+  "surface": "Road",
+  "cost_original": null,
+  "cost_currency": null,
+  "cost_cad": null,
+  "cost_cad_max": null,
+  "reg_open_date": null,
+  "reg_close_date": null,
+  "reg_state_raw": null,
+  "reg_closed": false,
+  "entry_type": null,
+  "sold_out": false,
+  "aims_certified": false,
+  "registration_url": "https://worldsmarathons.com/marathon/hypothermic-half-marathon-halifax",
+  "source_urls": [
+   "https://worldsmarathons.com/marathon/hypothermic-half-marathon-halifax"
+  ],
+  "sources": [
+   "World's Marathons"
+  ],
+  "note": null,
+  "id": "75a69f56fea8",
+  "popularity_flag": false,
+  "popularity_reason": null,
+  "first_seen_date": "2026-11-23",
+  "last_seen_date": "2026-11-23"
+ },
+ {
+  "name": "Kagoshima Marathon",
+  "name_local": null,
+  "region": "East Asia",
+  "country": "Japan",
+  "city": "Kagoshima",
+  "race_date": "2027-03-07",
+  "date_tbd": false,
+  "distances": [
+   "Marathon"
+  ],
+  "distances_raw": null,
+  "surface": "Road",
+  "cost_original": null,
+  "cost_currency": null,
+  "cost_cad": null,
+  "cost_cad_max": null,
+  "reg_open_date": null,
+  "reg_close_date": null,
+  "reg_state_raw": null,
+  "reg_closed": false,
+  "entry_type": null,
+  "sold_out": false,
+  "aims_certified": false,
+  "registration_url": "https://worldsmarathons.com/marathon/kagoshima-marathon",
+  "source_urls": [
+   "https://worldsmarathons.com/marathon/kagoshima-marathon"
+  ],
+  "sources": [
+   "World's Marathons"
+  ],
+  "note": null,
+  "id": "c248266c4ddc",
+  "popularity_flag": false,
+  "popularity_reason": null,
+  "first_seen_date": "2026-11-23",
+  "last_seen_date": "2026-11-23"
+ },
+ {
+  "name": "Jeju MBC International Peace Marathon",
+  "name_local": null,
+  "region": "East Asia",
+  "country": "South Korea",
+  "city": "Jeju-do",
+  "race_date": "2027-03-28",
+  "date_tbd": false,
+  "distances": [
+   "Marathon"
+  ],
+  "distances_raw": null,
+  "surface": "Road",
+  "cost_original": null,
+  "cost_currency": null,
+  "cost_cad": null,
+  "cost_cad_max": null,
+  "reg_open_date": null,
+  "reg_close_date": null,
+  "reg_state_raw": null,
+  "reg_closed": false,
+  "entry_type": null,
+  "sold_out": false,
+  "aims_certified": false,
+  "registration_url": "https://worldsmarathons.com/marathon/jeju-mbc-international-peace-marathon",
+  "source_urls": [
+   "https://worldsmarathons.com/marathon/jeju-mbc-international-peace-marathon"
+  ],
+  "sources": [
+   "World's Marathons"
+  ],
+  "note": null,
+  "id": "21b6363d8f71",
+  "popularity_flag": false,
+  "popularity_reason": null,
+  "first_seen_date": "2026-11-23",
+  "last_seen_date": "2026-11-23"
+ },
+ {
+  "name": "Jasper Canadian Rockies Half Marathon",
+  "name_local": null,
+  "region": "Canada",
+  "country": "Canada",
+  "city": "Jasper",
+  "race_date": "2027-04-24",
+  "date_tbd": false,
+  "distances": [
+   "Half Marathon"
+  ],
+  "distances_raw": null,
+  "surface": "Road",
+  "cost_original": null,
+  "cost_currency": null,
+  "cost_cad": null,
+  "cost_cad_max": null,
+  "reg_open_date": null,
+  "reg_close_date": null,
+  "reg_state_raw": null,
+  "reg_closed": false,
+  "entry_type": null,
+  "sold_out": false,
+  "aims_certified": false,
+  "registration_url": "https://worldsmarathons.com/marathon/jasper-canadian-rockies-half-marathon",
+  "source_urls": [
+   "https://worldsmarathons.com/marathon/jasper-canadian-rockies-half-marathon"
+  ],
+  "sources": [
+   "World's Marathons"
+  ],
+  "note": null,
+  "id": "1cd9702b6d33",
+  "popularity_flag": false,
+  "popularity_reason": null,
+  "first_seen_date": "2026-11-23",
+  "last_seen_date": "2026-11-23"
+ },
+ {
+  "name": "Mississauga Marathon",
+  "name_local": null,
+  "region": "Canada",
+  "country": "Canada",
+  "city": "Mississauga",
+  "race_date": "2027-04-25",
+  "date_tbd": false,
+  "distances": [
+   "Marathon",
+   "Other"
+  ],
+  "distances_raw": null,
+  "surface": "Road",
+  "cost_original": null,
+  "cost_currency": null,
+  "cost_cad": null,
+  "cost_cad_max": null,
+  "reg_open_date": null,
+  "reg_close_date": null,
+  "reg_state_raw": null,
+  "reg_closed": false,
+  "entry_type": null,
+  "sold_out": false,
+  "aims_certified": false,
+  "registration_url": "https://worldsmarathons.com/marathon/mississauga-marathon",
+  "source_urls": [
+   "https://worldsmarathons.com/marathon/mississauga-marathon"
+  ],
+  "sources": [
+   "World's Marathons"
+  ],
+  "note": null,
+  "id": "239d18f7939b",
+  "popularity_flag": false,
+  "popularity_reason": null,
+  "first_seen_date": "2026-11-23",
+  "last_seen_date": "2026-11-23"
+ },
+ {
+  "name": "Hua Hin Marathon",
+  "name_local": null,
+  "region": "Southeast Asia",
+  "country": "Thailand",
+  "city": "Nong Kae",
+  "race_date": "2027-05-09",
+  "date_tbd": false,
+  "distances": [
+   "5K",
+   "10K",
+   "Half Marathon",
+   "Marathon"
+  ],
+  "distances_raw": null,
+  "surface": "Road",
+  "cost_original": null,
+  "cost_currency": null,
+  "cost_cad": null,
+  "cost_cad_max": null,
+  "reg_open_date": null,
+  "reg_close_date": null,
+  "reg_state_raw": null,
+  "reg_closed": false,
+  "entry_type": null,
+  "sold_out": false,
+  "aims_certified": false,
+  "registration_url": "https://worldsmarathons.com/marathon/hua-hin-marathon",
+  "source_urls": [
+   "https://worldsmarathons.com/marathon/hua-hin-marathon"
+  ],
+  "sources": [
+   "World's Marathons"
+  ],
+  "note": null,
+  "id": "ac3ee9267205",
+  "popularity_flag": false,
+  "popularity_reason": null,
+  "first_seen_date": "2026-11-23",
+  "last_seen_date": "2026-11-23"
+ },
+ {
+  "name": "Tamarack Ottawa Race Weekend",
+  "name_local": null,
+  "region": "Canada",
+  "country": "Canada",
+  "city": "Ottawa, Ontario",
+  "race_date": "2027-05-30",
+  "date_tbd": false,
+  "distances": [
+   "Marathon"
+  ],
+  "distances_raw": null,
+  "surface": "Road",
+  "cost_original": null,
+  "cost_currency": null,
+  "cost_cad": null,
+  "cost_cad_max": null,
+  "reg_open_date": null,
+  "reg_close_date": null,
+  "reg_state_raw": null,
+  "reg_closed": false,
+  "entry_type": null,
+  "sold_out": false,
+  "aims_certified": false,
+  "registration_url": "https://worldsmarathons.com/marathon/ottawa-marathon",
+  "source_urls": [
+   "https://worldsmarathons.com/marathon/ottawa-marathon"
+  ],
+  "sources": [
+   "World's Marathons"
+  ],
+  "note": null,
+  "id": "b602d04f450e",
+  "popularity_flag": false,
+  "popularity_reason": null,
+  "first_seen_date": "2026-11-23",
+  "last_seen_date": "2026-11-23"
+ },
+ {
+  "name": "Laguna Phuket Marathon",
+  "name_local": null,
+  "region": "Southeast Asia",
+  "country": "Thailand",
+  "city": "Tambon Choeng Thale",
+  "race_date": "2027-06-13",
+  "date_tbd": false,
+  "distances": [
+   "Marathon"
+  ],
+  "distances_raw": null,
+  "surface": "Road",
+  "cost_original": null,
+  "cost_currency": null,
+  "cost_cad": null,
+  "cost_cad_max": null,
+  "reg_open_date": null,
+  "reg_close_date": null,
+  "reg_state_raw": null,
+  "reg_closed": false,
+  "entry_type": null,
+  "sold_out": false,
+  "aims_certified": false,
+  "registration_url": "https://worldsmarathons.com/marathon/laguna-phuket-international-marathon",
+  "source_urls": [
+   "https://worldsmarathons.com/marathon/laguna-phuket-international-marathon"
+  ],
+  "sources": [
+   "World's Marathons"
+  ],
+  "note": null,
+  "id": "888b9489ea20",
+  "popularity_flag": false,
+  "popularity_reason": null,
+  "first_seen_date": "2026-11-23",
+  "last_seen_date": "2026-11-23"
+ },
+ {
+  "name": "Beneva Montreal Marathon",
+  "name_local": null,
+  "region": "Canada",
+  "country": "Canada",
+  "city": "Montreal",
+  "race_date": "2027-09-17",
+  "date_tbd": false,
+  "distances": [
+   "Marathon"
+  ],
+  "distances_raw": null,
+  "surface": "Road",
+  "cost_original": null,
+  "cost_currency": null,
+  "cost_cad": null,
+  "cost_cad_max": null,
+  "reg_open_date": null,
+  "reg_close_date": null,
+  "reg_state_raw": null,
+  "reg_closed": false,
+  "entry_type": null,
+  "sold_out": false,
+  "aims_certified": false,
+  "registration_url": "https://worldsmarathons.com/marathon/marathon-oasis-de-montreal",
+  "source_urls": [
+   "https://worldsmarathons.com/marathon/marathon-oasis-de-montreal"
+  ],
+  "sources": [
+   "World's Marathons"
+  ],
+  "note": null,
+  "id": "24717b71cf1e",
+  "popularity_flag": false,
+  "popularity_reason": null,
+  "first_seen_date": "2026-11-23",
+  "last_seen_date": "2026-11-23"
+ }
+]
