@@ -12,14 +12,15 @@ H = {
     "Accept-Language": "en-CA,en;q=0.9,zh-TW;q=0.8,ja;q=0.7,ko;q=0.6",
 }
 URLS = {
-    "jomrun_loc_johor": "https://www.jomrun.com/events/location?location_id=14",
-    "jomrun_loc_kl": "https://www.jomrun.com/events/location?location_id=15",
-    "jomrun_loc_sg": "https://www.jomrun.com/events/location?location_id=21",
-    "jomrun_sitemap": "https://www.jomrun.com/sitemap.xml",
-    "runnet_search_full": "https://runnet.jp/entry/runtes/user/pc/RaceSearchZZSDetailAction.do?command=search&available=1&distanceClass=1",
-    "runnet_search_half": "https://runnet.jp/entry/runtes/user/pc/RaceSearchZZSDetailAction.do?command=search&available=1&distanceClass=2",
-    "runguides_sitemap": "https://www.runguides.com/sitemap.xml.gz",
-    "roadrun_2027": "POST|http://www.roadrun.co.kr/schedule/list.php|syear_key=2027",
+    "trackie_robots": "https://www.trackie.com/robots.txt",
+    "trackie_events": "https://www.trackie.com/events/",
+    "raceroster_robots": "https://raceroster.com/robots.txt",
+    "raceroster_search": "https://raceroster.com/search?q=&t=running&l=Vancouver%2C+BC",
+    "runningroom_robots": "https://www.runningroom.com/robots.txt",
+    "runningroom_events": "https://www.runningroom.com/hm/inside.php?id=2786",
+    "canadarunningseries": "https://canadarunningseries.com/",
+    "bcathletics_robots": "https://www.bcathletics.org/robots.txt",
+    "bcathletics_road": "https://www.bcathletics.org/road-running/calendar",
 }
 report = {}
 for name, url in URLS.items():
@@ -42,5 +43,5 @@ for name, url in URLS.items():
     except Exception as e:  # noqa: BLE001
         report[name] = {"url": url, "error": str(e)}
     time.sleep(2)
-(OUT / "report2.json").write_text(json.dumps(report, indent=1, ensure_ascii=False), encoding="utf-8")
+(OUT / "report3.json").write_text(json.dumps(report, indent=1, ensure_ascii=False), encoding="utf-8")
 print(json.dumps(report, indent=1))
