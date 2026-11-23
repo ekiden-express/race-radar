@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T05:13:49+00:00",
+ "generated_at": "2026-11-23T05:19:22+00:00",
  "fx": {
   "date": "2026-11-23",
   "provider": "ExchangeRate-API (open.er-api.com)",
@@ -29,14 +29,14 @@
    "count": 132,
    "error": null,
    "last_success": "2026-11-23",
-   "seconds": 132
+   "seconds": 254
   },
   "RUNNET": {
    "ok": true,
    "count": 71,
    "error": null,
    "last_success": "2026-11-23",
-   "seconds": 8
+   "seconds": 9
   },
   "마라톤온라인": {
    "ok": true,
@@ -50,7 +50,7 @@
    "count": 46,
    "error": null,
    "last_success": "2026-11-23",
-   "seconds": 290
+   "seconds": 315
   },
   "AIMS": {
    "ok": true,
@@ -65,7 +65,7 @@
    "last_success": "2026-11-23"
   }
  },
- "requests_made": 150,
+ "requests_made": 196,
  "races": [
   {
    "name": "最強市民飆5K－新北市5000公尺挑戰賽 十一月場",
@@ -7283,10 +7283,10 @@
    ],
    "distances_raw": "42.195K, 21K, 10K",
    "surface": "Road",
-   "cost_original": null,
-   "cost_currency": null,
-   "cost_cad": null,
-   "cost_cad_max": null,
+   "cost_original": "¥5,000–20,000",
+   "cost_currency": "JPY",
+   "cost_cad": 45.16,
+   "cost_cad_max": 180.63,
    "reg_open_date": null,
    "reg_close_date": null,
    "reg_state_raw": "報名時間未定",
@@ -7750,10 +7750,10 @@
    ],
    "distances_raw": "63K, 50K, 42.195K, 21K, 10K, 5K",
    "surface": "Road",
-   "cost_original": null,
+   "cost_original": "NT$1,200–2,700",
    "cost_currency": "TWD",
-   "cost_cad": null,
-   "cost_cad_max": null,
+   "cost_cad": 52.2,
+   "cost_cad_max": 117.46,
    "reg_open_date": "2026-05-29",
    "reg_close_date": "2026-12-23",
    "reg_state_raw": "12-23截止",
@@ -10431,10 +10431,10 @@
    ],
    "distances_raw": "42.195K",
    "surface": "Road",
-   "cost_original": null,
-   "cost_currency": null,
-   "cost_cad": null,
-   "cost_cad_max": null,
+   "cost_original": "¥2,250–20,000",
+   "cost_currency": "JPY",
+   "cost_cad": 20.32,
+   "cost_cad_max": 180.63,
    "reg_open_date": null,
    "reg_close_date": null,
    "reg_state_raw": "報名時間未定",
