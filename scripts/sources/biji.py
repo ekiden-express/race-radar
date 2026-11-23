@@ -26,7 +26,7 @@ OVERSEAS = {
     "菲律賓": ("Philippines", None), "印尼": ("Indonesia", None), "峇里島": ("Indonesia", "Bali"),
 }
 TAIWAN_SUFFIX = re.compile(r"(市|縣)$")
-PARSER_VERSION = 2
+PARSER_VERSION = 3
 EXCLUDE = re.compile(r"LAVA|鐵人|三鐵|二鐵|游泳|自行車|單車|健走(?!.*跑)", re.I)
 SEA = {"Singapore", "Malaysia", "Thailand", "Vietnam", "Philippines", "Indonesia"}
 EAST_ASIA = {"Taiwan", "Japan", "Hong Kong", "Macau", "South Korea", "China"}
@@ -109,9 +109,11 @@ def parse_detail(html: str, race: dict) -> dict:
     # fees: look in every window that starts at a fee keyword, stop before prize money or insurance
     cur = "TWD" if race["country"] == "Taiwan" else race.get("cost_currency")
     found: list[float] = []
-    for m in re.finditer(r"報名費|參加費|參賽費|費用|價格|收費|早鳥", text):
+    for m in re.finditer(r"報\s*名\s*費|參\s*加\s*費|參\s*賽\s*費|參\s*與\s*費|費\s*用|價格|收費|早鳥", text):
         win = text[m.start(): m.start() + 700]
-        win = re.split(r"獎金|獎勵|名次|頒獎|保險|贊助|捐款", win)[0]
+        win = re.split(r"獎金|獎勵|名次|頒獎|保險|贊助|捐款|海外|美元|USD", win)[0]
+        # leave out concession prices (students, children, seniors, para-athletes)
+        win = re.sub(r"(學生|高中|國中|小學|兒童|親子|長者|身障|殘障|視障)[^|；;。\n]{0,25}", " ", win)
         c2, amts = parse_fees(win, cur or "TWD")
         cur = cur or c2
         found += [v for v in amts if cur and plausible(cur, v)]

@@ -184,7 +184,10 @@ def norm_distances(raw: str) -> list[str]:
 # ---------------- money ----------------
 
 CURRENCY_HINTS = [
-    (r"NT\$|新台幣|新臺幣|元", "TWD"),
+    (r"日圓|日元|円|JPY", "JPY"),
+    (r"韓元|원|KRW", "KRW"),
+    (r"港幣|港元|HK\$", "HKD"),
+    (r"NT\$|NTD|新台幣|新臺幣|元", "TWD"),
     (r"HK\$|港幣", "HKD"),
     (r"RM|MYR", "MYR"),
     (r"S\$|SGD", "SGD"),
@@ -204,7 +207,7 @@ def parse_fees(text: str, default_currency: str | None = None) -> tuple[str | No
             break
     cur = cur or default_currency
     amounts = []
-    for m in re.finditer(r"(?:NT\$|NTD|HK\$|S\$|C\$|RM|¥|₩|฿|\$)\s?([\d,]+(?:\.\d\d)?)|([\d,]{3,}(?:\.\d\d)?)\s?(?:元|円|원|NTD)", text):
+    for m in re.finditer(r"(?:NT\$|NTD|HK\$|S\$|C\$|RM|¥|₩|฿|\$)\s?([\d,]+(?:\.\d\d)?)|([\d,]{3,}(?:\.\d\d)?)\s?(?:日圓|日元|圓|元|円|원|NTD)", text):
         v = float((m.group(1) or m.group(2)).replace(",", ""))
         if v > 0:
             amounts.append(v)
