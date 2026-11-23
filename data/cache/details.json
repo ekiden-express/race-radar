@@ -1,0 +1,970 @@
+{
+"https://running.biji.co/index.php?q=competition&act=info&cid=13076": {
+"fetched": "2026-11-23",
+"data": {}
+},
+"https://running.biji.co/index.php?q=competition&act=info&cid=13124": {
+"fetched": "2026-11-23",
+"data": {}
+},
+"https://running.biji.co/index.php?q=competition&act=info&cid=13180": {
+"fetched": "2026-11-23",
+"data": {
+"registration_url": "http://esg.soonest.com/Home/Index"
+}
+},
+"https://running.biji.co/index.php?q=competition&act=info&cid=13101": {
+"fetched": "2026-11-23",
+"data": {}
+},
+"https://running.biji.co/index.php?q=competition&act=info&cid=13153": {
+"fetched": "2026-11-23",
+"data": {
+"registration_url": "https://www.focusline.com.tw/261226IA/personal",
+"cost_currency": "TWD",
+"cost_low": 500.0,
+"cost_high": 1300.0,
+"cost_original": "NT$500–1,300"
+}
+},
+"https://running.biji.co/index.php?q=competition&act=info&cid=13167": {
+"fetched": "2026-11-23",
+"data": {
+"registration_url": "https://bao-ming.com/eb/content/7163#reg"
+}
+},
+"https://running.biji.co/index.php?q=competition&act=info&cid=13035": {
+"fetched": "2026-11-23",
+"data": {}
+},
+"https://running.biji.co/index.php?q=competition&act=info&cid=13036": {
+"fetched": "2026-11-23",
+"data": {}
+},
+"https://running.biji.co/index.php?q=competition&act=info&cid=12891": {
+"fetched": "2026-11-23",
+"data": {}
+},
+"https://running.biji.co/index.php?q=competition&act=info&cid=13239": {
+"fetched": "2026-11-23",
+"data": {
+"official_url": "https://www.hkmarathon.com/"
+}
+},
+"https://running.biji.co/index.php?q=competition&act=info&cid=13234": {
+"fetched": "2026-11-23",
+"data": {
+"official_url": "https://www.ishigakijima-marathon.jp/outline/"
+}
+},
+"https://running.biji.co/index.php?q=competition&act=info&cid=13072": {
+"fetched": "2026-11-23",
+"data": {
+"registration_url": "https://bao-ming.com/eb/content/7028#reg"
+}
+},
+"https://running.biji.co/index.php?q=competition&act=info&cid=13227": {
+"fetched": "2026-11-23",
+"data": {}
+},
+"https://running.biji.co/index.php?q=competition&act=info&cid=13095": {
+"fetched": "2026-11-23",
+"data": {
+"registration_url": "https://bao-ming.com/eb/content/7164#reg"
+}
+},
+"https://running.biji.co/index.php?q=competition&act=info&cid=13241": {
+"fetched": "2026-11-23",
+"data": {
+"official_url": "https://www.km-half.com/course/"
+}
+},
+"https://running.biji.co/index.php?q=competition&act=info&cid=13147": {
+"fetched": "2026-11-23",
+"data": {}
+},
+"https://running.biji.co/index.php?q=competition&act=info&cid=13240": {
+"fetched": "2026-11-23",
+"data": {
+"official_url": "https://www.betsudai.com/outline/"
+}
+},
+"https://running.biji.co/index.php?q=competition&act=info&cid=13070": {
+"fetched": "2026-11-23",
+"data": {
+"registration_url": "https://www.focusline.com.tw/270214KV/personal",
+"cost_currency": "TWD",
+"cost_low": 500.0,
+"cost_high": 1400.0,
+"cost_original": "NT$500–1,400"
+}
+},
+"https://running.biji.co/index.php?q=competition&act=info&cid=13170": {
+"fetched": "2026-11-23",
+"data": {
+"registration_url": "https://signup.lohasnet.tw/signup/4297"
+}
+},
+"https://running.biji.co/index.php?q=competition&act=info&cid=13242": {
+"fetched": "2026-11-23",
+"data": {
+"official_url": "https://okinawa-marathon.com/"
+}
+},
+"https://running.biji.co/index.php?q=competition&act=info&cid=13226": {
+"fetched": "2026-11-23",
+"data": {}
+},
+"https://running.biji.co/index.php?q=competition&act=info&cid=13204": {
+"fetched": "2026-11-23",
+"data": {
+"official_url": "https://kyoto-marathon.com/info/course/"
+}
+},
+"https://running.biji.co/index.php?q=competition&act=info&cid=13209": {
+"fetched": "2026-11-23",
+"data": {
+"registration_url": "https://www.focusline.com.tw/270221JE/personal",
+"cost_currency": "TWD",
+"cost_low": 1000.0,
+"cost_high": 1200.0,
+"cost_original": "NT$1,000–1,200"
+}
+},
+"https://running.biji.co/index.php?q=competition&act=info&cid=13162": {
+"fetched": "2026-11-23",
+"data": {
+"registration_url": "https://bao-ming.com/eb/content/7198#reg",
+"cost_currency": "TWD",
+"cost_low": 450.0,
+"cost_high": 1100.0,
+"cost_original": "NT$450–1,100"
+}
+},
+"https://running.biji.co/index.php?q=competition&act=info&cid=13173": {
+"fetched": "2026-11-23",
+"data": {
+"registration_url": "https://bao-ming.com/eb/content/7221#reg",
+"cost_currency": "TWD",
+"cost_low": 750.0,
+"cost_high": 1100.0,
+"cost_original": "NT$750–1,100"
+}
+},
+"https://running.biji.co/index.php?q=competition&act=info&cid=13197": {
+"fetched": "2026-11-23",
+"data": {
+"registration_url": "https://www.joinnow.com.tw/run-step1.php?cnt_id=154",
+"cost_currency": "TWD",
+"cost_low": 1000.0,
+"cost_high": 1200.0,
+"cost_original": "NT$1,000–1,200"
+}
+},
+"https://running.biji.co/index.php?q=competition&act=info&cid=13201": {
+"fetched": "2026-11-23",
+"data": {
+"registration_url": "https://bao-ming.com/eb/content/7236#reg"
+}
+},
+"https://running.biji.co/index.php?q=competition&act=info&cid=13187": {
+"fetched": "2026-11-23",
+"data": {
+"official_url": "https://www.osaka-marathon.com/2027/runner/entry/admission/",
+"aims_certified": true,
+"entry_type": "Lottery"
+}
+},
+"https://running.biji.co/index.php?q=competition&act=info&cid=13123": {
+"fetched": "2026-11-23",
+"data": {}
+},
+"https://running.biji.co/index.php?q=competition&act=info&cid=13230": {
+"fetched": "2026-11-23",
+"data": {}
+},
+"https://running.biji.co/index.php?q=competition&act=info&cid=13245": {
+"fetched": "2026-11-23",
+"data": {
+"official_url": "https://www.marathon.tokyo/en/about/course/"
+}
+},
+"https://running.biji.co/index.php?q=competition&act=info&cid=13254": {
+"fetched": "2026-11-23",
+"data": {
+"registration_url": "https://www.sportsnet.org.tw/online_reg.php",
+"cost_currency": "TWD",
+"cost_low": 1100.0,
+"cost_high": 1300.0,
+"cost_original": "NT$1,100–1,300"
+}
+},
+"https://running.biji.co/index.php?q=competition&act=info&cid=13189": {
+"fetched": "2026-11-23",
+"data": {
+"registration_url": "https://signup.lohasnet.tw/signup/4308"
+}
+},
+"https://running.biji.co/index.php?q=competition&act=info&cid=13217": {
+"fetched": "2026-11-23",
+"data": {}
+},
+"https://running.biji.co/index.php?q=competition&act=info&cid=13196": {
+"fetched": "2026-11-23",
+"data": {}
+},
+"https://running.biji.co/index.php?q=competition&act=info&cid=13138": {
+"fetched": "2026-11-23",
+"data": {}
+},
+"https://running.biji.co/index.php?q=competition&act=info&cid=13205": {
+"fetched": "2026-11-23",
+"data": {
+"registration_url": "https://signup.lohasnet.tw/signup/4295"
+}
+},
+"https://running.biji.co/index.php?q=competition&act=info&cid=13172": {
+"fetched": "2026-11-23",
+"data": {
+"registration_url": "https://signup.lohasnet.tw/seven/#/signup/entrance/7003"
+}
+},
+"https://running.biji.co/index.php?q=competition&act=info&cid=13181": {
+"fetched": "2026-11-23",
+"data": {}
+},
+"https://running.biji.co/index.php?q=competition&act=info&cid=13246": {
+"fetched": "2026-11-23",
+"data": {
+"official_url": "https://womens-marathon.nagoya/"
+}
+},
+"https://running.biji.co/index.php?q=competition&act=info&cid=13156": {
+"fetched": "2026-11-23",
+"data": {
+"cost_currency": "TWD",
+"cost_low": 650.0,
+"cost_high": 1690.0,
+"cost_original": "NT$650–1,690"
+}
+},
+"https://running.biji.co/index.php?q=competition&act=info&cid=13186": {
+"fetched": "2026-11-23",
+"data": {
+"official_url": "https://www.shizuoka-marathon.com/2027/en"
+}
+},
+"https://running.biji.co/index.php?q=competition&act=info&cid=13143": {
+"fetched": "2026-11-23",
+"data": {
+"registration_url": "https://signup.lohasnet.tw/signup/4284"
+}
+},
+"https://running.biji.co/index.php?q=competition&act=info&cid=13103": {
+"fetched": "2026-11-23",
+"data": {
+"registration_url": "https://bao-ming.com/eb/content/7171#reg"
+}
+},
+"https://running.biji.co/index.php?q=competition&act=info&cid=13111": {
+"fetched": "2026-11-23",
+"data": {
+"registration_url": "https://www.joinnow.com.tw/run-step1.php?cnt_id=153",
+"cost_currency": "TWD",
+"cost_low": 1450.0,
+"cost_high": 1450.0,
+"cost_original": "NT$1,450"
+}
+},
+"https://running.biji.co/index.php?q=competition&act=info&cid=13194": {
+"fetched": "2026-11-23",
+"data": {
+"registration_url": "https://signup.lohasnet.tw/signup/4310"
+}
+},
+"https://running.biji.co/index.php?q=competition&act=info&cid=13251": {
+"fetched": "2026-11-23",
+"data": {
+"official_url": "https://en.seoul-marathon.com/83"
+}
+},
+"https://running.biji.co/index.php?q=competition&act=info&cid=13121": {
+"fetched": "2026-11-23",
+"data": {
+"registration_url": "https://bao-ming.com/eb/content/7233#reg"
+}
+},
+"https://running.biji.co/index.php?q=competition&act=info&cid=13164": {
+"fetched": "2026-11-23",
+"data": {}
+},
+"https://running.biji.co/index.php?q=competition&act=info&cid=13169": {
+"fetched": "2026-11-23",
+"data": {
+"registration_url": "https://bao-ming.com/eb/content/7114#reg"
+}
+},
+"https://running.biji.co/index.php?q=competition&act=info&cid=13104": {
+"fetched": "2026-11-23",
+"data": {
+"registration_url": "https://bao-ming.com/eb/content/7172#reg"
+}
+},
+"https://running.biji.co/index.php?q=competition&act=info&cid=13195": {
+"fetched": "2026-11-23",
+"data": {}
+},
+"https://running.biji.co/index.php?q=competition&act=info&cid=13168": {
+"fetched": "2026-11-23",
+"data": {}
+},
+"https://running.biji.co/index.php?q=competition&act=info&cid=13211": {
+"fetched": "2026-11-23",
+"data": {
+"registration_url": "https://signup.lohasnet.tw/seven/#/signup/entrance/7004"
+}
+},
+"https://running.biji.co/index.php?q=competition&act=info&cid=13247": {
+"fetched": "2026-11-23",
+"data": {
+"official_url": "https://www.fukui-sakura-marathon.jp/about/course/"
+}
+},
+"https://running.biji.co/index.php?q=competition&act=info&cid=13024": {
+"fetched": "2026-11-23",
+"data": {
+"registration_url": "https://www.joinnow.com.tw/run-step1.php?cnt_id=151",
+"cost_currency": "TWD",
+"cost_low": 600.0,
+"cost_high": 1100.0,
+"cost_original": "NT$600–1,100"
+}
+},
+"https://running.biji.co/index.php?q=competition&act=info&cid=13229": {
+"fetched": "2026-11-23",
+"data": {
+"registration_url": "https://bao-ming.com/eb/content/7214#reg"
+}
+},
+"https://running.biji.co/index.php?q=competition&act=info&cid=13107": {
+"fetched": "2026-11-23",
+"data": {
+"registration_url": "https://signup.lohasnet.tw/signup/4273"
+}
+},
+"https://running.biji.co/index.php?q=competition&act=info&cid=13212": {
+"fetched": "2026-11-23",
+"data": {
+"registration_url": "https://signup.lohasnet.tw/signup/4315"
+}
+},
+"https://running.biji.co/index.php?q=competition&act=info&cid=13158": {
+"fetched": "2026-11-23",
+"data": {
+"registration_url": "https://bao-ming.com/eb/content/7192#reg"
+}
+},
+"https://running.biji.co/index.php?q=competition&act=info&cid=13184": {
+"fetched": "2026-11-23",
+"data": {}
+},
+"https://running.biji.co/index.php?q=competition&act=info&cid=13214": {
+"fetched": "2026-11-23",
+"data": {
+"registration_url": "https://signup.lohasnet.tw/signup/4312"
+}
+},
+"https://running.biji.co/index.php?q=competition&act=info&cid=13002": {
+"fetched": "2026-11-23",
+"data": {
+"registration_url": "https://www.focusline.com.tw/270410JT/personal",
+"cost_currency": "TWD",
+"cost_low": 900.0,
+"cost_high": 1100.0,
+"cost_original": "NT$900–1,100"
+}
+},
+"https://running.biji.co/index.php?q=competition&act=info&cid=13255": {
+"fetched": "2026-11-23",
+"data": {
+"registration_url": "https://www.sportsnet.org.tw/online_reg_rule.php?race_no=20270411"
+}
+},
+"https://running.biji.co/index.php?q=competition&act=info&cid=13213": {
+"fetched": "2026-11-23",
+"data": {
+"registration_url": "https://bao-ming.com/eb/content/7253#reg",
+"cost_currency": "TWD",
+"cost_low": 450.0,
+"cost_high": 1100.0,
+"cost_original": "NT$450–1,100"
+}
+},
+"https://running.biji.co/index.php?q=competition&act=info&cid=13192": {
+"fetched": "2026-11-23",
+"data": {}
+},
+"https://running.biji.co/index.php?q=competition&act=info&cid=13135": {
+"fetched": "2026-11-23",
+"data": {}
+},
+"https://running.biji.co/index.php?q=competition&act=info&cid=13137": {
+"fetched": "2026-11-23",
+"data": {
+"registration_url": "https://signup.lohasnet.tw/signup/4150"
+}
+},
+"https://running.biji.co/index.php?q=competition&act=info&cid=13225": {
+"fetched": "2026-11-23",
+"data": {
+"registration_url": "https://bao-ming.com/eb/content/7246?fbclid=IwY2xjawVhZf1leHRuA2FlbQIxMABwZG9mAWJyaWQRMWloMEhwTGVTRW80NEU5RFRzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEfDdWBHTHlr-W6vhRtsd6i3C-Ge7oX5cWgtV0DEzhY7D2DnYpDmrzNP-UYLsg_aem_Qj1e5516okwTPkRhta5C2Q#reg",
+"cost_currency": "TWD",
+"cost_low": 7700.0,
+"cost_high": 7700.0,
+"cost_original": "NT$7,700"
+}
+},
+"https://running.biji.co/index.php?q=competition&act=info&cid=13188": {
+"fetched": "2026-11-23",
+"data": {
+"registration_url": "https://bao-ming.com/eb/content/7183#reg",
+"cost_currency": "TWD",
+"cost_low": 1800.0,
+"cost_high": 5900.0,
+"cost_original": "NT$1,800–5,900"
+}
+},
+"https://running.biji.co/index.php?q=competition&act=info&cid=13228": {
+"fetched": "2026-11-23",
+"data": {
+"registration_url": "https://bao-ming.com/eb/content/7259#reg"
+}
+},
+"https://running.biji.co/index.php?q=competition&act=info&cid=13208": {
+"fetched": "2026-11-23",
+"data": {}
+},
+"https://running.biji.co/index.php?q=competition&act=info&cid=13210": {
+"fetched": "2026-11-23",
+"data": {}
+},
+"https://running.biji.co/index.php?q=competition&act=info&cid=13218": {
+"fetched": "2026-11-23",
+"data": {}
+},
+"https://running.biji.co/index.php?q=competition&act=info&cid=13233": {
+"fetched": "2026-11-23",
+"data": {}
+},
+"https://running.biji.co/index.php?q=competition&act=info&cid=13122": {
+"fetched": "2026-11-23",
+"data": {}
+},
+"https://running.biji.co/index.php?q=competition&act=info&cid=13065": {
+"fetched": "2026-11-23",
+"data": {}
+},
+"https://www.jomrun.com/event/New-Year-Run-2027-Alor-Setar": {
+"fetched": "2026-11-23",
+"data": {
+"race_date": "2027-01-02",
+"venue": "Alor Star Mall - Alor Setar",
+"reg_close_date": "2027-01-01"
+}
+},
+"https://www.jomrun.com/event/New-Year-Run-2027-Sungai-Petani": {
+"fetched": "2026-11-23",
+"data": {
+"race_date": "2027-01-30",
+"venue": "N-CITY – SUNGAI PETANI",
+"reg_close_date": "2027-01-29"
+}
+},
+"https://www.jomrun.com/event/OG-8th-Anniversary-Run-Alor-Setar": {
+"fetched": "2026-11-23",
+"data": {
+"race_date": "2026-11-28",
+"venue": "Alor Star Mall - Alor Setar",
+"reg_close_date": "2026-11-27"
+}
+},
+"https://www.jomrun.com/event/Run-for-Wellness-Run-for-Negeri-2026": {
+"fetched": "2026-11-23",
+"data": {
+"race_date": "2026-11-29",
+"venue": "d'Tempat Country Club, Bandar Sri Sendayan",
+"reg_close_date": "2026-11-15"
+}
+},
+"https://www.jomrun.com/event/Georgetown-Half-Marathon-2027-Powered-by-JomRun": {
+"fetched": "2026-11-23",
+"data": {
+"race_date": "2027-04-25",
+"venue": "Gurney Paragon Mall, Georgetown, Penang",
+"reg_close_date": "2027-04-24",
+"distances_raw": "5KM, 10KM, 21.1KM",
+"distances": [
+"5K",
+"10K",
+"Half Marathon"
+]
+}
+},
+"https://www.jomrun.com/event/New-Year-Run-2027-Bukit-Mertajam": {
+"fetched": "2026-11-23",
+"data": {
+"race_date": "2027-01-31",
+"venue": "AEON Mall Bukit Mertajam",
+"reg_close_date": "2027-01-30"
+}
+},
+"https://www.jomrun.com/event/OG-8th-Anniversary-Run-Bukit-Mertajam": {
+"fetched": "2026-11-23",
+"data": {
+"race_date": "2026-12-27",
+"venue": "Aeon Mall Bukit Mertajam",
+"reg_close_date": "2026-12-26"
+}
+},
+"https://www.jomrun.com/event/New-Year-Run-2027-Taiping": {
+"fetched": "2026-11-23",
+"data": {
+"race_date": "2027-01-24",
+"venue": "Aeon Mall Taiping",
+"reg_close_date": "2027-01-23"
+}
+},
+"https://www.jomrun.com/event/New-Year-Run-2027-Ipoh": {
+"fetched": "2026-11-23",
+"data": {
+"race_date": "2027-01-17",
+"venue": "Aeon Mall Station 18 - Ipoh",
+"reg_close_date": "2027-01-16"
+}
+},
+"https://www.jomrun.com/event/New-Year-Run-2027-Seri-Manjung": {
+"fetched": "2026-11-23",
+"data": {
+"race_date": "2027-01-10",
+"venue": "Aeon Mall Seri Manjung",
+"reg_close_date": "2027-01-09"
+}
+},
+"https://www.jomrun.com/event/OG-8th-Anniversary-Run-Ipoh": {
+"fetched": "2026-11-23",
+"data": {
+"race_date": "2026-12-20",
+"venue": "Sentra Mall Ipoh Klebang",
+"reg_close_date": "2026-12-19"
+}
+},
+"https://www.jomrun.com/event/OG-8th-Anniversary-Run-Taiping": {
+"fetched": "2026-11-23",
+"data": {
+"race_date": "2026-12-13",
+"venue": "Aeon Mall Taiping",
+"reg_close_date": "2026-12-12"
+}
+},
+"https://www.jomrun.com/event/Sandakan-Half-Marathon-2027-Powered-by-JomRun": {
+"fetched": "2026-11-23",
+"data": {
+"race_date": "2027-04-18",
+"venue": "Kompleks Sukan Sandakan",
+"reg_close_date": "2027-04-17",
+"distances_raw": "5KM, 10KM, 21.1KM",
+"distances": [
+"5K",
+"10K",
+"Half Marathon"
+]
+}
+},
+"https://www.jomrun.com/event/Tawau-City-Half-Marathon-2027-Powered-by-JomRun": {
+"fetched": "2026-11-23",
+"data": {
+"race_date": "2027-03-28",
+"venue": "Kompleks Sukan Tawau",
+"reg_close_date": "2027-03-27",
+"distances_raw": "5KM, 10KM, 21.1KM",
+"distances": [
+"5K",
+"10K",
+"Half Marathon"
+]
+}
+},
+"https://www.jomrun.com/event/Merchandise-Kota-Kinabalu-Marathon-2027": {
+"fetched": "2026-11-23",
+"data": {
+"race_date": "2027-01-17",
+"venue": "Tapak Dataran Kompleks Sukan Likas, Kota Kinabalu",
+"reg_close_date": "2027-01-16"
+}
+},
+"https://www.jomrun.com/event/Kota-Kinabalu-Marathon-2027-Powered-By-JomRun": {
+"fetched": "2026-11-23",
+"data": {
+"race_date": "2027-01-17",
+"venue": "Tapak Dataran Kompleks Sukan Likas, Kota Kinabalu",
+"reg_close_date": "2027-01-16",
+"distances_raw": "42.2KM",
+"distances": [
+"Marathon"
+]
+}
+},
+"https://www.jomrun.com/event/Sabah-Half-Marathon-Powered-by-JomRun": {
+"fetched": "2026-11-23",
+"data": {
+"race_date": "2026-12-13",
+"venue": "Likas Stadium, Kota Kinabalu",
+"reg_close_date": "2026-12-12",
+"distances_raw": "5KM, 10KM, 21.1KM",
+"distances": [
+"5K",
+"10K",
+"Half Marathon"
+],
+"sold_out": true
+}
+},
+"https://www.jomrun.com/event/OG-NIGHT-RUSH-2027": {
+"fetched": "2026-11-23",
+"data": {
+"race_date": "2027-01-09",
+"venue": "Marina Miri",
+"reg_close_date": "2026-12-15"
+}
+},
+"https://www.jomrun.com/event/IEM-Engineer's-Run-Sarawak-2026": {
+"fetched": "2026-11-23",
+"data": {
+"race_date": "2027-01-17",
+"venue": "Sarawak Science Centre",
+"reg_close_date": "2026-12-13"
+}
+},
+"https://www.jomrun.com/event/Kuching-Half-Marathon-Heritage-Run-2027": {
+"fetched": "2026-11-23",
+"data": {
+"race_date": "2027-04-18",
+"venue": "Dewan Masyarakat, Jalan Padungan",
+"reg_close_date": "2027-03-08",
+"distances_raw": "5KM, 10KM, 21.1KM",
+"distances": [
+"5K",
+"10K",
+"Half Marathon"
+]
+}
+},
+"https://www.jomrun.com/event/12THCHTC2026": {
+"fetched": "2026-11-23",
+"data": {
+"race_date": "2026-12-13",
+"venue": "Canada Hill Miri, Sarawak",
+"reg_close_date": "2026-11-20"
+}
+},
+"https://www.jomrun.com/event/New-Year-Resolution-Charity-Run-2027": {
+"fetched": "2026-11-23",
+"data": {
+"race_date": "2027-01-01",
+"venue": "MBKS Kuching, Sarawak",
+"reg_close_date": "2026-11-27",
+"distances_raw": "3KM, 7KM",
+"distances": [
+"Other"
+]
+}
+},
+"https://www.jomrun.com/event/2027-Ang-Pau-Run": {
+"fetched": "2026-11-23",
+"data": {
+"race_date": "2027-01-30",
+"venue": "Marina Park City Miri",
+"reg_close_date": "2026-12-31",
+"distances_raw": "3KM",
+"distances": [
+"Other"
+]
+}
+},
+"https://www.jomrun.com/event/Kuching-Half-Marathon-2027-Powered-By-Ultron": {
+"fetched": "2026-11-23",
+"data": {
+"race_date": "2027-01-10",
+"venue": "Majlis Bandaraya Kuching Selatan",
+"reg_close_date": "2027-01-08",
+"distances_raw": "5KM, 10KM, 21.1KM",
+"distances": [
+"5K",
+"10K",
+"Half Marathon"
+]
+}
+},
+"https://www.jomrun.com/event/Bintulu-Half-Marathon-2027-Powered-by-JomRun": {
+"fetched": "2026-11-23",
+"data": {
+"race_date": "2027-01-24",
+"venue": "Dewan Suarah Bintulu",
+"reg_close_date": "2027-01-22",
+"distances_raw": "5KM, 10KM, 21.1KM",
+"distances": [
+"5K",
+"10K",
+"Half Marathon"
+]
+}
+},
+"https://www.jomrun.com/event/Nasi-Lemak-New-Year-Run-2027": {
+"fetched": "2026-11-23",
+"data": {
+"race_date": "2027-01-17",
+"venue": "Marina Park City MBM Hall",
+"reg_close_date": "2026-12-15"
+}
+},
+"https://www.jomrun.com/event/Mercedes-Benz-BR-Jaya-Run-2026-Kuching": {
+"fetched": "2026-11-23",
+"data": {
+"race_date": "2026-12-13",
+"venue": "Majlis Bandaraya Kuching Selatan",
+"reg_close_date": "2026-11-11",
+"distances_raw": "10KM",
+"distances": [
+"10K"
+]
+}
+},
+"https://www.jomrun.com/event/Merchandise-Cybercity-Half-Marathon-2027": {
+"fetched": "2026-11-23",
+"data": {
+"race_date": "2027-04-04",
+"venue": "Persiaran Flora, Cyberjaya",
+"reg_close_date": "2027-04-03"
+}
+},
+"https://www.jomrun.com/event/Cybercity-Half-Marathon-2027-Powered-by-JomRun": {
+"fetched": "2026-11-23",
+"data": {
+"race_date": "2027-04-04",
+"venue": "Persiaran Flora, Cyberjaya",
+"reg_close_date": "2027-04-03",
+"distances_raw": "5KM, 10KM, 21.1KM",
+"distances": [
+"5K",
+"10K",
+"Half Marathon"
+]
+}
+},
+"https://www.jomrun.com/event/16-Sierra-Candytopia-Run": {
+"fetched": "2026-11-23",
+"data": {
+"race_date": "2027-01-09",
+"venue": "IOI Galleria @ Sierra Fresco, 16 Sierra",
+"reg_close_date": "2027-01-08",
+"distances_raw": "10KM",
+"distances": [
+"10K"
+]
+}
+},
+"https://www.jomrun.com/event/Larian-Amal-Sunway-Rapid-KL-sempena-sambutan-Jubli-Perak-D.Y.M.M-Sultan-Selangor": {
+"fetched": "2026-11-23",
+"data": {
+"race_date": "2026-12-05",
+"venue": "Kompleks BRT Sunway",
+"reg_close_date": "2026-12-03",
+"distances_raw": "5KM, 10.8KM",
+"distances": [
+"5K",
+"10K"
+]
+}
+},
+"https://www.jomrun.com/event/Kwasa-Damansara-X-Sunsuria-My-Melody-and-Kuromi-Runfest-2026-Powered-by-JomRun": {
+"fetched": "2026-11-23",
+"data": {
+"race_date": "2026-12-06",
+"venue": "Urban Eats, Kwasa Damansara",
+"reg_close_date": "2026-12-05",
+"distances_raw": "10KM",
+"distances": [
+"10K"
+]
+}
+},
+"https://www.jomrun.com/event/Southville-City-RoboRun-7KM-Powered-by-Mah-Sing": {
+"fetched": "2026-11-23",
+"data": {
+"race_date": "2027-01-09",
+"venue": "Southville City Sales Gallery",
+"reg_close_date": "2027-01-08",
+"distances_raw": "7KM",
+"distances": [
+"Other"
+]
+}
+},
+"https://www.jomrun.com/event/Chinese-New-Year-Run-2027-Powered-by-JomRun": {
+"fetched": "2026-11-23",
+"data": {
+"race_date": "2027-01-10",
+"venue": "AEON Mall Bandar Dato Onn",
+"reg_close_date": "2027-01-09",
+"distances_raw": "5KM, 10KM",
+"distances": [
+"5K",
+"10K"
+]
+}
+},
+"https://www.jomrun.com/event/IIB20-Medini-Run-2026": {
+"fetched": "2026-11-23",
+"data": {
+"race_date": "2026-11-29",
+"venue": "Menara IIB",
+"reg_close_date": "2026-11-17",
+"distances_raw": "5KM, 10KM",
+"distances": [
+"5K",
+"10K"
+]
+}
+},
+"https://www.jomrun.com/event/KOSAJ-NEON-RUN": {
+"fetched": "2026-11-23",
+"data": {
+"race_date": "2026-12-12",
+"venue": "UTM Johor Bahru",
+"reg_close_date": "2026-12-11",
+"distances_raw": "5KM",
+"distances": [
+"5K"
+]
+}
+},
+"https://www.jomrun.com/event/Iskandar-City-Half-Marathon-2027-Powered-by-JomRun": {
+"fetched": "2026-11-23",
+"data": {
+"race_date": "2027-04-18",
+"venue": "Persiaran medini 5, Iskandar Puteri (In front of Sunway Big Box)",
+"reg_close_date": "2027-04-17",
+"distances_raw": "5KM, 10KM, 21.1KM",
+"distances": [
+"5K",
+"10K",
+"Half Marathon"
+]
+}
+},
+"https://www.jomrun.com/event/Sunset-Colour-Run": {
+"fetched": "2026-11-23",
+"data": {
+"race_date": "2026-12-13",
+"venue": "TASIK ILMU UTM, Johor Bahru",
+"reg_close_date": "2026-12-09",
+"distances_raw": "3KM",
+"distances": [
+"Other"
+]
+}
+},
+"https://www.jomrun.com/event/Larian-Semangat-Johor-Powered-By-JomRun": {
+"fetched": "2026-11-23",
+"data": {
+"race_date": "2026-12-13",
+"venue": "JB Sky Screen (in front of Pejabat MBJB Jalan Dato' Onn)",
+"reg_close_date": "2026-12-12",
+"distances_raw": "4.5KM",
+"distances": [
+"5K"
+]
+}
+},
+"https://www.jomrun.com/event/Mercedes-Benz-BR-Jaya-Walkathon-Muar": {
+"fetched": "2026-11-23",
+"data": {
+"race_date": "2026-11-29",
+"venue": "Dataran Tanjung Emas, Muar, Johor",
+"reg_close_date": "2026-11-28"
+}
+},
+"https://www.jomrun.com/event/Johor-Bahru-City-Half-Marathon-2027-Powered-by-JomRun": {
+"fetched": "2026-11-23",
+"data": {
+"race_date": "2027-01-10",
+"venue": "Aeon Mall Bandar Dato Onn, Johor Bahru",
+"reg_close_date": "2027-01-09",
+"distances_raw": "5KM, 10KM, 21.1KM",
+"distances": [
+"5K",
+"10K",
+"Half Marathon"
+]
+}
+},
+"https://www.jomrun.com/event/Equine-9-Sarong-Edition": {
+"fetched": "2026-11-23",
+"data": {
+"race_date": "2026-11-28",
+"venue": "Dataran UTM, Johor Bahru",
+"reg_close_date": "2026-11-27",
+"distances_raw": "5KM",
+"distances": [
+"5K"
+]
+}
+},
+"https://www.jomrun.com/event/Muar-Half-Marathon-Powered-by-JomRun": {
+"fetched": "2026-11-23",
+"data": {
+"race_date": "2026-11-29",
+"venue": "Dataran Tanjung Emas",
+"reg_close_date": "2026-11-22",
+"distances_raw": "5KM, 10KM, 21.1KM",
+"distances": [
+"5K",
+"10K",
+"Half Marathon"
+]
+}
+},
+"https://www.jomrun.com/event/My-Hero-Academia-Run-Powered-by-JomRun": {
+"fetched": "2026-11-23",
+"data": {
+"race_date": "2026-12-20",
+"venue": "Taman Tasik Titiwangsa",
+"reg_close_date": "2026-12-19",
+"distances_raw": "6KM",
+"distances": [
+"Other"
+]
+}
+},
+"https://www.jomrun.com/event/Ice-Watch-Color-the-Night-Run-2026": {
+"fetched": "2026-11-23",
+"data": {
+"race_date": "2026-11-28",
+"venue": "IOI City Mall (West Garden, Old Wing/West Wing)",
+"reg_close_date": "2026-11-27"
+}
+},
+"https://www.jomrun.com/event/Sesame-Street-Run-Powered-by-JomRun-Phillipines": {
+"fetched": "2026-11-23",
+"data": {
+"race_date": "2026-12-06",
+"venue": "West Union Drive, Arca South Taguig City, Metro Manila, Philippines",
+"reg_close_date": "2026-12-02",
+"distances_raw": "5KM, 10KM",
+"distances": [
+"5K",
+"10K"
+]
+}
+}
+}
