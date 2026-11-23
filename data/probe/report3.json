@@ -1,0 +1,33 @@
+{
+ "wm_sitemap_index": {
+  "url": "https://www.worldsmarathons.com/index-sitemap-en.xml",
+  "status": 200,
+  "bytes": 950,
+  "final_url": "https://worldsmarathons.com/index-sitemap-en.xml"
+ },
+ "wm_sm_0": {
+  "url": "https://worldsmarathons.com/marathons-sitemap-en.xml",
+  "status": 200,
+  "bytes": 701076
+ },
+ "wm_sm_1": {
+  "url": "https://worldsmarathons.com/c-sitemap-en.xml",
+  "status": 200,
+  "bytes": 10900
+ },
+ "wm_sm_2": {
+  "url": "https://worldsmarathons.com/articles-sitemap-en.xml",
+  "status": 200,
+  "bytes": 29975
+ },
+ "wm_sm_3": {
+  "url": "https://worldsmarathons.com/p-sitemap-en.xml",
+  "status": 200,
+  "bytes": 2716
+ },
+ "wm_sm_4": {
+  "url": "https://worldsmarathons.com/static-sitemap-en.xml",
+  "status": 200,
+  "bytes": 568
+ }
+}
