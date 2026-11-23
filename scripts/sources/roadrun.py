@@ -29,6 +29,8 @@ def parse_list(html: str, year: int | None = None) -> list[dict]:
             continue
         no = re.search(r"no=(\d+)", a["href"]).group(1)
         name = a.get_text(strip=True)
+        if "취소" in name:  # "cancelled"
+            continue
         dist_el = b.find("font", color="#990000")
         dists_raw = dist_el.get_text(strip=True) if dist_el else ""
         dists = kor_distances(dists_raw)

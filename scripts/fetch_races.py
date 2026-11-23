@@ -31,6 +31,11 @@ CACHE = ROOT / "data" / "cache" / "details.json"
 NEW_TODAY = ROOT / "data" / "new_today.json"
 CONFIG = json.loads((ROOT / "config" / "sources.json").read_text(encoding="utf-8"))
 MANUAL = ROOT / "config" / "manual_races.json"
+NAMES = ROOT / "config" / "name_translations.json"
+TRANS_CACHE = ROOT / "data" / "cache" / "translations.json"
+MT_URL = "https://api.mymemory.translated.net/get"
+MT_PER_RUN = 80
+NON_LATIN = re.compile(r"[\u3040-\u30ff\u3400-\u9fff\uac00-\ud7af\uff01-\uff5e]")
 FX_URL = "https://open.er-api.com/v6/latest/CAD"
 CURRENCIES = ["TWD", "JPY", "KRW", "HKD", "MYR", "SGD", "THB", "IDR", "PHP", "VND", "CNY", "MOP", "BND", "KHR", "USD", "CAD"]
 MAJORS = re.compile(r"^(?:\d{4}\s*)?(?:tokyo marathon|東京マラソン|東京馬拉松)(?:\s*\d{4})?$", re.I)  # World Marathon Majors in our regions
@@ -271,8 +276,69 @@ def load_manual() -> list[dict]:
     return out
 
 
+# ---------------------------------------------------------------- English names
+def _lang(text: str) -> str:
+    if re.search(r"[\uac00-\ud7af]", text):
+        return "ko"
+    if re.search(r"[\u3040-\u30ff]", text):
+        return "ja"
+    return "zh-TW"
+
+
+def machine_translate(f: Fetcher, text: str) -> str | None:
+    """Free MyMemory API (no key; ~5,000 characters a day). Returns None on any problem."""
+    try:
+        r = f.s.get(MT_URL, params={"q": text[:450], "langpair": f"{_lang(text)}|en"}, timeout=20)
+        j = r.json()
+        out = (j.get("responseData") or {}).get("translatedText") or ""
+        if j.get("responseStatus") != 200 or not out or "MYMEMORY WARNING" in out.upper() or NON_LATIN.search(out):
+            return None
+        out = re.sub(r"\s+", " ", out).strip(" -–")
+        return out[:1].upper() + out[1:]
+    except Exception:  # noqa: BLE001
+        return None
+
+
+def add_english_names(races: list[dict], f: Fetcher) -> dict:
+    try:
+        manual = json.loads(NAMES.read_text(encoding="utf-8")).get("names", {})
+    except (FileNotFoundError, json.JSONDecodeError):
+        manual = {}
+    try:
+        cache = json.loads(TRANS_CACHE.read_text(encoding="utf-8"))
+    except (FileNotFoundError, json.JSONDecodeError):
+        cache = {}
+    stats = {"manual": 0, "cached": 0, "machine": 0, "untranslated": 0}
+    budget = MT_PER_RUN
+    for r in races:
+        name = r.get("name") or ""
+        if not NON_LATIN.search(name):
+            continue
+        if name in manual:
+            en, stats["manual"] = manual[name], stats["manual"] + 1
+        elif name in cache:
+            en, stats["cached"] = cache[name], stats["cached"] + 1
+        elif budget > 0:
+            budget -= 1
+            en = machine_translate(f, name)
+            if en:
+                cache[name] = en
+                stats["machine"] += 1
+            time.sleep(1)
+        else:
+            en = None
+        if en:
+            r["name_local"] = r.get("name_local") or name
+            r["name"] = en
+        else:
+            stats["untranslated"] += 1
+    TRANS_CACHE.parent.mkdir(parents=True, exist_ok=True)
+    TRANS_CACHE.write_text(json.dumps(cache, ensure_ascii=False, indent=0, sort_keys=True), encoding="utf-8")
+    return stats
+
+
 def finalise(r: dict, fx: dict, previous: dict[str, dict]) -> dict:
-    r["id"] = race_id(r.get("name_local") or r["name"], r["race_date"], r["country"])
+    r["id"] = race_id(r.get("name_local") or r["name"], r["race_date"], r["country"])  # original name keeps ids stable
     lo, hi = r.pop("cost_low", None), r.pop("cost_high", None)
     if lo is not None and r.get("cost_currency"):
         r["cost_cad"] = to_cad(lo, r["cost_currency"], fx)
@@ -374,6 +440,8 @@ def main() -> int:
 
     for r in merged:
         r.pop("_priority", None)
+    names_stats = add_english_names(merged, f)
+    log("English names:", names_stats)
     races = [finalise(r, fx, previous) for r in merged if r.get("race_date")]
 
     # keep races a failed source listed yesterday; drop the long-unseen and the past
@@ -386,12 +454,14 @@ def main() -> int:
         if any(s not in ok_sources for s in old.get("sources", [])) or old.get("last_seen_date", "") >= unseen_limit:
             races.append(old)
     past_limit = (TODAY - dt.timedelta(days=CONFIG.get("drop_past_after_days", 7))).isoformat()
-    races = [r for r in races if r["race_date"] >= past_limit]
+    not_races = re.compile(r"練習会|バーチャル|オンライン|virtual|online|취소", re.I)
+    races = [r for r in races if r["race_date"] >= past_limit
+             and not not_races.search((r.get("name_local") or "") + " " + r["name"])]
     races.sort(key=lambda r: (r["race_date"], r["name"]))
 
     requests_made = f.requests_made + sum(x.requests_made for x in fetchers)
     doc = {"generated_at": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"), "fx": fx,
-           "source_health": health, "requests_made": requests_made, "races": races}
+           "source_health": health, "requests_made": requests_made, "english_names": names_stats, "races": races}
     DATA.write_text(json.dumps(doc, ensure_ascii=False, indent=1), encoding="utf-8")
     CACHE.parent.mkdir(parents=True, exist_ok=True)
     CACHE.write_text(json.dumps(cache, ensure_ascii=False, indent=0), encoding="utf-8")

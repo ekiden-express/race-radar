@@ -32,11 +32,21 @@ SEA = {"Singapore", "Malaysia", "Thailand", "Vietnam", "Philippines", "Indonesia
 EAST_ASIA = {"Taiwan", "Japan", "Hong Kong", "Macau", "South Korea", "China"}
 
 
+TW_EN = {
+    "臺北市": "Taipei", "新北市": "New Taipei", "桃園市": "Taoyuan", "臺中市": "Taichung", "臺南市": "Tainan",
+    "高雄市": "Kaohsiung", "基隆市": "Keelung", "新竹市": "Hsinchu City", "嘉義市": "Chiayi City",
+    "新竹縣": "Hsinchu County", "苗栗縣": "Miaoli", "彰化縣": "Changhua", "南投縣": "Nantou", "雲林縣": "Yunlin",
+    "嘉義縣": "Chiayi County", "屏東縣": "Pingtung", "宜蘭縣": "Yilan", "花蓮縣": "Hualien", "臺東縣": "Taitung",
+    "澎湖縣": "Penghu", "金門縣": "Kinmen", "連江縣": "Matsu",
+}
+
+
 def _place(label: str) -> tuple[str | None, str | None]:
     if label in OVERSEAS:
         return OVERSEAS[label]
     if TAIWAN_SUFFIX.search(label):
-        return "Taiwan", label
+        label = label.replace("台", "臺")
+        return "Taiwan", TW_EN.get(label, label)
     return None, label  # Spain, USA, Dubai…: outside our regions
 
 

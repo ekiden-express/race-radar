@@ -41,6 +41,8 @@ def parse_results(html: str) -> list[dict]:
         if not a:
             continue
         name = a.get_text(strip=True)
+        if re.search(r"練習会|バーチャル|オンライン|virtual|online", name, re.I):
+            continue  # practice sessions and virtual runs, not races
         url = urljoin(BASE, a.get("href", ""))
         race_date = _jdate(item.select_one("p.date"))
         if not race_date:

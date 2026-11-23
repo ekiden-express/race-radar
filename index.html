@@ -61,7 +61,7 @@ select{border:1px solid var(--line);border-radius:8px;padding:8px 10px;backgroun
 .date .w{font-size:12px;color:var(--muted)}
 .date .u{font-size:11.5px;color:var(--accent);margin-top:4px}
 .name{font-weight:650;font-size:16px}
-.local{font-size:13px;color:var(--muted)}
+.local{font-size:13.5px;font-weight:400;color:var(--muted)}
 .loc{font-size:13.5px;color:var(--muted);margin-top:2px}
 .src{font-size:12px;opacity:.8}
 .pills{display:flex;flex-wrap:wrap;gap:5px;margin-top:8px}
@@ -338,8 +338,7 @@ function card(r) {
   return `<article class="card${me.status === "Done" ? " done" : ""}" data-id="${r.id}">
     <div class="date">${dateTop}<div class="u">${untilTxt}</div></div>
     <div>
-      <div class="name">${esc(r.name)}</div>
-      ${r.name_local ? `<div class="local">${esc(r.name_local)}</div>` : ""}
+      <div class="name">${esc(r.name)}${r.name_local ? ` <span class="local">(${esc(r.name_local)})</span>` : ""}</div>
       <div class="loc">${[r.city, r.country].filter(Boolean).map(esc).join(" · ")}${r.surface === "Trail" ? " · Trail" : ""} <span class="src">· ${(r.sources || []).map(esc).join(", ")}</span></div>
       <div class="pills">${r.distances.map(x => `<span class="pill">${esc(x)}</span>`).join("")}${badges.join("")}</div>
       <div class="reg">${reg}</div>
