@@ -22,6 +22,8 @@ jobs:
     timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main   # always start from the newest data, even when an older push triggered the run
 
       - uses: actions/setup-python@v5
         with:
@@ -45,7 +47,8 @@ jobs:
             echo "No changes."
           else
             git commit -m "Update races $(date -u +%Y-%m-%d)"
-            git pull --rebase --autostash
+            # if something else was pushed meanwhile, keep this run's freshly generated data
+            git pull --rebase -X theirs || { git checkout --theirs data/ && git add data && GIT_EDITOR=true git rebase --continue; }
             git push
           fi
 
