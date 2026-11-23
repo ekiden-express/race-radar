@@ -13,6 +13,7 @@ import re
 import sys
 import time
 import traceback
+from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
@@ -79,7 +80,7 @@ def cached_detail(cache: dict, url: str, fetch_fn, budget: list[int]) -> dict | 
     hit = cache.get(url)
     if hit and (TODAY - dt.date.fromisoformat(hit["fetched"])).days < CONFIG.get("detail_cache_days", 7):
         return hit["data"]
-    if budget[0] <= 0:
+    if budget[0] <= 0 or time.time() - START > 12 * 60:
         return hit["data"] if hit else None
     budget[0] -= 1
     try:
@@ -314,21 +315,31 @@ def main() -> int:
     fx = load_fx(f, previous_doc.get("fx"))
     health, collected = {}, []
     order = sorted((s for s in CONFIG["sources"] if s.get("enabled") and s["id"] in SOURCES), key=lambda s: s["priority"])
-    for s in order:
+    fetchers = []
+
+    def run_one(s: dict):
+        fs = Fetcher(delay=2.0)  # one per site: the 2-second gap applies per site, sites run side by side
+        fetchers.append(fs)
         t0 = time.time()
         try:
-            got = SOURCES[s["id"]](f, cache)
+            got = SOURCES[s["id"]](fs, cache)
             for r in got:
                 r["_priority"] = s["priority"]
-            collected += got
-            health[s["name"]] = {"ok": True, "count": len(got), "error": None, "last_success": TODAY.isoformat(),
-                                 "seconds": round(time.time() - t0)}
-            log(f"{s['name']}: {len(got)} races")
+            log(f"{s['name']}: {len(got)} races in {time.time() - t0:.0f}s")
+            return s, got, None, round(time.time() - t0)
         except Exception as e:  # noqa: BLE001
             traceback.print_exc()
-            prev = (previous_doc.get("source_health") or {}).get(s["name"], {})
-            health[s["name"]] = {"ok": False, "count": 0, "error": str(e)[:300], "last_success": prev.get("last_success")}
             log(f"{s['name']}: FAILED – {e}")
+            return s, [], e, round(time.time() - t0)
+
+    with ThreadPoolExecutor(max_workers=len(order) or 1) as pool:
+        for s, got, err, secs in pool.map(run_one, order):
+            collected += got
+            if err is None:
+                health[s["name"]] = {"ok": True, "count": len(got), "error": None, "last_success": TODAY.isoformat(), "seconds": secs}
+            else:
+                prev = (previous_doc.get("source_health") or {}).get(s["name"], {})
+                health[s["name"]] = {"ok": False, "count": 0, "error": str(err)[:300], "last_success": prev.get("last_success")}
 
     # merge duplicates across sources (higher priority first)
     collected.sort(key=lambda r: (r["_priority"], r["race_date"]))
@@ -376,8 +387,9 @@ def main() -> int:
     races = [r for r in races if r["race_date"] >= past_limit]
     races.sort(key=lambda r: (r["race_date"], r["name"]))
 
+    requests_made = f.requests_made + sum(x.requests_made for x in fetchers)
     doc = {"generated_at": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"), "fx": fx,
-           "source_health": health, "requests_made": f.requests_made, "races": races}
+           "source_health": health, "requests_made": requests_made, "races": races}
     DATA.write_text(json.dumps(doc, ensure_ascii=False, indent=1), encoding="utf-8")
     CACHE.parent.mkdir(parents=True, exist_ok=True)
     CACHE.write_text(json.dumps(cache, ensure_ascii=False, indent=0), encoding="utf-8")
@@ -388,7 +400,7 @@ def main() -> int:
     for r in races:
         by_region[r["region"]] = by_region.get(r["region"], 0) + 1
     log(f"wrote {len(races)} races {by_region}; with CAD cost: {sum(1 for r in races if r.get('cost_cad'))}; "
-        f"new today: {len(new)}; requests: {f.requests_made}")
+        f"new today: {len(new)}; requests: {requests_made}")
     return 0 if any(v["ok"] for v in health.values()) else 1
 
 

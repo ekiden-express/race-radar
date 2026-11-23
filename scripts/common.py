@@ -57,7 +57,7 @@ class Fetcher:
         rp = self.robots[base]
         return True if rp is None else rp.can_fetch(USER_AGENT, url)
 
-    def get(self, url: str, snapshot_name: str | None = None, retries: int = 3) -> str:
+    def get(self, url: str, snapshot_name: str | None = None, retries: int = 2) -> str:
         if not self._allowed(url):
             raise PermissionError(f"robots.txt disallows {url}")
         host = urlparse(url).netloc
@@ -68,7 +68,7 @@ class Fetcher:
         for attempt in range(retries):
             headers = None if attempt == 0 else BROWSER_HEADERS  # fallback headers on retry
             try:
-                r = self.s.get(url, timeout=30, headers=headers)
+                r = self.s.get(url, timeout=20, headers=headers)
                 self.last[host] = time.time()
                 self.requests_made += 1
                 if r.status_code in (429, 500, 502, 503, 504):

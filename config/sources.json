@@ -7,7 +7,7 @@
    "enabled": true,
    "priority": 1,
    "region": "East Asia",
-   "detail_pages_per_run": 80
+   "detail_pages_per_run": 50
   },
   {
    "id": "runnet",
@@ -30,7 +30,7 @@
    "enabled": true,
    "priority": 4,
    "region": "Southeast Asia",
-   "detail_pages_per_run": 60
+   "detail_pages_per_run": 30
   },
   {
    "id": "aims",
