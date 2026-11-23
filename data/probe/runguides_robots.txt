@@ -1,0 +1,8 @@
+Sitemap: https://www.runguides.com/sitemap.xml.gz
+
+User-agent: *
+Allow: /$
+Disallow: /runs
+Disallow: /running-clubs
+Disallow: /running-stores
+Disallow: /privacy
