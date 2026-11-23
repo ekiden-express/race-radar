@@ -12,28 +12,27 @@ H = {
     "Accept-Language": "en-CA,en;q=0.9,zh-TW;q=0.8,ja;q=0.7,ko;q=0.6",
 }
 URLS = {
-    "biji_list": "https://running.biji.co/index.php?q=competition",
-    "biji_detail": "https://running.biji.co/index.php?q=competition&act=info&cid=13162",
-    "biji_robots": "https://running.biji.co/robots.txt",
-    "jomrun_events": "https://www.jomrun.com/events",
-    "jomrun_upcoming": "https://www.jomrun.com/events/recent",
-    "jomrun_detail": "https://www.jomrun.com/event/Georgetown-Half-Marathon-2027-Powered-by-JomRun",
-    "jomrun_robots": "https://www.jomrun.com/robots.txt",
-    "runguides_van": "https://www.runguides.com/vancouver/runs",
-    "runguides_detail": "https://www.runguides.com/event/26216/odlum-brown-moustache-miler",
-    "runguides_calgary": "https://www.runguides.com/calgary/runs",
-    "runguides_montreal": "https://www.runguides.com/montreal/runs",
-    "runguides_robots": "https://www.runguides.com/robots.txt",
-    "runnet_home": "https://runnet.jp/",
-    "runnet_robots": "https://runnet.jp/robots.txt",
-    "roadrun_list": "http://www.roadrun.co.kr/schedule/list.php",
-    "aims": "https://aims-worldrunning.org/calendar.html",
-    "fx": "https://open.er-api.com/v6/latest/CAD",
+    "jomrun_loc_johor": "https://www.jomrun.com/events/location?location_id=14",
+    "jomrun_loc_kl": "https://www.jomrun.com/events/location?location_id=15",
+    "jomrun_loc_sg": "https://www.jomrun.com/events/location?location_id=21",
+    "jomrun_sitemap": "https://www.jomrun.com/sitemap.xml",
+    "runnet_search_full": "https://runnet.jp/entry/runtes/user/pc/RaceSearchZZSDetailAction.do?command=search&available=1&distanceClass=1",
+    "runnet_search_half": "https://runnet.jp/entry/runtes/user/pc/RaceSearchZZSDetailAction.do?command=search&available=1&distanceClass=2",
+    "runguides_sitemap": "https://www.runguides.com/sitemap.xml.gz",
+    "roadrun_2027": "POST|http://www.roadrun.co.kr/schedule/list.php|syear_key=2027",
 }
 report = {}
 for name, url in URLS.items():
     try:
-        r = requests.get(url, headers=H, timeout=30)
+        if url.startswith("POST|"):
+            _, u, body = url.split("|")
+            r = requests.post(u, data=dict(x.split("=") for x in body.split("&")), headers=H, timeout=30)
+        elif url.endswith(".gz"):
+            import gzip
+            r = requests.get(url, headers=H, timeout=30)
+            r._content = gzip.decompress(r.content) if r.content[:2] == b"\x1f\x8b" else r.content
+        else:
+            r = requests.get(url, headers=H, timeout=30)
         if not r.encoding or r.encoding.lower() == "iso-8859-1":
             r.encoding = r.apparent_encoding
         ext = "json" if name == "fx" else ("txt" if "robots" in name else "html")
@@ -43,5 +42,5 @@ for name, url in URLS.items():
     except Exception as e:  # noqa: BLE001
         report[name] = {"url": url, "error": str(e)}
     time.sleep(2)
-(OUT / "report.json").write_text(json.dumps(report, indent=1, ensure_ascii=False), encoding="utf-8")
+(OUT / "report2.json").write_text(json.dumps(report, indent=1, ensure_ascii=False), encoding="utf-8")
 print(json.dumps(report, indent=1))
