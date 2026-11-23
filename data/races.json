@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T05:19:22+00:00",
+ "generated_at": "2026-11-23T05:25:10+00:00",
  "fx": {
   "date": "2026-11-23",
   "provider": "ExchangeRate-API (open.er-api.com)",
@@ -29,7 +29,7 @@
    "count": 132,
    "error": null,
    "last_success": "2026-11-23",
-   "seconds": 254
+   "seconds": 253
   },
   "RUNNET": {
    "ok": true,
@@ -50,7 +50,7 @@
    "count": 46,
    "error": null,
    "last_success": "2026-11-23",
-   "seconds": 315
+   "seconds": 290
   },
   "AIMS": {
    "ok": true,
@@ -10431,9 +10431,9 @@
    ],
    "distances_raw": "42.195K",
    "surface": "Road",
-   "cost_original": "¥2,250–20,000",
+   "cost_original": "¥1,000–20,000",
    "cost_currency": "JPY",
-   "cost_cad": 20.32,
+   "cost_cad": 9.03,
    "cost_cad_max": 180.63,
    "reg_open_date": null,
    "reg_close_date": null,
