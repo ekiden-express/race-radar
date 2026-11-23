@@ -461,7 +461,7 @@
 },
 "https://running.biji.co/index.php?q=competition&act=info&cid=13104": {
 "fetched": "2026-11-23",
-"v": 2,
+"v": 4,
 "data": {
 "registration_url": "https://bao-ming.com/eb/content/7172#reg",
 "cost_currency": "TWD",
@@ -472,7 +472,7 @@
 },
 "https://running.biji.co/index.php?q=competition&act=info&cid=13195": {
 "fetched": "2026-11-23",
-"v": 2,
+"v": 4,
 "data": {
 "cost_currency": "TWD",
 "cost_low": 700.0,
@@ -482,7 +482,7 @@
 },
 "https://running.biji.co/index.php?q=competition&act=info&cid=13168": {
 "fetched": "2026-11-23",
-"v": 2,
+"v": 4,
 "data": {
 "cost_currency": "TWD",
 "cost_low": 2500.0,
@@ -492,7 +492,7 @@
 },
 "https://running.biji.co/index.php?q=competition&act=info&cid=13211": {
 "fetched": "2026-11-23",
-"v": 2,
+"v": 4,
 "data": {
 "registration_url": "https://signup.lohasnet.tw/seven/#/signup/entrance/7004",
 "cost_currency": "TWD",
@@ -503,7 +503,7 @@
 },
 "https://running.biji.co/index.php?q=competition&act=info&cid=13247": {
 "fetched": "2026-11-23",
-"v": 2,
+"v": 4,
 "data": {
 "official_url": "https://www.fukui-sakura-marathon.jp/about/course/",
 "fee_hint": "大會服務 | 集結主會場動線流暢度及大會流程安排是否得宜 | 點擊評分 | 賽事CP值 | 報名費用及參賽紀念品的性價比，賽程中補給是否豐盛 | 點擊評分 | 賽道特色 | 賽道沿線風景與其他人文特色 | 點擊評分 | 跑者貼心服務 | 主辦單位是否提供其他貼心服務，例如交通接駁、停車安排；或者應援團安排、沖澡服務等 | 點擊評分 | 請選擇參賽組別 | 42K 42K | 送出 | 賽事提問 | 2027 福井櫻花馬拉松 | 送出 | 已收藏，可至個人專頁 | 收藏專區 | 查看已收藏的賽事 | 關於筆記 | 行銷合作 | 跑步學堂 | 服務條款及隱私權政策 | 照片線上服務條款 | 聯絡我們 | H2U永悅健康股份有限公司 版權所有 轉載必究 | 請在此留下訊息，我們會盡快回覆您的問題 | 新通知 | 還有"
@@ -511,7 +511,7 @@
 },
 "https://running.biji.co/index.php?q=competition&act=info&cid=13024": {
 "fetched": "2026-11-23",
-"v": 2,
+"v": 4,
 "data": {
 "registration_url": "https://www.joinnow.com.tw/run-step1.php?cnt_id=151",
 "cost_currency": "TWD",
@@ -522,7 +522,7 @@
 },
 "https://running.biji.co/index.php?q=competition&act=info&cid=13229": {
 "fetched": "2026-11-23",
-"v": 2,
+"v": 4,
 "data": {
 "registration_url": "https://bao-ming.com/eb/content/7214#reg",
 "cost_currency": "TWD",
@@ -533,7 +533,7 @@
 },
 "https://running.biji.co/index.php?q=competition&act=info&cid=13107": {
 "fetched": "2026-11-23",
-"v": 2,
+"v": 4,
 "data": {
 "registration_url": "https://signup.lohasnet.tw/signup/4273",
 "fee_hint": "大會服務 | 集結主會場動線流暢度及大會流程安排是否得宜 | 點擊評分 | 賽事CP值 | 報名費用及參賽紀念品的性價比，賽程中補給是否豐盛 | 點擊評分 | 賽道特色 | 賽道沿線風景與其他人文特色 | 點擊評分 | 跑者貼心服務 | 主辦單位是否提供其他貼心服務，例如交通接駁、停車安排；或者應援團安排、沖澡服務等 | 點擊評分 | 請選擇參賽組別 | 全馬組 42.195K | 半馬組 21K | 挑戰組 10.5K | 樂活健走組 4.5K | 送出 | 賽事提問 | 2027神岡馬-神豐國際同濟會全國公益馬拉松-慢飛天使圓夢 讓愛起飛 | 送出 | 已收藏，可至個人專頁 | 收藏專區 | 查看已收藏的賽事 | 關於筆記 | 行銷合作 | 跑步學堂 | 服務條款及隱私權政策 | 照片線上服務條款 | "
@@ -541,7 +541,7 @@
 },
 "https://running.biji.co/index.php?q=competition&act=info&cid=13212": {
 "fetched": "2026-11-23",
-"v": 2,
+"v": 4,
 "data": {
 "registration_url": "https://signup.lohasnet.tw/signup/4315",
 "cost_currency": "TWD",
@@ -552,7 +552,7 @@
 },
 "https://running.biji.co/index.php?q=competition&act=info&cid=13158": {
 "fetched": "2026-11-23",
-"v": 2,
+"v": 4,
 "data": {
 "registration_url": "https://bao-ming.com/eb/content/7192#reg",
 "cost_currency": "TWD",
@@ -563,14 +563,14 @@
 },
 "https://running.biji.co/index.php?q=competition&act=info&cid=13184": {
 "fetched": "2026-11-23",
-"v": 2,
+"v": 4,
 "data": {
 "fee_hint": "大會服務 | 集結主會場動線流暢度及大會流程安排是否得宜 | 點擊評分 | 賽事CP值 | 報名費用及參賽紀念品的性價比，賽程中補給是否豐盛 | 點擊評分 | 賽道特色 | 賽道沿線風景與其他人文特色 | 點擊評分 | 跑者貼心服務 | 主辦單位是否提供其他貼心服務，例如交通接駁、停車安排；或者應援團安排、沖澡服務等 | 點擊評分 | 請選擇參賽組別 | 21K 21K | 10K 10K | 5K 5K | 3K 3K | 送出 | 賽事提問 | 2027 第八屆BC台灣柏釧公益路跑 | 送出 | 已收藏，可至個人專頁 | 收藏專區 | 查看已收藏的賽事 | 關於筆記 | 行銷合作 | 跑步學堂 | 服務條款及隱私權政策 | 照片線上服務條款 | 聯絡我們 | H2U永悅健康股份有限公司 版權所有 轉載必究 | "
 }
 },
 "https://running.biji.co/index.php?q=competition&act=info&cid=13214": {
 "fetched": "2026-11-23",
-"v": 2,
+"v": 4,
 "data": {
 "registration_url": "https://signup.lohasnet.tw/signup/4312",
 "cost_currency": "TWD",
@@ -581,7 +581,7 @@
 },
 "https://running.biji.co/index.php?q=competition&act=info&cid=13002": {
 "fetched": "2026-11-23",
-"v": 2,
+"v": 4,
 "data": {
 "registration_url": "https://www.focusline.com.tw/270410JT/personal",
 "cost_currency": "TWD",
@@ -592,7 +592,7 @@
 },
 "https://running.biji.co/index.php?q=competition&act=info&cid=13255": {
 "fetched": "2026-11-23",
-"v": 2,
+"v": 4,
 "data": {
 "registration_url": "https://www.sportsnet.org.tw/online_reg_rule.php?race_no=20270411",
 "cost_currency": "TWD",
@@ -603,7 +603,7 @@
 },
 "https://running.biji.co/index.php?q=competition&act=info&cid=13213": {
 "fetched": "2026-11-23",
-"v": 2,
+"v": 4,
 "data": {
 "registration_url": "https://bao-ming.com/eb/content/7253#reg",
 "cost_currency": "TWD",
@@ -614,21 +614,21 @@
 },
 "https://running.biji.co/index.php?q=competition&act=info&cid=13192": {
 "fetched": "2026-11-23",
-"v": 2,
+"v": 4,
 "data": {
 "fee_hint": "大會服務 | 集結主會場動線流暢度及大會流程安排是否得宜 | 點擊評分 | 賽事CP值 | 報名費用及參賽紀念品的性價比，賽程中補給是否豐盛 | 點擊評分 | 賽道特色 | 賽道沿線風景與其他人文特色 | 點擊評分 | 跑者貼心服務 | 主辦單位是否提供其他貼心服務，例如交通接駁、停車安排；或者應援團安排、沖澡服務等 | 點擊評分 | 請選擇參賽組別 | 菁英組 21K | 接力組 21R | 挑戰組 10K | 休閒組 5K | 送出 | 賽事提問 | 2027 ELLE RUN With Style | 送出 | 已收藏，可至個人專頁 | 收藏專區 | 查看已收藏的賽事 | 關於筆記 | 行銷合作 | 跑步學堂 | 服務條款及隱私權政策 | 照片線上服務條款 | 聯絡我們 | H2U永悅健康股份有限公司 版"
 }
 },
 "https://running.biji.co/index.php?q=competition&act=info&cid=13135": {
 "fetched": "2026-11-23",
-"v": 2,
+"v": 4,
 "data": {
 "fee_hint": "大會服務 | 集結主會場動線流暢度及大會流程安排是否得宜 | 點擊評分 | 賽事CP值 | 報名費用及參賽紀念品的性價比，賽程中補給是否豐盛 | 點擊評分 | 賽道特色 | 賽道沿線風景與其他人文特色 | 點擊評分 | 跑者貼心服務 | 主辦單位是否提供其他貼心服務，例如交通接駁、停車安排；或者應援團安排、沖澡服務等 | 點擊評分 | 請選擇參賽組別 | 21K 21K | 10K 10K | 5K 5K | 送出 | 賽事提問 | 2027全國視障公益路跑賽 | 送出 | 已收藏，可至個人專頁 | 收藏專區 | 查看已收藏的賽事 | 關於筆記 | 行銷合作 | 跑步學堂 | 服務條款及隱私權政策 | 照片線上服務條款 | 聯絡我們 | H2U永悅健康股份有限公司 版權所有 轉載必究 | 請在此留下訊息，我們會"
 }
 },
 "https://running.biji.co/index.php?q=competition&act=info&cid=13137": {
 "fetched": "2026-11-23",
-"v": 2,
+"v": 4,
 "data": {
 "registration_url": "https://signup.lohasnet.tw/signup/4150",
 "cost_currency": "TWD",
@@ -639,7 +639,7 @@
 },
 "https://running.biji.co/index.php?q=competition&act=info&cid=13225": {
 "fetched": "2026-11-23",
-"v": 2,
+"v": 4,
 "data": {
 "registration_url": "https://bao-ming.com/eb/content/7246?fbclid=IwY2xjawVhZf1leHRuA2FlbQIxMABwZG9mAWJyaWQRMWloMEhwTGVTRW80NEU5RFRzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEfDdWBHTHlr-W6vhRtsd6i3C-Ge7oX5cWgtV0DEzhY7D2DnYpDmrzNP-UYLsg_aem_Qj1e5516okwTPkRhta5C2Q#reg",
 "cost_currency": "TWD",
@@ -650,7 +650,7 @@
 },
 "https://running.biji.co/index.php?q=competition&act=info&cid=13188": {
 "fetched": "2026-11-23",
-"v": 2,
+"v": 4,
 "data": {
 "registration_url": "https://bao-ming.com/eb/content/7183#reg",
 "cost_currency": "TWD",
@@ -661,7 +661,7 @@
 },
 "https://running.biji.co/index.php?q=competition&act=info&cid=13228": {
 "fetched": "2026-11-23",
-"v": 2,
+"v": 4,
 "data": {
 "registration_url": "https://bao-ming.com/eb/content/7259#reg",
 "cost_currency": "TWD",
@@ -672,42 +672,42 @@
 },
 "https://running.biji.co/index.php?q=competition&act=info&cid=13208": {
 "fetched": "2026-11-23",
-"v": 2,
+"v": 4,
 "data": {
 "fee_hint": "大會服務 | 集結主會場動線流暢度及大會流程安排是否得宜 | 點擊評分 | 賽事CP值 | 報名費用及參賽紀念品的性價比，賽程中補給是否豐盛 | 點擊評分 | 賽道特色 | 賽道沿線風景與其他人文特色 | 點擊評分 | 跑者貼心服務 | 主辦單位是否提供其他貼心服務，例如交通接駁、停車安排；或者應援團安排、沖澡服務等 | 點擊評分 | 請選擇參賽組別 | 21K 21K | 10K 10K | 5K 5K | 3K 3K | 送出 | 賽事提問 | 2027中興新村半程馬拉松 | 送出 | 已收藏，可至個人專頁 | 收藏專區 | 查看已收藏的賽事 | 關於筆記 | 行銷合作 | 跑步學堂 | 服務條款及隱私權政策 | 照片線上服務條款 | 聯絡我們 | H2U永悅健康股份有限公司 版權所有 轉載必究 | 請在此留下"
 }
 },
 "https://running.biji.co/index.php?q=competition&act=info&cid=13210": {
 "fetched": "2026-11-23",
-"v": 2,
+"v": 4,
 "data": {
 "fee_hint": "大會服務 | 集結主會場動線流暢度及大會流程安排是否得宜 | 點擊評分 | 賽事CP值 | 報名費用及參賽紀念品的性價比，賽程中補給是否豐盛 | 點擊評分 | 賽道特色 | 賽道沿線風景與其他人文特色 | 點擊評分 | 跑者貼心服務 | 主辦單位是否提供其他貼心服務，例如交通接駁、停車安排；或者應援團安排、沖澡服務等 | 點擊評分 | 請選擇參賽組別 | 21K 21K | 10K 10K | 5K 5K | 2.5K 2.5K | 送出 | 賽事提問 | 2027雲林半程馬拉松 | 送出 | 已收藏，可至個人專頁 | 收藏專區 | 查看已收藏的賽事 | 關於筆記 | 行銷合作 | 跑步學堂 | 服務條款及隱私權政策 | 照片線上服務條款 | 聯絡我們 | H2U永悅健康股份有限公司 版權所有 轉載必究 | 請在此"
 }
 },
 "https://running.biji.co/index.php?q=competition&act=info&cid=13218": {
 "fetched": "2026-11-23",
-"v": 2,
+"v": 4,
 "data": {
 "fee_hint": "大會服務 | 集結主會場動線流暢度及大會流程安排是否得宜 | 點擊評分 | 賽事CP值 | 報名費用及參賽紀念品的性價比，賽程中補給是否豐盛 | 點擊評分 | 賽道特色 | 賽道沿線風景與其他人文特色 | 點擊評分 | 跑者貼心服務 | 主辦單位是否提供其他貼心服務，例如交通接駁、停車安排；或者應援團安排、沖澡服務等 | 點擊評分 | 請選擇參賽組別 | 42K 42K | 21K 21K | 10K 10K | 2K 2K | 送出 | 賽事提問 | 2027綠動海風馬 | 送出 | 已收藏，可至個人專頁 | 收藏專區 | 查看已收藏的賽事 | 關於筆記 | 行銷合作 | 跑步學堂 | 服務條款及隱私權政策 | 照片線上服務條款 | 聯絡我們 | H2U永悅健康股份有限公司 版權所有 轉載必究 | 請在此留下訊息"
 }
 },
 "https://running.biji.co/index.php?q=competition&act=info&cid=13233": {
 "fetched": "2026-11-23",
-"v": 2,
+"v": 4,
 "data": {
 "fee_hint": "大會服務 | 集結主會場動線流暢度及大會流程安排是否得宜 | 點擊評分 | 賽事CP值 | 報名費用及參賽紀念品的性價比，賽程中補給是否豐盛 | 點擊評分 | 賽道特色 | 賽道沿線風景與其他人文特色 | 點擊評分 | 跑者貼心服務 | 主辦單位是否提供其他貼心服務，例如交通接駁、停車安排；或者應援團安排、沖澡服務等 | 點擊評分 | 請選擇參賽組別 | 42K 42K | 21K 21K | 12K 12K | 4K 4K | 送出 | 賽事提問 | 2027 屏東墾丁日本航空國際馬拉松 | 送出 | 已收藏，可至個人專頁 | 收藏專區 | 查看已收藏的賽事 | 關於筆記 | 行銷合作 | 跑步學堂 | 服務條款及隱私權政策 | 照片線上服務條款 | 聯絡我們 | H2U永悅健康股份有限公司 版權所有 轉載必"
 }
 },
 "https://running.biji.co/index.php?q=competition&act=info&cid=13122": {
 "fetched": "2026-11-23",
-"v": 2,
+"v": 4,
 "data": {
 "fee_hint": "大會服務 | 集結主會場動線流暢度及大會流程安排是否得宜 | 點擊評分 | 賽事CP值 | 報名費用及參賽紀念品的性價比，賽程中補給是否豐盛 | 點擊評分 | 賽道特色 | 賽道沿線風景與其他人文特色 | 點擊評分 | 跑者貼心服務 | 主辦單位是否提供其他貼心服務，例如交通接駁、停車安排；或者應援團安排、沖澡服務等 | 點擊評分 | 請選擇參賽組別 | 50K 50K | 20K 20K | 10K 10K | 5K 5K | 送出 | 賽事提問 | 玩野樂園 | 送出 | 已收藏，可至個人專頁 | 收藏專區 | 查看已收藏的賽事 | 關於筆記 | 行銷合作 | 跑步學堂 | 服務條款及隱私權政策 | 照片線上服務條款 | 聯絡我們 | H2U永悅健康股份有限公司 版權所有 轉載必究 | 請在此留下訊息，我們會盡"
 }
 },
 "https://running.biji.co/index.php?q=competition&act=info&cid=13065": {
 "fetched": "2026-11-23",
-"v": 2,
+"v": 4,
 "data": {
 "fee_hint": "大會服務 | 集結主會場動線流暢度及大會流程安排是否得宜 | 點擊評分 | 賽事CP值 | 報名費用及參賽紀念品的性價比，賽程中補給是否豐盛 | 點擊評分 | 賽道特色 | 賽道沿線風景與其他人文特色 | 點擊評分 | 跑者貼心服務 | 主辦單位是否提供其他貼心服務，例如交通接駁、停車安排；或者應援團安排、沖澡服務等 | 點擊評分 | 請選擇參賽組別 | 半馬組 21K | 送出 | 賽事提問 | 2027臺中城市半程馬拉松 | 送出 | 已收藏，可至個人專頁 | 收藏專區 | 查看已收藏的賽事 | 關於筆記 | 行銷合作 | 跑步學堂 | 服務條款及隱私權政策 | 照片線上服務條款 | 聯絡我們 | H2U永悅健康股份有限公司 版權所有 轉載必究 | 請在此留下訊息，我們會盡快回覆您的問題 | 新通知 | 還"
 }

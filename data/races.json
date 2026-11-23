@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T05:25:10+00:00",
+ "generated_at": "2026-11-23T05:30:15+00:00",
  "fx": {
   "date": "2026-11-23",
   "provider": "ExchangeRate-API (open.er-api.com)",
@@ -29,14 +29,14 @@
    "count": 132,
    "error": null,
    "last_success": "2026-11-23",
-   "seconds": 253
+   "seconds": 138
   },
   "RUNNET": {
    "ok": true,
    "count": 71,
    "error": null,
    "last_success": "2026-11-23",
-   "seconds": 9
+   "seconds": 8
   },
   "마라톤온라인": {
    "ok": true,
@@ -50,7 +50,7 @@
    "count": 46,
    "error": null,
    "last_success": "2026-11-23",
-   "seconds": 290
+   "seconds": 288
   },
   "AIMS": {
    "ok": true,
@@ -65,7 +65,7 @@
    "last_success": "2026-11-23"
   }
  },
- "requests_made": 196,
+ "requests_made": 150,
  "races": [
   {
    "name": "最強市民飆5K－新北市5000公尺挑戰賽 十一月場",
@@ -1025,7 +1025,7 @@
    "name_local": null,
    "region": "East Asia",
    "country": "Japan",
-   "city": "ASICS Running Program Road to 東京マラソン2027（記録更新コース）",
+   "city": null,
    "race_date": "2026-11-27",
    "date_tbd": false,
    "distances": [],
@@ -1052,8 +1052,8 @@
    ],
    "note": null,
    "id": "c64249cab6a3",
-   "popularity_flag": true,
-   "popularity_reason": "World Marathon Major",
+   "popularity_flag": false,
+   "popularity_reason": null,
    "first_seen_date": "2026-11-23",
    "last_seen_date": "2026-11-23"
   },
@@ -9302,7 +9302,7 @@
    "name_local": null,
    "region": "East Asia",
    "country": "Japan",
-   "city": "オンラインおきなわマラソン2027",
+   "city": null,
    "race_date": "2027-02-15",
    "date_tbd": false,
    "distances": [
@@ -10704,7 +10704,7 @@
    "name_local": null,
    "region": "East Asia",
    "country": "Japan",
-   "city": "ホワイトリボンラン2027 【バーチャルラン】",
+   "city": null,
    "race_date": "2027-03-01",
    "date_tbd": false,
    "distances": [],
