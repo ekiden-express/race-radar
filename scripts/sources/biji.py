@@ -26,7 +26,7 @@ OVERSEAS = {
     "菲律賓": ("Philippines", None), "印尼": ("Indonesia", None), "峇里島": ("Indonesia", "Bali"),
 }
 TAIWAN_SUFFIX = re.compile(r"(市|縣)$")
-PARSER_VERSION = 3
+PARSER_VERSION = 4
 EXCLUDE = re.compile(r"LAVA|鐵人|三鐵|二鐵|游泳|自行車|單車|健走(?!.*跑)", re.I)
 SEA = {"Singapore", "Malaysia", "Thailand", "Vietnam", "Philippines", "Indonesia"}
 EAST_ASIA = {"Taiwan", "Japan", "Hong Kong", "Macau", "South Korea", "China"}
@@ -117,6 +117,10 @@ def parse_detail(html: str, race: dict) -> dict:
         c2, amts = parse_fees(win, cur or "TWD")
         cur = cur or c2
         found += [v for v in amts if cur and plausible(cur, v)]
+    if cur == "JPY":
+        # Japanese races list many surcharges and packages; keep the standard runner price only
+        std = [float(x.replace(",", "")) for x in re.findall(r"(?:普通|一般|國內)[^0-9]{0,12}([\d,]{4,})\s?(?:日圓|日元|円|圓)", text)]
+        found = [v for v in std if plausible("JPY", v)]
     if found and cur:
         lo, hi = min(found), max(found)
         upd.update(cost_currency=cur, cost_low=lo, cost_high=hi, cost_original=fmt_money(cur, lo, hi))
