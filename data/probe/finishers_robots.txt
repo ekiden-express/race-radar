@@ -1,0 +1,12 @@
+User-agent: *
+Disallow: /account*
+Disallow: /book*
+Disallow: /docs*
+Disallow: /courses?location_t*
+Disallow: /courses?dmin*
+Disallow: /courses?dmax*
+Disallow: /courses?discipline*
+Disallow: /courses?tags*
+Disallow: /courses?region*
+Disallow: /courses?month*
+Sitemap: https://api.finishers.com/public/sitemap.xml

@@ -1,0 +1,129 @@
+User-Agent: *
+Allow: /
+Disallow: /api/
+Disallow: /profile/
+Disallow: /organiser-events/
+Disallow: /p/
+Disallow: /calendar/*?*boundaries=
+Disallow: /calendar/*?*dateFrom=
+Disallow: /calendar/*?*dateTo=
+Disallow: /calendar/*?*distanceMin=
+Disallow: /calendar/*?*distanceMax=
+Disallow: /calendar/*?*sort=
+Disallow: /calendar/*?*limit=
+Disallow: /*/calendar/*?*boundaries=
+Disallow: /*/calendar/*?*dateFrom=
+Disallow: /*/calendar/*?*dateTo=
+Disallow: /*/calendar/*?*distanceMin=
+Disallow: /*/calendar/*?*distanceMax=
+Disallow: /*/calendar/*?*sort=
+Disallow: /*/calendar/*?*limit=
+Disallow: /*/calendrier/*?*boundaries=
+Disallow: /*/calendrier/*?*dateFrom=
+Disallow: /*/calendrier/*?*dateTo=
+Disallow: /*/calendrier/*?*distanceMin=
+Disallow: /*/calendrier/*?*distanceMax=
+Disallow: /*/calendrier/*?*sort=
+Disallow: /*/calendrier/*?*limit=
+Disallow: /*/calendario/*?*boundaries=
+Disallow: /*/calendario/*?*dateFrom=
+Disallow: /*/calendario/*?*dateTo=
+Disallow: /*/calendario/*?*distanceMin=
+Disallow: /*/calendario/*?*distanceMax=
+Disallow: /*/calendario/*?*sort=
+Disallow: /*/calendario/*?*limit=
+Disallow: /*/kalender/*?*boundaries=
+Disallow: /*/kalender/*?*dateFrom=
+Disallow: /*/kalender/*?*dateTo=
+Disallow: /*/kalender/*?*distanceMin=
+Disallow: /*/kalender/*?*distanceMax=
+Disallow: /*/kalender/*?*sort=
+Disallow: /*/kalender/*?*limit=
+Disallow: /*/kalendarz/*?*boundaries=
+Disallow: /*/kalendarz/*?*dateFrom=
+Disallow: /*/kalendarz/*?*dateTo=
+Disallow: /*/kalendarz/*?*distanceMin=
+Disallow: /*/kalendarz/*?*distanceMax=
+Disallow: /*/kalendarz/*?*sort=
+Disallow: /*/kalendarz/*?*limit=
+Disallow: /*/kalendar/*?*boundaries=
+Disallow: /*/kalendar/*?*dateFrom=
+Disallow: /*/kalendar/*?*dateTo=
+Disallow: /*/kalendar/*?*distanceMin=
+Disallow: /*/kalendar/*?*distanceMax=
+Disallow: /*/kalendar/*?*sort=
+Disallow: /*/kalendar/*?*limit=
+Disallow: /*/takvim/*?*boundaries=
+Disallow: /*/takvim/*?*dateFrom=
+Disallow: /*/takvim/*?*dateTo=
+Disallow: /*/takvim/*?*distanceMin=
+Disallow: /*/takvim/*?*distanceMax=
+Disallow: /*/takvim/*?*sort=
+Disallow: /*/takvim/*?*limit=
+
+# Faceted search refinements. These combine combinatorially and each combination
+# self-canonicalises into its own URL, so they form an unbounded crawl space with no
+# search demand. The indexable versions of these filters live in the path slug
+# (e.g. /calendar/running/albania), which is unaffected by these rules.
+# Locale-agnostic patterns, so they cover every translated calendar path.
+Disallow: /*?*qualifiers=
+Disallow: /*?*others=
+Disallow: /*?*restrictions=
+Disallow: /*?*raceTypes=
+Disallow: /*?*courseTypes=
+Disallow: /*?*courseProfiles=
+Disallow: /*?*terrains=
+Disallow: /*?*raceFormats=
+Disallow: /*?*participations=
+Disallow: /*?*environments=
+Disallow: /*?*techniques=
+Disallow: /*?*hasStravaItinerary=
+Disallow: /*?*showMap=
+Disallow: /*?*unitSet=
+Disallow: /*?*currency=
+
+# Multi-select list filters. A single selected value is expressed in the path slug;
+# these query forms only appear once several values are combined.
+Disallow: /*?*sports=
+Disallow: /*?*distances=
+Disallow: /*?*months=
+Disallow: /*?*years=
+Disallow: /*?*countries=
+Disallow: /*?*continents=
+Disallow: /*?*subContinents=
+Disallow: /*?*regions1=
+Disallow: /*?*regions2=
+Disallow: /*?*cities=
+Disallow: /*?*villes=
+
+User-Agent: Amazonbot
+Disallow: /
+
+User-Agent: Applebot-Extended
+Disallow: /
+
+User-Agent: Bytespider
+Disallow: /
+
+User-Agent: CCBot
+Disallow: /
+
+User-Agent: ClaudeBot
+Disallow: /
+
+User-Agent: Google-Extended
+Disallow: /
+
+User-Agent: GPTBot
+Disallow: /
+
+User-Agent: meta-externalagent
+Disallow: /
+
+Sitemap: https://www.ahotu.com/sitemap/base.xml.gz
+Sitemap: https://www.ahotu.com/sitemap/calendar.xml.gz
+Sitemap: https://www.ahotu.com/sitemap/events.xml.gz
+Sitemap: https://www.ahotu.com/sitemap/posts.xml.gz
+Sitemap: https://www.ahotu.com/sitemap/magazine.xml.gz
+Sitemap: https://www.ahotu.com/sitemap/recently_updated_events.xml.gz
+

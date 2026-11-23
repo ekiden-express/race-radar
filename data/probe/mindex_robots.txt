@@ -1,0 +1,44 @@
+# Marathon Index — robots.txt
+# Optimized for crawl budget: block non-content paths
+
+User-agent: *
+Allow: /
+
+# Block admin pages
+Disallow: /admin/
+Disallow: /admin
+
+# Block API endpoints
+Disallow: /api/
+
+# Block user-specific pages (require auth, no SEO value)
+Disallow: /login
+Disallow: /profile
+Disallow: /feed
+Disallow: /u/
+Disallow: /search
+
+# Block training plan app pages (dynamic, user-specific)
+Disallow: /training/new
+Disallow: /*/training/new
+# Block specific training plan instances (user-private)
+Disallow: /training/
+
+# Block post-action confirmation pages (thin content)
+Disallow: /unsubscribed
+
+# Block race organizer / embed pages
+Disallow: /races/*/claim
+Disallow: /races/*/manage
+Disallow: /races/*/badge
+
+# Block locale-prefixed auth/app pages
+Disallow: /de/feed
+Disallow: /es/feed
+Disallow: /fr/feed
+Disallow: /it/feed
+Disallow: /sv/feed
+Disallow: /ja/feed
+
+# Sitemaps
+Sitemap: https://marathon-index.com/sitemap-index.xml
