@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T14:56:08+00:00",
+ "generated_at": "2026-11-23T23:19:11+00:00",
  "fx": {
   "date": "2026-11-23",
   "provider": "ExchangeRate-API (open.er-api.com)",
@@ -29,7 +29,7 @@
    "count": 135,
    "error": null,
    "last_success": "2026-11-23",
-   "seconds": 8
+   "seconds": 4
   },
   "RUNNET": {
    "ok": true,
@@ -50,7 +50,7 @@
    "count": 46,
    "error": null,
    "last_success": "2026-11-23",
-   "seconds": 287
+   "seconds": 291
   },
   "AIMS": {
    "ok": true,
@@ -65,11 +65,11 @@
    "last_success": "2026-11-23"
   }
  },
- "requests_made": 98,
+ "requests_made": 96,
  "english_names": {
-  "manual": 266,
-  "cached": 61,
-  "machine": 3,
+  "manual": 265,
+  "cached": 64,
+  "machine": 1,
   "untranslated": 0
  },
  "races": [
@@ -11503,6 +11503,47 @@
    ],
    "note": null,
    "id": "3b4b583755d3",
+   "popularity_flag": false,
+   "popularity_reason": null,
+   "first_seen_date": "2026-11-23",
+   "last_seen_date": "2026-11-23"
+  },
+  {
+   "name": "13th Katsushika Fureai RUN Festa 2027",
+   "name_local": "第13回かつしかふれあいＲＵＮフェスタ2027",
+   "region": "East Asia",
+   "country": "Japan",
+   "city": "葛飾区, Tokyo",
+   "race_date": "2027-03-14",
+   "date_tbd": false,
+   "distances": [
+    "5K",
+    "10K",
+    "Half Marathon",
+    "Other"
+   ],
+   "distances_raw": "【チャレンジＲＵＮ】ハーフマラソン, 【チャレンジＲＵＮ】10km, 【ふれあい健康ＲＵＮ】5km, 【ふれあい健康ＲＵＮ】3km, 【ふれあい健康ＲＵＮ】1km, 【ふれあい健康ＲＵＮ】ファミリーＲＵＮ2km",
+   "surface": "Road",
+   "cost_original": null,
+   "cost_currency": "JPY",
+   "cost_cad": null,
+   "cost_cad_max": null,
+   "reg_open_date": "2026-10-22",
+   "reg_close_date": "2027-01-04",
+   "reg_state_raw": null,
+   "reg_closed": false,
+   "entry_type": null,
+   "sold_out": false,
+   "aims_certified": false,
+   "registration_url": "https://runnet.jp/entry/runtes/user/pc/competitionDetailAction.do?raceId=397494&div=1",
+   "source_urls": [
+    "https://runnet.jp/entry/runtes/user/pc/competitionDetailAction.do?raceId=397494&div=1"
+   ],
+   "sources": [
+    "RUNNET"
+   ],
+   "note": null,
+   "id": "2cf16329b74f",
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
