@@ -1,5 +1,0 @@
-User-agent: *
-Disallow:
-
-# Sitemap files
-Sitemap: https://www.jomrun.com/sitemap.xml

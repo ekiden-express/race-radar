@@ -1,0 +1,58 @@
+name: Daily race update
+
+on:
+  schedule:
+    - cron: "0 14 * * *"   # 14:00 UTC = 6 AM PST / 7 AM PDT
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["scripts/**", "config/**", "requirements.txt", ".github/workflows/daily-race-update.yml"]
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: race-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Fetch races
+        run: python scripts/fetch_races.py
+
+      - name: Build alert
+        run: python scripts/alerts.py
+
+      - name: Commit data if it changed
+        run: |
+          git config user.name "race-radar-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/races.json data/cache/details.json data/new_today.json
+          if git diff --cached --quiet; then
+            echo "No changes."
+          else
+            git commit -m "Update races $(date -u +%Y-%m-%d)"
+            git pull --rebase --autostash
+            git push
+          fi
+
+      - name: Open alert issue
+        if: hashFiles('alert.md') != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh label create race-alert --color 0E6B5C --description "New races from Global Race Radar" 2>/dev/null || true
+          gh issue create --title "New races – $(date -u +%Y-%m-%d)" --body-file alert.md --label race-alert

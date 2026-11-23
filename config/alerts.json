@@ -1,0 +1,10 @@
+{
+  "_comment": "New-race alerts. After each daily run, races first seen today that match ALL of these rules are listed in one GitHub issue. Edit this file on GitHub to change what you get alerted about. Empty lists mean 'any'.",
+  "enabled": true,
+  "regions": ["East Asia", "Southeast Asia", "Canada"],
+  "countries": [],
+  "distances": ["10K", "Half Marathon", "Marathon"],
+  "only_open_registration": true,
+  "only_high_demand": false,
+  "include_trail": true
+}

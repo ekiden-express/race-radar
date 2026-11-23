@@ -1,0 +1,56 @@
+{
+ "_comment": "Turn sources on or off, set merge priority (lower number wins for fees and registration fields) and how many detail pages each may open per run.",
+ "sources": [
+  {
+   "id": "biji",
+   "name": "運動筆記",
+   "enabled": true,
+   "priority": 1,
+   "region": "East Asia",
+   "detail_pages_per_run": 80
+  },
+  {
+   "id": "runnet",
+   "name": "RUNNET",
+   "enabled": true,
+   "priority": 2,
+   "region": "East Asia",
+   "pages_per_distance": 2
+  },
+  {
+   "id": "roadrun",
+   "name": "마라톤온라인",
+   "enabled": true,
+   "priority": 3,
+   "region": "East Asia"
+  },
+  {
+   "id": "jomrun",
+   "name": "JomRun",
+   "enabled": true,
+   "priority": 4,
+   "region": "Southeast Asia",
+   "detail_pages_per_run": 60
+  },
+  {
+   "id": "aims",
+   "name": "AIMS",
+   "enabled": true,
+   "priority": 9,
+   "region": null,
+   "enrichment_only": true,
+   "_note": "Marks races as AIMS certified and adds certified races (incl. Canada) that no other source lists."
+  },
+  {
+   "id": "runguides",
+   "name": "RunGuides",
+   "enabled": false,
+   "priority": 5,
+   "region": "Canada",
+   "_note": "Disabled: runguides.com/robots.txt disallows automated access to its /runs listing pages."
+  }
+ ],
+ "detail_cache_days": 7,
+ "drop_unseen_after_days": 14,
+ "drop_past_after_days": 7
+}

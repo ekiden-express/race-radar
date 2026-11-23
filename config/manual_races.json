@@ -1,0 +1,13 @@
+{
+  "_comment": "Races you add yourself. They always appear on the dashboard, and the scraper fills in anything it finds about the same race. Copy a block, edit it, and commit. Only name, region, country, race_date and registration_url are required. cost_amount + cost_currency give a CAD price; distances use 5K, 10K, Half Marathon, Marathon, Ultra, Other. Dates below were taken from RunGuides on 21 Nov 2026 – confirm on the official site.",
+  "races": [
+    {"name": "First Half Half Marathon", "region": "Canada", "country": "Canada", "city": "Vancouver, BC", "race_date": "2027-02-07", "distances": ["Half Marathon"], "registration_url": "https://www.google.com/search?q=First+Half+Half+Marathon+Vancouver+2027", "note": "Sells out every year."},
+    {"name": "Vancouver Sun Run", "region": "Canada", "country": "Canada", "city": "Vancouver, BC", "race_date": "2027-04-18", "distances": ["10K"], "registration_url": "https://www.google.com/search?q=Vancouver+Sun+Run+2027"},
+    {"name": "TC10K", "region": "Canada", "country": "Canada", "city": "Victoria, BC", "race_date": "2027-04-25", "distances": ["10K"], "registration_url": "https://www.google.com/search?q=TC10K+Victoria+2027"},
+    {"name": "BMO Vancouver Marathon", "region": "Canada", "country": "Canada", "city": "Vancouver, BC", "race_date": "2027-05-02", "distances": ["Half Marathon", "Marathon", "Other"], "registration_url": "https://www.google.com/search?q=BMO+Vancouver+Marathon+2027"},
+    {"name": "Beneva Vancouver Half Marathon", "region": "Canada", "country": "Canada", "city": "Vancouver, BC", "race_date": "2027-06-27", "distances": ["5K", "Half Marathon"], "registration_url": "https://www.google.com/search?q=Beneva+Vancouver+Half+Marathon+2027"},
+    {"name": "Around the Bay", "region": "Canada", "country": "Canada", "city": "Hamilton, ON", "race_date": "2027-04-04", "distances": ["5K", "Other"], "registration_url": "https://www.google.com/search?q=Around+the+Bay+Road+Race+2027"},
+    {"name": "Toronto Marathon", "region": "Canada", "country": "Canada", "city": "Toronto, ON", "race_date": "2027-05-02", "distances": ["5K", "10K", "Half Marathon", "Marathon"], "registration_url": "https://www.google.com/search?q=Toronto+Marathon+May+2027"},
+    {"name": "Sporting Life 10K", "region": "Canada", "country": "Canada", "city": "Toronto, ON", "race_date": "2027-05-09", "distances": ["10K"], "registration_url": "https://www.google.com/search?q=Sporting+Life+10K+2027"}
+  ]
+}

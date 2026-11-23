@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Global Race Radar</title>
+<style>
+:root{
+  --bg:#f6f7f9;--panel:#fff;--ink:#14171c;--muted:#5d6673;--line:#e3e6ea;--soft:#eef1f4;
+  --accent:#0e6b5c;--accent-ink:#fff;--accent-soft:#e2f3ef;
+  --warn:#a14a00;--warn-soft:#fff1e2;--red:#b3261e;--red-soft:#fde8e6;
+  --blue:#1d4fa3;--blue-soft:#e6eefb;--violet:#5b3aa8;--violet-soft:#efe9fb;--gold:#7a5b00;--gold-soft:#fbf3d9;
+  --radius:12px;
+}
+@media (prefers-color-scheme:dark){:root{
+  --bg:#0f1216;--panel:#171b21;--ink:#e8ebef;--muted:#9aa3ae;--line:#2a3038;--soft:#1f252c;
+  --accent:#4fc3a8;--accent-ink:#06231d;--accent-soft:#16302a;
+  --warn:#ffb36b;--warn-soft:#33240f;--red:#ff8a80;--red-soft:#3a1a18;
+  --blue:#8fb4ff;--blue-soft:#17233a;--violet:#c3a8ff;--violet-soft:#241c38;--gold:#f0cf6a;--gold-soft:#2f2810;
+}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.45 system-ui,-apple-system,"Segoe UI",Roboto,"Noto Sans TC","PingFang TC",sans-serif}
+a{color:inherit}
+button,select,input,textarea{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.wrap{max-width:1180px;margin:0 auto;padding:20px 16px 60px}
+header h1{margin:0;font-size:26px;letter-spacing:-.01em}
+.sub{color:var(--muted);font-size:13px;margin-top:4px}
+.health{margin-top:6px;font-size:12.5px;color:var(--muted)}
+.health b{color:var(--ink);font-weight:600}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:16px 0}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:12px 14px}
+.stat .n{font-size:24px;font-weight:700;font-variant-numeric:tabular-nums}
+.stat .l{font-size:12.5px;color:var(--muted)}
+@media (max-width:640px){.stats{grid-template-columns:repeat(2,1fr)}}
+.views{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:10px;align-items:center}
+.tool{border:1px solid var(--line);background:var(--panel);border-radius:8px;padding:5px 10px;font-size:13px;cursor:pointer;white-space:nowrap}
+.views button{white-space:nowrap;border:1px solid var(--line);background:var(--panel);border-radius:999px;padding:6px 14px;cursor:pointer}
+.views button[aria-pressed=true]{background:var(--ink);color:var(--panel);border-color:var(--ink)}
+.tabs{display:flex;gap:4px;overflow-x:auto;border-bottom:1px solid var(--line);margin-bottom:12px}
+.tabs button{border:0;background:none;padding:10px 12px;cursor:pointer;color:var(--muted);border-bottom:2px solid transparent;white-space:nowrap}
+.tabs button[aria-selected=true]{color:var(--ink);border-bottom-color:var(--accent);font-weight:600}
+.tabs .c{font-size:12px;background:var(--soft);border-radius:999px;padding:1px 7px;margin-left:5px;font-variant-numeric:tabular-nums}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:12px;margin-bottom:14px}
+.row{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.row+.row{margin-top:10px}
+.search{flex:1 1 240px;min-width:0;border:1px solid var(--line);border-radius:8px;padding:8px 10px;background:var(--bg)}
+select{border:1px solid var(--line);border-radius:8px;padding:8px 10px;background:var(--bg)}
+.chip{border:1px solid var(--line);background:var(--bg);border-radius:999px;padding:5px 11px;cursor:pointer;font-size:13.5px}
+.chip[aria-pressed=true]{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+.lbl{font-size:12px;color:var(--muted);margin-right:2px}
+.toggle{display:inline-flex;align-items:center;gap:6px;font-size:13.5px;cursor:pointer;user-select:none}
+.toggle input{accent-color:var(--accent);width:16px;height:16px}
+.count{font-size:13px;color:var(--muted);margin:0 2px 8px}
+.list{display:grid;gap:10px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:14px;display:grid;grid-template-columns:76px 1fr auto;gap:14px}
+.card.done{opacity:.6}
+.date{text-align:center;border-right:1px solid var(--line);padding-right:12px}
+.date .m{font-size:12px;text-transform:uppercase;color:var(--muted);letter-spacing:.04em}
+.date .d{font-size:26px;font-weight:700;line-height:1.1}
+.date .w{font-size:12px;color:var(--muted)}
+.date .u{font-size:11.5px;color:var(--accent);margin-top:4px}
+.name{font-weight:650;font-size:16px}
+.local{font-size:13px;color:var(--muted)}
+.loc{font-size:13.5px;color:var(--muted);margin-top:2px}
+.src{font-size:12px;opacity:.8}
+.pills{display:flex;flex-wrap:wrap;gap:5px;margin-top:8px}
+.pill{font-size:12px;border:1px solid var(--line);border-radius:6px;padding:2px 7px;background:var(--soft)}
+.badge{font-size:11px;font-weight:700;letter-spacing:.03em;border-radius:5px;padding:3px 7px}
+.b-new{background:var(--blue-soft);color:var(--blue)}
+.b-closing{background:var(--warn-soft);color:var(--warn)}
+.b-lottery{background:var(--violet-soft);color:var(--violet)}
+.b-aims{background:var(--accent-soft);color:var(--accent)}
+.b-hot{background:var(--gold-soft);color:var(--gold)}
+.b-sold{background:var(--red-soft);color:var(--red)}
+.reg{font-size:13px;margin-top:8px;color:var(--muted)}
+.reg strong{color:var(--ink);font-weight:600}
+.note{font-size:12.5px;color:var(--muted);margin-top:4px}
+.side{display:flex;flex-direction:column;align-items:flex-end;gap:8px;min-width:150px}
+.cost{text-align:right}
+.cost .cad{font-size:18px;font-weight:700;font-variant-numeric:tabular-nums}
+.cost .orig{font-size:12px;color:var(--muted)}
+.cost .none{font-size:13px;color:var(--muted)}
+.st{font-size:12px;font-weight:600;border-radius:999px;padding:3px 9px}
+.st-Open{background:var(--accent-soft);color:var(--accent)}
+.st-Closing{background:var(--warn-soft);color:var(--warn)}
+.st-Opening{background:var(--blue-soft);color:var(--blue)}
+.st-Closed{background:var(--soft);color:var(--muted)}
+.st-Lottery{background:var(--violet-soft);color:var(--violet)}
+.st-Check,.st-Not,.st-Finished{background:var(--soft);color:var(--muted)}
+.reg-btn{background:var(--accent);color:var(--accent-ink);text-decoration:none;font-weight:650;border-radius:8px;padding:8px 14px;white-space:nowrap}
+.mine{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-top:10px;padding-top:10px;border-top:1px dashed var(--line)}
+.star{border:1px solid var(--line);background:var(--bg);border-radius:8px;padding:4px 10px;cursor:pointer;font-size:13px}
+.star[aria-pressed=true]{background:var(--gold-soft);border-color:var(--gold);color:var(--gold)}
+.mine select{padding:4px 8px;font-size:13px}
+.mine a.cal{font-size:13px;color:var(--muted)}
+.mine textarea{flex:1 1 100%;min-height:34px;border:1px solid var(--line);border-radius:8px;padding:6px 8px;background:var(--bg);font-size:13px;resize:vertical}
+.empty{padding:40px;text-align:center;color:var(--muted);background:var(--panel);border:1px dashed var(--line);border-radius:var(--radius)}
+.banner{background:var(--warn-soft);color:var(--warn);border-radius:var(--radius);padding:10px 14px;margin:12px 0;font-size:14px}
+.sync{font-size:12px;color:var(--muted)}
+footer{margin-top:28px;font-size:12px;color:var(--muted)}
+@media (max-width:720px){
+  .card{grid-template-columns:62px 1fr}
+  .side{grid-column:1/-1;flex-direction:row;justify-content:space-between;align-items:center;min-width:0}
+  .cost{text-align:left}
+  .date .d{font-size:22px}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Global Race Radar</h1>
+    <div class="sub" id="updated">Loading races…</div>
+    <div class="health" id="health"></div>
+  </header>
+  <div id="banner"></div>
+
+  <section class="stats" aria-label="Summary">
+    <div class="stat"><div class="n" id="s-total">–</div><div class="l">Total tracked</div></div>
+    <div class="stat"><div class="n" id="s-new">–</div><div class="l">Added this week (not counting the first run)</div></div>
+    <div class="stat"><div class="n" id="s-closing">–</div><div class="l">Registration closing in 14 days</div></div>
+    <div class="stat"><div class="n" id="s-star">–</div><div class="l">My saved races</div></div>
+  </section>
+
+  <div class="views" role="group" aria-label="View">
+    <button type="button" data-view="all" aria-pressed="true">All races</button>
+    <button type="button" data-view="mine" aria-pressed="false">My races</button>
+    <span class="sync" id="sync" style="align-self:center;margin-left:6px"></span>
+    <span style="flex:1"></span>
+    <button type="button" id="ics-all" class="tool">📅 Saved races (.ics)</button>
+    <button type="button" id="export" class="tool">Export saved</button>
+    <label class="tool" style="cursor:pointer">Import<input type="file" id="import" accept=".json,application/json" hidden></label>
+  </div>
+
+  <nav class="tabs" role="tablist" id="tabs" aria-label="Regions"></nav>
+
+  <section class="panel" aria-label="Filters">
+    <div class="row">
+      <input class="search" id="q" type="search" placeholder="Search race, city or country (English, 中文, 日本語, 한국어)" aria-label="Search">
+      <select id="sort" aria-label="Sort">
+        <option value="date">Race date (soonest)</option>
+        <option value="close">Registration closing soonest</option>
+        <option value="costAsc">Cost in CAD (lowest to highest)</option>
+        <option value="costDesc">Cost in CAD (highest to lowest)</option>
+        <option value="recent">Recently added</option>
+      </select>
+    </div>
+    <div class="row" id="dists"><span class="lbl">Distance</span></div>
+    <div class="row" id="countries"></div>
+    <div class="row">
+      <label class="toggle"><input type="checkbox" id="t-open" checked> Hide closed registration</label>
+      <label class="toggle"><input type="checkbox" id="t-hot"> High demand only</label>
+      <label class="toggle"><input type="checkbox" id="t-price"> Has a CAD price</label>
+      <label class="toggle"><input type="checkbox" id="t-done" checked> Hide races I've marked Done</label>
+    </div>
+  </section>
+
+  <div class="count" id="count"></div>
+  <main class="list" id="list"></main>
+
+  <footer id="footer"></footer>
+</div>
+
+<script>
+(() => {
+"use strict";
+const DISTS = ["5K","10K","Half Marathon","Marathon","Ultra","Other"];
+const REGIONS = ["All","East Asia","Southeast Asia","Canada"];
+const MONTHS = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+const WD = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
+const $ = id => document.getElementById(id);
+
+let DATA = null, RACES = [];
+let tracked = {};             // id -> {starred, status, note}
+let store = null;             // "db" | "local" | null
+let col = null;
+const writeChains = {};
+const S = { view:"all", region:"All", countries:new Set(), dists:new Set(), q:"", sort:"date",
+            open:true, hot:false, price:false, hideDone:true };
+
+// ---------- helpers ----------
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const today = (() => { const d = new Date(); return new Date(d.getFullYear(), d.getMonth(), d.getDate()); })();
+const parse = s => { if (!s) return null; const [y,m,d] = s.split("-").map(Number); return new Date(y, m-1, d); };
+const daysUntil = s => { const d = parse(s); return d ? Math.round((d - today) / 86400000) : null; };
+const fmt = s => { const d = parse(s); return d ? `${d.getDate()} ${MONTHS[d.getMonth()]} ${d.getFullYear()}` : ""; };
+const money = n => "C$" + (n >= 100 ? Math.round(n).toLocaleString("en-CA") : n.toFixed(0));
+
+function status(r) {
+  if (daysUntil(r.race_date) < 0) return "Finished";
+  if (r.sold_out) return "Sold Out";
+  const close = daysUntil(r.reg_close_date), open = daysUntil(r.reg_open_date);
+  if (r.reg_closed || (close !== null && close < 0)) return "Closed";
+  if (r.entry_type === "Lottery") return "Lottery";
+  if (open !== null && open > 0) return open <= 30 ? "Opening Soon" : "Not Open Yet";
+  if (close !== null) return close <= 14 ? "Closing Soon" : "Open";
+  if (r.reg_state_raw === "報名時間未定") return "Not Announced";
+  return "Check Site";
+}
+const statusClass = s => "st-" + s.split(" ")[0];
+let FIRST_RUN = "";
+const isNew = r => { if (r.first_seen_date <= FIRST_RUN) return false; const d = daysUntil(r.first_seen_date); return d !== null && d >= -7; };
+const t = id => tracked[id] || {};
+
+// ---------- storage: this browser (export/import to move between devices) ----------
+function loadLocal() {
+  try { tracked = JSON.parse(localStorage.getItem("grr-tracked") || "{}"); store = "local"; }
+  catch (e) { tracked = {}; store = null; }
+}
+function saveLocal() { try { localStorage.setItem("grr-tracked", JSON.stringify(tracked)); } catch (e) {} }
+function setSync() {
+  $("sync").textContent = store === "local" ? "Saved in this browser" : "This browser can't save – use Export";
+}
+function updateTracked(id, patch) {
+  const cur = { starred:false, status:"", note:"", ...t(id), ...patch };
+  if (!cur.starred && !cur.status && !cur.note) delete tracked[id]; else tracked[id] = cur;
+  saveLocal(); render();
+}
+function download(filename, text, type) {
+  const url = URL.createObjectURL(new Blob([text], { type }));
+  const a = document.createElement("a"); a.href = url; a.download = filename;
+  document.body.appendChild(a); a.click(); a.remove(); setTimeout(() => URL.revokeObjectURL(url), 1000);
+}
+function exportSaved() {
+  const races = {}; RACES.forEach(r => { if (tracked[r.id]) races[r.id] = r.name; });
+  download("race-radar-saved.json", JSON.stringify({ exported: new Date().toISOString(), tracked, names: races }, null, 1), "application/json");
+}
+function importSaved(file) {
+  const fr = new FileReader();
+  fr.onload = () => {
+    try {
+      const j = JSON.parse(fr.result); const incoming = j.tracked || j;
+      let n = 0; for (const [id, v] of Object.entries(incoming)) { if (v && typeof v === "object") { tracked[id] = { ...tracked[id], ...v }; n++; } }
+      saveLocal(); render(); $("sync").textContent = `Imported ${n} saved race${n === 1 ? "" : "s"}`;
+    } catch (e) { $("sync").textContent = "That file isn't a Race Radar export"; }
+  };
+  fr.readAsText(file);
+}
+// ---------- calendar files ----------
+const icsEsc = s => String(s || "").replace(/[\\;,]/g, m => "\\" + m).replace(/\n/g, "\\n");
+const ymd = x => `${x.getFullYear()}${String(x.getMonth()+1).padStart(2,"0")}${String(x.getDate()).padStart(2,"0")}`;
+function icsEvent(uid, title, dateStr, desc, url) {
+  const d = parse(dateStr), e = new Date(d); e.setDate(e.getDate() + 1);
+  return ["BEGIN:VEVENT", `UID:${uid}@race-radar`, `DTSTAMP:${new Date().toISOString().replace(/[-:]/g,"").slice(0,15)}Z`,
+    `DTSTART;VALUE=DATE:${ymd(d)}`, `DTEND;VALUE=DATE:${ymd(e)}`, `SUMMARY:${icsEsc(title)}`,
+    `DESCRIPTION:${icsEsc(desc)}`, url ? `URL:${url}` : "", "END:VEVENT"].filter(Boolean).join("\r\n");
+}
+function icsFor(list) {
+  const ev = [];
+  list.forEach(r => {
+    const desc = `${r.name}${r.name_local ? " / " + r.name_local : ""}\n${[r.city, r.country].filter(Boolean).join(", ")}\n${r.registration_url}`;
+    if (!r.date_tbd) ev.push(icsEvent(r.id, "🏃 " + r.name, r.race_date, desc, r.registration_url));
+    if (r.reg_open_date && daysUntil(r.reg_open_date) > 0) ev.push(icsEvent(r.id + "-open", "Registration opens: " + r.name, r.reg_open_date, desc, r.registration_url));
+    if (r.reg_close_date && daysUntil(r.reg_close_date) >= 0) ev.push(icsEvent(r.id + "-close", "Registration closes: " + r.name, r.reg_close_date, desc, r.registration_url));
+  });
+  return ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//Global Race Radar//EN", "CALSCALE:GREGORIAN", ...ev, "END:VCALENDAR"].join("\r\n");
+}
+const slug = s => (s || "race").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "").slice(0, 40) || "race";
+
+// ---------- filtering ----------
+function baseFilter(r, ignoreRegion) {
+  if (S.view === "mine" && !(t(r.id).starred || t(r.id).status)) return false;
+  if (!ignoreRegion && S.region !== "All" && r.region !== S.region) return false;
+  if (!ignoreRegion && S.countries.size && !S.countries.has(r.country)) return false;
+  if (S.dists.size && !r.distances.some(d => S.dists.has(d))) return false;
+  if (S.q) {
+    const hay = [r.name, r.name_local, r.city, r.country].join(" ").toLowerCase();
+    if (!S.q.split(/\s+/).every(w => hay.includes(w))) return false;
+  }
+  const st = status(r);
+  if (S.open && (st === "Closed" || st === "Sold Out" || st === "Finished")) return false;
+  if (S.hot && !r.popularity_flag) return false;
+  if (S.price && r.cost_cad == null) return false;
+  if (S.hideDone && t(r.id).status === "Done") return false;
+  return true;
+}
+const nullsLast = (a, b, f, dir = 1) => {
+  const x = f(a), y = f(b);
+  if (x == null && y == null) return a.race_date.localeCompare(b.race_date);
+  if (x == null) return 1; if (y == null) return -1;
+  return (x < y ? -1 : x > y ? 1 : 0) * dir || a.race_date.localeCompare(b.race_date);
+};
+function sorted(list) {
+  const L = [...list];
+  if (S.sort === "date") L.sort((a,b) => a.race_date.localeCompare(b.race_date) || a.name.localeCompare(b.name));
+  if (S.sort === "close") L.sort((a,b) => nullsLast(a, b, r => (status(r) === "Closed" ? null : r.reg_close_date)));
+  if (S.sort === "costAsc") L.sort((a,b) => nullsLast(a, b, r => r.cost_cad));
+  if (S.sort === "costDesc") L.sort((a,b) => nullsLast(a, b, r => r.cost_cad, -1));
+  if (S.sort === "recent") L.sort((a,b) => b.first_seen_date.localeCompare(a.first_seen_date) || a.race_date.localeCompare(b.race_date));
+  return L;
+}
+
+// ---------- rendering ----------
+function gcalLink(title, dateStr, details) {
+  const d = parse(dateStr), e = new Date(d); e.setDate(e.getDate() + 1);
+  const ymd = x => `${x.getFullYear()}${String(x.getMonth()+1).padStart(2,"0")}${String(x.getDate()).padStart(2,"0")}`;
+  return "https://calendar.google.com/calendar/render?action=TEMPLATE&text=" + encodeURIComponent(title) +
+    "&dates=" + ymd(d) + "/" + ymd(e) + "&details=" + encodeURIComponent(details);
+}
+function card(r) {
+  const d = parse(r.race_date), until = daysUntil(r.race_date), st = status(r), me = t(r.id);
+  const badges = [];
+  if (isNew(r)) badges.push('<span class="badge b-new">NEW</span>');
+  if (st === "Closing Soon") badges.push('<span class="badge b-closing">CLOSING SOON</span>');
+  if (r.entry_type === "Lottery") badges.push('<span class="badge b-lottery">LOTTERY</span>');
+  if (r.sold_out) badges.push('<span class="badge b-sold">SOLD OUT</span>');
+  if (r.aims_certified) badges.push('<span class="badge b-aims">AIMS</span>');
+  if (r.popularity_reason && /Major|Sold|Popular/.test(r.popularity_reason)) badges.push(`<span class="badge b-hot" title="${esc(r.popularity_reason)}">HIGH DEMAND</span>`);
+
+  let reg = "";
+  const close = daysUntil(r.reg_close_date);
+  if (r.reg_open_date || r.reg_close_date) {
+    const parts = [];
+    if (r.reg_open_date) parts.push("Opens " + fmt(r.reg_open_date));
+    if (r.reg_close_date) parts.push("closes <strong>" + fmt(r.reg_close_date) + "</strong>");
+    let cd = "";
+    if (close !== null && close >= 0 && close <= 14) cd = ` – <strong>${close === 0 ? "closes today" : close + (close === 1 ? " day left" : " days left")}</strong>`;
+    reg = parts.join(", ").replace(/^c/, "C") + cd;
+  } else if (r.reg_state_raw === "已截止報名") reg = "Registration closed";
+  else if (r.reg_state_raw === "報名時間未定") reg = "Registration dates not announced yet";
+  else reg = "Registration dates not listed – check site";
+
+  const cost = r.cost_cad != null
+    ? `<div class="cad">${money(r.cost_cad)}${r.cost_cad_max && Math.round(r.cost_cad_max) !== Math.round(r.cost_cad) ? "–" + money(r.cost_cad_max).slice(2) : ""}</div><div class="orig">${esc(r.cost_original)}</div>`
+    : `<div class="none">Check site</div>`;
+  const dateTop = r.date_tbd ? `<div class="m">${MONTHS[d.getMonth()]}</div><div class="d">TBA</div><div class="w">${d.getFullYear()}</div>`
+    : `<div class="m">${MONTHS[d.getMonth()]}${d.getFullYear() !== today.getFullYear() ? " ’" + String(d.getFullYear()).slice(2) : ""}</div><div class="d">${d.getDate()}</div><div class="w">${WD[d.getDay()]}</div>`;
+  const untilTxt = r.date_tbd ? "" : until === 0 ? "Today" : until === 1 ? "Tomorrow" : until < 0 ? `${-until} day${until === -1 ? "" : "s"} ago` : `in ${until} days`;
+  const regLabel = /google\.com\/search/.test(r.registration_url) ? "Find official site →"
+    : /aims-worldrunning\.org/.test(r.registration_url) ? "Race info →" : "Register →";
+  const details = `${r.name}${r.name_local ? " / " + r.name_local : ""}\n${r.city}, ${r.country}\nRegistration: ${r.registration_url}`;
+  const calRace = `<button type="button" class="star" data-act="ics" title="Race day plus registration dates">📅 .ics</button>` +
+    (r.date_tbd ? "" : ` <a class="cal" href="${esc(gcalLink("🏃 " + r.name, r.race_date, details))}" target="_blank" rel="noopener">+ Google Calendar</a>`);
+  const calClose = r.reg_close_date && close >= 0 ? `<a class="cal" href="${esc(gcalLink("Registration closes: " + r.name, r.reg_close_date, details))}" target="_blank" rel="noopener">+ Closing date</a>` : "";
+  const calOpen = r.reg_open_date && daysUntil(r.reg_open_date) > 0 ? `<a class="cal" href="${esc(gcalLink("Registration opens: " + r.name, r.reg_open_date, details))}" target="_blank" rel="noopener">+ Opening date</a>` : "";
+
+  return `<article class="card${me.status === "Done" ? " done" : ""}" data-id="${r.id}">
+    <div class="date">${dateTop}<div class="u">${untilTxt}</div></div>
+    <div>
+      <div class="name">${esc(r.name)}</div>
+      ${r.name_local ? `<div class="local">${esc(r.name_local)}</div>` : ""}
+      <div class="loc">${[r.city, r.country].filter(Boolean).map(esc).join(" · ")}${r.surface === "Trail" ? " · Trail" : ""} <span class="src">· ${(r.sources || []).map(esc).join(", ")}</span></div>
+      <div class="pills">${r.distances.map(x => `<span class="pill">${esc(x)}</span>`).join("")}${badges.join("")}</div>
+      <div class="reg">${reg}</div>
+      ${r.note ? `<div class="note">${esc(r.note)}</div>` : ""}
+      <div class="mine">
+        <button type="button" class="star" data-act="star" aria-pressed="${!!me.starred}">${me.starred ? "★ Saved" : "☆ Save"}</button>
+        <select data-act="status" aria-label="My status for ${esc(r.name)}">
+          ${["","Interested","Registered","Done"].map(o => `<option value="${o}"${(me.status||"") === o ? " selected" : ""}>${o || "My status…"}</option>`).join("")}
+        </select>
+        ${calRace} ${calOpen} ${calClose}
+        ${(me.starred || me.status) ? `<textarea data-act="note" placeholder="Notes (flights, pace goal, who's coming…)" aria-label="Notes for ${esc(r.name)}">${esc(me.note || "")}</textarea>` : ""}
+      </div>
+    </div>
+    <div class="side">
+      <div class="cost">${cost}</div>
+      ${st === "Check Site" ? "" : `<span class="st ${statusClass(st)}">${st}</span>`}
+      <a class="reg-btn" href="${esc(r.registration_url)}" target="_blank" rel="noopener">${regLabel}</a>
+    </div>
+  </article>`;
+}
+
+function render() {
+  if (!DATA) return;
+  // tabs with live counts
+  $("tabs").innerHTML = REGIONS.map(g => {
+    const n = RACES.filter(r => baseFilter(r, true) && (g === "All" || r.region === g)).length;
+    return `<button role="tab" type="button" data-region="${g}" aria-selected="${S.region === g}">${g === "All" ? "All regions" : g}<span class="c">${n}</span></button>`;
+  }).join("");
+  // country chips for this region
+  const inRegion = RACES.filter(r => S.region === "All" || r.region === S.region);
+  const countries = [...new Set(inRegion.map(r => r.country))].sort((a,b) => a === "Not listed" ? 1 : b === "Not listed" ? -1 : a.localeCompare(b));
+  $("countries").innerHTML = countries.length > 1 ? '<span class="lbl">Country</span>' + countries.map(c =>
+    `<button type="button" class="chip" data-country="${esc(c)}" aria-pressed="${S.countries.has(c)}">${esc(c)}</button>`).join("") : "";
+
+  const list = sorted(RACES.filter(r => baseFilter(r, false)));
+  $("count").textContent = `${list.length} race${list.length === 1 ? "" : "s"}`;
+  $("list").innerHTML = list.length ? list.map(card).join("")
+    : `<div class="empty">${S.view === "mine" ? "No saved races yet. Tap ☆ Save on any race to add it here." : "No races match these filters."}</div>`;
+
+  $("s-total").textContent = RACES.length;
+  $("s-new").textContent = RACES.filter(isNew).length;
+  $("s-closing").textContent = RACES.filter(r => status(r) === "Closing Soon").length;
+  $("s-star").textContent = Object.values(tracked).filter(x => x.starred || x.status).length;
+}
+
+// ---------- events ----------
+document.addEventListener("click", e => {
+  const b = e.target.closest("button"); if (!b) return;
+  if (b.dataset.region) { S.region = b.dataset.region; S.countries.clear(); render(); return; }
+  if (b.dataset.country) { const c = b.dataset.country; S.countries.has(c) ? S.countries.delete(c) : S.countries.add(c); render(); return; }
+  if (b.dataset.dist) { const d = b.dataset.dist; S.dists.has(d) ? S.dists.delete(d) : S.dists.add(d); b.setAttribute("aria-pressed", S.dists.has(d)); render(); return; }
+  if (b.dataset.view) { S.view = b.dataset.view; document.querySelectorAll("[data-view]").forEach(x => x.setAttribute("aria-pressed", x === b)); render(); return; }
+  if (b.dataset.act === "ics") { const r = RACES.find(x => x.id === b.closest(".card").dataset.id); download(`${slug(r.name)}.ics`, icsFor([r]), "text/calendar"); return; }
+  if (b.id === "export") { exportSaved(); return; }
+  if (b.id === "ics-all") { const L = RACES.filter(r => t(r.id).starred || t(r.id).status); if (!L.length) { $("sync").textContent = "Save a race first"; return; } download("race-radar-saved.ics", icsFor(L), "text/calendar"); return; }
+  if (b.dataset.act === "star") { const id = b.closest(".card").dataset.id; updateTracked(id, { starred: !t(id).starred }); }
+});
+document.addEventListener("change", e => {
+  const el = e.target;
+  if (el.dataset.act === "status") updateTracked(el.closest(".card").dataset.id, { status: el.value });
+});
+document.addEventListener("focusout", e => {
+  const el = e.target;
+  if (el.dataset && el.dataset.act === "note") {
+    const id = el.closest(".card").dataset.id;
+    if ((t(id).note || "") !== el.value) updateTracked(id, { note: el.value });
+  }
+});
+let qTimer;
+$("q").addEventListener("input", e => { clearTimeout(qTimer); qTimer = setTimeout(() => { S.q = e.target.value.trim().toLowerCase(); render(); }, 150); });
+$("import").addEventListener("change", e => { if (e.target.files[0]) importSaved(e.target.files[0]); e.target.value = ""; });
+$("sort").addEventListener("change", e => { S.sort = e.target.value; render(); });
+[["t-open","open"],["t-hot","hot"],["t-price","price"],["t-done","hideDone"]].forEach(([id,k]) =>
+  $(id).addEventListener("change", e => { S[k] = e.target.checked; render(); }));
+$("dists").insertAdjacentHTML("beforeend", DISTS.map(d => `<button type="button" class="chip" data-dist="${d}" aria-pressed="false">${d}</button>`).join(""));
+
+// ---------- load ----------
+if (location.protocol === "file:") {
+  $("banner").innerHTML = '<div class="banner">This page was opened as a local file, so it can\'t load its race data. View it on GitHub Pages, or run <code>python -m http.server</code> in the repo folder and visit http://localhost:8000.</div>';
+}
+loadLocal(); setSync();
+fetch("data/races.json", { cache: "no-store" }).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }).then(d => {
+  DATA = d; RACES = d.races;
+  FIRST_RUN = RACES.reduce((m, r) => !m || r.first_seen_date < m ? r.first_seen_date : m, "");
+  const g = new Date(d.generated_at);
+  $("updated").textContent = "Last updated " + g.toLocaleString("en-CA", { timeZone:"America/Vancouver", dateStyle:"medium", timeStyle:"short" }) + " Pacific" + (d.fx && d.fx.date ? " · Fees converted at rates from " + fmt(d.fx.date) : "");
+  $("health").innerHTML = Object.entries(d.source_health).map(([k,v]) => v.ok
+    ? `<b>${esc(k)}</b> ✓ ${v.count}`
+    : `<b>${esc(k)}</b> <span style="color:var(--red)">✗ failed today${v.last_success ? " – showing races from " + fmt(v.last_success) : ""}</span>`).join(" &nbsp;·&nbsp; ") +
+    (d.fx && d.fx.stale ? ' &nbsp;·&nbsp; <span style="color:var(--warn)">Exchange rates are from an earlier day</span>' : "");
+  $("footer").innerHTML = `Updated every morning from 運動筆記 (running.biji.co), RUNNET, 마라톤온라인 (roadrun.co.kr), JomRun and the AIMS calendar, plus races in <code>config/manual_races.json</code>. <a href="https://www.exchangerate-api.com" target="_blank" rel="noopener">Rates by Exchange Rate API</a>. Always confirm dates and fees on the official race site before booking.`;
+  render();
+}).catch(() => {
+  $("updated").textContent = "";
+  $("banner").innerHTML = '<div class="banner">The race data didn\'t load. Reload the page; if it keeps happening, the data file may be missing.</div>';
+});
+})();
+</script>
+</body>
+</html>
