@@ -1,0 +1,74 @@
+{
+ "trackie_robots": {
+  "url": "https://www.trackie.com/robots.txt",
+  "status": 404,
+  "bytes": 2412,
+  "final_url": "https://www.trackie.com/robots.txt/",
+  "server": "Apache",
+  "encoding": "UTF-8"
+ },
+ "trackie_events": {
+  "url": "https://www.trackie.com/events/",
+  "status": 404,
+  "bytes": 2412,
+  "final_url": "https://www.trackie.com/events/",
+  "server": "Apache",
+  "encoding": "UTF-8"
+ },
+ "raceroster_robots": {
+  "url": "https://raceroster.com/robots.txt",
+  "status": 200,
+  "bytes": 1027,
+  "final_url": "https://raceroster.com/robots.txt",
+  "server": "nginx",
+  "encoding": "utf-8"
+ },
+ "raceroster_search": {
+  "url": "https://raceroster.com/search?q=&t=running&l=Vancouver%2C+BC",
+  "status": 200,
+  "bytes": 12043,
+  "final_url": "https://raceroster.com/search?q=&t=running&l=Vancouver%2C+BC",
+  "server": "nginx",
+  "encoding": "UTF-8"
+ },
+ "runningroom_robots": {
+  "url": "https://www.runningroom.com/robots.txt",
+  "status": 200,
+  "bytes": 532739,
+  "final_url": "https://ca.shop.runningroom.com/",
+  "server": "cloudflare",
+  "encoding": "UTF-8"
+ },
+ "runningroom_events": {
+  "url": "https://www.runningroom.com/hm/inside.php?id=2786",
+  "status": 200,
+  "bytes": 532739,
+  "final_url": "https://ca.shop.runningroom.com/",
+  "server": "cloudflare",
+  "encoding": "UTF-8"
+ },
+ "canadarunningseries": {
+  "url": "https://canadarunningseries.com/",
+  "status": 200,
+  "bytes": 270216,
+  "final_url": "https://canadarunningseries.com/",
+  "server": "cloudflare",
+  "encoding": "UTF-8"
+ },
+ "bcathletics_robots": {
+  "url": "https://www.bcathletics.org/robots.txt",
+  "status": 200,
+  "bytes": 30,
+  "final_url": "https://www.bcathletics.org/robots.txt",
+  "server": "Apache",
+  "encoding": "ascii"
+ },
+ "bcathletics_road": {
+  "url": "https://www.bcathletics.org/road-running/calendar",
+  "status": 404,
+  "bytes": 6010,
+  "final_url": "https://www.bcathletics.org/road-running/calendar/",
+  "server": "Apache",
+  "encoding": "utf-8"
+ }
+}

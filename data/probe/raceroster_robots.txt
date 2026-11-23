@@ -1,0 +1,50 @@
+# https://www.semrush.com/bot/
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: SemrushBot-SA
+Disallow: /
+
+# https://moz.com/researchtools/ose/dotbot
+User-agent: dotbot
+Disallow: /
+
+# http://webmeup-crawler.com/
+User-agent: BLEXBot
+Disallow: /
+
+# https://ahrefs.com/robot/
+User-agent: AhrefsBot
+Disallow: /signin
+Disallow: /events/2020/
+Disallow: /events/2019/
+Disallow: /events/2018/
+Disallow: /events/2017/
+Disallow: /events/2016/
+Disallow: /events/2015/
+Disallow: /unsubscribe/
+Crawl-Delay: 5
+
+# https://www.mj12bot.com/
+User-agent: MJ12Bot
+Disallow: /signin
+Disallow: /events/2020/
+Disallow: /events/2019/
+Disallow: /events/2018/
+Disallow: /events/2017/
+Disallow: /events/2016/
+Disallow: /events/2015/
+Disallow: /unsubscribe/
+Crawl-Delay: 5
+
+Sitemap: https://sitemap.raceroster.com/sitemaps/sitemap.xml
+
+User-Agent: *
+Disallow: /registration/
+Disallow: /signin
+Disallow: /reset-password
+Disallow: /activate
+Disallow: /events/*/register
+Disallow: /events/*/transfers/
+Disallow: /events/*/gift-registration
+Disallow: /*?aff=*
