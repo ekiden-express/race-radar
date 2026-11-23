@@ -76,16 +76,16 @@ def load_cache() -> dict:
         return {}
 
 
-def cached_detail(cache: dict, url: str, fetch_fn, budget: list[int]) -> dict | None:
+def cached_detail(cache: dict, url: str, fetch_fn, budget: list[int], version: int = 1) -> dict | None:
     hit = cache.get(url)
-    if hit and (TODAY - dt.date.fromisoformat(hit["fetched"])).days < CONFIG.get("detail_cache_days", 7):
+    if hit and hit.get("v", 1) == version and (TODAY - dt.date.fromisoformat(hit["fetched"])).days < CONFIG.get("detail_cache_days", 7):
         return hit["data"]
     if budget[0] <= 0 or time.time() - START > 12 * 60:
         return hit["data"] if hit else None
     budget[0] -= 1
     try:
         data = fetch_fn(url)
-        cache[url] = {"fetched": TODAY.isoformat(), "data": data}
+        cache[url] = {"fetched": TODAY.isoformat(), "v": version, "data": data}
         return data
     except Exception as e:  # noqa: BLE001
         log("  detail failed", url, e)
@@ -106,7 +106,7 @@ def run_biji(f: Fetcher, cache: dict) -> list[dict]:
     budget = [src_cfg("biji").get("detail_pages_per_run", 80)]
     for r in races:
         if worth_detail(r):
-            d = cached_detail(cache, r["detail_url"], lambda u, r=r: biji.parse_detail(f.get(u), r), budget)
+            d = cached_detail(cache, r["detail_url"], lambda u, r=r: biji.parse_detail(f.get(u), r), budget, biji.PARSER_VERSION)
             if d:
                 apply_detail(r, d)
     return races
@@ -170,6 +170,8 @@ SOURCES = {"biji": run_biji, "jomrun": run_jomrun, "runnet": run_runnet, "roadru
 def apply_detail(r: dict, d: dict) -> None:
     for k, v in d.items():
         if v in (None, "", []):
+            continue
+        if k == "fee_hint":
             continue
         if k in ("cost_low", "cost_high"):
             r[k] = v

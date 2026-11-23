@@ -204,7 +204,7 @@ def parse_fees(text: str, default_currency: str | None = None) -> tuple[str | No
             break
     cur = cur or default_currency
     amounts = []
-    for m in re.finditer(r"(?:NT\$|HK\$|S\$|C\$|RM|¥|₩|฿|\$)\s?([\d,]+(?:\.\d\d)?)|([\d,]{3,}(?:\.\d\d)?)\s?(?:元|円|원)", text):
+    for m in re.finditer(r"(?:NT\$|NTD|HK\$|S\$|C\$|RM|¥|₩|฿|\$)\s?([\d,]+(?:\.\d\d)?)|([\d,]{3,}(?:\.\d\d)?)\s?(?:元|円|원|NTD)", text):
         v = float((m.group(1) or m.group(2)).replace(",", ""))
         if v > 0:
             amounts.append(v)

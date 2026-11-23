@@ -26,6 +26,7 @@ OVERSEAS = {
     "菲律賓": ("Philippines", None), "印尼": ("Indonesia", None), "峇里島": ("Indonesia", "Bali"),
 }
 TAIWAN_SUFFIX = re.compile(r"(市|縣)$")
+PARSER_VERSION = 2
 EXCLUDE = re.compile(r"LAVA|鐵人|三鐵|二鐵|游泳|自行車|單車|健走(?!.*跑)", re.I)
 SEA = {"Singapore", "Malaysia", "Thailand", "Vietnam", "Philippines", "Indonesia"}
 EAST_ASIA = {"Taiwan", "Japan", "Hong Kong", "Macau", "South Korea", "China"}
@@ -92,6 +93,7 @@ def parse_list(html: str) -> list[dict]:
 
 def parse_detail(html: str, race: dict) -> dict:
     """Fees, official registration link, AIMS/World Athletics mentions from a race page."""
+    # bump PARSER_VERSION when this changes so cached pages are read again
     soup = BeautifulSoup(html, "lxml")
     upd: dict = {}
     for a in soup.find_all("a"):
@@ -104,16 +106,21 @@ def parse_detail(html: str, race: dict) -> dict:
     for s in soup(["script", "style"]):
         s.decompose()
     text = soup.get_text("\n", strip=True)
-    # fee block: from 報名費 to the next deposit/start-time row
-    m = re.search(r"報名費(?:用)?(.{0,600}?)(?:押金|保證金|起跑時間|開跑時間|人數限制|集合地點)", text, re.S)
-    if m:
-        cur, amts = parse_fees(m.group(1), race.get("cost_currency") or "TWD")
-        if race["country"] == "Taiwan":
-            cur = "TWD"
-        amts = [v for v in amts if cur and plausible(cur, v)]
-        if amts and cur:
-            lo, hi = min(amts), max(amts)
-            upd.update(cost_currency=cur, cost_low=lo, cost_high=hi, cost_original=fmt_money(cur, lo, hi))
+    # fees: look in every window that starts at a fee keyword, stop before prize money or insurance
+    cur = "TWD" if race["country"] == "Taiwan" else race.get("cost_currency")
+    found: list[float] = []
+    for m in re.finditer(r"報名費|參加費|參賽費|費用|價格|收費|早鳥", text):
+        win = text[m.start(): m.start() + 700]
+        win = re.split(r"獎金|獎勵|名次|頒獎|保險|贊助|捐款", win)[0]
+        c2, amts = parse_fees(win, cur or "TWD")
+        cur = cur or c2
+        found += [v for v in amts if cur and plausible(cur, v)]
+    if found and cur:
+        lo, hi = min(found), max(found)
+        upd.update(cost_currency=cur, cost_low=lo, cost_high=hi, cost_original=fmt_money(cur, lo, hi))
+    else:
+        i = text.find("費")
+        upd["fee_hint"] = text[max(0, i - 40): i + 260].replace("\n", " | ") if i >= 0 else None
     if re.search(r"\bAIMS\b", text):
         upd["aims_certified"] = True
     if re.search(r"抽籤|抽選", text):
