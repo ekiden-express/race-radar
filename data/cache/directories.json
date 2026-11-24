@@ -3098,5 +3098,1293 @@
 ],
 "url": "https://worldsmarathons.com/marathon/penang-hill-heritage-forest-challenge"
 }
+},
+"https://worldsmarathons.com/marathon/philippine-half-marathon-series-cebu": {
+"fetched": "2026-11-24",
+"v": 1,
+"data": {
+"name": "PUMA Philippine Half Marathon Series - Cebu",
+"race_date": "2026-08-02",
+"country": "Philippines",
+"region": "Southeast Asia",
+"city": "Mandaue",
+"distances": [
+"Half Marathon"
+],
+"url": "https://worldsmarathons.com/marathon/philippine-half-marathon-series-cebu"
+}
+},
+"https://worldsmarathons.com/marathon/philippine-half-marathon-series-clark": {
+"fetched": "2026-11-24",
+"v": 1,
+"data": {
+"name": "PUMA Philippine Half Marathon Series - Clark",
+"race_date": "2026-08-23",
+"country": "Philippines",
+"region": "Southeast Asia",
+"city": "Angeles",
+"distances": [
+"Half Marathon"
+],
+"url": "https://worldsmarathons.com/marathon/philippine-half-marathon-series-clark"
+}
+},
+"https://worldsmarathons.com/marathon/philippine-half-marathon-series-davao": {
+"fetched": "2026-11-24",
+"v": 1,
+"data": {
+"name": "PUMA Philippine Half Marathon Series - Davao",
+"race_date": "2026-07-19",
+"country": "Philippines",
+"region": "Southeast Asia",
+"city": "Davao City",
+"distances": [
+"Half Marathon"
+],
+"url": "https://worldsmarathons.com/marathon/philippine-half-marathon-series-davao"
+}
+},
+"https://worldsmarathons.com/marathon/philippine-half-marathon-series-iloilo": {
+"fetched": "2026-11-24",
+"v": 1,
+"data": {
+"name": "PUMA Philippine Half Marathon Series - Iloilo",
+"race_date": "2026-07-12",
+"country": "Philippines",
+"region": "Southeast Asia",
+"city": "Iloilo City",
+"distances": [
+"5K",
+"10K",
+"Half Marathon"
+],
+"url": "https://worldsmarathons.com/marathon/philippine-half-marathon-series-iloilo"
+}
+},
+"https://worldsmarathons.com/marathon/philippine-half-marathon-series-manila": {
+"fetched": "2026-11-24",
+"v": 1,
+"data": {
+"name": "PUMA Philippine Half Marathon Series - Manila",
+"race_date": "2026-10-11",
+"country": "Philippines",
+"region": "Southeast Asia",
+"city": "Pasay City",
+"distances": [
+"Half Marathon"
+],
+"url": "https://worldsmarathons.com/marathon/philippine-half-marathon-series-manila"
+}
+},
+"https://worldsmarathons.com/marathon/phnom-penh-half-marathon": {
+"fetched": "2026-11-24",
+"v": 1,
+"data": {
+"name": "Phnom Penh International Half Marathon",
+"race_date": "2027-06-13",
+"country": "Cambodia",
+"region": "Southeast Asia",
+"city": "Phnom Penh",
+"distances": [
+"Half Marathon"
+],
+"url": "https://worldsmarathons.com/marathon/phnom-penh-half-marathon"
+}
+},
+"https://worldsmarathons.com/marathon/photo-cambodia-marathon": {
+"fetched": "2026-11-24",
+"v": 1,
+"data": {
+"name": "Photos for participants Marathon in Cambodia",
+"race_date": "2026-12-31",
+"country": "Cambodia",
+"region": "Southeast Asia",
+"city": null,
+"distances": [
+"Marathon"
+],
+"url": "https://worldsmarathons.com/marathon/photo-cambodia-marathon"
+}
+},
+"https://worldsmarathons.com/marathon/phuket-trail": {
+"fetched": "2026-11-24",
+"v": 1,
+"data": {
+"name": "Phuket Trail",
+"race_date": "2026-09-13",
+"country": "Thailand",
+"region": "Southeast Asia",
+"city": "Phuket",
+"distances": [],
+"url": "https://worldsmarathons.com/marathon/phuket-trail"
+}
+},
+"https://worldsmarathons.com/marathon/phuket-ultra": {
+"fetched": "2026-11-24",
+"v": 1,
+"data": {
+"name": "Phuket 100K Ultra Marathon",
+"race_date": "2025-06-07",
+"country": "Thailand",
+"region": "Southeast Asia",
+"city": "Phuket",
+"distances": [
+"Marathon",
+"Ultra",
+"Other"
+],
+"url": "https://worldsmarathons.com/marathon/phuket-ultra"
+}
+},
+"https://worldsmarathons.com/marathon/pink-run-phnom-penh": {
+"fetched": "2026-11-24",
+"v": 1,
+"data": {
+"name": "AIA Pink Run - Breast Cancer Awareness Charity Run",
+"race_date": "2027-10-10",
+"country": "Cambodia",
+"region": "Southeast Asia",
+"city": "Phnom Penh",
+"distances": [],
+"url": "https://worldsmarathons.com/marathon/pink-run-phnom-penh"
+}
+},
+"https://worldsmarathons.com/marathon/police-run-bangkok": {
+"fetched": "2026-11-24",
+"v": 1,
+"data": {
+"name": "Police Run Bangkok",
+"race_date": "2024-11-10",
+"country": "Thailand",
+"region": "Southeast Asia",
+"city": "Bangkok",
+"distances": [],
+"url": "https://worldsmarathons.com/marathon/police-run-bangkok"
+}
+},
+"https://worldsmarathons.com/marathon/pto-asian-open-triathlon-singapore": {
+"fetched": "2026-11-24",
+"v": 1,
+"data": {
+"name": "Singapore T100 Triathlon",
+"race_date": "2025-04-06",
+"country": "Singapore",
+"region": "Southeast Asia",
+"city": null,
+"distances": [],
+"url": "https://worldsmarathons.com/marathon/pto-asian-open-triathlon-singapore"
+}
+},
+"https://worldsmarathons.com/marathon/putrajaya-night-marathon": {
+"fetched": "2026-11-24",
+"v": 1,
+"data": {
+"name": "Putrajaya Night Marathon",
+"race_date": "2024-09-28",
+"country": "Malaysia",
+"region": "Southeast Asia",
+"city": "Putrajaya",
+"distances": [
+"Marathon"
+],
+"url": "https://worldsmarathons.com/marathon/putrajaya-night-marathon"
+}
+},
+"https://worldsmarathons.com/marathon/quebec-marathon": {
+"fetched": "2026-11-24",
+"v": 1,
+"data": {
+"name": "Beneva Quebec Marathon",
+"race_date": "2026-10-03",
+"country": "Canada",
+"region": "Canada",
+"city": "Quebec City",
+"distances": [
+"Marathon"
+],
+"url": "https://worldsmarathons.com/marathon/quebec-marathon"
+}
+},
+"https://worldsmarathons.com/marathon/quebec-mega-trail": {
+"fetched": "2026-11-24",
+"v": 1,
+"data": {
+"name": "Québec Méga Trail",
+"race_date": "2027-07-02",
+"country": "Canada",
+"region": "Canada",
+"city": "Beaupré",
+"distances": [],
+"url": "https://worldsmarathons.com/marathon/quebec-mega-trail"
+}
+},
+"https://worldsmarathons.com/marathon/redline-fitness-games-bangkok": {
+"fetched": "2026-11-24",
+"v": 1,
+"data": {
+"name": "REDLINE Fitness Games Bangkok",
+"race_date": "2026-11-22",
+"country": "Thailand",
+"region": "Southeast Asia",
+"city": "Krung Thep Maha Nakhon",
+"distances": [],
+"url": "https://worldsmarathons.com/marathon/redline-fitness-games-bangkok"
+}
+},
+"https://worldsmarathons.com/marathon/redrun-danang-champion21": {
+"fetched": "2026-11-24",
+"v": 1,
+"data": {
+"name": "AirAsia RedRun Danang - Champion21",
+"race_date": "2026-04-26",
+"country": "Vietnam",
+"region": "Southeast Asia",
+"city": "Đà Nẵng",
+"distances": [],
+"url": "https://worldsmarathons.com/marathon/redrun-danang-champion21"
+}
+},
+"https://worldsmarathons.com/marathon/ride-run-discover-vientiane-province": {
+"fetched": "2026-11-24",
+"v": 1,
+"data": {
+"name": "Ride Run Discover Vientiane Province",
+"race_date": "2025-09-07",
+"country": "Laos",
+"region": "Southeast Asia",
+"city": "Vientiane",
+"distances": [
+"5K",
+"10K",
+"Marathon",
+"Other"
+],
+"url": "https://worldsmarathons.com/marathon/ride-run-discover-vientiane-province"
+}
+},
+"https://worldsmarathons.com/marathon/run-taipei-virtual-race": {
+"fetched": "2026-11-24",
+"v": 1,
+"data": {
+"skip": true,
+"country_code": ""
+}
+},
+"https://worldsmarathons.com/marathon/run-the-great-wall": {
+"fetched": "2026-11-24",
+"v": 1,
+"data": {
+"name": "Run The GREAT WALL",
+"race_date": "2018-04-14",
+"country": "China",
+"region": "East Asia",
+"city": "Chengde Shi",
+"distances": [
+"Marathon"
+],
+"url": "https://worldsmarathons.com/marathon/run-the-great-wall"
+}
+},
+"https://worldsmarathons.com/marathon/run-the-track-shanghai-f1-half-marathon": {
+"fetched": "2026-11-24",
+"v": 1,
+"data": {
+"name": "RUN THE TRACK Shanghai F1 Half Marathon",
+"race_date": "2027-01-01",
+"country": "China",
+"region": "East Asia",
+"city": "Shanghai",
+"distances": [
+"Half Marathon"
+],
+"url": "https://worldsmarathons.com/marathon/run-the-track-shanghai-f1-half-marathon"
+}
+},
+"https://worldsmarathons.com/marathon/run-victoria-park-10k": {
+"fetched": "2026-11-24",
+"v": 1,
+"data": {
+"skip": true,
+"country_code": "GB"
+}
+},
+"https://worldsmarathons.com/marathon/run-victoria-park-10k-autumn": {
+"fetched": "2026-11-24",
+"v": 1,
+"data": {
+"skip": true,
+"country_code": "GB"
+}
+},
+"https://worldsmarathons.com/marathon/run-victoria-park-half-marathon": {
+"fetched": "2026-11-24",
+"v": 1,
+"data": {
+"skip": true,
+"country_code": "GB"
+}
+},
+"https://worldsmarathons.com/marathon/run-victoria-park-half-marathon-autumn": {
+"fetched": "2026-11-24",
+"v": 1,
+"data": {
+"skip": true,
+"country_code": "GB"
+}
+},
+"https://worldsmarathons.com/marathon/sanur-bali-international-half-marathon": {
+"fetched": "2026-11-24",
+"v": 1,
+"data": {
+"name": "Sanur Bali International Half Marathon",
+"race_date": "2027-02-07",
+"country": "Indonesia",
+"region": "Southeast Asia",
+"city": "Bali",
+"distances": [
+"Half Marathon"
+],
+"url": "https://worldsmarathons.com/marathon/sanur-bali-international-half-marathon"
+}
+},
+"https://worldsmarathons.com/marathon/scenic-half-marathon-chiang-mai": {
+"fetched": "2026-11-24",
+"v": 1,
+"data": {
+"name": "Scenic Half Marathon Chiang Mai",
+"race_date": "2026-11-01",
+"country": "Thailand",
+"region": "Southeast Asia",
+"city": "Chiang Mai",
+"distances": [
+"Half Marathon"
+],
+"url": "https://worldsmarathons.com/marathon/scenic-half-marathon-chiang-mai"
+}
+},
+"https://worldsmarathons.com/marathon/scotiabank-blue-nose-international-marathon": {
+"fetched": "2026-11-24",
+"v": 1,
+"data": {
+"name": "Blue Nose International Marathon",
+"race_date": "2027-05-23",
+"country": "Canada",
+"region": "Canada",
+"city": "Halifax",
+"distances": [
+"Marathon"
+],
+"url": "https://worldsmarathons.com/marathon/scotiabank-blue-nose-international-marathon"
+}
+},
+"https://worldsmarathons.com/marathon/seoul-100k": {
+"fetched": "2026-11-24",
+"v": 1,
+"data": {
+"name": "Seoul 100K",
+"race_date": "2026-09-20",
+"country": "South Korea",
+"region": "East Asia",
+"city": "Seoul",
+"distances": [
+"Ultra"
+],
+"url": "https://worldsmarathons.com/marathon/seoul-100k"
+}
+},
+"https://worldsmarathons.com/marathon/seoul-marathon": {
+"fetched": "2026-11-24",
+"v": 1,
+"data": {
+"name": "Seoul Marathon",
+"race_date": "2027-03-21",
+"country": "South Korea",
+"region": "East Asia",
+"city": "Seoul",
+"distances": [
+"Marathon"
+],
+"url": "https://worldsmarathons.com/marathon/seoul-marathon"
+}
+},
+"https://worldsmarathons.com/marathon/seoul-race": {
+"fetched": "2026-11-24",
+"v": 1,
+"data": {
+"name": "Seoul Race",
+"race_date": "2026-10-11",
+"country": "South Korea",
+"region": "East Asia",
+"city": "Seoul",
+"distances": [],
+"url": "https://worldsmarathons.com/marathon/seoul-race"
+}
+},
+"https://worldsmarathons.com/marathon/shanghai-international-marathon": {
+"fetched": "2026-11-24",
+"v": 1,
+"data": {
+"name": "Shanghai Marathon",
+"race_date": "2026-12-06",
+"country": "China",
+"region": "East Asia",
+"city": "Shanghai",
+"distances": [
+"Marathon"
+],
+"url": "https://worldsmarathons.com/marathon/shanghai-international-marathon"
+}
+},
+"https://worldsmarathons.com/marathon/shanghai-sports-expo": {
+"fetched": "2026-11-24",
+"v": 1,
+"data": {
+"name": "Shanghai Sports Expo",
+"race_date": "2026-12-05",
+"country": "China",
+"region": "East Asia",
+"city": "上海市",
+"distances": [
+"Marathon"
+],
+"url": "https://worldsmarathons.com/marathon/shanghai-sports-expo"
+}
+},
+"https://worldsmarathons.com/marathon/shenzhen100-mountain-running-race": {
+"fetched": "2026-11-24",
+"v": 1,
+"data": {
+"name": "Shenzhen100  Mountain Running Race",
+"race_date": "2026-12-27",
+"country": "China",
+"region": "East Asia",
+"city": "Shenzhen",
+"distances": [
+"Ultra"
+],
+"url": "https://worldsmarathons.com/marathon/shenzhen100-mountain-running-race"
+}
+},
+"https://worldsmarathons.com/marathon/sihanoukville-international-half-marathon": {
+"fetched": "2026-11-24",
+"v": 1,
+"data": {
+"name": "Sihanoukville International Half Marathon",
+"race_date": "2027-03-28",
+"country": "Cambodia",
+"region": "Southeast Asia",
+"city": "Sihanoukville",
+"distances": [
+"Half Marathon"
+],
+"url": "https://worldsmarathons.com/marathon/sihanoukville-international-half-marathon"
+}
+},
+"https://worldsmarathons.com/marathon/simatai-100-the-real-great-wall-ultra-trail": {
+"fetched": "2026-11-24",
+"v": 1,
+"data": {
+"name": "Simatai 100 - The Real Great Wall Ultra Trail",
+"race_date": "2026-05-30",
+"country": "China",
+"region": "East Asia",
+"city": "Bei Jing Shi",
+"distances": [
+"Ultra"
+],
+"url": "https://worldsmarathons.com/marathon/simatai-100-the-real-great-wall-ultra-trail"
+}
+},
+"https://worldsmarathons.com/marathon/singapore-international-triathlon": {
+"fetched": "2026-11-24",
+"v": 1,
+"data": {
+"name": "Singapore International Triathlon by TriFactor",
+"race_date": "2025-04-27",
+"country": "Singapore",
+"region": "Southeast Asia",
+"city": "Singapore",
+"distances": [],
+"url": "https://worldsmarathons.com/marathon/singapore-international-triathlon"
+}
+},
+"https://worldsmarathons.com/marathon/singapore-marathon": {
+"fetched": "2026-11-24",
+"v": 1,
+"data": {
+"name": "BYD Singapore International Marathon presented by adidas",
+"race_date": "2026-12-06",
+"country": "Singapore",
+"region": "Southeast Asia",
+"city": "Singapore",
+"distances": [
+"Marathon"
+],
+"url": "https://worldsmarathons.com/marathon/singapore-marathon"
+}
+},
+"https://worldsmarathons.com/marathon/sportirun-kissrun-hong-kong": {
+"fetched": "2026-11-24",
+"v": 1,
+"data": {
+"name": "SportiRun-KissRun HongKong",
+"race_date": "2017-11-26",
+"country": "Hong Kong",
+"region": "East Asia",
+"city": "Hong-Kong",
+"distances": [
+"10K",
+"Other"
+],
+"url": "https://worldsmarathons.com/marathon/sportirun-kissrun-hong-kong"
+}
+},
+"https://worldsmarathons.com/marathon/squamish-50": {
+"fetched": "2026-11-24",
+"v": 1,
+"data": {
+"name": "Squamish 50K",
+"race_date": "2019-08-17",
+"country": "Canada",
+"region": "Canada",
+"city": "Squamish",
+"distances": [
+"Ultra"
+],
+"url": "https://worldsmarathons.com/marathon/squamish-50"
+}
+},
+"https://worldsmarathons.com/marathon/squamish-50-mile": {
+"fetched": "2026-11-24",
+"v": 1,
+"data": {
+"name": "Squamish 50",
+"race_date": "2027-08-14",
+"country": "Canada",
+"region": "Canada",
+"city": "Squamish",
+"distances": [
+"Ultra"
+],
+"url": "https://worldsmarathons.com/marathon/squamish-50-mile"
+}
+},
+"https://worldsmarathons.com/marathon/st-donat-mudskipper-quebec-swimrun-championships-and-open-water-swim": {
+"fetched": "2026-11-24",
+"v": 1,
+"data": {
+"name": "St. Donat Mudskipper Quebec SwimRun Championships and Open Water Swim",
+"race_date": "2026-07-26",
+"country": "Canada",
+"region": "Canada",
+"city": "Saint-Donat-de-Montcalm",
+"distances": [
+"5K",
+"10K",
+"Half Marathon",
+"Other"
+],
+"url": "https://worldsmarathons.com/marathon/st-donat-mudskipper-quebec-swimrun-championships-and-open-water-swim"
+}
+},
+"https://worldsmarathons.com/marathon/sun-moon-lake-marathon": {
+"fetched": "2026-11-24",
+"v": 1,
+"data": {
+"name": "Sun Moon Lake Marathon",
+"race_date": "2026-11-01",
+"country": "Taiwan",
+"region": "East Asia",
+"city": "Sun Moon Lake National Scenic Area",
+"distances": [
+"Marathon"
+],
+"url": "https://worldsmarathons.com/marathon/sun-moon-lake-marathon"
+}
+},
+"https://worldsmarathons.com/marathon/superace-ultra-marathon-taiwan": {
+"fetched": "2026-11-24",
+"v": 1,
+"data": {
+"name": "SUPERACE ULTRA MARATHON – Alishan Station, 106Km Stage race & 21Km Trail race",
+"race_date": "2023-02-28",
+"country": "Taiwan",
+"region": "East Asia",
+"city": null,
+"distances": [
+"Half Marathon",
+"Marathon",
+"Ultra"
+],
+"url": "https://worldsmarathons.com/marathon/superace-ultra-marathon-taiwan"
+}
+},
+"https://worldsmarathons.com/marathon/suzhou-marathon": {
+"fetched": "2026-11-24",
+"v": 1,
+"data": {
+"name": "Suzhou Marathon",
+"race_date": "2024-04-14",
+"country": "China",
+"region": "East Asia",
+"city": "苏州市",
+"distances": [
+"Marathon"
+],
+"url": "https://worldsmarathons.com/marathon/suzhou-marathon"
+}
+},
+"https://worldsmarathons.com/marathon/tacbo-run-manila-half-marathon": {
+"fetched": "2026-11-24",
+"v": 1,
+"data": {
+"name": "tACbo Run - Manila Half Marathon",
+"race_date": "2027-01-17",
+"country": "Philippines",
+"region": "Southeast Asia",
+"city": "Makati City",
+"distances": [
+"Half Marathon"
+],
+"url": "https://worldsmarathons.com/marathon/tacbo-run-manila-half-marathon"
+}
+},
+"https://worldsmarathons.com/marathon/taipei-marathon": {
+"fetched": "2026-11-24",
+"v": 1,
+"data": {
+"name": "Taipei Marathon",
+"race_date": "2026-12-20",
+"country": "Taiwan",
+"region": "East Asia",
+"city": "Taipei City",
+"distances": [
+"Marathon"
+],
+"url": "https://worldsmarathons.com/marathon/taipei-marathon"
+}
+},
+"https://worldsmarathons.com/marathon/taipei-standard-chartered-charity-marathon": {
+"fetched": "2026-11-24",
+"v": 1,
+"data": {
+"name": "Standard Chartered Taipei Charity Marathon",
+"race_date": "2027-01-10",
+"country": "Taiwan",
+"region": "East Asia",
+"city": "Taipei",
+"distances": [
+"Marathon"
+],
+"url": "https://worldsmarathons.com/marathon/taipei-standard-chartered-charity-marathon"
+}
+},
+"https://worldsmarathons.com/marathon/taipei-women-half-marathon": {
+"fetched": "2026-11-24",
+"v": 1,
+"data": {
+"name": "Taipei Women Half Marathon",
+"race_date": "2021-04-11",
+"country": "Taiwan",
+"region": "East Asia",
+"city": "",
+"distances": [
+"Half Marathon",
+"Marathon"
+],
+"url": "https://worldsmarathons.com/marathon/taipei-women-half-marathon"
+}
+},
+"https://worldsmarathons.com/marathon/techcombank-ho-chi-minh-city-international-marathon": {
+"fetched": "2026-11-24",
+"v": 1,
+"data": {
+"name": "Techcombank Ho Chi Minh City International Marathon",
+"race_date": "2026-12-06",
+"country": "Vietnam",
+"region": "Southeast Asia",
+"city": "Ho Chi Minh City",
+"distances": [
+"Marathon"
+],
+"url": "https://worldsmarathons.com/marathon/techcombank-ho-chi-minh-city-international-marathon"
+}
+},
+"https://worldsmarathons.com/marathon/thailand-by-utmb": {
+"fetched": "2026-11-24",
+"v": 1,
+"data": {
+"name": "Thailand by UTMB",
+"race_date": "2024-12-08",
+"country": "Thailand",
+"region": "Southeast Asia",
+"city": "",
+"distances": [
+"Ultra"
+],
+"url": "https://worldsmarathons.com/marathon/thailand-by-utmb"
+}
+},
+"https://worldsmarathons.com/marathon/thailand-earth-trail-series-kanchanaburi": {
+"fetched": "2026-11-24",
+"v": 1,
+"data": {
+"name": "Thailand Earth Trail Series Kanchanaburi",
+"race_date": "2026-10-11",
+"country": "Thailand",
+"region": "Southeast Asia",
+"city": "Kanchanaburi",
+"distances": [],
+"url": "https://worldsmarathons.com/marathon/thailand-earth-trail-series-kanchanaburi"
+}
+},
+"https://worldsmarathons.com/marathon/thailand-earth-trail-series-ra-rueng": {
+"fetched": "2026-11-24",
+"v": 1,
+"data": {
+"name": "Ra Rueng Run",
+"race_date": "2026-05-17",
+"country": "Thailand",
+"region": "Southeast Asia",
+"city": "Tambon Sam Roi Yot",
+"distances": [],
+"url": "https://worldsmarathons.com/marathon/thailand-earth-trail-series-ra-rueng"
+}
+},
+"https://worldsmarathons.com/marathon/thailand-earth-trail-series-saraburi": {
+"fetched": "2026-11-24",
+"v": 1,
+"data": {
+"name": "Thailand Earth Trail Series Saraburi",
+"race_date": "2026-07-25",
+"country": "Thailand",
+"region": "Southeast Asia",
+"city": "Tambon Cha Om",
+"distances": [],
+"url": "https://worldsmarathons.com/marathon/thailand-earth-trail-series-saraburi"
+}
+},
+"https://worldsmarathons.com/marathon/thailand-international-half-marathon": {
+"fetched": "2026-11-24",
+"v": 1,
+"data": {
+"name": "Thailand International Half Marathon",
+"race_date": "2024-01-07",
+"country": "Thailand",
+"region": "Southeast Asia",
+"city": "Bangkok",
+"distances": [
+"Half Marathon"
+],
+"url": "https://worldsmarathons.com/marathon/thailand-international-half-marathon"
+}
+},
+"https://worldsmarathons.com/marathon/thailand-swimathon": {
+"fetched": "2026-11-24",
+"v": 1,
+"data": {
+"name": "Thailand Swimathon",
+"race_date": "2027-02-28",
+"country": "Thailand",
+"region": "Southeast Asia",
+"city": "Chang Wat Rayong",
+"distances": [],
+"url": "https://worldsmarathons.com/marathon/thailand-swimathon"
+}
+},
+"https://worldsmarathons.com/marathon/thailand-swimathon-ao-manao": {
+"fetched": "2026-11-24",
+"v": 1,
+"data": {
+"name": "Thailand Swimathon Ao Manao",
+"race_date": "2021-08-22",
+"country": "Thailand",
+"region": "Southeast Asia",
+"city": "Khlong Wan",
+"distances": [],
+"url": "https://worldsmarathons.com/marathon/thailand-swimathon-ao-manao"
+}
+},
+"https://worldsmarathons.com/marathon/thailand-swimathon-chantaburi": {
+"fetched": "2026-11-24",
+"v": 1,
+"data": {
+"name": "Thailand Swimathon Chantaburi",
+"race_date": "2021-07-11",
+"country": "Thailand",
+"region": "Southeast Asia",
+"city": "Khlong Khut",
+"distances": [],
+"url": "https://worldsmarathons.com/marathon/thailand-swimathon-chantaburi"
+}
+},
+"https://worldsmarathons.com/marathon/thailand-swimathon-chonburi-pattana": {
+"fetched": "2026-11-24",
+"v": 1,
+"data": {
+"name": "Thailand Swimathon Chonburi Pattana",
+"race_date": "2021-06-20",
+"country": "Thailand",
+"region": "Southeast Asia",
+"city": "Khaokhunsong District,",
+"distances": [],
+"url": "https://worldsmarathons.com/marathon/thailand-swimathon-chonburi-pattana"
+}
+},
+"https://worldsmarathons.com/marathon/thailand-swimathon-sairee-beach": {
+"fetched": "2026-11-24",
+"v": 1,
+"data": {
+"name": "Thailand Swimathon Sairee Beach",
+"race_date": "2020-08-30",
+"country": "Thailand",
+"region": "Southeast Asia",
+"city": "",
+"distances": [],
+"url": "https://worldsmarathons.com/marathon/thailand-swimathon-sairee-beach"
+}
+},
+"https://worldsmarathons.com/marathon/thailand-swimathon-songkhla": {
+"fetched": "2026-11-24",
+"v": 1,
+"data": {
+"name": "Thailand Swimathon Songkhla",
+"race_date": "2021-05-02",
+"country": "Thailand",
+"region": "Southeast Asia",
+"city": "",
+"distances": [],
+"url": "https://worldsmarathons.com/marathon/thailand-swimathon-songkhla"
+}
+},
+"https://worldsmarathons.com/marathon/the-angkor-empire-marathon": {
+"fetched": "2026-11-24",
+"v": 1,
+"data": {
+"name": "Angkor Empire Marathon",
+"race_date": "2027-08-08",
+"country": "Cambodia",
+"region": "Southeast Asia",
+"city": "Krong Siem Reap",
+"distances": [
+"10K",
+"Half Marathon",
+"Marathon",
+"Other"
+],
+"url": "https://worldsmarathons.com/marathon/the-angkor-empire-marathon"
+}
+},
+"https://worldsmarathons.com/marathon/the-great-wall-of-china-marathon-autumn": {
+"fetched": "2026-11-24",
+"v": 1,
+"data": {
+"name": "The Great Wall of China Marathon Autumn",
+"race_date": "2027-10-31",
+"country": "China",
+"region": "East Asia",
+"city": "Beijing",
+"distances": [
+"Marathon"
+],
+"url": "https://worldsmarathons.com/marathon/the-great-wall-of-china-marathon-autumn"
+}
+},
+"https://worldsmarathons.com/marathon/the-north-face-100-thailand": {
+"fetched": "2026-11-24",
+"v": 1,
+"data": {
+"name": "The North Face 100® - Thailand",
+"race_date": "2026-06-26",
+"country": "Thailand",
+"region": "Southeast Asia",
+"city": "Khanong Phra",
+"distances": [
+"Ultra",
+"Other"
+],
+"url": "https://worldsmarathons.com/marathon/the-north-face-100-thailand"
+}
+},
+"https://worldsmarathons.com/marathon/titan-777-malaysia": {
+"fetched": "2026-11-24",
+"v": 1,
+"data": {
+"name": "Titan 77.7 Malaysia",
+"race_date": "2025-08-17",
+"country": "Malaysia",
+"region": "Southeast Asia",
+"city": "Banting",
+"distances": [
+"Half Marathon",
+"Ultra",
+"Other"
+],
+"url": "https://worldsmarathons.com/marathon/titan-777-malaysia"
+}
+},
+"https://worldsmarathons.com/marathon/tokyo-legacy-half-marathon": {
+"fetched": "2026-11-24",
+"v": 1,
+"data": {
+"name": "Tokyo Legacy Half Marathon",
+"race_date": "2026-10-18",
+"country": "Japan",
+"region": "East Asia",
+"city": "Tokyo",
+"distances": [
+"Half Marathon"
+],
+"url": "https://worldsmarathons.com/marathon/tokyo-legacy-half-marathon"
+}
+},
+"https://worldsmarathons.com/marathon/tokyo-marathon": {
+"fetched": "2026-11-24",
+"v": 1,
+"data": {
+"name": "Tokyo Marathon",
+"race_date": "2027-03-07",
+"country": "Japan",
+"region": "East Asia",
+"city": "Tokyo",
+"distances": [
+"Marathon"
+],
+"url": "https://worldsmarathons.com/marathon/tokyo-marathon"
+}
+},
+"https://worldsmarathons.com/marathon/tokyo-new-year-half-marathon": {
+"fetched": "2026-11-24",
+"v": 1,
+"data": {
+"name": "Tokyo New Year Half Marathon",
+"race_date": "2027-01-10",
+"country": "Japan",
+"region": "East Asia",
+"city": "Kita City",
+"distances": [
+"10K",
+"Half Marathon"
+],
+"url": "https://worldsmarathons.com/marathon/tokyo-new-year-half-marathon"
+}
+},
+"https://worldsmarathons.com/marathon/toronto-marathon": {
+"fetched": "2026-11-24",
+"v": 1,
+"data": {
+"name": "Toronto Marathon",
+"race_date": "2027-05-02",
+"country": "Canada",
+"region": "Canada",
+"city": "Toronto",
+"distances": [
+"5K",
+"10K",
+"Half Marathon",
+"Marathon"
+],
+"url": "https://worldsmarathons.com/marathon/toronto-marathon"
+}
+},
+"https://worldsmarathons.com/marathon/toronto-waterfront-marathon": {
+"fetched": "2026-11-24",
+"v": 1,
+"data": {
+"name": "TCS Toronto Waterfront Marathon",
+"race_date": "2027-10-17",
+"country": "Canada",
+"region": "Canada",
+"city": "Toronto",
+"distances": [
+"Marathon"
+],
+"url": "https://worldsmarathons.com/marathon/toronto-waterfront-marathon"
+}
+},
+"https://worldsmarathons.com/marathon/toronto-women-s-half-marathon-5k": {
+"fetched": "2026-11-24",
+"v": 1,
+"data": {
+"name": "Puma Toronto Women’s Spring Half Marathon/10k/5k",
+"race_date": "2027-05-22",
+"country": "Canada",
+"region": "Canada",
+"city": "Toronto",
+"distances": [
+"5K",
+"10K",
+"Half Marathon"
+],
+"url": "https://worldsmarathons.com/marathon/toronto-women-s-half-marathon-5k"
+}
+},
+"https://worldsmarathons.com/marathon/trail-jeju": {
+"fetched": "2026-11-24",
+"v": 1,
+"data": {
+"name": "Trans Jeju by UTMB",
+"race_date": "2026-10-02",
+"country": "South Korea",
+"region": "East Asia",
+"city": "Jeju-do",
+"distances": [
+"Ultra"
+],
+"url": "https://worldsmarathons.com/marathon/trail-jeju"
+}
+},
+"https://worldsmarathons.com/marathon/trifactor-bike-cycle-run-singapore": {
+"fetched": "2026-11-24",
+"v": 1,
+"data": {
+"name": "TriFactor Bike Cycle Run & Singapore Duathlon National Championship",
+"race_date": "2024-11-24",
+"country": "Singapore",
+"region": "Southeast Asia",
+"city": "Singapore",
+"distances": [],
+"url": "https://worldsmarathons.com/marathon/trifactor-bike-cycle-run-singapore"
+}
+},
+"https://worldsmarathons.com/marathon/trifactor-duathlon-cyclerun-malaysia": {
+"fetched": "2026-11-24",
+"v": 1,
+"data": {
+"name": "TriFactor Duathlon & CycleRun – Malaysia",
+"race_date": "2026-06-21",
+"country": "Malaysia",
+"region": "Southeast Asia",
+"city": "Iskandar Puteri",
+"distances": [],
+"url": "https://worldsmarathons.com/marathon/trifactor-duathlon-cyclerun-malaysia"
+}
+},
+"https://worldsmarathons.com/marathon/trifactor-philippines-duathlon": {
+"fetched": "2026-11-24",
+"v": 1,
+"data": {
+"name": "TriFactor Philippines Duathlon",
+"race_date": "2023-07-09",
+"country": "Philippines",
+"region": "Southeast Asia",
+"city": "Mabalacat",
+"distances": [],
+"url": "https://worldsmarathons.com/marathon/trifactor-philippines-duathlon"
+}
+},
+"https://worldsmarathons.com/marathon/trifactor-triathlon-philippines": {
+"fetched": "2026-11-24",
+"v": 1,
+"data": {
+"name": "TriFactor Triathlon Philippines (Subic Bay)",
+"race_date": "2025-02-16",
+"country": "Philippines",
+"region": "Southeast Asia",
+"city": "Subic Bay Freeport Zone",
+"distances": [],
+"url": "https://worldsmarathons.com/marathon/trifactor-triathlon-philippines"
+}
+},
+"https://worldsmarathons.com/marathon/trifactor-triathlon-singapore": {
+"fetched": "2026-11-24",
+"v": 1,
+"data": {
+"name": "TriFactor Triathlon & Duathlon Singapore",
+"race_date": "2026-09-13",
+"country": "Singapore",
+"region": "Southeast Asia",
+"city": "Singapore",
+"distances": [],
+"url": "https://worldsmarathons.com/marathon/trifactor-triathlon-singapore"
+}
+},
+"https://worldsmarathons.com/marathon/trifactor-vietnam-championship": {
+"fetched": "2026-11-24",
+"v": 1,
+"data": {
+"name": "TriFactor Vietnam Championship",
+"race_date": "2026-08-16",
+"country": "Vietnam",
+"region": "Southeast Asia",
+"city": "Tan Thanh",
+"distances": [],
+"url": "https://worldsmarathons.com/marathon/trifactor-vietnam-championship"
+}
+},
+"https://worldsmarathons.com/marathon/ultimate-penang-runner-challenge": {
+"fetched": "2026-11-24",
+"v": 1,
+"data": {
+"name": "Ultimate Penang Runner Challenge",
+"race_date": "2020-07-05",
+"country": "Malaysia",
+"region": "Southeast Asia",
+"city": "Tanjung Bungah",
+"distances": [],
+"url": "https://worldsmarathons.com/marathon/ultimate-penang-runner-challenge"
+}
+},
+"https://worldsmarathons.com/marathon/ultimate-trails-of-penang": {
+"fetched": "2026-11-24",
+"v": 1,
+"data": {
+"name": "Ultimate Trails of Penang",
+"race_date": "2026-10-11",
+"country": "Malaysia",
+"region": "Southeast Asia",
+"city": "George Town",
+"distances": [],
+"url": "https://worldsmarathons.com/marathon/ultimate-trails-of-penang"
+}
+},
+"https://worldsmarathons.com/marathon/ultra-park-run-thailand-100": {
+"fetched": "2026-11-24",
+"v": 1,
+"data": {
+"name": "24H Bangkok International Championships",
+"race_date": "2026-10-31",
+"country": "Thailand",
+"region": "Southeast Asia",
+"city": "Bangkok",
+"distances": [
+"Marathon",
+"Ultra"
+],
+"url": "https://worldsmarathons.com/marathon/ultra-park-run-thailand-100"
+}
+},
+"https://worldsmarathons.com/marathon/ultra-race-beijing-labagou-azalea-race": {
+"fetched": "2026-11-24",
+"v": 1,
+"data": {
+"name": "Ultra Race Beijing Labagou Azalea",
+"race_date": "2024-05-19",
+"country": "China",
+"region": "East Asia",
+"city": "Beijing",
+"distances": [
+"Ultra"
+],
+"url": "https://worldsmarathons.com/marathon/ultra-race-beijing-labagou-azalea-race"
+}
+},
+"https://worldsmarathons.com/marathon/ultra-trail-chiang-mai": {
+"fetched": "2026-11-24",
+"v": 1,
+"data": {
+"name": "Ultra Trail Chiang Mai - UTCM",
+"race_date": "2027-01-10",
+"country": "Thailand",
+"region": "Southeast Asia",
+"city": "Mueang Khong",
+"distances": [
+"Ultra",
+"Other"
+],
+"url": "https://worldsmarathons.com/marathon/ultra-trail-chiang-mai"
+}
+},
+"https://worldsmarathons.com/marathon/ultra-trail-chiang-rai": {
+"fetched": "2026-11-24",
+"v": 1,
+"data": {
+"name": "Ultra-Trail Chiang Rai  Ultimate 250",
+"race_date": "2023-10-22",
+"country": "Thailand",
+"region": "Southeast Asia",
+"city": "Tambon Ban Du",
+"distances": [
+"Ultra"
+],
+"url": "https://worldsmarathons.com/marathon/ultra-trail-chiang-rai"
+}
+},
+"https://worldsmarathons.com/marathon/ultra-trail-d-angkor": {
+"fetched": "2026-11-24",
+"v": 1,
+"data": {
+"name": "Ultra-Trail Angkor",
+"race_date": "2027-01-23",
+"country": "Cambodia",
+"region": "Southeast Asia",
+"city": "Angkor",
+"distances": [
+"Ultra"
+],
+"url": "https://worldsmarathons.com/marathon/ultra-trail-d-angkor"
+}
+},
+"https://worldsmarathons.com/marathon/ultra-trail-mt-fuji": {
+"fetched": "2026-11-24",
+"v": 1,
+"data": {
+"name": "Mt. Fuji 100 Trail",
+"race_date": "2027-04-24",
+"country": "Japan",
+"region": "East Asia",
+"city": "Fujikawaguchiko",
+"distances": [],
+"url": "https://worldsmarathons.com/marathon/ultra-trail-mt-fuji"
+}
+},
+"https://worldsmarathons.com/marathon/ultra-trail-thailand-54": {
+"fetched": "2026-11-24",
+"v": 1,
+"data": {
+"name": "Ultra Trail Thailand",
+"race_date": "2020-02-14",
+"country": "Thailand",
+"region": "Southeast Asia",
+"city": "Mae Chame",
+"distances": [
+"Ultra"
+],
+"url": "https://worldsmarathons.com/marathon/ultra-trail-thailand-54"
+}
+},
+"https://worldsmarathons.com/marathon/ultra-trail-xiamen-by-utmb": {
+"fetched": "2026-11-24",
+"v": 1,
+"data": {
+"name": "Ultra-Trail Xiamen by UTMB",
+"race_date": "2026-03-15",
+"country": "China",
+"region": "East Asia",
+"city": "Xiamen",
+"distances": [
+"Ultra"
+],
+"url": "https://worldsmarathons.com/marathon/ultra-trail-xiamen-by-utmb"
+}
+},
+"https://worldsmarathons.com/marathon/v-trail-laos": {
+"fetched": "2026-11-24",
+"v": 1,
+"data": {
+"name": "V Trail Laos",
+"race_date": "2027-01-17",
+"country": "Laos",
+"region": "Southeast Asia",
+"city": "Vang Vieng",
+"distances": [],
+"url": "https://worldsmarathons.com/marathon/v-trail-laos"
+}
+},
+"https://worldsmarathons.com/marathon/vancouver-half-marathon": {
+"fetched": "2026-11-24",
+"v": 1,
+"data": {
+"name": "Vancouver Half-Marathon & 5k Run/Walk",
+"race_date": "2027-06-27",
+"country": "Canada",
+"region": "Canada",
+"city": "Vancouver",
+"distances": [
+"5K",
+"Half Marathon"
+],
+"url": "https://worldsmarathons.com/marathon/vancouver-half-marathon"
+}
 }
 }

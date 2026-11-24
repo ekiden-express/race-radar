@@ -95,22 +95,42 @@
 ],
 "surface": "Road"
 },
+"Cambodia|aiapinkrunbreastcancerawarenesscharityrun": {
+"aims_certified": false,
+"city": "Phnom Penh",
+"country": "Cambodia",
+"dates": [
+"2027-10-10"
+],
+"name": "AIA Pink Run - Breast Cancer Awareness Charity Run",
+"popularity_flag": false,
+"region": "Southeast Asia",
+"registration_url": "https://worldsmarathons.com/marathon/pink-run-phnom-penh",
+"sources": [
+"World's Marathons"
+],
+"surface": "Road"
+},
 "Cambodia|angkorempiremarathon": {
 "aims_certified": true,
+"city": "Krong Siem Reap",
 "country": "Cambodia",
 "dates": [
 "2027-08-08"
 ],
 "distances": [
+"10K",
 "Half Marathon",
-"Marathon"
+"Marathon",
+"Other"
 ],
 "name": "Angkor Empire Marathon",
 "popularity_flag": true,
 "popularity_reason": "AIMS Certified",
 "region": "Southeast Asia",
-"registration_url": "https://www.aims-worldrunning.org/races/10008.html",
+"registration_url": "https://worldsmarathons.com/marathon/the-angkor-empire-marathon",
 "sources": [
+"World's Marathons",
 "AIMS"
 ],
 "surface": "Road"
@@ -174,6 +194,7 @@
 },
 "Cambodia|phnompenhinternationalhalfmarathon": {
 "aims_certified": true,
+"city": "Phnom Penh",
 "country": "Cambodia",
 "dates": [
 "2027-06-13"
@@ -185,14 +206,34 @@
 "popularity_flag": true,
 "popularity_reason": "AIMS Certified",
 "region": "Southeast Asia",
-"registration_url": "https://www.aims-worldrunning.org/races/10059.html",
+"registration_url": "https://worldsmarathons.com/marathon/phnom-penh-half-marathon",
 "sources": [
+"World's Marathons",
 "AIMS"
+],
+"surface": "Road"
+},
+"Cambodia|photosforparticipantsmarathonincambodia": {
+"aims_certified": false,
+"country": "Cambodia",
+"dates": [
+"2026-12-31"
+],
+"distances": [
+"Marathon"
+],
+"name": "Photos for participants Marathon in Cambodia",
+"popularity_flag": false,
+"region": "Southeast Asia",
+"registration_url": "https://worldsmarathons.com/marathon/photo-cambodia-marathon",
+"sources": [
+"World's Marathons"
 ],
 "surface": "Road"
 },
 "Cambodia|sihanoukvilleinternationalhalfmarathon": {
 "aims_certified": true,
+"city": "Sihanoukville",
 "country": "Cambodia",
 "dates": [
 "2027-03-28"
@@ -204,9 +245,29 @@
 "popularity_flag": true,
 "popularity_reason": "AIMS Certified",
 "region": "Southeast Asia",
-"registration_url": "https://www.aims-worldrunning.org/races/673.html",
+"registration_url": "https://worldsmarathons.com/marathon/sihanoukville-international-half-marathon",
 "sources": [
+"World's Marathons",
 "AIMS"
+],
+"surface": "Road"
+},
+"Cambodia|ultratrailangkor": {
+"aims_certified": false,
+"city": "Angkor",
+"country": "Cambodia",
+"dates": [
+"2027-01-23"
+],
+"distances": [
+"Ultra"
+],
+"name": "Ultra-Trail Angkor",
+"popularity_flag": false,
+"region": "Southeast Asia",
+"registration_url": "https://worldsmarathons.com/marathon/ultra-trail-d-angkor",
+"sources": [
+"World's Marathons"
 ],
 "surface": "Road"
 },
@@ -308,6 +369,24 @@
 ],
 "surface": "Road"
 },
+"Canada|benevaquebecmarathon": {
+"aims_certified": false,
+"city": "Quebec City",
+"country": "Canada",
+"dates": [
+"2026-10-03"
+],
+"distances": [
+"Marathon"
+],
+"name": "Beneva Quebec Marathon",
+"region": "Canada",
+"registration_url": "https://worldsmarathons.com/marathon/quebec-marathon",
+"sources": [
+"World's Marathons"
+],
+"surface": "Road"
+},
 "Canada|benevavancouverhalfmarathon": {
 "aims_certified": false,
 "city": "Vancouver, BC",
@@ -324,7 +403,27 @@
 "region": "Canada",
 "registration_url": "https://www.google.com/search?q=Beneva+Vancouver+Half+Marathon+2027",
 "sources": [
-"My list"
+"My list",
+"World's Marathons"
+],
+"surface": "Road"
+},
+"Canada|bluenoseinternationalmarathon": {
+"aims_certified": false,
+"city": "Halifax",
+"country": "Canada",
+"dates": [
+"2027-05-23"
+],
+"distances": [
+"Marathon"
+],
+"name": "Blue Nose International Marathon",
+"popularity_flag": false,
+"region": "Canada",
+"registration_url": "https://worldsmarathons.com/marathon/scotiabank-blue-nose-international-marathon",
+"sources": [
+"World's Marathons"
 ],
 "surface": "Road"
 },
@@ -639,6 +738,43 @@
 ],
 "surface": "Road"
 },
+"Canada|pumatorontowomensspringhalfmarathon10k5k": {
+"aims_certified": false,
+"city": "Toronto",
+"country": "Canada",
+"dates": [
+"2027-05-22"
+],
+"distances": [
+"5K",
+"10K",
+"Half Marathon"
+],
+"name": "Puma Toronto Women’s Spring Half Marathon/10k/5k",
+"popularity_flag": false,
+"region": "Canada",
+"registration_url": "https://worldsmarathons.com/marathon/toronto-women-s-half-marathon-5k",
+"sources": [
+"World's Marathons"
+],
+"surface": "Road"
+},
+"Canada|québecmégatrail": {
+"aims_certified": false,
+"city": "Beaupré",
+"country": "Canada",
+"dates": [
+"2027-07-02"
+],
+"name": "Québec Méga Trail",
+"popularity_flag": false,
+"region": "Canada",
+"registration_url": "https://worldsmarathons.com/marathon/quebec-mega-trail",
+"sources": [
+"World's Marathons"
+],
+"surface": "Road"
+},
 "Canada|rbcgranfondowhistler": {
 "aims_certified": false,
 "city": "Vancouver",
@@ -711,6 +847,64 @@
 ],
 "surface": "Road"
 },
+"Canada|squamish50": {
+"aims_certified": false,
+"city": "Squamish",
+"country": "Canada",
+"dates": [
+"2027-08-14"
+],
+"distances": [
+"Ultra"
+],
+"name": "Squamish 50",
+"popularity_flag": false,
+"region": "Canada",
+"registration_url": "https://worldsmarathons.com/marathon/squamish-50-mile",
+"sources": [
+"World's Marathons"
+],
+"surface": "Road"
+},
+"Canada|squamish50k": {
+"aims_certified": false,
+"city": "Squamish",
+"country": "Canada",
+"dates": [
+"2019-08-17"
+],
+"distances": [
+"Ultra"
+],
+"name": "Squamish 50K",
+"region": "Canada",
+"registration_url": "https://worldsmarathons.com/marathon/squamish-50",
+"sources": [
+"World's Marathons"
+],
+"surface": "Road"
+},
+"Canada|stdonatmudskipperquebecswimrunchampionshipsandopenwaterswim": {
+"aims_certified": false,
+"city": "Saint-Donat-de-Montcalm",
+"country": "Canada",
+"dates": [
+"2026-07-26"
+],
+"distances": [
+"5K",
+"10K",
+"Half Marathon",
+"Other"
+],
+"name": "St. Donat Mudskipper Quebec SwimRun Championships and Open Water Swim",
+"region": "Canada",
+"registration_url": "https://worldsmarathons.com/marathon/st-donat-mudskipper-quebec-swimrun-championships-and-open-water-swim",
+"sources": [
+"World's Marathons"
+],
+"surface": "Road"
+},
 "Canada|sunrypeokanaganmarathon": {
 "aims_certified": false,
 "city": "Kelowna",
@@ -769,6 +963,25 @@
 ],
 "surface": "Road"
 },
+"Canada|tcstorontowaterfrontmarathon": {
+"aims_certified": false,
+"city": "Toronto",
+"country": "Canada",
+"dates": [
+"2027-10-17"
+],
+"distances": [
+"Marathon"
+],
+"name": "TCS Toronto Waterfront Marathon",
+"popularity_flag": false,
+"region": "Canada",
+"registration_url": "https://worldsmarathons.com/marathon/toronto-waterfront-marathon",
+"sources": [
+"World's Marathons"
+],
+"surface": "Road"
+},
 "Canada|torontomarathon": {
 "aims_certified": true,
 "city": "Toronto, ON",
@@ -789,6 +1002,7 @@
 "registration_url": "https://www.google.com/search?q=Toronto+Marathon+May+2027",
 "sources": [
 "My list",
+"World's Marathons",
 "AIMS"
 ],
 "surface": "Road"
@@ -1302,8 +1516,46 @@
 ],
 "surface": "Road"
 },
+"China|runthegreatwall": {
+"aims_certified": false,
+"city": "Chengde Shi",
+"country": "China",
+"dates": [
+"2018-04-14"
+],
+"distances": [
+"Marathon"
+],
+"name": "Run The GREAT WALL",
+"region": "East Asia",
+"registration_url": "https://worldsmarathons.com/marathon/run-the-great-wall",
+"sources": [
+"World's Marathons"
+],
+"surface": "Road"
+},
+"China|runthetrackshanghaif1halfmarathon": {
+"aims_certified": false,
+"city": "Shanghai",
+"country": "China",
+"dates": [
+"2027-01-01"
+],
+"distances": [
+"Half Marathon"
+],
+"name": "RUN THE TRACK Shanghai F1 Half Marathon",
+"popularity_flag": false,
+"region": "East Asia",
+"registration_url": "https://worldsmarathons.com/marathon/run-the-track-shanghai-f1-half-marathon",
+"sources": [
+"World's Marathons"
+],
+"surface": "Road"
+},
 "China|shanghaimarathon": {
 "aims_certified": true,
+"city": "Shanghai",
 "country": "China",
 "dates": [
 "2026-12-06"
@@ -1315,9 +1567,48 @@
 "popularity_flag": true,
 "popularity_reason": "AIMS Certified",
 "region": "East Asia",
-"registration_url": "https://www.aims-worldrunning.org/races/933.html",
+"registration_url": "https://worldsmarathons.com/marathon/shanghai-international-marathon",
 "sources": [
+"World's Marathons",
 "AIMS"
+],
+"surface": "Road"
+},
+"China|shanghaisportsexpo": {
+"aims_certified": false,
+"city": "上海市",
+"country": "China",
+"dates": [
+"2026-12-05"
+],
+"distances": [
+"Marathon"
+],
+"name": "Shanghai Sports Expo",
+"popularity_flag": false,
+"region": "East Asia",
+"registration_url": "https://worldsmarathons.com/marathon/shanghai-sports-expo",
+"sources": [
+"World's Marathons"
+],
+"surface": "Road"
+},
+"China|shenzhen100mountainrunningrace": {
+"aims_certified": false,
+"city": "Shenzhen",
+"country": "China",
+"dates": [
+"2026-12-27"
+],
+"distances": [
+"Ultra"
+],
+"name": "Shenzhen100  Mountain Running Race",
+"popularity_flag": false,
+"region": "East Asia",
+"registration_url": "https://worldsmarathons.com/marathon/shenzhen100-mountain-running-race",
+"sources": [
+"World's Marathons"
 ],
 "surface": "Road"
 },
@@ -1341,6 +1632,24 @@
 ],
 "surface": "Road"
 },
+"China|simatai100therealgreatwallultratrail": {
+"aims_certified": false,
+"city": "Bei Jing Shi",
+"country": "China",
+"dates": [
+"2026-05-30"
+],
+"distances": [
+"Ultra"
+],
+"name": "Simatai 100 - The Real Great Wall Ultra Trail",
+"region": "East Asia",
+"registration_url": "https://worldsmarathons.com/marathon/simatai-100-the-real-great-wall-ultra-trail",
+"sources": [
+"World's Marathons"
+],
+"surface": "Road"
+},
 "China|standardcharteredhongkongmarathon": {
 "aims_certified": false,
 "city": "Hong Kong",
@@ -1357,6 +1666,24 @@
 "popularity_flag": false,
 "region": "East Asia",
 "registration_url": "https://worldsmarathons.com/marathon/hong-kong-marathon",
+"sources": [
+"World's Marathons"
+],
+"surface": "Road"
+},
+"China|suzhoumarathon": {
+"aims_certified": false,
+"city": "苏州市",
+"country": "China",
+"dates": [
+"2024-04-14"
+],
+"distances": [
+"Marathon"
+],
+"name": "Suzhou Marathon",
+"region": "East Asia",
+"registration_url": "https://worldsmarathons.com/marathon/suzhou-marathon",
 "sources": [
 "World's Marathons"
 ],
@@ -1394,6 +1721,61 @@
 "name": "THE GREAT WALL MARATHON OF HUAIROU AND ZAYED CHARITY RUN",
 "region": "East Asia",
 "registration_url": "https://worldsmarathons.com/marathon/huairou-great-wall-marathon",
+"sources": [
+"World's Marathons"
+],
+"surface": "Road"
+},
+"China|thegreatwallofchinamarathonautumn": {
+"aims_certified": false,
+"city": "Beijing",
+"country": "China",
+"dates": [
+"2027-10-31"
+],
+"distances": [
+"Marathon"
+],
+"name": "The Great Wall of China Marathon Autumn",
+"popularity_flag": false,
+"region": "East Asia",
+"registration_url": "https://worldsmarathons.com/marathon/the-great-wall-of-china-marathon-autumn",
+"sources": [
+"World's Marathons"
+],
+"surface": "Road"
+},
+"China|ultraracebeijinglabagouazalea": {
+"aims_certified": false,
+"city": "Beijing",
+"country": "China",
+"dates": [
+"2024-05-19"
+],
+"distances": [
+"Ultra"
+],
+"name": "Ultra Race Beijing Labagou Azalea",
+"region": "East Asia",
+"registration_url": "https://worldsmarathons.com/marathon/ultra-race-beijing-labagou-azalea-race",
+"sources": [
+"World's Marathons"
+],
+"surface": "Road"
+},
+"China|ultratrailxiamenbyutmb": {
+"aims_certified": false,
+"city": "Xiamen",
+"country": "China",
+"dates": [
+"2026-03-15"
+],
+"distances": [
+"Ultra"
+],
+"name": "Ultra-Trail Xiamen by UTMB",
+"region": "East Asia",
+"registration_url": "https://worldsmarathons.com/marathon/ultra-trail-xiamen-by-utmb",
 "sources": [
 "World's Marathons"
 ],
@@ -1523,6 +1905,25 @@
 "name": "Kerry Hong Kong Streetathon",
 "region": "East Asia",
 "registration_url": "https://worldsmarathons.com/marathon/kerry-hong-kong-streetathon",
+"sources": [
+"World's Marathons"
+],
+"surface": "Road"
+},
+"Hong Kong|sportirunkissrunhongkong": {
+"aims_certified": false,
+"city": "Hong-Kong",
+"country": "Hong Kong",
+"dates": [
+"2017-11-26"
+],
+"distances": [
+"10K",
+"Other"
+],
+"name": "SportiRun-KissRun HongKong",
+"region": "East Asia",
+"registration_url": "https://worldsmarathons.com/marathon/sportirun-kissrun-hong-kong",
 "sources": [
 "World's Marathons"
 ],
@@ -1711,6 +2112,25 @@
 "name": "Maybank Marathon in Bali",
 "region": "Southeast Asia",
 "registration_url": "https://worldsmarathons.com/marathon/bali-marathon",
+"sources": [
+"World's Marathons"
+],
+"surface": "Road"
+},
+"Indonesia|sanurbaliinternationalhalfmarathon": {
+"aims_certified": false,
+"city": "Bali",
+"country": "Indonesia",
+"dates": [
+"2027-02-07"
+],
+"distances": [
+"Half Marathon"
+],
+"name": "Sanur Bali International Half Marathon",
+"popularity_flag": false,
+"region": "Southeast Asia",
+"registration_url": "https://worldsmarathons.com/marathon/sanur-bali-international-half-marathon",
 "sources": [
 "World's Marathons"
 ],
@@ -2106,6 +2526,22 @@
 ],
 "surface": "Road"
 },
+"Japan|mtfuji100trail": {
+"aims_certified": false,
+"city": "Fujikawaguchiko",
+"country": "Japan",
+"dates": [
+"2027-04-24"
+],
+"name": "Mt. Fuji 100 Trail",
+"popularity_flag": false,
+"region": "East Asia",
+"registration_url": "https://worldsmarathons.com/marathon/ultra-trail-mt-fuji",
+"sources": [
+"World's Marathons"
+],
+"surface": "Road"
+},
 "Japan|mtfujiinternationalmarathon": {
 "aims_certified": true,
 "country": "Japan",
@@ -2463,6 +2899,44 @@
 "registration_url": "https://www.aims-worldrunning.org/races/10072.html",
 "sources": [
 "AIMS"
+],
+"surface": "Road"
+},
+"Japan|tokyolegacyhalfmarathon": {
+"aims_certified": false,
+"city": "Tokyo",
+"country": "Japan",
+"dates": [
+"2026-10-18"
+],
+"distances": [
+"Half Marathon"
+],
+"name": "Tokyo Legacy Half Marathon",
+"region": "East Asia",
+"registration_url": "https://worldsmarathons.com/marathon/tokyo-legacy-half-marathon",
+"sources": [
+"World's Marathons"
+],
+"surface": "Road"
+},
+"Japan|tokyonewyearhalfmarathon": {
+"aims_certified": false,
+"city": "Kita City",
+"country": "Japan",
+"dates": [
+"2027-01-10"
+],
+"distances": [
+"10K",
+"Half Marathon"
+],
+"name": "Tokyo New Year Half Marathon",
+"popularity_flag": false,
+"region": "East Asia",
+"registration_url": "https://worldsmarathons.com/marathon/tokyo-new-year-half-marathon",
+"sources": [
+"World's Marathons"
 ],
 "surface": "Road"
 },
@@ -3177,6 +3651,26 @@
 ],
 "surface": "Road"
 },
+"Japan|富士五湖超級馬拉松": {
+"aims_certified": false,
+"city": "富士北六公園",
+"country": "Japan",
+"dates": [
+"2027-04-18"
+],
+"distances": [
+"Ultra"
+],
+"name": "2027 37th Fuji Five Lakes Super Marathon",
+"name_local": "2027 第37屆富士五湖超級馬拉松",
+"popularity_flag": false,
+"region": "East Asia",
+"registration_url": "https://running.biji.co/index.php?q=competition&act=info&cid=13262",
+"sources": [
+"運動筆記"
+],
+"surface": "Road"
+},
 "Japan|岡の里名水マラソン大会": {
 "aims_certified": false,
 "city": "竹田市, Oita",
@@ -3466,6 +3960,7 @@
 "registration_url": "https://running.biji.co/index.php?q=competition&act=info&cid=13245",
 "sources": [
 "運動筆記",
+"World's Marathons",
 "AIMS"
 ],
 "surface": "Road"
@@ -3954,6 +4449,27 @@
 ],
 "surface": "Road"
 },
+"Laos|riderundiscovervientianeprovince": {
+"aims_certified": false,
+"city": "Vientiane",
+"country": "Laos",
+"dates": [
+"2025-09-07"
+],
+"distances": [
+"5K",
+"10K",
+"Marathon",
+"Other"
+],
+"name": "Ride Run Discover Vientiane Province",
+"region": "Southeast Asia",
+"registration_url": "https://worldsmarathons.com/marathon/ride-run-discover-vientiane-province",
+"sources": [
+"World's Marathons"
+],
+"surface": "Road"
+},
 "Laos|theldbbankpaksehalfmarathon": {
 "aims_certified": false,
 "city": "Pakse",
@@ -3990,6 +4506,22 @@
 "registration_url": "https://www.aims-worldrunning.org/races/10440.html",
 "sources": [
 "AIMS"
+],
+"surface": "Road"
+},
+"Laos|vtraillaos": {
+"aims_certified": false,
+"city": "Vang Vieng",
+"country": "Laos",
+"dates": [
+"2027-01-17"
+],
+"name": "V Trail Laos",
+"popularity_flag": false,
+"region": "Southeast Asia",
+"registration_url": "https://worldsmarathons.com/marathon/v-trail-laos",
+"sources": [
+"World's Marathons"
 ],
 "surface": "Road"
 },
@@ -5018,6 +5550,24 @@
 ],
 "surface": "Road"
 },
+"Malaysia|putrajayanightmarathon": {
+"aims_certified": false,
+"city": "Putrajaya",
+"country": "Malaysia",
+"dates": [
+"2024-09-28"
+],
+"distances": [
+"Marathon"
+],
+"name": "Putrajaya Night Marathon",
+"region": "Southeast Asia",
+"registration_url": "https://worldsmarathons.com/marathon/putrajaya-night-marathon",
+"sources": [
+"World's Marathons"
+],
+"surface": "Road"
+},
 "Malaysia|runforwellnessrunfornegeri": {
 "aims_certified": false,
 "city": "Negeri Sembilan",
@@ -5215,6 +5765,26 @@
 ],
 "surface": "Road"
 },
+"Malaysia|titan777malaysia": {
+"aims_certified": false,
+"city": "Banting",
+"country": "Malaysia",
+"dates": [
+"2025-08-17"
+],
+"distances": [
+"Half Marathon",
+"Ultra",
+"Other"
+],
+"name": "Titan 77.7 Malaysia",
+"region": "Southeast Asia",
+"registration_url": "https://worldsmarathons.com/marathon/titan-777-malaysia",
+"sources": [
+"World's Marathons"
+],
+"surface": "Road"
+},
 "Malaysia|travishegelmarathondutranspenang": {
 "aims_certified": false,
 "city": "Bayan Lepas",
@@ -5228,6 +5798,21 @@
 "name": "Travis Hegel Marathon du Trans Penang",
 "region": "Southeast Asia",
 "registration_url": "https://worldsmarathons.com/marathon/marathon-du-trans-penang",
+"sources": [
+"World's Marathons"
+],
+"surface": "Road"
+},
+"Malaysia|trifactorduathloncyclerunmalaysia": {
+"aims_certified": false,
+"city": "Iskandar Puteri",
+"country": "Malaysia",
+"dates": [
+"2026-06-21"
+],
+"name": "TriFactor Duathlon & CycleRun – Malaysia",
+"region": "Southeast Asia",
+"registration_url": "https://worldsmarathons.com/marathon/trifactor-duathlon-cyclerun-malaysia",
 "sources": [
 "World's Marathons"
 ],
@@ -5250,6 +5835,36 @@
 "registration_url": "https://www.aims-worldrunning.org/races/10441.html",
 "sources": [
 "AIMS"
+],
+"surface": "Road"
+},
+"Malaysia|ultimatepenangrunnerchallenge": {
+"aims_certified": false,
+"city": "Tanjung Bungah",
+"country": "Malaysia",
+"dates": [
+"2020-07-05"
+],
+"name": "Ultimate Penang Runner Challenge",
+"region": "Southeast Asia",
+"registration_url": "https://worldsmarathons.com/marathon/ultimate-penang-runner-challenge",
+"sources": [
+"World's Marathons"
+],
+"surface": "Road"
+},
+"Malaysia|ultimatetrailsofpenang": {
+"aims_certified": false,
+"city": "George Town",
+"country": "Malaysia",
+"dates": [
+"2026-10-11"
+],
+"name": "Ultimate Trails of Penang",
+"region": "Southeast Asia",
+"registration_url": "https://worldsmarathons.com/marathon/ultimate-trails-of-penang",
+"sources": [
+"World's Marathons"
 ],
 "surface": "Road"
 },
@@ -5613,6 +6228,98 @@
 ],
 "surface": "Road"
 },
+"Philippines|pumaphilippinehalfmarathonseriescebu": {
+"aims_certified": false,
+"city": "Mandaue",
+"country": "Philippines",
+"dates": [
+"2026-08-02"
+],
+"distances": [
+"Half Marathon"
+],
+"name": "PUMA Philippine Half Marathon Series - Cebu",
+"region": "Southeast Asia",
+"registration_url": "https://worldsmarathons.com/marathon/philippine-half-marathon-series-cebu",
+"sources": [
+"World's Marathons"
+],
+"surface": "Road"
+},
+"Philippines|pumaphilippinehalfmarathonseriesclark": {
+"aims_certified": false,
+"city": "Angeles",
+"country": "Philippines",
+"dates": [
+"2026-08-23"
+],
+"distances": [
+"Half Marathon"
+],
+"name": "PUMA Philippine Half Marathon Series - Clark",
+"region": "Southeast Asia",
+"registration_url": "https://worldsmarathons.com/marathon/philippine-half-marathon-series-clark",
+"sources": [
+"World's Marathons"
+],
+"surface": "Road"
+},
+"Philippines|pumaphilippinehalfmarathonseriesdavao": {
+"aims_certified": false,
+"city": "Davao City",
+"country": "Philippines",
+"dates": [
+"2026-07-19"
+],
+"distances": [
+"Half Marathon"
+],
+"name": "PUMA Philippine Half Marathon Series - Davao",
+"region": "Southeast Asia",
+"registration_url": "https://worldsmarathons.com/marathon/philippine-half-marathon-series-davao",
+"sources": [
+"World's Marathons"
+],
+"surface": "Road"
+},
+"Philippines|pumaphilippinehalfmarathonseriesiloilo": {
+"aims_certified": false,
+"city": "Iloilo City",
+"country": "Philippines",
+"dates": [
+"2026-07-12"
+],
+"distances": [
+"5K",
+"10K",
+"Half Marathon"
+],
+"name": "PUMA Philippine Half Marathon Series - Iloilo",
+"region": "Southeast Asia",
+"registration_url": "https://worldsmarathons.com/marathon/philippine-half-marathon-series-iloilo",
+"sources": [
+"World's Marathons"
+],
+"surface": "Road"
+},
+"Philippines|pumaphilippinehalfmarathonseriesmanila": {
+"aims_certified": false,
+"city": "Pasay City",
+"country": "Philippines",
+"dates": [
+"2026-10-11"
+],
+"distances": [
+"Half Marathon"
+],
+"name": "PUMA Philippine Half Marathon Series - Manila",
+"region": "Southeast Asia",
+"registration_url": "https://worldsmarathons.com/marathon/philippine-half-marathon-series-manila",
+"sources": [
+"World's Marathons"
+],
+"surface": "Road"
+},
 "Philippines|sesamestreetrunphilippines": {
 "aims_certified": false,
 "city": "Manila",
@@ -5669,23 +6376,102 @@
 ],
 "surface": "Road"
 },
+"Philippines|tacborunmanilahalfmarathon": {
+"aims_certified": false,
+"city": "Makati City",
+"country": "Philippines",
+"dates": [
+"2027-01-17"
+],
+"distances": [
+"Half Marathon"
+],
+"name": "tACbo Run - Manila Half Marathon",
+"popularity_flag": false,
+"region": "Southeast Asia",
+"registration_url": "https://worldsmarathons.com/marathon/tacbo-run-manila-half-marathon",
+"sources": [
+"World's Marathons"
+],
+"surface": "Road"
+},
+"Philippines|trifactorphilippinesduathlon": {
+"aims_certified": false,
+"city": "Mabalacat",
+"country": "Philippines",
+"dates": [
+"2023-07-09"
+],
+"name": "TriFactor Philippines Duathlon",
+"region": "Southeast Asia",
+"registration_url": "https://worldsmarathons.com/marathon/trifactor-philippines-duathlon",
+"sources": [
+"World's Marathons"
+],
+"surface": "Road"
+},
+"Philippines|trifactortriathlonphilippines": {
+"aims_certified": false,
+"city": "Subic Bay Freeport Zone",
+"country": "Philippines",
+"dates": [
+"2025-02-16"
+],
+"name": "TriFactor Triathlon Philippines (Subic Bay)",
+"region": "Southeast Asia",
+"registration_url": "https://worldsmarathons.com/marathon/trifactor-triathlon-philippines",
+"sources": [
+"World's Marathons"
+],
+"surface": "Road"
+},
 "Singapore|bydsingaporeinternationalmarathonpresentedbyadidas": {
 "aims_certified": true,
+"city": "Singapore",
 "country": "Singapore",
 "dates": [
 "2026-12-06"
 ],
 "distances": [
-"Half Marathon",
 "Marathon"
 ],
 "name": "BYD Singapore International Marathon presented by adidas",
 "popularity_flag": true,
 "popularity_reason": "AIMS Certified",
 "region": "Southeast Asia",
-"registration_url": "https://www.aims-worldrunning.org/races/924.html",
+"registration_url": "https://worldsmarathons.com/marathon/singapore-marathon",
 "sources": [
+"World's Marathons",
 "AIMS"
+],
+"surface": "Road"
+},
+"Singapore|singaporeinternationaltriathlonbytrifactor": {
+"aims_certified": false,
+"city": "Singapore",
+"country": "Singapore",
+"dates": [
+"2025-04-27"
+],
+"name": "Singapore International Triathlon by TriFactor",
+"region": "Southeast Asia",
+"registration_url": "https://worldsmarathons.com/marathon/singapore-international-triathlon",
+"sources": [
+"World's Marathons"
+],
+"surface": "Road"
+},
+"Singapore|singaporet100triathlon": {
+"aims_certified": false,
+"country": "Singapore",
+"dates": [
+"2025-04-06"
+],
+"name": "Singapore T100 Triathlon",
+"region": "Southeast Asia",
+"registration_url": "https://worldsmarathons.com/marathon/pto-asian-open-triathlon-singapore",
+"sources": [
+"World's Marathons"
 ],
 "surface": "Road"
 },
@@ -5699,6 +6485,36 @@
 "name": "TriFactor Bike & CycleRun Singapore",
 "region": "Southeast Asia",
 "registration_url": "https://worldsmarathons.com/marathon/bike-cyclerun-singapore",
+"sources": [
+"World's Marathons"
+],
+"surface": "Road"
+},
+"Singapore|trifactorbikecyclerunsingaporeduathlonnationalchampionship": {
+"aims_certified": false,
+"city": "Singapore",
+"country": "Singapore",
+"dates": [
+"2024-11-24"
+],
+"name": "TriFactor Bike Cycle Run & Singapore Duathlon National Championship",
+"region": "Southeast Asia",
+"registration_url": "https://worldsmarathons.com/marathon/trifactor-bike-cycle-run-singapore",
+"sources": [
+"World's Marathons"
+],
+"surface": "Road"
+},
+"Singapore|trifactortriathlonduathlonsingapore": {
+"aims_certified": false,
+"city": "Singapore",
+"country": "Singapore",
+"dates": [
+"2026-09-13"
+],
+"name": "TriFactor Triathlon & Duathlon Singapore",
+"region": "Southeast Asia",
+"registration_url": "https://worldsmarathons.com/marathon/trifactor-triathlon-singapore",
 "sources": [
 "World's Marathons"
 ],
@@ -5938,6 +6754,57 @@
 ],
 "surface": "Road"
 },
+"South Korea|seoul100k": {
+"aims_certified": false,
+"city": "Seoul",
+"country": "South Korea",
+"dates": [
+"2026-09-20"
+],
+"distances": [
+"Ultra"
+],
+"name": "Seoul 100K",
+"region": "East Asia",
+"registration_url": "https://worldsmarathons.com/marathon/seoul-100k",
+"sources": [
+"World's Marathons"
+],
+"surface": "Road"
+},
+"South Korea|seoulrace": {
+"aims_certified": false,
+"city": "Seoul",
+"country": "South Korea",
+"dates": [
+"2026-10-11"
+],
+"name": "Seoul Race",
+"region": "East Asia",
+"registration_url": "https://worldsmarathons.com/marathon/seoul-race",
+"sources": [
+"World's Marathons"
+],
+"surface": "Road"
+},
+"South Korea|transjejubyutmb": {
+"aims_certified": false,
+"city": "Jeju-do",
+"country": "South Korea",
+"dates": [
+"2026-10-02"
+],
+"distances": [
+"Ultra"
+],
+"name": "Trans Jeju by UTMB",
+"region": "East Asia",
+"registration_url": "https://worldsmarathons.com/marathon/trail-jeju",
+"sources": [
+"World's Marathons"
+],
+"surface": "Road"
+},
 "South Korea|首爾馬拉松": {
 "aims_certified": true,
 "city": "Seoul",
@@ -5957,6 +6824,7 @@
 "registration_url": "https://running.biji.co/index.php?q=competition&act=info&cid=13251",
 "sources": [
 "運動筆記",
+"World's Marathons",
 "AIMS"
 ],
 "surface": "Road"
@@ -6827,7 +7695,7 @@
 },
 "South Korea|소아암환우돕기서울시민마라톤": {
 "aims_certified": false,
-"city": "여의도 한강 물빛광장",
+"city": "여의도(한강) 물빛광장",
 "country": "South Korea",
 "dates": [
 "2027-05-16"
@@ -7739,7 +8607,7 @@
 },
 "South Korea|희망드림동계국제마라톤대회": {
 "aims_certified": false,
-"city": "여의도 한강 물빛광장",
+"city": "여의도(한강) 물빛광장",
 "country": "South Korea",
 "dates": [
 "2027-02-27"
@@ -7762,7 +8630,7 @@
 },
 "South Korea|희망드림새벽강변국제마라톤": {
 "aims_certified": false,
-"city": "여의도 한강 물빛광장",
+"city": "여의도(한강) 물빛광장",
 "country": "South Korea",
 "dates": [
 "2027-05-23"
@@ -7922,6 +8790,26 @@
 "registration_url": "https://www.aims-worldrunning.org/races/20161.html",
 "sources": [
 "AIMS"
+],
+"surface": "Road"
+},
+"Taiwan|ctau超馬系列賽最終站臺北超級馬拉松": {
+"aims_certified": false,
+"city": "Taipei",
+"country": "Taiwan",
+"dates": [
+"2027-02-19"
+],
+"distances": [
+"Ultra"
+],
+"name": "2027 CTAU Ultramarathon Series - Final Stop: Taipei Ultramarathon",
+"name_local": "2027 CTAU超馬系列賽 - 最終站 臺北超級馬拉松",
+"popularity_flag": false,
+"region": "East Asia",
+"registration_url": "https://bao-ming.com/eb/content/7254#reg",
+"sources": [
+"運動筆記"
 ],
 "surface": "Road"
 },
@@ -8217,6 +9105,43 @@
 ],
 "surface": "Road"
 },
+"Taiwan|sunmoonlakemarathon": {
+"aims_certified": false,
+"city": "Sun Moon Lake National Scenic Area",
+"country": "Taiwan",
+"dates": [
+"2026-11-01"
+],
+"distances": [
+"Marathon"
+],
+"name": "Sun Moon Lake Marathon",
+"region": "East Asia",
+"registration_url": "https://worldsmarathons.com/marathon/sun-moon-lake-marathon",
+"sources": [
+"World's Marathons"
+],
+"surface": "Road"
+},
+"Taiwan|superaceultramarathonalishanstation106kmstagerace21kmtrailrace": {
+"aims_certified": false,
+"country": "Taiwan",
+"dates": [
+"2023-02-28"
+],
+"distances": [
+"Half Marathon",
+"Marathon",
+"Ultra"
+],
+"name": "SUPERACE ULTRA MARATHON – Alishan Station, 106Km Stage race & 21Km Trail race",
+"region": "East Asia",
+"registration_url": "https://worldsmarathons.com/marathon/superace-ultra-marathon-taiwan",
+"sources": [
+"World's Marathons"
+],
+"surface": "Road"
+},
 "Taiwan|superace超級馬拉松多日賽新北淡蘭站": {
 "aims_certified": false,
 "city": "New Taipei",
@@ -8339,6 +9264,24 @@
 "registration_url": "https://signup.lohasnet.tw/signup/4310",
 "sources": [
 "運動筆記"
+],
+"surface": "Road"
+},
+"Taiwan|taipeiwomenhalfmarathon": {
+"aims_certified": false,
+"country": "Taiwan",
+"dates": [
+"2021-04-11"
+],
+"distances": [
+"Half Marathon",
+"Marathon"
+],
+"name": "Taipei Women Half Marathon",
+"region": "East Asia",
+"registration_url": "https://worldsmarathons.com/marathon/taipei-women-half-marathon",
+"sources": [
+"World's Marathons"
 ],
 "surface": "Road"
 },
@@ -9841,7 +10784,8 @@
 ],
 "name": "2026 4th Shunze Temple Champion Run",
 "name_local": "2026歲次丙午年順澤宮第四屆冠軍路跑－順風啟程 • 澤福同行 • 謝平安",
-"popularity_flag": false,
+"popularity_flag": true,
+"popularity_reason": "Popular on 運動筆記",
 "region": "East Asia",
 "registration_url": "https://running.biji.co/index.php?q=competition&act=info&cid=13031",
 "sources": [
@@ -9939,6 +10883,7 @@
 "registration_url": "https://running.biji.co/index.php?q=competition&act=info&cid=13155",
 "sources": [
 "運動筆記",
+"World's Marathons",
 "AIMS"
 ],
 "surface": "Road"
@@ -10250,6 +11195,7 @@
 "registration_url": "https://running.biji.co/index.php?q=competition&act=info&cid=13020",
 "sources": [
 "運動筆記",
+"World's Marathons",
 "AIMS"
 ],
 "surface": "Road"
@@ -10711,6 +11657,25 @@
 "name": "100 Miles Thailand",
 "region": "Southeast Asia",
 "registration_url": "https://worldsmarathons.com/marathon/100miles-thailand",
+"sources": [
+"World's Marathons"
+],
+"surface": "Road"
+},
+"Thailand|24hbangkokinternationalchampionships": {
+"aims_certified": false,
+"city": "Bangkok",
+"country": "Thailand",
+"dates": [
+"2026-10-31"
+],
+"distances": [
+"Marathon",
+"Ultra"
+],
+"name": "24H Bangkok International Championships",
+"region": "Southeast Asia",
+"registration_url": "https://worldsmarathons.com/marathon/ultra-park-run-thailand-100",
 "sources": [
 "World's Marathons"
 ],
@@ -11505,6 +12470,86 @@
 ],
 "surface": "Road"
 },
+"Thailand|phuket100kultramarathon": {
+"aims_certified": false,
+"city": "Phuket",
+"country": "Thailand",
+"dates": [
+"2025-06-07"
+],
+"distances": [
+"Marathon",
+"Ultra",
+"Other"
+],
+"name": "Phuket 100K Ultra Marathon",
+"region": "Southeast Asia",
+"registration_url": "https://worldsmarathons.com/marathon/phuket-ultra",
+"sources": [
+"World's Marathons"
+],
+"surface": "Road"
+},
+"Thailand|phukettrail": {
+"aims_certified": false,
+"city": "Phuket",
+"country": "Thailand",
+"dates": [
+"2026-09-13"
+],
+"name": "Phuket Trail",
+"region": "Southeast Asia",
+"registration_url": "https://worldsmarathons.com/marathon/phuket-trail",
+"sources": [
+"World's Marathons"
+],
+"surface": "Road"
+},
+"Thailand|policerunbangkok": {
+"aims_certified": false,
+"city": "Bangkok",
+"country": "Thailand",
+"dates": [
+"2024-11-10"
+],
+"name": "Police Run Bangkok",
+"region": "Southeast Asia",
+"registration_url": "https://worldsmarathons.com/marathon/police-run-bangkok",
+"sources": [
+"World's Marathons"
+],
+"surface": "Road"
+},
+"Thailand|raruengrun": {
+"aims_certified": false,
+"city": "Tambon Sam Roi Yot",
+"country": "Thailand",
+"dates": [
+"2026-05-17"
+],
+"name": "Ra Rueng Run",
+"region": "Southeast Asia",
+"registration_url": "https://worldsmarathons.com/marathon/thailand-earth-trail-series-ra-rueng",
+"sources": [
+"World's Marathons"
+],
+"surface": "Road"
+},
+"Thailand|redlinefitnessgamesbangkok": {
+"aims_certified": false,
+"city": "Krung Thep Maha Nakhon",
+"country": "Thailand",
+"dates": [
+"2026-11-22"
+],
+"name": "REDLINE Fitness Games Bangkok",
+"region": "Southeast Asia",
+"registration_url": "https://worldsmarathons.com/marathon/redline-fitness-games-bangkok",
+"sources": [
+"World's Marathons"
+],
+"surface": "Road"
+},
 "Thailand|runforfreedombitcoinhalfmarathon": {
 "aims_certified": false,
 "city": "Chiang Mai",
@@ -11539,6 +12584,24 @@
 "registration_url": "https://www.aims-worldrunning.org/races/10340.html",
 "sources": [
 "AIMS"
+],
+"surface": "Road"
+},
+"Thailand|scenichalfmarathonchiangmai": {
+"aims_certified": false,
+"city": "Chiang Mai",
+"country": "Thailand",
+"dates": [
+"2026-11-01"
+],
+"distances": [
+"Half Marathon"
+],
+"name": "Scenic Half Marathon Chiang Mai",
+"region": "Southeast Asia",
+"registration_url": "https://worldsmarathons.com/marathon/scenic-half-marathon-chiang-mai",
+"sources": [
+"World's Marathons"
 ],
 "surface": "Road"
 },
@@ -11600,6 +12663,160 @@
 ],
 "surface": "Road"
 },
+"Thailand|thailandbyutmb": {
+"aims_certified": false,
+"country": "Thailand",
+"dates": [
+"2024-12-08"
+],
+"distances": [
+"Ultra"
+],
+"name": "Thailand by UTMB",
+"region": "Southeast Asia",
+"registration_url": "https://worldsmarathons.com/marathon/thailand-by-utmb",
+"sources": [
+"World's Marathons"
+],
+"surface": "Road"
+},
+"Thailand|thailandearthtrailserieskanchanaburi": {
+"aims_certified": false,
+"city": "Kanchanaburi",
+"country": "Thailand",
+"dates": [
+"2026-10-11"
+],
+"name": "Thailand Earth Trail Series Kanchanaburi",
+"region": "Southeast Asia",
+"registration_url": "https://worldsmarathons.com/marathon/thailand-earth-trail-series-kanchanaburi",
+"sources": [
+"World's Marathons"
+],
+"surface": "Road"
+},
+"Thailand|thailandearthtrailseriessaraburi": {
+"aims_certified": false,
+"city": "Tambon Cha Om",
+"country": "Thailand",
+"dates": [
+"2026-07-25"
+],
+"name": "Thailand Earth Trail Series Saraburi",
+"region": "Southeast Asia",
+"registration_url": "https://worldsmarathons.com/marathon/thailand-earth-trail-series-saraburi",
+"sources": [
+"World's Marathons"
+],
+"surface": "Road"
+},
+"Thailand|thailandinternationalhalfmarathon": {
+"aims_certified": false,
+"city": "Bangkok",
+"country": "Thailand",
+"dates": [
+"2024-01-07"
+],
+"distances": [
+"Half Marathon"
+],
+"name": "Thailand International Half Marathon",
+"region": "Southeast Asia",
+"registration_url": "https://worldsmarathons.com/marathon/thailand-international-half-marathon",
+"sources": [
+"World's Marathons"
+],
+"surface": "Road"
+},
+"Thailand|thailandswimathon": {
+"aims_certified": false,
+"city": "Chang Wat Rayong",
+"country": "Thailand",
+"dates": [
+"2027-02-28"
+],
+"name": "Thailand Swimathon",
+"popularity_flag": false,
+"region": "Southeast Asia",
+"registration_url": "https://worldsmarathons.com/marathon/thailand-swimathon",
+"sources": [
+"World's Marathons"
+],
+"surface": "Road"
+},
+"Thailand|thailandswimathonaomanao": {
+"aims_certified": false,
+"city": "Khlong Wan",
+"country": "Thailand",
+"dates": [
+"2021-08-22"
+],
+"name": "Thailand Swimathon Ao Manao",
+"region": "Southeast Asia",
+"registration_url": "https://worldsmarathons.com/marathon/thailand-swimathon-ao-manao",
+"sources": [
+"World's Marathons"
+],
+"surface": "Road"
+},
+"Thailand|thailandswimathonchantaburi": {
+"aims_certified": false,
+"city": "Khlong Khut",
+"country": "Thailand",
+"dates": [
+"2021-07-11"
+],
+"name": "Thailand Swimathon Chantaburi",
+"region": "Southeast Asia",
+"registration_url": "https://worldsmarathons.com/marathon/thailand-swimathon-chantaburi",
+"sources": [
+"World's Marathons"
+],
+"surface": "Road"
+},
+"Thailand|thailandswimathonchonburipattana": {
+"aims_certified": false,
+"city": "Khaokhunsong District,",
+"country": "Thailand",
+"dates": [
+"2021-06-20"
+],
+"name": "Thailand Swimathon Chonburi Pattana",
+"region": "Southeast Asia",
+"registration_url": "https://worldsmarathons.com/marathon/thailand-swimathon-chonburi-pattana",
+"sources": [
+"World's Marathons"
+],
+"surface": "Road"
+},
+"Thailand|thailandswimathonsaireebeach": {
+"aims_certified": false,
+"country": "Thailand",
+"dates": [
+"2020-08-30"
+],
+"name": "Thailand Swimathon Sairee Beach",
+"region": "Southeast Asia",
+"registration_url": "https://worldsmarathons.com/marathon/thailand-swimathon-sairee-beach",
+"sources": [
+"World's Marathons"
+],
+"surface": "Road"
+},
+"Thailand|thailandswimathonsongkhla": {
+"aims_certified": false,
+"country": "Thailand",
+"dates": [
+"2021-05-02"
+],
+"name": "Thailand Swimathon Songkhla",
+"region": "Southeast Asia",
+"registration_url": "https://worldsmarathons.com/marathon/thailand-swimathon-songkhla",
+"sources": [
+"World's Marathons"
+],
+"surface": "Road"
+},
 "Thailand|thaisikhrun": {
 "aims_certified": true,
 "country": "Thailand",
@@ -11619,6 +12836,81 @@
 ],
 "surface": "Road"
 },
+"Thailand|thenorthface100thailand": {
+"aims_certified": false,
+"city": "Khanong Phra",
+"country": "Thailand",
+"dates": [
+"2026-06-26"
+],
+"distances": [
+"Ultra",
+"Other"
+],
+"name": "The North Face 100® - Thailand",
+"region": "Southeast Asia",
+"registration_url": "https://worldsmarathons.com/marathon/the-north-face-100-thailand",
+"sources": [
+"World's Marathons"
+],
+"surface": "Road"
+},
+"Thailand|ultratrailchiangmaiutcm": {
+"aims_certified": false,
+"city": "Mueang Khong",
+"country": "Thailand",
+"dates": [
+"2027-01-10"
+],
+"distances": [
+"Ultra",
+"Other"
+],
+"name": "Ultra Trail Chiang Mai - UTCM",
+"popularity_flag": false,
+"region": "Southeast Asia",
+"registration_url": "https://worldsmarathons.com/marathon/ultra-trail-chiang-mai",
+"sources": [
+"World's Marathons"
+],
+"surface": "Road"
+},
+"Thailand|ultratrailchiangraiultimate250": {
+"aims_certified": false,
+"city": "Tambon Ban Du",
+"country": "Thailand",
+"dates": [
+"2023-10-22"
+],
+"distances": [
+"Ultra"
+],
+"name": "Ultra-Trail Chiang Rai  Ultimate 250",
+"region": "Southeast Asia",
+"registration_url": "https://worldsmarathons.com/marathon/ultra-trail-chiang-rai",
+"sources": [
+"World's Marathons"
+],
+"surface": "Road"
+},
+"Thailand|ultratrailthailand": {
+"aims_certified": false,
+"city": "Mae Chame",
+"country": "Thailand",
+"dates": [
+"2020-02-14"
+],
+"distances": [
+"Ultra"
+],
+"name": "Ultra Trail Thailand",
+"region": "Southeast Asia",
+"registration_url": "https://worldsmarathons.com/marathon/ultra-trail-thailand-54",
+"sources": [
+"World's Marathons"
+],
+"surface": "Road"
+},
 "Thailand|watlaharnraihalfmarathon": {
 "aims_certified": true,
 "country": "Thailand",
@@ -11635,6 +12927,21 @@
 "registration_url": "https://www.aims-worldrunning.org/races/10494.html",
 "sources": [
 "AIMS"
+],
+"surface": "Road"
+},
+"Vietnam|airasiaredrundanangchampion21": {
+"aims_certified": false,
+"city": "Đà Nẵng",
+"country": "Vietnam",
+"dates": [
+"2026-04-26"
+],
+"name": "AirAsia RedRun Danang - Champion21",
+"region": "Southeast Asia",
+"registration_url": "https://worldsmarathons.com/marathon/redrun-danang-champion21",
+"sources": [
+"World's Marathons"
 ],
 "surface": "Road"
 },
@@ -11908,21 +13215,37 @@
 },
 "Vietnam|techcombankhochiminhcityinternationalmarathon": {
 "aims_certified": true,
+"city": "Ho Chi Minh City",
 "country": "Vietnam",
 "dates": [
 "2026-12-06"
 ],
 "distances": [
-"Half Marathon",
 "Marathon"
 ],
 "name": "Techcombank Ho Chi Minh City International Marathon",
 "popularity_flag": true,
 "popularity_reason": "AIMS Certified",
 "region": "Southeast Asia",
-"registration_url": "https://www.aims-worldrunning.org/races/10212.html",
+"registration_url": "https://worldsmarathons.com/marathon/techcombank-ho-chi-minh-city-international-marathon",
 "sources": [
+"World's Marathons",
 "AIMS"
+],
+"surface": "Road"
+},
+"Vietnam|trifactorvietnamchampionship": {
+"aims_certified": false,
+"city": "Tan Thanh",
+"country": "Vietnam",
+"dates": [
+"2026-08-16"
+],
+"name": "TriFactor Vietnam Championship",
+"region": "Southeast Asia",
+"registration_url": "https://worldsmarathons.com/marathon/trifactor-vietnam-championship",
+"sources": [
+"World's Marathons"
 ],
 "surface": "Road"
 },
