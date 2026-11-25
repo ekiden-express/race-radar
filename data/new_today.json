@@ -1,11 +1,11 @@
 [
  {
-  "name": "Shanghai Sports Expo",
+  "name": "Vientiane International Marathon",
   "name_local": null,
-  "region": "East Asia",
-  "country": "China",
-  "city": "上海市",
-  "race_date": "2026-12-05",
+  "region": "Southeast Asia",
+  "country": "Laos",
+  "city": "Vientiane",
+  "race_date": "2026-12-06",
   "date_tbd": false,
   "distances": [
    "Marathon"
@@ -23,27 +23,250 @@
   "entry_type": null,
   "sold_out": false,
   "aims_certified": false,
-  "registration_url": "https://worldsmarathons.com/marathon/shanghai-sports-expo",
+  "registration_url": "https://worldsmarathons.com/marathon/vientiane-international-marathon",
   "source_urls": [
-   "https://worldsmarathons.com/marathon/shanghai-sports-expo"
+   "https://worldsmarathons.com/marathon/vientiane-international-marathon"
   ],
   "sources": [
    "World's Marathons"
   ],
   "note": null,
-  "id": "7005c41248aa",
+  "id": "d7445073786f",
   "popularity_flag": false,
   "popularity_reason": null,
-  "first_seen_date": "2026-11-24",
-  "last_seen_date": "2026-11-24"
+  "first_seen_date": "2026-11-25",
+  "last_seen_date": "2026-11-25"
  },
  {
-  "name": "Shenzhen100  Mountain Running Race",
+  "name": "Tama Sub-Full Marathon 2026",
+  "name_local": "多摩サブ・フルマラソン2026",
+  "region": "East Asia",
+  "country": "Japan",
+  "city": "府中市, Tokyo",
+  "race_date": "2026-12-19",
+  "date_tbd": false,
+  "distances": [],
+  "distances_raw": null,
+  "surface": "Road",
+  "cost_original": null,
+  "cost_currency": "JPY",
+  "cost_cad": null,
+  "cost_cad_max": null,
+  "reg_open_date": "2026-09-16",
+  "reg_close_date": "2026-12-13",
+  "reg_state_raw": null,
+  "reg_closed": false,
+  "entry_type": null,
+  "sold_out": false,
+  "aims_certified": false,
+  "registration_url": "https://runnet.jp/entry/runtes/user/pc/moshicomDetailAction.do?raceId=154220&div=1",
+  "source_urls": [
+   "https://runnet.jp/entry/runtes/user/pc/moshicomDetailAction.do?raceId=154220&div=1"
+  ],
+  "sources": [
+   "RUNNET"
+  ],
+  "note": null,
+  "id": "7838032f43bc",
+  "popularity_flag": false,
+  "popularity_reason": null,
+  "first_seen_date": "2026-11-25",
+  "last_seen_date": "2026-11-25"
+ },
+ {
+  "name": "Xiamen Huandong Half Marathon",
   "name_local": null,
   "region": "East Asia",
   "country": "China",
-  "city": "Shenzhen",
-  "race_date": "2026-12-27",
+  "city": "Xiamen",
+  "race_date": "2026-12-20",
+  "date_tbd": false,
+  "distances": [
+   "Half Marathon",
+   "Marathon"
+  ],
+  "distances_raw": null,
+  "surface": "Road",
+  "cost_original": null,
+  "cost_currency": null,
+  "cost_cad": null,
+  "cost_cad_max": null,
+  "reg_open_date": null,
+  "reg_close_date": null,
+  "reg_state_raw": null,
+  "reg_closed": false,
+  "entry_type": null,
+  "sold_out": false,
+  "aims_certified": false,
+  "registration_url": "https://worldsmarathons.com/marathon/xiamen-huandong-half-marathon",
+  "source_urls": [
+   "https://worldsmarathons.com/marathon/xiamen-huandong-half-marathon"
+  ],
+  "sources": [
+   "World's Marathons"
+  ],
+  "note": null,
+  "id": "e3fe19830e91",
+  "popularity_flag": false,
+  "popularity_reason": null,
+  "first_seen_date": "2026-11-25",
+  "last_seen_date": "2026-11-25"
+ },
+ {
+  "name": "China-Myanmar Ruili-Muse Cross-Border Half Marathon",
+  "name_local": null,
+  "region": "East Asia",
+  "country": "China",
+  "city": "德宏傣族景颇族自治州",
+  "race_date": "2027-01-02",
+  "date_tbd": false,
+  "distances": [
+   "Half Marathon"
+  ],
+  "distances_raw": null,
+  "surface": "Road",
+  "cost_original": null,
+  "cost_currency": null,
+  "cost_cad": null,
+  "cost_cad_max": null,
+  "reg_open_date": null,
+  "reg_close_date": null,
+  "reg_state_raw": null,
+  "reg_closed": false,
+  "entry_type": null,
+  "sold_out": false,
+  "aims_certified": false,
+  "registration_url": "https://worldsmarathons.com/marathon/china-myanmar-ruili-muse-cross-border-half-marathon",
+  "source_urls": [
+   "https://worldsmarathons.com/marathon/china-myanmar-ruili-muse-cross-border-half-marathon"
+  ],
+  "sources": [
+   "World's Marathons"
+  ],
+  "note": null,
+  "id": "59bc789e4864",
+  "popularity_flag": false,
+  "popularity_reason": null,
+  "first_seen_date": "2026-11-25",
+  "last_seen_date": "2026-11-25"
+ },
+ {
+  "name": "Lactacyd Women's Run PH - Davao",
+  "name_local": null,
+  "region": "Southeast Asia",
+  "country": "Philippines",
+  "city": "Davao City",
+  "race_date": "2027-01-17",
+  "date_tbd": false,
+  "distances": [],
+  "distances_raw": null,
+  "surface": "Road",
+  "cost_original": null,
+  "cost_currency": null,
+  "cost_cad": null,
+  "cost_cad_max": null,
+  "reg_open_date": null,
+  "reg_close_date": null,
+  "reg_state_raw": null,
+  "reg_closed": false,
+  "entry_type": null,
+  "sold_out": false,
+  "aims_certified": false,
+  "registration_url": "https://worldsmarathons.com/marathon/womens-run-ph-davao",
+  "source_urls": [
+   "https://worldsmarathons.com/marathon/womens-run-ph-davao"
+  ],
+  "sources": [
+   "World's Marathons"
+  ],
+  "note": null,
+  "id": "ab2d258bc25f",
+  "popularity_flag": false,
+  "popularity_reason": null,
+  "first_seen_date": "2026-11-25",
+  "last_seen_date": "2026-11-25"
+ },
+ {
+  "name": "19th Arakawa Half Marathon & 30km Presented by BOOST",
+  "name_local": "第19回荒川ハーフマラソン&30km Presented by BOOST",
+  "region": "East Asia",
+  "country": "Japan",
+  "city": "葛飾区, Tokyo",
+  "race_date": "2027-01-23",
+  "date_tbd": false,
+  "distances": [],
+  "distances_raw": null,
+  "surface": "Road",
+  "cost_original": null,
+  "cost_currency": "JPY",
+  "cost_cad": null,
+  "cost_cad_max": null,
+  "reg_open_date": "2026-10-06",
+  "reg_close_date": "2027-01-10",
+  "reg_state_raw": null,
+  "reg_closed": false,
+  "entry_type": null,
+  "sold_out": false,
+  "aims_certified": false,
+  "registration_url": "https://runnet.jp/entry/runtes/user/pc/moshicomDetailAction.do?raceId=154606&div=1",
+  "source_urls": [
+   "https://runnet.jp/entry/runtes/user/pc/moshicomDetailAction.do?raceId=154606&div=1"
+  ],
+  "sources": [
+   "RUNNET"
+  ],
+  "note": null,
+  "id": "12e0bd519a0b",
+  "popularity_flag": false,
+  "popularity_reason": null,
+  "first_seen_date": "2026-11-25",
+  "last_seen_date": "2026-11-25"
+ },
+ {
+  "name": "38th Asahi City Iioka Shiosai Marathon",
+  "name_local": "第38回旭市飯岡しおさいマラソン",
+  "region": "East Asia",
+  "country": "Japan",
+  "city": "旭市, Chiba",
+  "race_date": "2027-02-07",
+  "date_tbd": false,
+  "distances": [
+   "Half Marathon"
+  ],
+  "distances_raw": "3kmの部, 2km親子の部, 5kmの部, ハーフマラソンの部",
+  "surface": "Road",
+  "cost_original": null,
+  "cost_currency": "JPY",
+  "cost_cad": null,
+  "cost_cad_max": null,
+  "reg_open_date": "2026-10-01",
+  "reg_close_date": "2026-11-30",
+  "reg_state_raw": null,
+  "reg_closed": false,
+  "entry_type": null,
+  "sold_out": false,
+  "aims_certified": false,
+  "registration_url": "https://runnet.jp/entry/runtes/user/pc/competitionDetailAction.do?raceId=397294&div=1",
+  "source_urls": [
+   "https://runnet.jp/entry/runtes/user/pc/competitionDetailAction.do?raceId=397294&div=1"
+  ],
+  "sources": [
+   "RUNNET"
+  ],
+  "note": null,
+  "id": "d4e86fc37918",
+  "popularity_flag": false,
+  "popularity_reason": null,
+  "first_seen_date": "2026-11-25",
+  "last_seen_date": "2026-11-25"
+ },
+ {
+  "name": "Yukon Arctic Ultra",
+  "name_local": null,
+  "region": "Canada",
+  "country": "Canada",
+  "city": "Whitehorse",
+  "race_date": "2027-02-07",
   "date_tbd": false,
   "distances": [
    "Ultra"
@@ -61,29 +284,108 @@
   "entry_type": null,
   "sold_out": false,
   "aims_certified": false,
-  "registration_url": "https://worldsmarathons.com/marathon/shenzhen100-mountain-running-race",
+  "registration_url": "https://worldsmarathons.com/marathon/yukon-arctic-ultra-8",
   "source_urls": [
-   "https://worldsmarathons.com/marathon/shenzhen100-mountain-running-race"
+   "https://worldsmarathons.com/marathon/yukon-arctic-ultra-8"
   ],
   "sources": [
    "World's Marathons"
   ],
   "note": null,
-  "id": "3cc3a8115862",
+  "id": "5dfa95217b5b",
   "popularity_flag": false,
   "popularity_reason": null,
-  "first_seen_date": "2026-11-24",
-  "last_seen_date": "2026-11-24"
+  "first_seen_date": "2026-11-25",
+  "last_seen_date": "2026-11-25"
  },
  {
-  "name": "Photos for participants Marathon in Cambodia",
+  "name": "Vangvieng Half marathon",
+  "name_local": null,
+  "region": "Southeast Asia",
+  "country": "Laos",
+  "city": "Vang Vieng",
+  "race_date": "2027-02-21",
+  "date_tbd": false,
+  "distances": [
+   "Half Marathon"
+  ],
+  "distances_raw": null,
+  "surface": "Road",
+  "cost_original": null,
+  "cost_currency": null,
+  "cost_cad": null,
+  "cost_cad_max": null,
+  "reg_open_date": null,
+  "reg_close_date": null,
+  "reg_state_raw": null,
+  "reg_closed": false,
+  "entry_type": null,
+  "sold_out": false,
+  "aims_certified": false,
+  "registration_url": "https://worldsmarathons.com/marathon/vang-vieng-half-marathon",
+  "source_urls": [
+   "https://worldsmarathons.com/marathon/vang-vieng-half-marathon"
+  ],
+  "sources": [
+   "World's Marathons"
+  ],
+  "note": null,
+  "id": "bb999518ab8d",
+  "popularity_flag": false,
+  "popularity_reason": null,
+  "first_seen_date": "2026-11-25",
+  "last_seen_date": "2026-11-25"
+ },
+ {
+  "name": "Fujieda Marathon 2027",
+  "name_local": "ふじえだマラソン2027",
+  "region": "East Asia",
+  "country": "Japan",
+  "city": "藤枝市, Shizuoka",
+  "race_date": "2027-03-07",
+  "date_tbd": false,
+  "distances": [
+   "5K",
+   "10K",
+   "Half Marathon"
+  ],
+  "distances_raw": "ハーフ, 10km, 5km, 3kmジョギング",
+  "surface": "Road",
+  "cost_original": null,
+  "cost_currency": "JPY",
+  "cost_cad": null,
+  "cost_cad_max": null,
+  "reg_open_date": "2026-11-01",
+  "reg_close_date": "2027-01-12",
+  "reg_state_raw": null,
+  "reg_closed": false,
+  "entry_type": null,
+  "sold_out": false,
+  "aims_certified": false,
+  "registration_url": "https://runnet.jp/entry/runtes/user/pc/competitionDetailAction.do?raceId=399433&div=1",
+  "source_urls": [
+   "https://runnet.jp/entry/runtes/user/pc/competitionDetailAction.do?raceId=399433&div=1"
+  ],
+  "sources": [
+   "RUNNET"
+  ],
+  "note": null,
+  "id": "be377b7245bb",
+  "popularity_flag": false,
+  "popularity_reason": null,
+  "first_seen_date": "2026-11-25",
+  "last_seen_date": "2026-11-25"
+ },
+ {
+  "name": "Women Run 10km Phnom Penh",
   "name_local": null,
   "region": "Southeast Asia",
   "country": "Cambodia",
-  "city": null,
-  "race_date": "2026-12-31",
+  "city": "Phnom Penh",
+  "race_date": "2027-03-08",
   "date_tbd": false,
   "distances": [
+   "10K",
    "Marathon"
   ],
   "distances_raw": null,
@@ -99,27 +401,27 @@
   "entry_type": null,
   "sold_out": false,
   "aims_certified": false,
-  "registration_url": "https://worldsmarathons.com/marathon/photo-cambodia-marathon",
+  "registration_url": "https://worldsmarathons.com/marathon/women-run-phnom-penh",
   "source_urls": [
-   "https://worldsmarathons.com/marathon/photo-cambodia-marathon"
+   "https://worldsmarathons.com/marathon/women-run-phnom-penh"
   ],
   "sources": [
    "World's Marathons"
   ],
   "note": null,
-  "id": "c2c0212e973e",
+  "id": "d919c2b8440c",
   "popularity_flag": false,
   "popularity_reason": null,
-  "first_seen_date": "2026-11-24",
-  "last_seen_date": "2026-11-24"
+  "first_seen_date": "2026-11-25",
+  "last_seen_date": "2026-11-25"
  },
  {
-  "name": "RUN THE TRACK Shanghai F1 Half Marathon",
+  "name": "Women's Run Half Marathon PH - Manila",
   "name_local": null,
-  "region": "East Asia",
-  "country": "China",
-  "city": "Shanghai",
-  "race_date": "2027-01-01",
+  "region": "Southeast Asia",
+  "country": "Philippines",
+  "city": "Metro Manila",
+  "race_date": "2027-03-13",
   "date_tbd": false,
   "distances": [
    "Half Marathon"
@@ -137,69 +439,106 @@
   "entry_type": null,
   "sold_out": false,
   "aims_certified": false,
-  "registration_url": "https://worldsmarathons.com/marathon/run-the-track-shanghai-f1-half-marathon",
+  "registration_url": "https://worldsmarathons.com/marathon/womens-run-ph-march-manila",
   "source_urls": [
-   "https://worldsmarathons.com/marathon/run-the-track-shanghai-f1-half-marathon"
+   "https://worldsmarathons.com/marathon/womens-run-ph-march-manila"
   ],
   "sources": [
    "World's Marathons"
   ],
   "note": null,
-  "id": "8202eab2deef",
+  "id": "27272e4af628",
   "popularity_flag": false,
   "popularity_reason": null,
-  "first_seen_date": "2026-11-24",
-  "last_seen_date": "2026-11-24"
+  "first_seen_date": "2026-11-25",
+  "last_seen_date": "2026-11-25"
  },
  {
-  "name": "Tokyo New Year Half Marathon",
-  "name_local": null,
-  "region": "East Asia",
-  "country": "Japan",
-  "city": "Kita City",
-  "race_date": "2027-01-10",
-  "date_tbd": false,
-  "distances": [
-   "10K",
-   "Half Marathon"
-  ],
-  "distances_raw": null,
-  "surface": "Road",
-  "cost_original": null,
-  "cost_currency": null,
-  "cost_cad": null,
-  "cost_cad_max": null,
-  "reg_open_date": null,
-  "reg_close_date": null,
-  "reg_state_raw": null,
-  "reg_closed": false,
-  "entry_type": null,
-  "sold_out": false,
-  "aims_certified": false,
-  "registration_url": "https://worldsmarathons.com/marathon/tokyo-new-year-half-marathon",
-  "source_urls": [
-   "https://worldsmarathons.com/marathon/tokyo-new-year-half-marathon"
-  ],
-  "sources": [
-   "World's Marathons"
-  ],
-  "note": null,
-  "id": "6068eb8a55bd",
-  "popularity_flag": false,
-  "popularity_reason": null,
-  "first_seen_date": "2026-11-24",
-  "last_seen_date": "2026-11-24"
- },
- {
-  "name": "Ultra Trail Chiang Mai - UTCM",
+  "name": "X-WATERS Thailand",
   "name_local": null,
   "region": "Southeast Asia",
   "country": "Thailand",
-  "city": "Mueang Khong",
-  "race_date": "2027-01-10",
+  "city": "Phuket",
+  "race_date": "2027-03-27",
+  "date_tbd": false,
+  "distances": [],
+  "distances_raw": null,
+  "surface": "Road",
+  "cost_original": null,
+  "cost_currency": null,
+  "cost_cad": null,
+  "cost_cad_max": null,
+  "reg_open_date": null,
+  "reg_close_date": null,
+  "reg_state_raw": null,
+  "reg_closed": false,
+  "entry_type": null,
+  "sold_out": false,
+  "aims_certified": false,
+  "registration_url": "https://worldsmarathons.com/marathon/x-waters-thailand",
+  "source_urls": [
+   "https://worldsmarathons.com/marathon/x-waters-thailand"
+  ],
+  "sources": [
+   "World's Marathons"
+  ],
+  "note": null,
+  "id": "035919f43295",
+  "popularity_flag": false,
+  "popularity_reason": null,
+  "first_seen_date": "2026-11-25",
+  "last_seen_date": "2026-11-25"
+ },
+ {
+  "name": "Winnipeg Police Service Half Marathon",
+  "name_local": null,
+  "region": "Canada",
+  "country": "Canada",
+  "city": "Winnipeg",
+  "race_date": "2027-05-02",
   "date_tbd": false,
   "distances": [
-   "Ultra",
+   "Half Marathon"
+  ],
+  "distances_raw": null,
+  "surface": "Road",
+  "cost_original": null,
+  "cost_currency": null,
+  "cost_cad": null,
+  "cost_cad_max": null,
+  "reg_open_date": null,
+  "reg_close_date": null,
+  "reg_state_raw": null,
+  "reg_closed": false,
+  "entry_type": null,
+  "sold_out": false,
+  "aims_certified": false,
+  "registration_url": "https://worldsmarathons.com/marathon/winnipeg-police-services-half-marathon-wps-half-marathon-",
+  "source_urls": [
+   "https://worldsmarathons.com/marathon/winnipeg-police-services-half-marathon-wps-half-marathon-"
+  ],
+  "sources": [
+   "World's Marathons"
+  ],
+  "note": null,
+  "id": "db1864cefc98",
+  "popularity_flag": false,
+  "popularity_reason": null,
+  "first_seen_date": "2026-11-25",
+  "last_seen_date": "2026-11-25"
+ },
+ {
+  "name": "BlueShore Financial Whistler Half Marathon",
+  "name_local": null,
+  "region": "Canada",
+  "country": "Canada",
+  "city": "Whistler Olympic Plaza",
+  "race_date": "2027-06-05",
+  "date_tbd": false,
+  "distances": [
+   "5K",
+   "10K",
+   "Half Marathon",
    "Other"
   ],
   "distances_raw": null,
@@ -215,215 +554,27 @@
   "entry_type": null,
   "sold_out": false,
   "aims_certified": false,
-  "registration_url": "https://worldsmarathons.com/marathon/ultra-trail-chiang-mai",
+  "registration_url": "https://worldsmarathons.com/marathon/whistler-half-marathon",
   "source_urls": [
-   "https://worldsmarathons.com/marathon/ultra-trail-chiang-mai"
+   "https://worldsmarathons.com/marathon/whistler-half-marathon"
   ],
   "sources": [
    "World's Marathons"
   ],
   "note": null,
-  "id": "f52c85f9305c",
+  "id": "3dab7f026126",
   "popularity_flag": false,
   "popularity_reason": null,
-  "first_seen_date": "2026-11-24",
-  "last_seen_date": "2026-11-24"
+  "first_seen_date": "2026-11-25",
+  "last_seen_date": "2026-11-25"
  },
  {
-  "name": "V Trail Laos",
-  "name_local": null,
-  "region": "Southeast Asia",
-  "country": "Laos",
-  "city": "Vang Vieng",
-  "race_date": "2027-01-17",
-  "date_tbd": false,
-  "distances": [],
-  "distances_raw": null,
-  "surface": "Road",
-  "cost_original": null,
-  "cost_currency": null,
-  "cost_cad": null,
-  "cost_cad_max": null,
-  "reg_open_date": null,
-  "reg_close_date": null,
-  "reg_state_raw": null,
-  "reg_closed": false,
-  "entry_type": null,
-  "sold_out": false,
-  "aims_certified": false,
-  "registration_url": "https://worldsmarathons.com/marathon/v-trail-laos",
-  "source_urls": [
-   "https://worldsmarathons.com/marathon/v-trail-laos"
-  ],
-  "sources": [
-   "World's Marathons"
-  ],
-  "note": null,
-  "id": "d3bc34f1aeb9",
-  "popularity_flag": false,
-  "popularity_reason": null,
-  "first_seen_date": "2026-11-24",
-  "last_seen_date": "2026-11-24"
- },
- {
-  "name": "tACbo Run - Manila Half Marathon",
+  "name": "Lactacyd Women's Run PH - Iloilo",
   "name_local": null,
   "region": "Southeast Asia",
   "country": "Philippines",
-  "city": "Makati City",
-  "race_date": "2027-01-17",
-  "date_tbd": false,
-  "distances": [
-   "Half Marathon"
-  ],
-  "distances_raw": null,
-  "surface": "Road",
-  "cost_original": null,
-  "cost_currency": null,
-  "cost_cad": null,
-  "cost_cad_max": null,
-  "reg_open_date": null,
-  "reg_close_date": null,
-  "reg_state_raw": null,
-  "reg_closed": false,
-  "entry_type": null,
-  "sold_out": false,
-  "aims_certified": false,
-  "registration_url": "https://worldsmarathons.com/marathon/tacbo-run-manila-half-marathon",
-  "source_urls": [
-   "https://worldsmarathons.com/marathon/tacbo-run-manila-half-marathon"
-  ],
-  "sources": [
-   "World's Marathons"
-  ],
-  "note": null,
-  "id": "39f11bf2416b",
-  "popularity_flag": false,
-  "popularity_reason": null,
-  "first_seen_date": "2026-11-24",
-  "last_seen_date": "2026-11-24"
- },
- {
-  "name": "Ultra-Trail Angkor",
-  "name_local": null,
-  "region": "Southeast Asia",
-  "country": "Cambodia",
-  "city": "Angkor",
-  "race_date": "2027-01-23",
-  "date_tbd": false,
-  "distances": [
-   "Ultra"
-  ],
-  "distances_raw": null,
-  "surface": "Road",
-  "cost_original": null,
-  "cost_currency": null,
-  "cost_cad": null,
-  "cost_cad_max": null,
-  "reg_open_date": null,
-  "reg_close_date": null,
-  "reg_state_raw": null,
-  "reg_closed": false,
-  "entry_type": null,
-  "sold_out": false,
-  "aims_certified": false,
-  "registration_url": "https://worldsmarathons.com/marathon/ultra-trail-d-angkor",
-  "source_urls": [
-   "https://worldsmarathons.com/marathon/ultra-trail-d-angkor"
-  ],
-  "sources": [
-   "World's Marathons"
-  ],
-  "note": null,
-  "id": "47dbcb7a78c1",
-  "popularity_flag": false,
-  "popularity_reason": null,
-  "first_seen_date": "2026-11-24",
-  "last_seen_date": "2026-11-24"
- },
- {
-  "name": "Sanur Bali International Half Marathon",
-  "name_local": null,
-  "region": "Southeast Asia",
-  "country": "Indonesia",
-  "city": "Bali",
-  "race_date": "2027-02-07",
-  "date_tbd": false,
-  "distances": [
-   "Half Marathon"
-  ],
-  "distances_raw": null,
-  "surface": "Road",
-  "cost_original": null,
-  "cost_currency": null,
-  "cost_cad": null,
-  "cost_cad_max": null,
-  "reg_open_date": null,
-  "reg_close_date": null,
-  "reg_state_raw": null,
-  "reg_closed": false,
-  "entry_type": null,
-  "sold_out": false,
-  "aims_certified": false,
-  "registration_url": "https://worldsmarathons.com/marathon/sanur-bali-international-half-marathon",
-  "source_urls": [
-   "https://worldsmarathons.com/marathon/sanur-bali-international-half-marathon"
-  ],
-  "sources": [
-   "World's Marathons"
-  ],
-  "note": null,
-  "id": "170dd0d65b7f",
-  "popularity_flag": false,
-  "popularity_reason": null,
-  "first_seen_date": "2026-11-24",
-  "last_seen_date": "2026-11-24"
- },
- {
-  "name": "2027 CTAU Ultramarathon Series - Final Stop: Taipei Ultramarathon",
-  "name_local": "2027 CTAU超馬系列賽 - 最終站 臺北超級馬拉松",
-  "region": "East Asia",
-  "country": "Taiwan",
-  "city": "Taipei",
-  "race_date": "2027-02-19",
-  "date_tbd": false,
-  "distances": [
-   "Ultra"
-  ],
-  "distances_raw": "160K, 100K, 80K, 50K, 48H, 24H, 12H, 6H",
-  "surface": "Road",
-  "cost_original": "NT$1,900–6,000",
-  "cost_currency": "TWD",
-  "cost_cad": 83.0,
-  "cost_cad_max": 262.11,
-  "reg_open_date": "2026-11-04",
-  "reg_close_date": "2027-01-18",
-  "reg_state_raw": "01-18截止",
-  "reg_closed": false,
-  "entry_type": null,
-  "sold_out": false,
-  "aims_certified": false,
-  "registration_url": "https://bao-ming.com/eb/content/7254#reg",
-  "source_urls": [
-   "https://running.biji.co/index.php?q=competition&act=info&cid=13258"
-  ],
-  "sources": [
-   "運動筆記"
-  ],
-  "note": null,
-  "id": "7d1c6c85354e",
-  "popularity_flag": false,
-  "popularity_reason": null,
-  "first_seen_date": "2026-11-24",
-  "last_seen_date": "2026-11-24"
- },
- {
-  "name": "Thailand Swimathon",
-  "name_local": null,
-  "region": "Southeast Asia",
-  "country": "Thailand",
-  "city": "Chang Wat Rayong",
-  "race_date": "2027-02-28",
+  "city": "Iloilo City",
+  "race_date": "2027-07-18",
   "date_tbd": false,
   "distances": [],
   "distances_raw": null,
@@ -439,357 +590,18 @@
   "entry_type": null,
   "sold_out": false,
   "aims_certified": false,
-  "registration_url": "https://worldsmarathons.com/marathon/thailand-swimathon",
+  "registration_url": "https://worldsmarathons.com/marathon/womens-run-ph-iloilo",
   "source_urls": [
-   "https://worldsmarathons.com/marathon/thailand-swimathon"
+   "https://worldsmarathons.com/marathon/womens-run-ph-iloilo"
   ],
   "sources": [
    "World's Marathons"
   ],
   "note": null,
-  "id": "1e76a97cbcaa",
+  "id": "f210b3bf7580",
   "popularity_flag": false,
   "popularity_reason": null,
-  "first_seen_date": "2026-11-24",
-  "last_seen_date": "2026-11-24"
- },
- {
-  "name": "2027 37th Fuji Five Lakes Super Marathon",
-  "name_local": "2027 第37屆富士五湖超級馬拉松",
-  "region": "East Asia",
-  "country": "Japan",
-  "city": "富士北六公園",
-  "race_date": "2027-04-18",
-  "date_tbd": false,
-  "distances": [
-   "Ultra"
-  ],
-  "distances_raw": "120K, 100K",
-  "surface": "Road",
-  "cost_original": null,
-  "cost_currency": null,
-  "cost_cad": null,
-  "cost_cad_max": null,
-  "reg_open_date": null,
-  "reg_close_date": null,
-  "reg_state_raw": "報名時間未定",
-  "reg_closed": false,
-  "entry_type": null,
-  "sold_out": false,
-  "aims_certified": false,
-  "registration_url": "https://running.biji.co/index.php?q=competition&act=info&cid=13262",
-  "source_urls": [
-   "https://running.biji.co/index.php?q=competition&act=info&cid=13262"
-  ],
-  "sources": [
-   "運動筆記"
-  ],
-  "note": null,
-  "official_url": "https://www.r-wellness.com/fuji5/course/",
-  "id": "81f24165a8e3",
-  "popularity_flag": false,
-  "popularity_reason": null,
-  "first_seen_date": "2026-11-24",
-  "last_seen_date": "2026-11-24"
- },
- {
-  "name": "Mt. Fuji 100 Trail",
-  "name_local": null,
-  "region": "East Asia",
-  "country": "Japan",
-  "city": "Fujikawaguchiko",
-  "race_date": "2027-04-24",
-  "date_tbd": false,
-  "distances": [],
-  "distances_raw": null,
-  "surface": "Road",
-  "cost_original": null,
-  "cost_currency": null,
-  "cost_cad": null,
-  "cost_cad_max": null,
-  "reg_open_date": null,
-  "reg_close_date": null,
-  "reg_state_raw": null,
-  "reg_closed": false,
-  "entry_type": null,
-  "sold_out": false,
-  "aims_certified": false,
-  "registration_url": "https://worldsmarathons.com/marathon/ultra-trail-mt-fuji",
-  "source_urls": [
-   "https://worldsmarathons.com/marathon/ultra-trail-mt-fuji"
-  ],
-  "sources": [
-   "World's Marathons"
-  ],
-  "note": null,
-  "id": "c43370535e26",
-  "popularity_flag": false,
-  "popularity_reason": null,
-  "first_seen_date": "2026-11-24",
-  "last_seen_date": "2026-11-24"
- },
- {
-  "name": "Puma Toronto Women’s Spring Half Marathon/10k/5k",
-  "name_local": null,
-  "region": "Canada",
-  "country": "Canada",
-  "city": "Toronto",
-  "race_date": "2027-05-22",
-  "date_tbd": false,
-  "distances": [
-   "5K",
-   "10K",
-   "Half Marathon"
-  ],
-  "distances_raw": null,
-  "surface": "Road",
-  "cost_original": null,
-  "cost_currency": null,
-  "cost_cad": null,
-  "cost_cad_max": null,
-  "reg_open_date": null,
-  "reg_close_date": null,
-  "reg_state_raw": null,
-  "reg_closed": false,
-  "entry_type": null,
-  "sold_out": false,
-  "aims_certified": false,
-  "registration_url": "https://worldsmarathons.com/marathon/toronto-women-s-half-marathon-5k",
-  "source_urls": [
-   "https://worldsmarathons.com/marathon/toronto-women-s-half-marathon-5k"
-  ],
-  "sources": [
-   "World's Marathons"
-  ],
-  "note": null,
-  "id": "48eb39bdb765",
-  "popularity_flag": false,
-  "popularity_reason": null,
-  "first_seen_date": "2026-11-24",
-  "last_seen_date": "2026-11-24"
- },
- {
-  "name": "Blue Nose International Marathon",
-  "name_local": null,
-  "region": "Canada",
-  "country": "Canada",
-  "city": "Halifax",
-  "race_date": "2027-05-23",
-  "date_tbd": false,
-  "distances": [
-   "Marathon"
-  ],
-  "distances_raw": null,
-  "surface": "Road",
-  "cost_original": null,
-  "cost_currency": null,
-  "cost_cad": null,
-  "cost_cad_max": null,
-  "reg_open_date": null,
-  "reg_close_date": null,
-  "reg_state_raw": null,
-  "reg_closed": false,
-  "entry_type": null,
-  "sold_out": false,
-  "aims_certified": false,
-  "registration_url": "https://worldsmarathons.com/marathon/scotiabank-blue-nose-international-marathon",
-  "source_urls": [
-   "https://worldsmarathons.com/marathon/scotiabank-blue-nose-international-marathon"
-  ],
-  "sources": [
-   "World's Marathons"
-  ],
-  "note": null,
-  "id": "c866febb4c31",
-  "popularity_flag": false,
-  "popularity_reason": null,
-  "first_seen_date": "2026-11-24",
-  "last_seen_date": "2026-11-24"
- },
- {
-  "name": "Québec Méga Trail",
-  "name_local": null,
-  "region": "Canada",
-  "country": "Canada",
-  "city": "Beaupré",
-  "race_date": "2027-07-02",
-  "date_tbd": false,
-  "distances": [],
-  "distances_raw": null,
-  "surface": "Road",
-  "cost_original": null,
-  "cost_currency": null,
-  "cost_cad": null,
-  "cost_cad_max": null,
-  "reg_open_date": null,
-  "reg_close_date": null,
-  "reg_state_raw": null,
-  "reg_closed": false,
-  "entry_type": null,
-  "sold_out": false,
-  "aims_certified": false,
-  "registration_url": "https://worldsmarathons.com/marathon/quebec-mega-trail",
-  "source_urls": [
-   "https://worldsmarathons.com/marathon/quebec-mega-trail"
-  ],
-  "sources": [
-   "World's Marathons"
-  ],
-  "note": null,
-  "id": "2e5cf83bd633",
-  "popularity_flag": false,
-  "popularity_reason": null,
-  "first_seen_date": "2026-11-24",
-  "last_seen_date": "2026-11-24"
- },
- {
-  "name": "Squamish 50",
-  "name_local": null,
-  "region": "Canada",
-  "country": "Canada",
-  "city": "Squamish",
-  "race_date": "2027-08-14",
-  "date_tbd": false,
-  "distances": [
-   "Ultra"
-  ],
-  "distances_raw": null,
-  "surface": "Road",
-  "cost_original": null,
-  "cost_currency": null,
-  "cost_cad": null,
-  "cost_cad_max": null,
-  "reg_open_date": null,
-  "reg_close_date": null,
-  "reg_state_raw": null,
-  "reg_closed": false,
-  "entry_type": null,
-  "sold_out": false,
-  "aims_certified": false,
-  "registration_url": "https://worldsmarathons.com/marathon/squamish-50-mile",
-  "source_urls": [
-   "https://worldsmarathons.com/marathon/squamish-50-mile"
-  ],
-  "sources": [
-   "World's Marathons"
-  ],
-  "note": null,
-  "id": "464b71e0cd02",
-  "popularity_flag": false,
-  "popularity_reason": null,
-  "first_seen_date": "2026-11-24",
-  "last_seen_date": "2026-11-24"
- },
- {
-  "name": "AIA Pink Run - Breast Cancer Awareness Charity Run",
-  "name_local": null,
-  "region": "Southeast Asia",
-  "country": "Cambodia",
-  "city": "Phnom Penh",
-  "race_date": "2027-10-10",
-  "date_tbd": false,
-  "distances": [],
-  "distances_raw": null,
-  "surface": "Road",
-  "cost_original": null,
-  "cost_currency": null,
-  "cost_cad": null,
-  "cost_cad_max": null,
-  "reg_open_date": null,
-  "reg_close_date": null,
-  "reg_state_raw": null,
-  "reg_closed": false,
-  "entry_type": null,
-  "sold_out": false,
-  "aims_certified": false,
-  "registration_url": "https://worldsmarathons.com/marathon/pink-run-phnom-penh",
-  "source_urls": [
-   "https://worldsmarathons.com/marathon/pink-run-phnom-penh"
-  ],
-  "sources": [
-   "World's Marathons"
-  ],
-  "note": null,
-  "id": "f9cf6d690bc8",
-  "popularity_flag": false,
-  "popularity_reason": null,
-  "first_seen_date": "2026-11-24",
-  "last_seen_date": "2026-11-24"
- },
- {
-  "name": "TCS Toronto Waterfront Marathon",
-  "name_local": null,
-  "region": "Canada",
-  "country": "Canada",
-  "city": "Toronto",
-  "race_date": "2027-10-17",
-  "date_tbd": false,
-  "distances": [
-   "Marathon"
-  ],
-  "distances_raw": null,
-  "surface": "Road",
-  "cost_original": null,
-  "cost_currency": null,
-  "cost_cad": null,
-  "cost_cad_max": null,
-  "reg_open_date": null,
-  "reg_close_date": null,
-  "reg_state_raw": null,
-  "reg_closed": false,
-  "entry_type": null,
-  "sold_out": false,
-  "aims_certified": false,
-  "registration_url": "https://worldsmarathons.com/marathon/toronto-waterfront-marathon",
-  "source_urls": [
-   "https://worldsmarathons.com/marathon/toronto-waterfront-marathon"
-  ],
-  "sources": [
-   "World's Marathons"
-  ],
-  "note": null,
-  "id": "f113ead50871",
-  "popularity_flag": false,
-  "popularity_reason": null,
-  "first_seen_date": "2026-11-24",
-  "last_seen_date": "2026-11-24"
- },
- {
-  "name": "The Great Wall of China Marathon Autumn",
-  "name_local": null,
-  "region": "East Asia",
-  "country": "China",
-  "city": "Beijing",
-  "race_date": "2027-10-31",
-  "date_tbd": false,
-  "distances": [
-   "Marathon"
-  ],
-  "distances_raw": null,
-  "surface": "Road",
-  "cost_original": null,
-  "cost_currency": null,
-  "cost_cad": null,
-  "cost_cad_max": null,
-  "reg_open_date": null,
-  "reg_close_date": null,
-  "reg_state_raw": null,
-  "reg_closed": false,
-  "entry_type": null,
-  "sold_out": false,
-  "aims_certified": false,
-  "registration_url": "https://worldsmarathons.com/marathon/the-great-wall-of-china-marathon-autumn",
-  "source_urls": [
-   "https://worldsmarathons.com/marathon/the-great-wall-of-china-marathon-autumn"
-  ],
-  "sources": [
-   "World's Marathons"
-  ],
-  "note": null,
-  "id": "ab173082a260",
-  "popularity_flag": false,
-  "popularity_reason": null,
-  "first_seen_date": "2026-11-24",
-  "last_seen_date": "2026-11-24"
+  "first_seen_date": "2026-11-25",
+  "last_seen_date": "2026-11-25"
  }
 ]
