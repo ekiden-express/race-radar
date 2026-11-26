@@ -366,7 +366,8 @@
 "region": "Canada",
 "registration_url": "https://worldsmarathons.com/marathon/calgary-marathon",
 "sources": [
-"World's Marathons"
+"World's Marathons",
+"Marathon Index"
 ],
 "surface": "Road"
 },
@@ -4062,6 +4063,23 @@
 ],
 "surface": "Road"
 },
+"Japan|年末恒例spトレーニングラフィネptc舎人公園インターバル走貸切": {
+"aims_certified": false,
+"city": "足立区, Tokyo",
+"country": "Japan",
+"dates": [
+"2026-12-26"
+],
+"name": "☆ Annual Year-End SP Training ☆ Raffine & PTC Shinjuku Central Park Interval Run Private Session",
+"name_local": "☆年末恒例SPトレーニング☆ラフィネ＆PTC  舎人公園 インターバル走 貸切",
+"popularity_flag": false,
+"region": "East Asia",
+"registration_url": "https://runnet.jp/entry/runtes/user/pc/moshicomDetailAction.do?raceId=156518&div=1",
+"sources": [
+"RUNNET"
+],
+"surface": "Road"
+},
 "Japan|年末走り納めマラソン千住荒川会場": {
 "aims_certified": false,
 "city": "足立区, Tokyo",
@@ -4395,6 +4413,29 @@
 ],
 "surface": "Road"
 },
+"Japan|柏の葉春らんrunマラソン": {
+"aims_certified": false,
+"city": "柏市, Chiba",
+"country": "Japan",
+"dates": [
+"2027-03-22"
+],
+"distances": [
+"10K",
+"Half Marathon",
+"Marathon",
+"Other"
+],
+"name": "12th Kashiwa-no-Ha Haru-ran Run Marathon",
+"name_local": "第12回 柏の葉 春らんRunマラソン",
+"popularity_flag": false,
+"region": "East Asia",
+"registration_url": "https://runnet.jp/entry/runtes/user/pc/competitionDetailAction.do?raceId=398389&div=1",
+"sources": [
+"RUNNET"
+],
+"surface": "Road"
+},
 "Japan|沖繩馬拉松": {
 "aims_certified": false,
 "city": "Okinawa",
@@ -4521,6 +4562,29 @@
 "popularity_flag": false,
 "region": "East Asia",
 "registration_url": "https://runnet.jp/entry/runtes/user/pc/competitionDetailAction.do?raceId=401733&div=1",
+"sources": [
+"RUNNET"
+],
+"surface": "Road"
+},
+"Japan|燕さくらマラソン": {
+"aims_certified": false,
+"city": "燕市, Niigata",
+"country": "Japan",
+"dates": [
+"2027-04-03"
+],
+"distances": [
+"5K",
+"10K",
+"Half Marathon",
+"Other"
+],
+"name": "38th Tsubame Sakura Marathon",
+"name_local": "第38回燕さくらマラソン",
+"popularity_flag": false,
+"region": "East Asia",
+"registration_url": "https://runnet.jp/entry/runtes/user/pc/competitionDetailAction.do?raceId=399853&div=1",
 "sources": [
 "RUNNET"
 ],
@@ -6411,7 +6475,8 @@
 "region": "Southeast Asia",
 "registration_url": "https://worldsmarathons.com/marathon/cebu-marathon",
 "sources": [
-"World's Marathons"
+"World's Marathons",
+"Marathon Index"
 ],
 "surface": "Road"
 },
@@ -7518,6 +7583,48 @@
 ],
 "surface": "Road"
 },
+"South Korea|금강울트라마라톤": {
+"aims_certified": false,
+"city": "금강보행교 남단 수변광장",
+"country": "South Korea",
+"dates": [
+"2027-05-22"
+],
+"distances": [
+"Ultra"
+],
+"name": "2027 Geumgang Ultramarathon",
+"name_local": "2027 금강울트라마라톤",
+"popularity_flag": false,
+"region": "East Asia",
+"registration_url": "http://gultra100k.kr",
+"sources": [
+"마라톤온라인"
+],
+"surface": "Road"
+},
+"South Korea|금산송년무료초청마라톤축제": {
+"aims_certified": false,
+"city": "금산세계인삼엑스포주차장",
+"country": "South Korea",
+"dates": [
+"2026-12-19"
+],
+"distances": [
+"10K",
+"Marathon",
+"Other"
+],
+"name": "2026 Geumsan Year-End Free Invitation Marathon Festival",
+"name_local": "2026금산 송년 무료 초청 마라톤 축제",
+"popularity_flag": false,
+"region": "East Asia",
+"registration_url": "http://mara1080.com/event/6397382b-be8d-4aee-b724-68f9fad03f29",
+"sources": [
+"마라톤온라인"
+],
+"surface": "Road"
+},
 "South Korea|금산인삼웰빙마라톤대회": {
 "aims_certified": false,
 "city": "금산인삼엑스포주차장",
@@ -7606,6 +7713,28 @@
 ],
 "surface": "Trail"
 },
+"South Korea|대관령시리즈겨울편트레일런트레킹": {
+"aims_certified": false,
+"city": "대관령 하늘목장",
+"country": "South Korea",
+"dates": [
+"2027-01-30"
+],
+"distances": [
+"5K",
+"10K",
+"Other"
+],
+"name": "Daegwallyeong Series: Winter Edition Trail Running & Trekking",
+"name_local": "대관령시리즈 겨울편 트레일런&트레킹",
+"popularity_flag": false,
+"region": "East Asia",
+"registration_url": "http://daegwallyeongrun.com/ko",
+"sources": [
+"마라톤온라인"
+],
+"surface": "Trail"
+},
 "South Korea|대구광역시장기생활체육육상대회": {
 "aims_certified": false,
 "city": "대구스타디움",
@@ -7671,6 +7800,28 @@
 ],
 "surface": "Trail"
 },
+"South Korea|동계훈련마라톤대회": {
+"aims_certified": false,
+"city": "화성궁평항일원",
+"country": "South Korea",
+"dates": [
+"2027-01-30"
+],
+"distances": [
+"10K",
+"Half Marathon",
+"Other"
+],
+"name": "2027 Winter Training Marathon",
+"name_local": "2027 동계훈련마라톤대회",
+"popularity_flag": false,
+"region": "East Asia",
+"registration_url": "http://kihogprun.co.kr",
+"sources": [
+"마라톤온라인"
+],
+"surface": "Road"
+},
 "South Korea|런텐14차레이스justrun10대구": {
 "aims_certified": false,
 "city": "금호강 러닝성지",
@@ -7684,6 +7835,27 @@
 ],
 "name": "Run10 Race 14 – Just Run 10 Daegu",
 "name_local": "런텐 14차 레이스 JUST RUN10 대구",
+"popularity_flag": false,
+"region": "East Asia",
+"registration_url": "http://runten.co.kr",
+"sources": [
+"마라톤온라인"
+],
+"surface": "Road"
+},
+"South Korea|런텐세종전국10k대회": {
+"aims_certified": false,
+"city": "금강 러닝성지",
+"country": "South Korea",
+"dates": [
+"2027-02-27"
+],
+"distances": [
+"5K",
+"10K"
+],
+"name": "Run10Sejong National 10K Race",
+"name_local": "런텐 세종 전국 10K 대회",
 "popularity_flag": false,
 "region": "East Asia",
 "registration_url": "http://runten.co.kr",
@@ -8847,6 +9019,28 @@
 ],
 "surface": "Road"
 },
+"South Korea|창녕부곡온천마라톤": {
+"aims_certified": false,
+"city": "창녕스포츠파크 5구장",
+"country": "South Korea",
+"dates": [
+"2027-03-13"
+],
+"distances": [
+"5K",
+"10K",
+"Half Marathon"
+],
+"name": "21st Changnyeong Bugok Hot Spring Marathon",
+"name_local": "제21회 창녕부곡온천마라톤",
+"popularity_flag": false,
+"region": "East Asia",
+"registration_url": "http://www.cngmarathon.co.kr",
+"sources": [
+"마라톤온라인"
+],
+"surface": "Road"
+},
 "South Korea|천안삼거리흥타령울트라마라톤": {
 "aims_certified": false,
 "city": "천안삼거리공원",
@@ -8905,6 +9099,27 @@
 "popularity_flag": false,
 "region": "East Asia",
 "registration_url": "http://www.youthrun.co.kr",
+"sources": [
+"마라톤온라인"
+],
+"surface": "Road"
+},
+"South Korea|초코런": {
+"aims_certified": false,
+"city": "신정교하부육상트랙구장",
+"country": "South Korea",
+"dates": [
+"2027-02-14"
+],
+"distances": [
+"5K",
+"10K"
+],
+"name": "2027 Choco Run",
+"name_local": "2027 초코런",
+"popularity_flag": false,
+"region": "East Asia",
+"registration_url": "http://www.chocorun.kr/",
 "sources": [
 "마라톤온라인"
 ],
@@ -8990,6 +9205,27 @@
 "popularity_flag": false,
 "region": "East Asia",
 "registration_url": "http://peace-run.kr/",
+"sources": [
+"마라톤온라인"
+],
+"surface": "Road"
+},
+"South Korea|포항철강마라톤": {
+"aims_certified": false,
+"city": "송도해수욕장 일원",
+"country": "South Korea",
+"dates": [
+"2027-03-20"
+],
+"distances": [
+"5K",
+"10K"
+],
+"name": "2027 11th Pohang Steel Marathon",
+"name_local": "2027 제11회 포항철강마라톤",
+"popularity_flag": false,
+"region": "East Asia",
+"registration_url": "http://phsteelrun.com",
 "sources": [
 "마라톤온라인"
 ],
@@ -10590,7 +10826,8 @@
 ],
 "name": "2027 Yilan Four Seasons Twin Reefs Marathon",
 "name_local": "2027宜蘭四季絕代雙礁馬拉松",
-"popularity_flag": false,
+"popularity_flag": true,
+"popularity_reason": "Popular on 運動筆記",
 "region": "East Asia",
 "registration_url": "https://running.biji.co/index.php?q=competition&act=info&cid=13029",
 "sources": [
@@ -11941,6 +12178,27 @@
 ],
 "surface": "Road"
 },
+"Taiwan|長城馬拉松": {
+"aims_certified": false,
+"city": "天津市",
+"country": "Taiwan",
+"dates": [
+"2027-05-15"
+],
+"distances": [
+"Half Marathon",
+"Marathon"
+],
+"name": "2027 Great Wall Marathon",
+"name_local": "2027 長城馬拉松",
+"popularity_flag": false,
+"region": "East Asia",
+"registration_url": "https://running.biji.co/index.php?q=competition&act=info&cid=13273",
+"sources": [
+"運動筆記"
+],
+"surface": "Road"
+},
 "Taiwan|集集濁水溪半程國際馬拉松": {
 "aims_certified": false,
 "city": "Nantou",
@@ -12598,6 +12856,7 @@
 "registration_url": "https://worldsmarathons.com/marathon/chiang-mai-marathon",
 "sources": [
 "World's Marathons",
+"Marathon Index",
 "AIMS"
 ],
 "surface": "Road"
@@ -12672,6 +12931,22 @@
 "registration_url": "https://www.aims-worldrunning.org/races/10425.html",
 "sources": [
 "AIMS"
+],
+"surface": "Road"
+},
+"Thailand|huahinadventureracefestival": {
+"aims_certified": false,
+"city": "Hua Hin",
+"country": "Thailand",
+"dates": [
+"2027-01-30"
+],
+"name": "Hua Hin Adventure Race & Festival",
+"popularity_flag": false,
+"region": "Southeast Asia",
+"registration_url": "https://worldsmarathons.com/marathon/hua-hin-adventure-race-festival",
+"sources": [
+"World's Marathons"
 ],
 "surface": "Road"
 },
@@ -13572,6 +13847,27 @@
 "sources": [
 "World's Marathons",
 "AIMS"
+],
+"surface": "Road"
+},
+"Vietnam|danangmarathon": {
+"aims_certified": false,
+"city": "Da Nang",
+"country": "Vietnam",
+"dates": [
+"2027-03-21"
+],
+"distances": [
+"5K",
+"Half Marathon",
+"Marathon"
+],
+"name": "Da Nang Marathon",
+"popularity_flag": false,
+"region": "Southeast Asia",
+"registration_url": "https://marathon-index.com/races/da-nang-marathon/",
+"sources": [
+"Marathon Index"
 ],
 "surface": "Road"
 },
