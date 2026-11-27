@@ -1,24 +1,24 @@
 {
- "generated_at": "2026-11-26T14:57:10+00:00",
+ "generated_at": "2026-11-27T14:50:25+00:00",
  "fx": {
-  "date": "2026-11-26",
+  "date": "2026-11-27",
   "provider": "ExchangeRate-API (open.er-api.com)",
   "rates": {
-   "TWD": 23.285886,
-   "JPY": 111.886553,
-   "KRW": 944.21211,
-   "HKD": 5.50714,
-   "MYR": 2.889495,
-   "SGD": 0.907185,
-   "THB": 23.947649,
-   "IDR": 12848.507042,
-   "PHP": 44.662198,
-   "VND": 18140.418464,
-   "CNY": 4.692436,
-   "MOP": 5.675288,
-   "BND": 0.907196,
-   "KHR": 2848.684211,
-   "USD": 0.702818,
+   "TWD": 23.140769,
+   "JPY": 111.846809,
+   "KRW": 944.309873,
+   "HKD": 5.503194,
+   "MYR": 2.892668,
+   "SGD": 0.906387,
+   "THB": 23.910181,
+   "IDR": 12855.092374,
+   "PHP": 44.763393,
+   "VND": 18130.992703,
+   "CNY": 4.688166,
+   "MOP": 5.669133,
+   "BND": 0.906387,
+   "KHR": 2858.184211,
+   "USD": 0.702214,
    "CAD": 1
   },
   "stale": false
@@ -28,61 +28,61 @@
    "ok": true,
    "count": 137,
    "error": null,
-   "last_success": "2026-11-26",
+   "last_success": "2026-11-27",
    "seconds": 8
   },
   "RUNNET": {
    "ok": true,
-   "count": 69,
+   "count": 0,
    "error": null,
-   "last_success": "2026-11-26",
+   "last_success": "2026-11-27",
    "seconds": 8
   },
   "마라톤온라인": {
    "ok": true,
    "count": 166,
    "error": null,
-   "last_success": "2026-11-26",
+   "last_success": "2026-11-27",
    "seconds": 2
   },
   "JomRun": {
    "ok": true,
    "count": 46,
    "error": null,
-   "last_success": "2026-11-26",
-   "seconds": 310
+   "last_success": "2026-11-27",
+   "seconds": 335
   },
   "Race directories": {
    "ok": true,
-   "count": 106,
+   "count": 113,
    "error": null,
-   "last_success": "2026-11-26",
-   "seconds": 417
+   "last_success": "2026-11-27",
+   "seconds": 414
   },
   "AIMS": {
    "ok": true,
    "count": 110,
    "error": null,
-   "last_success": "2026-11-26"
+   "last_success": "2026-11-27"
   },
   "My list": {
    "ok": true,
    "count": 8,
    "error": null,
-   "last_success": "2026-11-26"
+   "last_success": "2026-11-27"
   }
  },
  "requests_made": 256,
  "english_names": {
-  "manual": 260,
-  "cached": 69,
-  "machine": 12,
+  "manual": 198,
+  "cached": 75,
+  "machine": 1,
   "untranslated": 0
  },
  "directories": {
   "opened": 89,
-  "cached": 390,
-  "in_regions": 330,
+  "cached": 479,
+  "in_regions": 337,
   "candidates": 810
  },
  "races": [
@@ -163,7 +163,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2026 Dongshi National Marathon",
@@ -204,7 +204,7 @@
    "popularity_flag": true,
    "popularity_reason": "Popular on 運動筆記",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2026 GETR Gumi Eco Trail Race",
@@ -243,7 +243,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2026 Liudui Hakka Village Run",
@@ -283,7 +283,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2026 Mother Marathon Beigang Matsu Cup National Marathon",
@@ -324,7 +324,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2026 Namhae Trail Race (Autumn)",
@@ -363,7 +363,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2026 Sejung Autumn Breeze Running Festa",
@@ -402,7 +402,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2026 Seoul Life Marathon (Autumn)",
@@ -442,7 +442,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Give Run 2026 Busan",
@@ -481,7 +481,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Run10 Race 14 – Just Run 10 Daegu",
@@ -520,7 +520,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "19th Daegu Mayor's Cup Athletics Meet",
@@ -558,7 +558,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2026 Forest of Peace Marathon",
@@ -597,7 +597,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2026 Golden Tiger Lord National Road Race",
@@ -636,7 +636,7 @@
    "popularity_flag": true,
    "popularity_reason": "Popular on 運動筆記",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2026 Incheon Marathon",
@@ -676,7 +676,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2026 Kim Dae-jung Marathon",
@@ -716,7 +716,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2026 Muju Firefly Peace Marathon",
@@ -756,7 +756,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2026 Seoul Silver Grass Marathon",
@@ -796,7 +796,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2026 Taoyuan Bald Cypress Marathon",
@@ -837,7 +837,7 @@
    "popularity_flag": true,
    "popularity_reason": "Popular on 運動筆記",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2026 Wandan Red Bean Charity Marathon",
@@ -878,7 +878,7 @@
    "popularity_flag": true,
    "popularity_reason": "Popular on 運動筆記",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "6th Minister of Employment Cup Workers' Marathon",
@@ -917,7 +917,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Mar Backyard Ultra 6",
@@ -959,7 +959,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "NS Run",
@@ -1001,7 +1001,7 @@
    "popularity_flag": true,
    "popularity_reason": "AIMS Certified, Popular on 運動筆記",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Zeiss Smile Race",
@@ -1040,7 +1040,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "ASICS Running Program – Road to Tokyo Marathon 2027 (PB course)",
@@ -1118,7 +1118,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2026 Peace Run",
@@ -1157,7 +1157,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2026 Seo-gu Study Room Charity Run",
@@ -1196,7 +1196,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Bath Run 2026",
@@ -1236,7 +1236,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Equine 9: Sarong Edition (EVENT POSTPONE to 28 NOV)",
@@ -1274,7 +1274,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Ice-Watch Color the Night Run 2026",
@@ -1310,7 +1310,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "OG 8th Anniversary Run - Alor Setar",
@@ -1346,7 +1346,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "14th Ahn Jung-geun Peace Marathon",
@@ -1386,7 +1386,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2026 Cheonan Hope Sharing Marathon",
@@ -1426,7 +1426,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2026 Garmin Run Marathon Series – Taipei",
@@ -1466,7 +1466,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2026 Jeongeup Community Market Marathon",
@@ -1505,7 +1505,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2026 Love Seoul Marathon",
@@ -1545,7 +1545,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2026 Saehan Media Marathon",
@@ -1585,7 +1585,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2026 Tainan Autumn Marathon",
@@ -1625,7 +1625,7 @@
    "popularity_flag": true,
    "popularity_reason": "Popular on 運動筆記",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2026 Wonju Chiak Marathon",
@@ -1665,7 +1665,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "500 Thailand",
@@ -1701,7 +1701,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "9th Gwangjin Mayor's Cup Athletics Meet",
@@ -1739,7 +1739,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Allianz Ayudhya World Run Thailand Series Nakhorn Nayok",
@@ -1778,7 +1778,7 @@
    "note": "Last held 30 Nov 2025. Next date not announced yet – if it runs again, expect it around November 2026.",
    "id": "8c319ab4e40a",
    "first_seen_date": "2026-11-25",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Amazing Thailand Marathon Bangkok",
@@ -1818,7 +1818,7 @@
    "popularity_flag": true,
    "popularity_reason": "AIMS Certified",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Amazing Thailand Marathon Bangkok - Official Bangkok Capital City Marathon",
@@ -1897,7 +1897,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "IIB20 Medini Run 2026",
@@ -1936,7 +1936,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Mercedes-Benz BR Jaya Walkathon - Muar",
@@ -1972,7 +1972,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Muar Half Marathon",
@@ -2012,7 +2012,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Oceanman Phuket",
@@ -2047,7 +2047,7 @@
    "note": "Last held 1 Dec 2024. Next date not announced yet – if it runs again, expect it around November 2026.",
    "id": "fa3b9ccff563",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Pos Malaysia Run",
@@ -2085,7 +2085,7 @@
    "popularity_flag": true,
    "popularity_reason": "AIMS Certified",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Run for Wellness, Run for Negeri 2026 (EVENT POSTPONE TO 29 NOV 2026)",
@@ -2121,7 +2121,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2026 2nd Hertai Pilates Marathon",
@@ -2163,7 +2163,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2026 5th NTU Civil Engineering Cup Campus Run",
@@ -2203,7 +2203,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2026 800 Warriors Series – Jinshuiying Ultramarathon",
@@ -2241,7 +2241,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2026 Hug Run",
@@ -2280,7 +2280,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2026 Moak Mountain Trail Run",
@@ -2319,7 +2319,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2026 Yu Gwan-sun Peace Marathon",
@@ -2358,7 +2358,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2026 Zhuoshui River Zijin Marathon - Mingjian Station for Advanced Runners",
@@ -2398,7 +2398,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "23rd Han River Citizens Marathon",
@@ -2438,7 +2438,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "4th Garden Five Life Race",
@@ -2478,7 +2478,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Korea Marathon Association 2026 Gold Run",
@@ -2518,7 +2518,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Larian Amal Sunway-Rapid KL sempena sambutan Jubli Perak D.Y.M.M. Sultan Selangor",
@@ -2557,7 +2557,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Shanghai Sports Expo",
@@ -2595,7 +2595,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-24",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "1st Jeongeup Hometown Love Charity Marathon",
@@ -2634,7 +2634,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2026 2nd Taichung International Marathon",
@@ -2675,7 +2675,7 @@
    "popularity_flag": true,
    "popularity_reason": "Popular on 運動筆記",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2026 8th National Palace Museum Southern Branch Marathon",
@@ -2716,7 +2716,7 @@
    "popularity_flag": true,
    "popularity_reason": "Popular on 運動筆記",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2026 Busan Bridge Marathon",
@@ -2755,7 +2755,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2026 Daejeon Bomunsan Trail",
@@ -2794,7 +2794,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2026 Hwang Young-cho Road Race",
@@ -2833,7 +2833,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2026 Hwasun Dolmen Marathon",
@@ -2873,7 +2873,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2026 New Taipei Christmas Marathon Relay",
@@ -2911,7 +2911,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2026 OPEN!RUN",
@@ -2940,17 +2940,19 @@
    "aims_certified": false,
    "registration_url": "https://running.biji.co/index.php?q=competition&act=info&cid=13076",
    "source_urls": [
-    "https://running.biji.co/index.php?q=competition&act=info&cid=13076"
+    "https://running.biji.co/index.php?q=competition&act=info&cid=13076",
+    "https://marathon-index.com/races/kaohsiung-marathon/"
    ],
    "sources": [
-    "運動筆記"
+    "運動筆記",
+    "Marathon Index"
    ],
    "note": null,
    "id": "f128a99e10da",
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2026 Sanxing Annong River Marathon Carnival",
@@ -2991,7 +2993,7 @@
    "popularity_flag": true,
    "popularity_reason": "Popular on 運動筆記",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2026 Taoyuan Half Marathon – Shimen Reservoir Maple",
@@ -3031,7 +3033,7 @@
    "popularity_flag": true,
    "popularity_reason": "Popular on 運動筆記",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2026 ZEPRO RUN National Half Marathon – Taipei",
@@ -3070,7 +3072,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "20th Yangsan National Half Marathon",
@@ -3110,7 +3112,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "26th Tamagawa Half Marathon",
@@ -3185,7 +3187,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Angkor Wat International Half Marathon",
@@ -3227,7 +3229,7 @@
    "popularity_flag": true,
    "popularity_reason": "AIMS Certified",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "BMW Brunei International Half Marathon",
@@ -3265,7 +3267,7 @@
    "popularity_flag": true,
    "popularity_reason": "AIMS Certified",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "BYD Singapore International Marathon presented by adidas",
@@ -3305,7 +3307,7 @@
    "popularity_flag": true,
    "popularity_reason": "AIMS Certified",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Brunei Half Marathon BMW Edition",
@@ -3343,7 +3345,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Fukuoka International Marathon",
@@ -3381,7 +3383,7 @@
    "popularity_flag": true,
    "popularity_reason": "AIMS Certified",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Hofu Yomiuri Marathon",
@@ -3419,7 +3421,7 @@
    "popularity_flag": true,
    "popularity_reason": "AIMS Certified",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Hsinchu City Marathon",
@@ -3462,7 +3464,7 @@
    "popularity_flag": true,
    "popularity_reason": "AIMS Certified, Popular on 運動筆記",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Kwasa Damansara X Sunsuria My Melody and Kuromi Runfest 2026",
@@ -3500,7 +3502,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Macau Galaxy Entertainment International Marathon",
@@ -3538,7 +3540,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Naha Marathon",
@@ -3576,7 +3578,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Sesame Street Run  - Philippines",
@@ -3615,7 +3617,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Shanghai Marathon",
@@ -3644,11 +3646,13 @@
    "registration_url": "https://worldsmarathons.com/marathon/shanghai-international-marathon",
    "source_urls": [
     "https://worldsmarathons.com/marathon/shanghai-international-marathon",
+    "https://marathon-index.com/races/guangzhou-marathon/",
     "https://www.aims-worldrunning.org/races/933.html",
     "https://www.aims-worldrunning.org/races/10481.html"
    ],
    "sources": [
     "World's Marathons",
+    "Marathon Index",
     "AIMS"
    ],
    "note": null,
@@ -3656,7 +3660,7 @@
    "popularity_flag": true,
    "popularity_reason": "AIMS Certified",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Shenzhen Marathon",
@@ -3734,7 +3738,7 @@
    "popularity_flag": true,
    "popularity_reason": "AIMS Certified",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Thailand by UTMB",
@@ -3771,7 +3775,7 @@
    "note": "Last held 8 Dec 2024. Next date not announced yet – if it runs again, expect it around December 2026.",
    "id": "648a3592330e",
    "first_seen_date": "2026-11-24",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Vientiane International Marathon",
@@ -3809,7 +3813,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-25",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2026 3rd Jigong Cup Road Race – Yizhu",
@@ -3849,7 +3853,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2026 Charity Run for Child-Headed Households",
@@ -3888,7 +3892,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2026 Jiaoxi Hot Spring Marathon",
@@ -3929,7 +3933,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2026 ONE MORE RUN",
@@ -3969,7 +3973,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2026 Seongnam Heritage Run",
@@ -4008,7 +4012,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2026 Taiwan Sugar Charity Run",
@@ -4048,7 +4052,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2026 Yonhap News Hanam International Trail Run Festival",
@@ -4088,7 +4092,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2026 tigerrun",
@@ -4128,7 +4132,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Akabane Year-End Marathon 2026 (Kita, Tokyo)",
@@ -4208,7 +4212,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "KOSAJ NEON RUN",
@@ -4246,7 +4250,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Langkawi International Half Marathon",
@@ -4274,17 +4278,19 @@
    "aims_certified": false,
    "registration_url": "https://worldsmarathons.com/marathon/langkawi-international-half-marathon",
    "source_urls": [
-    "https://worldsmarathons.com/marathon/langkawi-international-half-marathon"
+    "https://worldsmarathons.com/marathon/langkawi-international-half-marathon",
+    "https://marathon-index.com/races/langkawi-marathon/"
    ],
    "sources": [
-    "World's Marathons"
+    "World's Marathons",
+    "Marathon Index"
    ],
    "note": null,
    "id": "9a58b6dbc773",
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Mt. Fuji International Marathon",
@@ -4322,7 +4328,7 @@
    "popularity_flag": true,
    "popularity_reason": "AIMS Certified",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "The Challenge Race Tokyo 44 (JAAF certified)",
@@ -4394,7 +4400,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2026 12th Meinong Marathon",
@@ -4432,7 +4438,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2026 Crocodile 40th Anniversary Marathon",
@@ -4473,7 +4479,7 @@
    "popularity_flag": true,
    "popularity_reason": "Popular on 運動筆記",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2026 Kaohsiung Harbour City International Half Marathon",
@@ -4513,7 +4519,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2026 Season Finale Marathon",
@@ -4553,7 +4559,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2026 Tongxiao Pink Marathon",
@@ -4593,7 +4599,7 @@
    "popularity_flag": true,
    "popularity_reason": "Popular on 運動筆記",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2026 Zhuoshui River Marathon – Zhushan",
@@ -4633,7 +4639,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "36th Jinju Marathon",
@@ -4674,7 +4680,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "4th Guoxing Deer Run",
@@ -4714,7 +4720,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "5th Bamseom Island Marathon",
@@ -4754,7 +4760,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Aspen-Klippa Penang Bridge International Marathon 2025",
@@ -4793,7 +4799,7 @@
    "popularity_flag": true,
    "popularity_reason": "AIMS Certified",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Busan Geumjeong Fortress Trail",
@@ -4832,7 +4838,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Larian Semangat Johor",
@@ -4870,7 +4876,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Mercedes-Benz BR Jaya Run 2026 - Kuching",
@@ -4908,7 +4914,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Nara Marathon",
@@ -4948,7 +4954,7 @@
    "popularity_flag": true,
    "popularity_reason": "AIMS Certified",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "OG 8th Anniversary Run - Taiping",
@@ -4984,7 +4990,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Okinawa 100K Ultra Marathon",
@@ -5022,7 +5028,7 @@
    "note": "Last held 15 Dec 2024. Next date not announced yet – if it runs again, expect it around December 2026.",
    "id": "af91bd04eecb",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Photak Marathon",
@@ -5060,7 +5066,7 @@
    "popularity_flag": true,
    "popularity_reason": "AIMS Certified",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "SUNSET COLOUR RUN",
@@ -5098,7 +5104,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Sabah Half Marathon",
@@ -5138,7 +5144,7 @@
    "popularity_flag": true,
    "popularity_reason": "Sold Out",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Scenic Marathon Nakhon Phanom",
@@ -5177,7 +5183,7 @@
    "popularity_flag": true,
    "popularity_reason": "AIMS Certified",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "The Challenge Race Osaka 6 (JAAF certified)",
@@ -5255,7 +5261,7 @@
    "popularity_flag": true,
    "popularity_reason": "AIMS Certified",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "New Taipei 5K Challenge – December",
@@ -5293,7 +5299,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Angkor Wat Indochine Marathon Powered by Viettel",
@@ -5333,7 +5339,7 @@
    "note": "Last held 20 Dec 2024. Next date not announced yet – if it runs again, expect it around December 2026.",
    "id": "21789f9360b5",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2026 2nd Food Safety Cup Marathon",
@@ -5374,7 +5380,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2026 4th Shunze Temple Champion Run",
@@ -5416,7 +5422,7 @@
    "popularity_flag": true,
    "popularity_reason": "Popular on 運動筆記",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2026 Geumsan Year-End Free Invitation Marathon Festival",
@@ -5456,7 +5462,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-26",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2026 Taipei Marathon Christmas Breakfast Run",
@@ -5494,7 +5500,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2026 Taipei–Yilan Highway Ultramarathon",
@@ -5533,7 +5539,7 @@
    "popularity_flag": true,
    "popularity_reason": "Popular on 運動筆記",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Tama Sub-Full Marathon 2026",
@@ -5609,7 +5615,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2026 Nankunshen Marathon",
@@ -5650,7 +5656,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2026 Tainan Fucheng International Half Marathon",
@@ -5690,7 +5696,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2026 Taipei Marathon",
@@ -5733,7 +5739,7 @@
    "popularity_flag": true,
    "popularity_reason": "AIMS Certified, Popular on 運動筆記",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Awaken Bangkok Midnight Marathon",
@@ -5770,7 +5776,7 @@
    "note": "Last held 21 Dec 2025. Next date not announced yet – if it runs again, expect it around December 2026.",
    "id": "68ac0890c5ee",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Bangkok Midnight Marathon",
@@ -5808,7 +5814,7 @@
    "popularity_flag": true,
    "popularity_reason": "AIMS Certified",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Bangsaen21",
@@ -5846,7 +5852,7 @@
    "popularity_flag": true,
    "popularity_reason": "AIMS Certified",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Chiang Mai Marathon",
@@ -5888,7 +5894,7 @@
    "popularity_flag": true,
    "popularity_reason": "AIMS Certified",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Guangzhou Marathon",
@@ -5926,7 +5932,7 @@
    "popularity_flag": true,
    "popularity_reason": "AIMS Certified",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Kakogawa Year-End Running High 2026",
@@ -6005,7 +6011,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "OG 8th Anniversary Run - Ipoh",
@@ -6041,7 +6047,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "The Challenge Race Toyosu 18 (JAAF certified)",
@@ -6116,7 +6122,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-25",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2026 Drink Sport Run – Cocktail Fun Run",
@@ -6154,7 +6160,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "12th Nissan Stadium 5-Hour Relay Marathon",
@@ -6213,8 +6219,8 @@
    "surface": "Road",
    "cost_original": "NT$270–1,300",
    "cost_currency": "TWD",
-   "cost_cad": 11.6,
-   "cost_cad_max": 55.83,
+   "cost_cad": 11.67,
+   "cost_cad_max": 56.18,
    "reg_open_date": "2026-08-06",
    "reg_close_date": "2026-12-05",
    "reg_state_raw": "12-05截止",
@@ -6234,7 +6240,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2026 Kaohsiung Metro Christmas Charity Run",
@@ -6273,7 +6279,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Green Park Marathon 2026 in Kanagawa – Charity Run",
@@ -6390,7 +6396,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2026 Fukuyama Year-End Marathon",
@@ -6471,7 +6477,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Gyeongju Tongpo Trail",
@@ -6510,7 +6516,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "OG 8th Anniversary Run - Bukit Mertajam",
@@ -6546,7 +6552,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Shenzhen100  Mountain Running Race",
@@ -6584,7 +6590,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-24",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Showa Kinen Park Winter Marathon Festival",
@@ -6696,7 +6702,7 @@
    "note": "Last held 31 Dec 2024. Next date not announced yet – if it runs again, expect it around December 2026.",
    "id": "cfa4dcba64fd",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Year-End Final Run Marathon 2026 (Senju Arakawa)",
@@ -6809,7 +6815,7 @@
    "note": "Last held 1 Jan 2026. Next date not announced yet – if it runs again, expect it around December 2026.",
    "id": "344d90d56bda",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Photos for participants Marathon in Cambodia",
@@ -6847,7 +6853,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-24",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2027 11th New Year Sunrise Run",
@@ -6887,7 +6893,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2027 Pingtung Dawn Run",
@@ -6927,7 +6933,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Guangdong-Hong Kong-Macao Greater Bay Area Women's Half Marathon",
@@ -6965,7 +6971,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "New Year Resolution Charity Run 2027",
@@ -7003,7 +7009,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "RUN THE TRACK Shanghai F1 Half Marathon",
@@ -7041,7 +7047,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-24",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Brunei Run",
@@ -7079,7 +7085,7 @@
    "note": "Last held 3 Jan 2026. Next date not announced yet – if it runs again, expect it around January 2027.",
    "id": "e4fb0f0ba7d9",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "China-Myanmar Ruili-Muse Cross-Border Half Marathon",
@@ -7117,7 +7123,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-25",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "New Year Run 2027 - Alor Setar",
@@ -7153,7 +7159,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "19th National New Year Bare-Chest Marathon",
@@ -7192,7 +7198,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2027 New Taipei Metropolitan International Half Marathon",
@@ -7232,7 +7238,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2027 SUPERACE Wild Horse Trail Series – Winter",
@@ -7248,18 +7254,18 @@
    ],
    "distances_raw": "35K, 23K, 12K, 5K",
    "surface": "Trail",
-   "cost_original": "NT$1,000–3,000",
+   "cost_original": null,
    "cost_currency": "TWD",
-   "cost_cad": 42.94,
-   "cost_cad_max": 128.83,
+   "cost_cad": null,
+   "cost_cad_max": null,
    "reg_open_date": "2026-08-04",
    "reg_close_date": "2026-11-26",
-   "reg_state_raw": "11-26截止",
-   "reg_closed": false,
+   "reg_state_raw": "已截止報名",
+   "reg_closed": true,
    "entry_type": null,
    "sold_out": false,
    "aims_certified": false,
-   "registration_url": "https://bao-ming.com/eb/content/7163#reg",
+   "registration_url": "https://running.biji.co/index.php?q=competition&act=info&cid=13167",
    "source_urls": [
     "https://running.biji.co/index.php?q=competition&act=info&cid=13167"
    ],
@@ -7271,7 +7277,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Bingdian Tainan International Marathon",
@@ -7309,7 +7315,7 @@
    "note": "Last held 5 Jan 2025. Next date not announced yet – if it runs again, expect it around January 2027.",
    "id": "7e7e636b7309",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "UNICEF Charity Run Half Marathon & 10km",
@@ -7347,7 +7353,7 @@
    "popularity_flag": true,
    "popularity_reason": "AIMS Certified",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Vasaloppet China Ski Festival",
@@ -7382,7 +7388,7 @@
    "note": "Last held 4 Jan 2026. Next date not announced yet – if it runs again, expect it around January 2027.",
    "id": "b3a1643f421a",
    "first_seen_date": "2026-11-25",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "16 Sierra Candytopia Run",
@@ -7420,7 +7426,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2027 9th Long Hu Feng Trail Race",
@@ -7460,7 +7466,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Kaohsiung Fubon Marathon",
@@ -7501,7 +7507,7 @@
    "popularity_flag": true,
    "popularity_reason": "AIMS Certified",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Khao Yai Marathon",
@@ -7540,7 +7546,7 @@
    "popularity_flag": true,
    "popularity_reason": "AIMS Certified",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Khon Kaen International Marathon",
@@ -7578,7 +7584,7 @@
    "popularity_flag": true,
    "popularity_reason": "AIMS Certified",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "OG NIGHT RUSH 2027",
@@ -7614,7 +7620,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Southville City RoboRun 7KM Powered by Mah Sing (EVENT POSTPONED TO 9 JAN 2027)",
@@ -7652,7 +7658,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "The Challenge Race Fukuoka 3",
@@ -7725,7 +7731,7 @@
    "note": "Last held 11 Jan 2025. Next date not announced yet – if it runs again, expect it around January 2027.",
    "id": "e06d98f852fe",
    "first_seen_date": "2026-11-25",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2027 KMA New Year Winter Marathon",
@@ -7765,7 +7771,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2027 Kaohsiung Fubon Marathon – Day 2",
@@ -7804,7 +7810,7 @@
    "popularity_flag": true,
    "popularity_reason": "Popular on 運動筆記",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2027 SPIL Half Marathon",
@@ -7844,7 +7850,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2027 Yilan Four Seasons Twin Reefs Marathon",
@@ -7885,7 +7891,7 @@
    "popularity_flag": true,
    "popularity_reason": "Popular on 運動筆記",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "21st Yeosu Ocean Marathon",
@@ -7926,7 +7932,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Bali Mountain Marathon",
@@ -7964,7 +7970,7 @@
    "note": "Last held 11 Jan 2026. Next date not announced yet – if it runs again, expect it around January 2027.",
    "id": "840ddf2dd939",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Bangkok Marathon",
@@ -8006,7 +8012,7 @@
    "popularity_flag": true,
    "popularity_reason": "AIMS Certified",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "C&D Xiamen Marathon",
@@ -8048,7 +8054,7 @@
    "popularity_flag": true,
    "popularity_reason": "AIMS Certified",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Cebu Marathon",
@@ -8088,7 +8094,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Chinese New Year Run 2027",
@@ -8127,7 +8133,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Chongqing Marathon",
@@ -8165,7 +8171,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Johor Bahru City Half Marathon 2027",
@@ -8205,7 +8211,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Kuching Half Marathon 2027 Powered By Ultron",
@@ -8245,7 +8251,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "New Year Run 2027 - Seri Manjung",
@@ -8281,7 +8287,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Standard Chartered Taipei Charity Marathon",
@@ -8325,7 +8331,7 @@
    "popularity_flag": true,
    "popularity_reason": "AIMS Certified, Popular on 運動筆記",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Tokyo New Year Half Marathon",
@@ -8364,7 +8370,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-24",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Ultra Trail Chiang Mai - UTCM",
@@ -8403,7 +8409,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-24",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Yodogawa Eco Marathon 2027 New Year Special",
@@ -8480,7 +8486,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "18th Tokyo Akabane Half Marathon",
@@ -8539,8 +8545,8 @@
    "surface": "Road",
    "cost_original": "¥5,000–20,000",
    "cost_currency": "JPY",
-   "cost_cad": 44.69,
-   "cost_cad_max": 178.75,
+   "cost_cad": 44.7,
+   "cost_cad_max": 178.82,
    "reg_open_date": null,
    "reg_close_date": null,
    "reg_state_raw": "報名時間未定",
@@ -8561,7 +8567,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2027 Mizuno Marathon Relay",
@@ -8599,7 +8605,7 @@
    "popularity_flag": true,
    "popularity_reason": "Popular on 運動筆記",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2027 Taichung Metropolitan International Half Marathon",
@@ -8640,7 +8646,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "45th Seto Inland Sea Turtle Full Marathon",
@@ -8719,7 +8725,7 @@
    "popularity_flag": true,
    "popularity_reason": "AIMS Certified",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "EastWest Dream Run - Clark",
@@ -8755,7 +8761,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Guangzhou 100",
@@ -8792,7 +8798,7 @@
    "note": "Last held 18 Jan 2026. Next date not announced yet – if it runs again, expect it around January 2027.",
    "id": "b03beecbd58e",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Ho Chi Minh City Marathon",
@@ -8820,17 +8826,19 @@
    "aims_certified": false,
    "registration_url": "https://worldsmarathons.com/marathon/ho-chi-minh-city-marathon",
    "source_urls": [
-    "https://worldsmarathons.com/marathon/ho-chi-minh-city-marathon"
+    "https://worldsmarathons.com/marathon/ho-chi-minh-city-marathon",
+    "https://marathon-index.com/races/ho-chi-minh-marathon/"
    ],
    "sources": [
-    "World's Marathons"
+    "World's Marathons",
+    "Marathon Index"
    ],
    "note": null,
    "id": "4b3bdfc47eb6",
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "IEM Engineer's Run Sarawak 2026 (EVENT POSTPONED TO 17 JAN 2027)",
@@ -8866,7 +8874,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Ishigaki Island Marathon",
@@ -8903,7 +8911,7 @@
    "note": "Last held 19 Jan 2025. Next date not announced yet – if it runs again, expect it around January 2027.",
    "id": "56c0ac86dc36",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Kinmen Marathon",
@@ -8942,7 +8950,7 @@
    "popularity_flag": true,
    "popularity_reason": "AIMS Certified",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Lactacyd Women's Run PH - Davao",
@@ -8978,7 +8986,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-25",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Merchandise Kota Kinabalu Marathon 2027",
@@ -9017,7 +9025,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Nasi Lemak New Year Run 2027",
@@ -9053,7 +9061,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "New Year Run 2027 - Ipoh",
@@ -9089,7 +9097,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Standard Chartered Hong Kong Marathon",
@@ -9121,10 +9129,12 @@
    "registration_url": "https://running.biji.co/index.php?q=competition&act=info&cid=13239",
    "source_urls": [
     "https://running.biji.co/index.php?q=competition&act=info&cid=13239",
+    "https://marathon-index.com/races/hong-kong-half-marathon/",
     "https://www.aims-worldrunning.org/races/647.html"
    ],
    "sources": [
     "運動筆記",
+    "Marathon Index",
     "AIMS"
    ],
    "note": null,
@@ -9133,7 +9143,7 @@
    "popularity_flag": true,
    "popularity_reason": "AIMS Certified",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Standard Chartered Hong Kong Marathon",
@@ -9173,7 +9183,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Tainan International Marathon",
@@ -9212,7 +9222,7 @@
    "popularity_flag": true,
    "popularity_reason": "AIMS Certified",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "The Challenge Race Nagoya 1 (JAAF certified)",
@@ -9284,7 +9294,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-24",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "tACbo Run - Manila Half Marathon",
@@ -9322,7 +9332,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-24",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "19th Arakawa Half Marathon & 30km Presented by BOOST",
@@ -9379,8 +9389,8 @@
    "surface": "Road",
    "cost_original": "NT$1,200–2,700",
    "cost_currency": "TWD",
-   "cost_cad": 51.53,
-   "cost_cad_max": 115.95,
+   "cost_cad": 51.86,
+   "cost_cad_max": 116.68,
    "reg_open_date": "2026-05-29",
    "reg_close_date": "2026-12-23",
    "reg_state_raw": "12-23截止",
@@ -9400,7 +9410,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2027 Polar Bear Marathon",
@@ -9440,7 +9450,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Akabane New Year Marathon 2027 (Kita, Tokyo)",
@@ -9521,7 +9531,7 @@
    "popularity_flag": true,
    "popularity_reason": "AIMS Certified",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Buriram Marathon Presented by Chang Mineral",
@@ -9598,7 +9608,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-24",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2027 9th Taichung IT Cup Charity Marathon",
@@ -9639,7 +9649,7 @@
    "popularity_flag": true,
    "popularity_reason": "Popular on 運動筆記",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2027 Jianshi Smangus King's Road Ultramarathon",
@@ -9677,7 +9687,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Bintulu Half Marathon 2027",
@@ -9717,7 +9727,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "BougeBouge Quebec",
@@ -9756,7 +9766,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "New Year Run 2027 - Taiping",
@@ -9792,7 +9802,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Tokyo Challenge Marathon 2027 (JAAF certified)",
@@ -9870,7 +9880,7 @@
    "popularity_flag": true,
    "popularity_reason": "AIMS Certified",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2027 Ang Pau Run",
@@ -9908,7 +9918,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2027 Qionglin Run Carnival",
@@ -9947,7 +9957,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2027 Winter Training Marathon",
@@ -9987,7 +9997,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-26",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "8th Chiba Marathon Festa",
@@ -10067,7 +10077,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-26",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Hua Hin Adventure Race & Festival",
@@ -10103,7 +10113,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-26",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "New Year Run 2027 - Sungai Petani",
@@ -10139,7 +10149,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "16th Jonanjima Haneda Marathon",
@@ -10201,8 +10211,8 @@
    "surface": "Road",
    "cost_original": "NT$300–1,350",
    "cost_currency": "TWD",
-   "cost_cad": 12.88,
-   "cost_cad_max": 57.98,
+   "cost_cad": 12.96,
+   "cost_cad_max": 58.34,
    "reg_open_date": "2026-08-12",
    "reg_close_date": "2026-12-15",
    "reg_state_raw": "12-15截止",
@@ -10222,7 +10232,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2027 Pyeongchang Daegwallyeong Bare-Chest Marathon",
@@ -10261,7 +10271,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "55th Tatsuno Ume to Shio no Ka Marathon",
@@ -10338,7 +10348,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Osaka Half Marathon",
@@ -10376,7 +10386,7 @@
    "popularity_flag": true,
    "popularity_reason": "AIMS Certified",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Osaka International Women's Marathon",
@@ -10417,7 +10427,7 @@
    "popularity_flag": true,
    "popularity_reason": "AIMS Certified",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Osaka Women’s Marathon",
@@ -10493,7 +10503,7 @@
    "popularity_flag": true,
    "popularity_reason": "AIMS Certified",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2027 79th Kagawa Marugame International Half Marathon",
@@ -10533,7 +10543,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "38th Asahi City Iioka Shiosai Marathon",
@@ -10732,7 +10742,7 @@
    "popularity_flag": true,
    "popularity_reason": "AIMS Certified",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Borneo Half Marathon",
@@ -10769,7 +10779,7 @@
    "note": "Last held 8 Feb 2026. Next date not announced yet – if it runs again, expect it around February 2027.",
    "id": "0858cf2762f9",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Ehime Marathon",
@@ -10809,7 +10819,7 @@
    "popularity_flag": true,
    "popularity_reason": "AIMS Certified",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Ehime Marathon",
@@ -10846,7 +10856,7 @@
    "note": "Last held 9 Feb 2025. Next date not announced yet – if it runs again, expect it around February 2027.",
    "id": "c46a2cdc9349",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "First Half Half Marathon",
@@ -10884,7 +10894,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Kagawa Marugame International Half Marathon",
@@ -10924,7 +10934,7 @@
    "popularity_flag": true,
    "popularity_reason": "AIMS Certified",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Sanur Bali International Half Marathon",
@@ -10962,7 +10972,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-24",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Yukon Arctic Ultra",
@@ -11000,7 +11010,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-25",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "11th Kashiwanoha Park Marathon",
@@ -11080,7 +11090,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Akabane Marathon (Kita, Tokyo)",
@@ -11136,8 +11146,8 @@
    "surface": "Road",
    "cost_original": "NT$500–1,400",
    "cost_currency": "TWD",
-   "cost_cad": 21.47,
-   "cost_cad_max": 60.12,
+   "cost_cad": 21.61,
+   "cost_cad_max": 60.5,
    "reg_open_date": "2026-07-10",
    "reg_close_date": "2026-12-31",
    "reg_state_raw": "12-31截止",
@@ -11157,7 +11167,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2027 Choco Run",
@@ -11196,7 +11206,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-26",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2027 Kobe Valentine Love Run",
@@ -11352,7 +11362,7 @@
    "note": "Last held 15 Feb 2026. Next date not announced yet – if it runs again, expect it around February 2027.",
    "id": "f0bac9c47222",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "65th Nobeoka Nishi-Nippon Marathon",
@@ -11464,7 +11474,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Doraemon Run Manila",
@@ -11499,7 +11509,7 @@
    "note": "Last held 15 Feb 2026. Next date not announced yet – if it runs again, expect it around February 2027.",
    "id": "2ff3b1c8a26f",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Goral Trail - Pang Mapha",
@@ -11537,7 +11547,7 @@
    "note": "Last held 16 Feb 2025. Next date not announced yet – if it runs again, expect it around February 2027.",
    "id": "9a6391572d8f",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Hypothermic Half Marathon - Halifax",
@@ -11575,7 +11585,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "KIX Senshu International Marathon",
@@ -11613,7 +11623,7 @@
    "popularity_flag": true,
    "popularity_reason": "AIMS Certified",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Kumamoto Castle Marathon",
@@ -11650,7 +11660,7 @@
    "note": "Last held 16 Feb 2025. Next date not announced yet – if it runs again, expect it around February 2027.",
    "id": "76d826720d5f",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Okinawa Marathon",
@@ -11687,7 +11697,7 @@
    "note": "Held in 18 Feb 2024, 16 Feb 2025. Next date not announced yet – if it runs again, expect it around February 2027.",
    "id": "775fdf957b1f",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "TriFactor Triathlon Philippines (Subic Bay)",
@@ -11722,7 +11732,7 @@
    "note": "Last held 16 Feb 2025. Next date not announced yet – if it runs again, expect it around February 2027.",
    "id": "0081cb18db5e",
    "first_seen_date": "2026-11-24",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2027 CTAU Ultramarathon Series - Final Stop: Taipei Ultramarathon",
@@ -11739,8 +11749,8 @@
    "surface": "Road",
    "cost_original": "NT$1,900–6,000",
    "cost_currency": "TWD",
-   "cost_cad": 81.59,
-   "cost_cad_max": 257.67,
+   "cost_cad": 82.11,
+   "cost_cad_max": 259.28,
    "reg_open_date": "2026-11-04",
    "reg_close_date": "2027-01-18",
    "reg_state_raw": "01-18截止",
@@ -11760,7 +11770,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-24",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2027 Hope Youth Run",
@@ -11801,7 +11811,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2027 KMA Cheongju Musimcheon Today Marathon",
@@ -11842,7 +11852,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "23rd Miryang Arirang Marathon",
@@ -11882,7 +11892,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "31st Okinawa Marathon 2027",
@@ -11940,8 +11950,8 @@
    "surface": "Road",
    "cost_original": "NT$600–3,000",
    "cost_currency": "TWD",
-   "cost_cad": 25.77,
-   "cost_cad_max": 128.83,
+   "cost_cad": 25.93,
+   "cost_cad_max": 129.64,
    "reg_open_date": "2026-07-01",
    "reg_close_date": "2027-01-21",
    "reg_state_raw": "01-21截止",
@@ -11961,7 +11971,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2027 KMA Cheongju Musimcheon Today Marathon",
@@ -12002,7 +12012,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2027 Morning Wheat Marathon",
@@ -12022,8 +12032,8 @@
    "surface": "Road",
    "cost_original": "NT$550–900",
    "cost_currency": "TWD",
-   "cost_cad": 23.62,
-   "cost_cad_max": 38.65,
+   "cost_cad": 23.77,
+   "cost_cad_max": 38.89,
    "reg_open_date": "2026-10-01",
    "reg_close_date": "2026-11-30",
    "reg_state_raw": "11-30截止",
@@ -12043,7 +12053,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2027 Okinawa Marathon",
@@ -12083,7 +12093,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2027 Riverside Sakae Drum Marathon",
@@ -12144,8 +12154,8 @@
    "surface": "Road",
    "cost_original": "NT$450–1,100",
    "cost_currency": "TWD",
-   "cost_cad": 19.33,
-   "cost_cad_max": 47.24,
+   "cost_cad": 19.45,
+   "cost_cad_max": 47.54,
    "reg_open_date": "2026-08-28",
    "reg_close_date": "2027-01-21",
    "reg_state_raw": "01-21截止",
@@ -12165,7 +12175,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2027 Wujie Zouwang Run Carnival",
@@ -12205,7 +12215,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "AVOHK Gammon China Coast Marathon",
@@ -12244,7 +12254,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "China Coast Marathon and Half Marathon",
@@ -12283,7 +12293,7 @@
    "popularity_flag": true,
    "popularity_reason": "AIMS Certified",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Daegu Marathon",
@@ -12320,7 +12330,7 @@
    "note": "Last held 22 Feb 2026. Next date not announced yet – if it runs again, expect it around February 2027.",
    "id": "8a0a4326cfa3",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Kitakyushu Marathon",
@@ -12358,7 +12368,7 @@
    "popularity_flag": true,
    "popularity_reason": "AIMS Certified",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Kyoto Marathon",
@@ -12388,11 +12398,13 @@
    "source_urls": [
     "https://running.biji.co/index.php?q=competition&act=info&cid=13204",
     "https://worldsmarathons.com/marathon/kyoto-marathon",
+    "https://marathon-index.com/races/kyoto-marathon/",
     "https://www.aims-worldrunning.org/races/940.html"
    ],
    "sources": [
     "運動筆記",
     "World's Marathons",
+    "Marathon Index",
     "AIMS"
    ],
    "note": null,
@@ -12401,7 +12413,7 @@
    "popularity_flag": true,
    "popularity_reason": "AIMS Certified",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Ohme-Hochi 30km Road Race & 10km",
@@ -12437,7 +12449,7 @@
    "popularity_flag": true,
    "popularity_reason": "AIMS Certified",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Vangvieng Half marathon",
@@ -12475,7 +12487,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-25",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2027 Dahu Strawberry Festival Marathon",
@@ -12495,8 +12507,8 @@
    "surface": "Road",
    "cost_original": "NT$750–1,100",
    "cost_currency": "TWD",
-   "cost_cad": 32.21,
-   "cost_cad_max": 47.24,
+   "cost_cad": 32.41,
+   "cost_cad_max": 47.54,
    "reg_open_date": "2026-10-01",
    "reg_close_date": "2026-12-31",
    "reg_state_raw": "12-31截止",
@@ -12516,7 +12528,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2027 Gaoshu Liudui Marathon",
@@ -12536,8 +12548,8 @@
    "surface": "Road",
    "cost_original": "NT$600–1,200",
    "cost_currency": "TWD",
-   "cost_cad": 25.77,
-   "cost_cad_max": 51.53,
+   "cost_cad": 25.93,
+   "cost_cad_max": 51.86,
    "reg_open_date": "2026-08-15",
    "reg_close_date": "2026-12-31",
    "reg_state_raw": "12-31截止",
@@ -12557,7 +12569,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "ASICS Run 2027",
@@ -12596,7 +12608,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Blue River Marathon 2027 in Kanagawa – Charity Run",
@@ -12678,7 +12690,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Run10Sejong National 10K Race",
@@ -12717,7 +12729,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-26",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "10th Fenqihu Dahua Highway 100K Challenge",
@@ -12756,7 +12768,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "11th Wildfire Prevention Seoul Marathon",
@@ -12797,7 +12809,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2027 Changhua Kiwanis Cup National Marathon and Family Run",
@@ -12817,8 +12829,8 @@
    "surface": "Road",
    "cost_original": "NT$240–1,500",
    "cost_currency": "TWD",
-   "cost_cad": 10.31,
-   "cost_cad_max": 64.42,
+   "cost_cad": 10.37,
+   "cost_cad_max": 64.82,
    "reg_open_date": "2026-09-22",
    "reg_close_date": "2027-01-31",
    "reg_state_raw": "01-31截止",
@@ -12838,7 +12850,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2027 Gyeonggi Suwon International Half Marathon",
@@ -12878,7 +12890,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2027 Jeongeup Donghak Marathon",
@@ -12919,7 +12931,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2027 Soja Kibiji Marathon",
@@ -12978,7 +12990,7 @@
    "surface": "Road",
    "cost_original": "NT$2,000",
    "cost_currency": "TWD",
-   "cost_cad": 85.89,
+   "cost_cad": 86.43,
    "cost_cad_max": null,
    "reg_open_date": "2026-10-15",
    "reg_close_date": "2026-12-31",
@@ -12999,7 +13011,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2027 Togane Kujukuri Surfing Half Marathon",
@@ -13196,7 +13208,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Daegu Marathon",
@@ -13238,7 +13250,7 @@
    "popularity_flag": true,
    "popularity_reason": "AIMS Certified",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "NK Nongkhai Marathon",
@@ -13277,7 +13289,7 @@
    "popularity_flag": true,
    "popularity_reason": "AIMS Certified",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Osaka Marathon",
@@ -13295,7 +13307,7 @@
    "cost_original": "¥1,000–20,000",
    "cost_currency": "JPY",
    "cost_cad": 8.94,
-   "cost_cad_max": 178.75,
+   "cost_cad_max": 178.82,
    "reg_open_date": null,
    "reg_close_date": null,
    "reg_state_raw": "報名時間未定",
@@ -13320,7 +13332,7 @@
    "popularity_flag": true,
    "popularity_reason": "AIMS Certified, Lottery Entry",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Thailand Swimathon",
@@ -13356,7 +13368,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-24",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2027 MTN Independence Movement Day Marathon",
@@ -13396,7 +13408,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "40th Uminonakamichi Harukaze Marathon",
@@ -13515,7 +13527,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2027 Bucheon International 10K Road Race",
@@ -13554,7 +13566,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2027 Donghe Valencia Orange Marathon",
@@ -13594,7 +13606,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2027 Muju Firefly Half Marathon",
@@ -13634,7 +13646,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2027 Rotary Charity Run",
@@ -13653,8 +13665,8 @@
    "surface": "Road",
    "cost_original": "NT$750–1,100",
    "cost_currency": "TWD",
-   "cost_cad": 32.21,
-   "cost_cad_max": 47.24,
+   "cost_cad": 32.41,
+   "cost_cad_max": 47.54,
    "reg_open_date": "2026-10-01",
    "reg_close_date": "2027-01-15",
    "reg_state_raw": "01-15截止",
@@ -13674,7 +13686,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2027 ZEPRO RUN National Half Marathon – New Taipei",
@@ -13693,8 +13705,8 @@
    "surface": "Road",
    "cost_original": "NT$980–2,080",
    "cost_currency": "TWD",
-   "cost_cad": 42.09,
-   "cost_cad_max": 89.32,
+   "cost_cad": 42.35,
+   "cost_cad_max": 89.88,
    "reg_open_date": "2026-11-17",
    "reg_close_date": "2026-12-23",
    "reg_state_raw": "12-23截止",
@@ -13714,7 +13726,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "38th Oka no Sato Meisui Marathon",
@@ -13910,7 +13922,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Nanshan Taipei Freeway Marathon",
@@ -13928,8 +13940,8 @@
    "surface": "Road",
    "cost_original": "NT$1,100–1,300",
    "cost_currency": "TWD",
-   "cost_cad": 47.24,
-   "cost_cad_max": 55.83,
+   "cost_cad": 47.54,
+   "cost_cad_max": 56.18,
    "reg_open_date": "2026-11-10",
    "reg_close_date": "2027-01-07",
    "reg_state_raw": "01-07截止",
@@ -13951,7 +13963,7 @@
    "popularity_flag": true,
    "popularity_reason": "AIMS Certified",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Tainan Half Marathon",
@@ -13993,7 +14005,7 @@
    "popularity_flag": true,
    "popularity_reason": "AIMS Certified",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Tokyo Marathon",
@@ -14036,7 +14048,7 @@
    "popularity_flag": true,
    "popularity_reason": "World Marathon Major, AIMS Certified",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Vientiane International Half Marathon",
@@ -14074,7 +14086,7 @@
    "popularity_flag": true,
    "popularity_reason": "AIMS Certified",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Women Run 10km Phnom Penh",
@@ -14113,7 +14125,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-25",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2027 2nd Kapok Blossom Half Marathon",
@@ -14153,7 +14165,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2027 Dajia Mazu Bobi Run",
@@ -14170,8 +14182,8 @@
    "surface": "Road",
    "cost_original": "NT$380–800",
    "cost_currency": "TWD",
-   "cost_cad": 16.32,
-   "cost_cad_max": 34.36,
+   "cost_cad": 16.42,
+   "cost_cad_max": 34.57,
    "reg_open_date": "2026-10-15",
    "reg_close_date": "2027-02-14",
    "reg_state_raw": "02-14截止",
@@ -14191,7 +14203,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2027 Geumsan Ginseng Wellbeing Marathon",
@@ -14231,7 +14243,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2027 Hualien Pacific Waves Half Marathon",
@@ -14270,7 +14282,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "21st Changnyeong Bugok Hot Spring Marathon",
@@ -14310,7 +14322,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-26",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Women's Run Half Marathon PH - Manila",
@@ -14348,7 +14360,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-25",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "10th Ishinomaki Reconstruction Marathon",
@@ -14470,7 +14482,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2027 Fengshan Three Schools Trail Marathon",
@@ -14489,8 +14501,8 @@
    "surface": "Trail",
    "cost_original": "NT$700–1,450",
    "cost_currency": "TWD",
-   "cost_cad": 30.06,
-   "cost_cad_max": 62.27,
+   "cost_cad": 30.25,
+   "cost_cad_max": 62.66,
    "reg_open_date": "2026-10-18",
    "reg_close_date": "2026-12-01",
    "reg_state_raw": "原2027/03/07因故延期至2027/03/14",
@@ -14510,7 +14522,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2027 Gaomei Wetlands Marathon",
@@ -14530,8 +14542,8 @@
    "surface": "Road",
    "cost_original": "NT$750–1,200",
    "cost_currency": "TWD",
-   "cost_cad": 32.21,
-   "cost_cad_max": 51.53,
+   "cost_cad": 32.41,
+   "cost_cad_max": 51.86,
    "reg_open_date": "2026-10-01",
    "reg_close_date": "2026-12-31",
    "reg_state_raw": "12-31截止",
@@ -14551,7 +14563,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2027 National Geographic Run for Earth",
@@ -14570,8 +14582,8 @@
    "surface": "Road",
    "cost_original": "NT$650–1,690",
    "cost_currency": "TWD",
-   "cost_cad": 27.91,
-   "cost_cad_max": 72.58,
+   "cost_cad": 28.09,
+   "cost_cad_max": 73.03,
    "reg_open_date": "2026-10-01",
    "reg_close_date": "2027-01-07",
    "reg_state_raw": "01-07截止",
@@ -14591,7 +14603,7 @@
    "popularity_flag": true,
    "popularity_reason": "Popular on 運動筆記",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2027 Pomelo Blossom Run – Madou Morning Run",
@@ -14609,8 +14621,8 @@
    "surface": "Road",
    "cost_original": "NT$890–1,090",
    "cost_currency": "TWD",
-   "cost_cad": 38.22,
-   "cost_cad_max": 46.81,
+   "cost_cad": 38.46,
+   "cost_cad_max": 47.1,
    "reg_open_date": "2026-08-26",
    "reg_close_date": "2027-02-01",
    "reg_state_raw": "原2027/3/14因故延期至2027/3/21",
@@ -14630,7 +14642,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2027 Shizuoka Marathon",
@@ -14669,7 +14681,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "28th Hita Hinamatsuri Marathon",
@@ -14748,7 +14760,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "36th Haruna Ume Marathon (Takasaki)",
@@ -14873,7 +14885,7 @@
    "popularity_flag": true,
    "popularity_reason": "AIMS Certified",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Niigata Half Marathon 2027",
@@ -14949,7 +14961,7 @@
    "popularity_flag": true,
    "popularity_reason": "AIMS Certified",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Tottori Marathon 2027",
@@ -15024,7 +15036,7 @@
    "note": "Last held 15 Mar 2026. Next date not announced yet – if it runs again, expect it around March 2027.",
    "id": "05504fffaba7",
    "first_seen_date": "2026-11-24",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Yodogawa Marathon & Walk 2027",
@@ -15104,7 +15116,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2027 11th Pohang Steel Marathon",
@@ -15143,7 +15155,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-26",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Action Asia X-Trail Taiwan",
@@ -15178,7 +15190,7 @@
    "note": "Last held 21 Mar 2026. Next date not announced yet – if it runs again, expect it around March 2027.",
    "id": "9afe925e9228",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "KBZ Community 10-mile Run",
@@ -15213,7 +15225,7 @@
    "note": "Last held 21 Mar 2026. Next date not announced yet – if it runs again, expect it around March 2027.",
    "id": "1df794643593",
    "first_seen_date": "2026-11-25",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "12th Kuki Marathon",
@@ -15292,7 +15304,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2027 Dah Ya Pineapple Marathon",
@@ -15311,8 +15323,8 @@
    "surface": "Road",
    "cost_original": "NT$950–1,000",
    "cost_currency": "TWD",
-   "cost_cad": 40.8,
-   "cost_cad_max": 42.94,
+   "cost_cad": 41.05,
+   "cost_cad_max": 43.21,
    "reg_open_date": "2026-10-16",
    "reg_close_date": "2027-01-08",
    "reg_state_raw": "01-08截止",
@@ -15332,7 +15344,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2027 Jiji Zhuoshui River International Half Marathon",
@@ -15351,8 +15363,8 @@
    "surface": "Road",
    "cost_original": "NT$700–1,000",
    "cost_currency": "TWD",
-   "cost_cad": 30.06,
-   "cost_cad_max": 42.94,
+   "cost_cad": 30.25,
+   "cost_cad_max": 43.21,
    "reg_open_date": "2026-10-15",
    "reg_close_date": "2026-12-31",
    "reg_state_raw": "12-31截止",
@@ -15372,7 +15384,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2027 Seoul Marathon",
@@ -15411,7 +15423,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "37th Kumagaya Sakura Marathon",
@@ -15488,7 +15500,7 @@
    "note": "Last held 22 Mar 2026. Next date not announced yet – if it runs again, expect it around March 2027.",
    "id": "05d3e7804fff",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Chongqing International Marathon",
@@ -15527,7 +15539,7 @@
    "popularity_flag": true,
    "popularity_reason": "AIMS Certified",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Da Nang Marathon",
@@ -15568,7 +15580,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-26",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Dalat Ultra Trail",
@@ -15606,7 +15618,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Danang International Marathon",
@@ -15646,7 +15658,7 @@
    "popularity_flag": true,
    "popularity_reason": "AIMS Certified",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Hakusan Asagao Marathon 2027",
@@ -15725,7 +15737,7 @@
    "note": "Last held 22 Mar 2026. Next date not announced yet – if it runs again, expect it around March 2027.",
    "id": "51db7b92c311",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Miri Marathon",
@@ -15764,7 +15776,7 @@
    "popularity_flag": true,
    "popularity_reason": "AIMS Certified",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "New Taipei City Wan Jin Shi Marathon",
@@ -15805,7 +15817,7 @@
    "popularity_flag": true,
    "popularity_reason": "AIMS Certified, Popular on 運動筆記",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Seoul Marathon",
@@ -15849,7 +15861,7 @@
    "popularity_flag": true,
    "popularity_reason": "AIMS Certified",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Wuxi marathon",
@@ -15886,7 +15898,7 @@
    "note": "Last held 23 Mar 2025. Next date not announced yet – if it runs again, expect it around March 2027.",
    "id": "795896ac48ab",
    "first_seen_date": "2026-11-25",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "12th Kashiwa-no-Ha Haru-ran Run Marathon",
@@ -15945,7 +15957,7 @@
    "surface": "Road",
    "cost_original": "NT$2,500",
    "cost_currency": "TWD",
-   "cost_cad": 107.36,
+   "cost_cad": 108.03,
    "cost_cad_max": null,
    "reg_open_date": "2026-07-09",
    "reg_close_date": "2027-01-21",
@@ -15966,7 +15978,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2027 Pomelo Blossom Half Marathon – Ruisui Night Run",
@@ -15984,8 +15996,8 @@
    "surface": "Road",
    "cost_original": "NT$890–1,090",
    "cost_currency": "TWD",
-   "cost_cad": 38.22,
-   "cost_cad_max": 46.81,
+   "cost_cad": 38.46,
+   "cost_cad_max": 47.1,
    "reg_open_date": "2026-08-20",
    "reg_close_date": "2027-02-12",
    "reg_state_raw": "02-12截止",
@@ -16005,7 +16017,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2027 World Vision Taiwan Global 6K for Water",
@@ -16022,8 +16034,8 @@
    "surface": "Road",
    "cost_original": "NT$700–850",
    "cost_currency": "TWD",
-   "cost_cad": 30.06,
-   "cost_cad_max": 36.5,
+   "cost_cad": 30.25,
+   "cost_cad_max": 36.73,
    "reg_open_date": "2026-10-19",
    "reg_close_date": "2026-12-31",
    "reg_state_raw": "12-31截止",
@@ -16043,7 +16055,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "X-WATERS Thailand",
@@ -16079,7 +16091,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-25",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "19th Shimanto River Sakura Marathon",
@@ -16136,8 +16148,8 @@
    "surface": "Road",
    "cost_original": "NT$700–1,100",
    "cost_currency": "TWD",
-   "cost_cad": 30.06,
-   "cost_cad_max": 47.24,
+   "cost_cad": 30.25,
+   "cost_cad_max": 47.54,
    "reg_open_date": "2026-10-30",
    "reg_close_date": "2027-01-24",
    "reg_state_raw": "01-24截止",
@@ -16157,7 +16169,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2027 Fukui Sakura Marathon",
@@ -16196,7 +16208,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2027 Jiang Ai Homeland Charity Run",
@@ -16216,8 +16228,8 @@
    "surface": "Road",
    "cost_original": "NT$600–1,100",
    "cost_currency": "TWD",
-   "cost_cad": 25.77,
-   "cost_cad_max": 47.24,
+   "cost_cad": 25.93,
+   "cost_cad_max": 47.54,
    "reg_open_date": "2026-10-01",
    "reg_close_date": "2026-12-31",
    "reg_state_raw": "原2027/03/21因故延期至2027/03/28",
@@ -16237,7 +16249,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2027 SUPERACE Wild Horse Trail Series – Spring",
@@ -16254,7 +16266,7 @@
    "surface": "Trail",
    "cost_original": "NT$2,500",
    "cost_currency": "TWD",
-   "cost_cad": 107.36,
+   "cost_cad": 108.03,
    "cost_cad_max": null,
    "reg_open_date": "2026-07-09",
    "reg_close_date": "2027-01-21",
@@ -16275,7 +16287,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2027 Sea Breeze Marathon",
@@ -16295,8 +16307,8 @@
    "surface": "Road",
    "cost_original": "NT$800–1,500",
    "cost_currency": "TWD",
-   "cost_cad": 34.36,
-   "cost_cad_max": 64.42,
+   "cost_cad": 34.57,
+   "cost_cad_max": 64.82,
    "reg_open_date": "2026-09-21",
    "reg_close_date": "2027-01-29",
    "reg_state_raw": "01-29截止",
@@ -16316,7 +16328,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2027 Shengang Kiwanis National Charity Marathon",
@@ -16357,7 +16369,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2027 Taipei Tech Cup Earth Charity Run",
@@ -16376,8 +16388,8 @@
    "surface": "Road",
    "cost_original": "NT$950–1,150",
    "cost_currency": "TWD",
-   "cost_cad": 40.8,
-   "cost_cad_max": 49.39,
+   "cost_cad": 41.05,
+   "cost_cad_max": 49.7,
    "reg_open_date": "2026-11-06",
    "reg_close_date": "2027-02-15",
    "reg_state_raw": "02-15截止",
@@ -16397,7 +16409,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "26th Hapcheon Cherry Blossom Marathon",
@@ -16438,7 +16450,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "34th 3.15 Marathon (Changwon)",
@@ -16477,7 +16489,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "3rd Yeonggwang Gwangpung Marathon",
@@ -16517,7 +16529,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Jeju MBC International Peace Marathon",
@@ -16555,7 +16567,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Naniwa Yodogawa Marathon 2027",
@@ -16630,7 +16642,7 @@
    "note": "Last held 29 Mar 2026. Next date not announced yet – if it runs again, expect it around March 2027.",
    "id": "6dfa0c984cd0",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Sihanoukville International Half Marathon",
@@ -16670,7 +16682,7 @@
    "popularity_flag": true,
    "popularity_reason": "AIMS Certified",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Tawau City Half Marathon 2027",
@@ -16710,7 +16722,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2027 Yilan Zhongshan Fragrance Festival Run",
@@ -16729,8 +16741,8 @@
    "surface": "Road",
    "cost_original": "NT$350–1,090",
    "cost_currency": "TWD",
-   "cost_cad": 15.03,
-   "cost_cad_max": 46.81,
+   "cost_cad": 15.12,
+   "cost_cad_max": 47.1,
    "reg_open_date": "2026-09-24",
    "reg_close_date": "2027-02-17",
    "reg_state_raw": "原2027/03/20因故改期至2026/04/03",
@@ -16750,7 +16762,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "38th Tsubame Sakura Marathon",
@@ -16830,7 +16842,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2027 Yeongju Sobaeksan Marathon",
@@ -16871,7 +16883,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "42nd Yaizu Minato Marathon",
@@ -16949,7 +16961,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "EastWest Dream Run - Davao",
@@ -16984,7 +16996,7 @@
    "note": "Last held 6 Apr 2025. Next date not announced yet – if it runs again, expect it around April 2027.",
    "id": "f42cc8e18d82",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Merchandise Cybercity Half Marathon 2027",
@@ -17023,7 +17035,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Singapore T100 Triathlon",
@@ -17058,7 +17070,7 @@
    "note": "Last held 6 Apr 2025. Next date not announced yet – if it runs again, expect it around April 2027.",
    "id": "42294590e466",
    "first_seen_date": "2026-11-24",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "16th Yangcheon Marathon",
@@ -17098,7 +17110,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2027 8th BC Taiwan Charity Run",
@@ -17139,7 +17151,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2027 Break Your BMI Run",
@@ -17157,8 +17169,8 @@
    "surface": "Road",
    "cost_original": "NT$900–1,100",
    "cost_currency": "TWD",
-   "cost_cad": 38.65,
-   "cost_cad_max": 47.24,
+   "cost_cad": 38.89,
+   "cost_cad_max": 47.54,
    "reg_open_date": "2026-03-21",
    "reg_close_date": "2027-02-14",
    "reg_state_raw": "02-14截止",
@@ -17178,7 +17190,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2027 Sinphar Yilan Marathon",
@@ -17198,8 +17210,8 @@
    "surface": "Road",
    "cost_original": "NT$300–1,150",
    "cost_currency": "TWD",
-   "cost_cad": 12.88,
-   "cost_cad_max": 49.39,
+   "cost_cad": 12.96,
+   "cost_cad_max": 49.7,
    "reg_open_date": "2026-11-02",
    "reg_close_date": "2026-12-15",
    "reg_state_raw": "12-15截止",
@@ -17219,7 +17231,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Hong Kong Five Peaks",
@@ -17254,7 +17266,7 @@
    "note": "Last held 11 Apr 2026. Next date not announced yet – if it runs again, expect it around April 2027.",
    "id": "51a57727eac5",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2027 Incheon K-Marathon",
@@ -17294,7 +17306,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2027 Qigu Eco Marathon",
@@ -17314,8 +17326,8 @@
    "surface": "Road",
    "cost_original": "NT$450–1,100",
    "cost_currency": "TWD",
-   "cost_cad": 19.33,
-   "cost_cad_max": 47.24,
+   "cost_cad": 19.45,
+   "cost_cad_max": 47.54,
    "reg_open_date": "2026-10-30",
    "reg_close_date": "2027-03-12",
    "reg_state_raw": "03-12截止",
@@ -17335,7 +17347,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2027 Taishin Women Run",
@@ -17354,8 +17366,8 @@
    "surface": "Road",
    "cost_original": "NT$600–1,400",
    "cost_currency": "TWD",
-   "cost_cad": 25.77,
-   "cost_cad_max": 60.12,
+   "cost_cad": 25.93,
+   "cost_cad_max": 60.5,
    "reg_open_date": "2026-11-10",
    "reg_close_date": "2027-02-25",
    "reg_state_raw": "02-25截止",
@@ -17377,7 +17389,7 @@
    "popularity_flag": true,
    "popularity_reason": "AIMS Certified",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "6th Mountain Ultra (UTMB, ITRA)",
@@ -17416,7 +17428,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Earth Day Run - Davao",
@@ -17455,7 +17467,7 @@
    "note": "Last held 12 Apr 2026. Next date not announced yet – if it runs again, expect it around April 2027.",
    "id": "1416f3961df1",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2027 ELLE RUN With Style",
@@ -17476,7 +17488,7 @@
    "cost_currency": "TWD",
    "cost_cad": null,
    "cost_cad_max": null,
-   "reg_open_date": "2026-11-17",
+   "reg_open_date": "2026-11-24",
    "reg_close_date": "2027-02-19",
    "reg_state_raw": "02-19截止",
    "reg_closed": false,
@@ -17495,7 +17507,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2027 National Visually Impaired Charity Run",
@@ -17535,7 +17547,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2027 37th Fuji Five Lakes Super Marathon",
@@ -17574,7 +17586,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-24",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2027 Aomori Sakura Marathon",
@@ -17631,8 +17643,8 @@
    "surface": "Road",
    "cost_original": "NT$300–7,700",
    "cost_currency": "TWD",
-   "cost_cad": 12.88,
-   "cost_cad_max": 330.67,
+   "cost_cad": 12.96,
+   "cost_cad_max": 332.75,
    "reg_open_date": "2026-11-19",
    "reg_close_date": "2027-01-22",
    "reg_state_raw": "01-22截止",
@@ -17652,7 +17664,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2027 Run for Future 5th Kaohsiung Charity Run",
@@ -17671,8 +17683,8 @@
    "surface": "Road",
    "cost_original": "NT$850–1,050",
    "cost_currency": "TWD",
-   "cost_cad": 36.5,
-   "cost_cad_max": 45.09,
+   "cost_cad": 36.73,
+   "cost_cad_max": 45.37,
    "reg_open_date": "2026-10-01",
    "reg_close_date": "2026-12-31",
    "reg_state_raw": "12-31截止",
@@ -17692,7 +17704,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "9th Ocean View Gijang Sea Marathon",
@@ -17732,7 +17744,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Bukidnon International Marathon",
@@ -17771,7 +17783,7 @@
    "popularity_flag": true,
    "popularity_reason": "AIMS Certified",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Earth Day Run - Manila",
@@ -17806,7 +17818,7 @@
    "note": "Last held 19 Apr 2026. Next date not announced yet – if it runs again, expect it around April 2027.",
    "id": "844d56a1ef86",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Kasumigaura Marathon 2027 (early entry)",
@@ -17888,7 +17900,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Nagano Marathon",
@@ -17928,7 +17940,7 @@
    "popularity_flag": true,
    "popularity_reason": "AIMS Certified",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Sandakan Half Marathon 2027",
@@ -17969,7 +17981,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Suo-Oshima Ultra Maranic 2027",
@@ -18082,7 +18094,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2027 Gangneung Okgye Heonhwa-ro 11K Run",
@@ -18120,7 +18132,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2027 The North Face 100 Guguan Trail Challenge",
@@ -18138,8 +18150,8 @@
    "surface": "Trail",
    "cost_original": "NT$300–5,900",
    "cost_currency": "TWD",
-   "cost_cad": 12.88,
-   "cost_cad_max": 253.37,
+   "cost_cad": 12.96,
+   "cost_cad_max": 254.96,
    "reg_open_date": "2026-09-30",
    "reg_close_date": "2027-01-31",
    "reg_state_raw": "01-31截止",
@@ -18159,7 +18171,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Jasper Canadian Rockies Half Marathon",
@@ -18197,7 +18209,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Mt. Fuji 100 Trail",
@@ -18233,7 +18245,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-24",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2027 Pohang Unification Marathon",
@@ -18273,7 +18285,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "AirAsia RedRun Danang - Champion21",
@@ -18308,7 +18320,7 @@
    "note": "Last held 26 Apr 2026. Next date not announced yet – if it runs again, expect it around April 2027.",
    "id": "50ed09ff4d23",
    "first_seen_date": "2026-11-24",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Dalian International Marathon",
@@ -18346,7 +18358,7 @@
    "popularity_flag": true,
    "popularity_reason": "AIMS Certified",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Earth Day Run - Cebu",
@@ -18385,7 +18397,7 @@
    "note": "Last held 26 Apr 2026. Next date not announced yet – if it runs again, expect it around April 2027.",
    "id": "36987a08a8ce",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Georgetown Half Marathon 2027",
@@ -18425,7 +18437,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Gifu Half Marathon",
@@ -18463,7 +18475,7 @@
    "popularity_flag": true,
    "popularity_reason": "AIMS Certified",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Kailas Fuga Beijing Huairou 100 Mountain Running Race",
@@ -18500,7 +18512,7 @@
    "note": "Last held 26 Apr 2026. Next date not announced yet – if it runs again, expect it around April 2027.",
    "id": "8a4751b1e343",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Mississauga Marathon",
@@ -18539,7 +18551,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Naoko Takahashi Cup Gifu Seiryu Half Marathon 2027",
@@ -18613,7 +18625,7 @@
    "note": "Last held 27 Apr 2025. Next date not announced yet – if it runs again, expect it around April 2027.",
    "id": "8ed2aff74f3d",
    "first_seen_date": "2026-11-24",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "TC10K",
@@ -18651,7 +18663,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Terengganu Marathon",
@@ -18690,14 +18702,14 @@
    "popularity_flag": true,
    "popularity_reason": "AIMS Certified",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Great Wall of China Marathon (GWCM)",
    "name_local": null,
    "region": "East Asia",
    "country": "China",
-   "city": "",
+   "city": "Huangyaguan",
    "race_date": "2027-05-01",
    "date_tbd": false,
    "distances": [
@@ -18718,17 +18730,19 @@
    "aims_certified": false,
    "registration_url": "https://worldsmarathons.com/marathon/great-wall-of-china-marathon",
    "source_urls": [
-    "https://worldsmarathons.com/marathon/great-wall-of-china-marathon"
+    "https://worldsmarathons.com/marathon/great-wall-of-china-marathon",
+    "https://marathon-index.com/races/great-wall-marathon-2/"
    ],
    "sources": [
-    "World's Marathons"
+    "World's Marathons",
+    "Marathon Index"
    ],
    "note": null,
    "id": "39d24b3590c1",
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "BMO Vancouver Marathon",
@@ -18770,7 +18784,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Bangkok 21K Park Run",
@@ -18807,7 +18821,7 @@
    "note": "Last held 3 May 2026. Next date not announced yet – if it runs again, expect it around May 2027.",
    "id": "563bd1aa1437",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "EastWest Dream Run - Cebu",
@@ -18842,7 +18856,7 @@
    "note": "Last held 4 May 2025. Next date not announced yet – if it runs again, expect it around May 2027.",
    "id": "10f375518961",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Toronto Marathon",
@@ -18887,7 +18901,7 @@
    "popularity_flag": true,
    "popularity_reason": "AIMS Certified",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Winnipeg Police Service Half Marathon",
@@ -18925,7 +18939,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-25",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Conquer the Wall Marathon on the Great Wall",
@@ -18963,7 +18977,7 @@
    "note": "Last held 9 May 2026. Next date not announced yet – if it runs again, expect it around May 2027.",
    "id": "826e0f837ec4",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Alliance Bank Borneo International Marathon",
@@ -19003,7 +19017,7 @@
    "popularity_flag": true,
    "popularity_reason": "AIMS Certified",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Fredericton Marathon",
@@ -19042,7 +19056,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "HATYAi21",
@@ -19121,7 +19135,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Sporting Life 10K",
@@ -19159,7 +19173,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2027 Great Wall Marathon",
@@ -19199,7 +19213,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-26",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Great Wall Marathon",
@@ -19240,7 +19254,7 @@
    "popularity_flag": true,
    "popularity_reason": "AIMS Certified",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "The Great Wall Marathon",
@@ -19358,7 +19372,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "39th Jirisan Trail Race (UTMB Index and ITRA)",
@@ -19398,7 +19412,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Ra Rueng Run",
@@ -19433,7 +19447,7 @@
    "note": "Last held 17 May 2026. Next date not announced yet – if it runs again, expect it around May 2027.",
    "id": "06c2cf6e3596",
    "first_seen_date": "2026-11-24",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Women's Run PH - Cebu",
@@ -19468,7 +19482,7 @@
    "note": "Last held 17 May 2026. Next date not announced yet – if it runs again, expect it around May 2027.",
    "id": "2978199a8e16",
    "first_seen_date": "2026-11-25",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2027 Geumgang Ultramarathon",
@@ -19506,7 +19520,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-26",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2027 Taipei Starlight Marathon",
@@ -19526,8 +19540,8 @@
    "surface": "Road",
    "cost_original": "NT$700–1,200",
    "cost_currency": "TWD",
-   "cost_cad": 30.06,
-   "cost_cad_max": 51.53,
+   "cost_cad": 30.25,
+   "cost_cad_max": 51.86,
    "reg_open_date": "2026-11-12",
    "reg_close_date": "2027-04-15",
    "reg_state_raw": "04-15截止",
@@ -19547,7 +19561,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Puma Toronto Women’s Spring Half Marathon/10k/5k",
@@ -19587,7 +19601,48 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-24",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
+  },
+  {
+   "name": "2027 General Fishing Port Marathon",
+   "name_local": "2027將軍漁港馬拉松",
+   "region": "East Asia",
+   "country": "Taiwan",
+   "city": "Tainan",
+   "race_date": "2027-05-23",
+   "date_tbd": false,
+   "distances": [
+    "5K",
+    "10K",
+    "Half Marathon",
+    "Marathon"
+   ],
+   "distances_raw": "42K, 21K, 10K, 5K",
+   "surface": "Road",
+   "cost_original": "NT$450–1,100",
+   "cost_currency": "TWD",
+   "cost_cad": 19.45,
+   "cost_cad_max": 47.54,
+   "reg_open_date": "2026-11-27",
+   "reg_close_date": "2027-04-23",
+   "reg_state_raw": "04-23截止",
+   "reg_closed": false,
+   "entry_type": null,
+   "sold_out": false,
+   "aims_certified": false,
+   "registration_url": "https://bao-ming.com/eb/content/7280#reg",
+   "source_urls": [
+    "https://running.biji.co/index.php?q=competition&act=info&cid=13278"
+   ],
+   "sources": [
+    "運動筆記"
+   ],
+   "note": null,
+   "id": "d0be6de5159d",
+   "popularity_flag": false,
+   "popularity_reason": null,
+   "first_seen_date": "2026-11-27",
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2027 Zhongxing New Village Half Marathon",
@@ -19628,7 +19683,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Bangkok Airways Trat Half Marathon",
@@ -19667,7 +19722,7 @@
    "note": "Last held 24 May 2026. Next date not announced yet – if it runs again, expect it around May 2027.",
    "id": "5fd9d87c1d76",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Beijing Miyun Eco Marathon",
@@ -19704,7 +19759,7 @@
    "note": "Last held 25 May 2025. Next date not announced yet – if it runs again, expect it around May 2027.",
    "id": "1e9aeac92fed",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Blue Nose International Marathon",
@@ -19742,7 +19797,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-24",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Hope Dream 24th Dawn Riverside International Marathon",
@@ -19782,7 +19837,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Lanzhou International Marathon",
@@ -19819,7 +19874,7 @@
    "note": "Last held 25 May 2025. Next date not announced yet – if it runs again, expect it around May 2027.",
    "id": "901225dd4bca",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Lanzhou Marathon",
@@ -19858,7 +19913,7 @@
    "popularity_flag": true,
    "popularity_reason": "AIMS Certified",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Simatai 100 - The Real Great Wall Ultra Trail",
@@ -19895,7 +19950,7 @@
    "note": "Last held 30 May 2026. Next date not announced yet – if it runs again, expect it around May 2027.",
    "id": "fea71d95f3c4",
    "first_seen_date": "2026-11-24",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Tamarack Ottawa Race Weekend",
@@ -19933,7 +19988,7 @@
    "popularity_flag": true,
    "popularity_reason": "AIMS Certified",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Beneva Calgary Marathon",
@@ -19974,7 +20029,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Manila International Marathon",
@@ -20011,7 +20066,7 @@
    "note": "Last held 31 May 2026. Next date not announced yet – if it runs again, expect it around May 2027.",
    "id": "6fd5de919a09",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Midnight Run Asia - Davao by Hoka",
@@ -20046,7 +20101,7 @@
    "note": "Last held 31 May 2026. Next date not announced yet – if it runs again, expect it around May 2027.",
    "id": "a8ee4666b344",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Tamarack Ottawa Race Weekend",
@@ -20084,7 +20139,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "West Beijing Three Peaks Traverse Trail Race",
@@ -20123,7 +20178,7 @@
    "note": "Last held 31 May 2026. Next date not announced yet – if it runs again, expect it around May 2027.",
    "id": "e270ac5a3fd7",
    "first_seen_date": "2026-11-25",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "BlueShore Financial Whistler Half Marathon",
@@ -20164,7 +20219,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-25",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Da Lat Music Night Run",
@@ -20199,7 +20254,7 @@
    "note": "Last held 6 Jun 2026. Next date not announced yet – if it runs again, expect it around June 2027.",
    "id": "db60d2157ec4",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Phuket 100K Ultra Marathon",
@@ -20238,7 +20293,7 @@
    "note": "Last held 7 Jun 2025. Next date not announced yet – if it runs again, expect it around June 2027.",
    "id": "b70c0d65e80e",
    "first_seen_date": "2026-11-24",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2027 Yunlin Half Marathon",
@@ -20279,7 +20334,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Great Wall 100 Ultra Trail Challenge & China Police Trail Running Challenge",
@@ -20316,7 +20371,7 @@
    "note": "Last held 8 Jun 2025. Next date not announced yet – if it runs again, expect it around June 2027.",
    "id": "92714b50ad7b",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Scenic Half Marathon Chanthaburi",
@@ -20354,7 +20409,7 @@
    "popularity_flag": true,
    "popularity_reason": "AIMS Certified",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Laguna Phuket Marathon",
@@ -20392,7 +20447,7 @@
    "popularity_flag": true,
    "popularity_reason": "AIMS Certified",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Manila Marathon",
@@ -20429,7 +20484,7 @@
    "note": "Last held 13 Jun 2026. Next date not announced yet – if it runs again, expect it around June 2027.",
    "id": "0a18bd11b434",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Score Marathon",
@@ -20468,7 +20523,7 @@
    "popularity_flag": true,
    "popularity_reason": "AIMS Certified",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Laguna Phuket Marathon",
@@ -20506,7 +20561,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Phnom Penh International Half Marathon",
@@ -20546,7 +20601,7 @@
    "popularity_flag": true,
    "popularity_reason": "AIMS Certified",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Banff Half Marathon & 10K",
@@ -20586,7 +20641,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Bangkok Airways Samui Half Marathon",
@@ -20625,7 +20680,7 @@
    "note": "Last held 21 Jun 2026. Next date not announced yet – if it runs again, expect it around June 2027.",
    "id": "116fa23bd258",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Indonesia Women Half Marathon",
@@ -20663,7 +20718,7 @@
    "popularity_flag": true,
    "popularity_reason": "AIMS Certified",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Mandiri Jogja Marathon",
@@ -20702,7 +20757,7 @@
    "popularity_flag": true,
    "popularity_reason": "AIMS Certified",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "TriFactor Duathlon & CycleRun – Malaysia",
@@ -20737,7 +20792,7 @@
    "note": "Last held 21 Jun 2026. Next date not announced yet – if it runs again, expect it around June 2027.",
    "id": "7d51f2f90fd7",
    "first_seen_date": "2026-11-24",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "The North Face 100® - Thailand",
@@ -20775,7 +20830,7 @@
    "note": "Last held 26 Jun 2026. Next date not announced yet – if it runs again, expect it around June 2027.",
    "id": "9f35f1f83e83",
    "first_seen_date": "2026-11-24",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Beneva Vancouver Half Marathon",
@@ -20816,7 +20871,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Lake Saroma 100km Ultra Marathon",
@@ -20854,7 +20909,7 @@
    "popularity_flag": true,
    "popularity_reason": "AIMS Certified",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Penang Half Marathon",
@@ -20892,7 +20947,7 @@
    "note": "Last held 29 Jun 2025. Next date not announced yet – if it runs again, expect it around June 2027.",
    "id": "02b9ee857767",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Québec Méga Trail",
@@ -20928,7 +20983,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-24",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Bangkok Double Bridge Half Marathon For Red Cross",
@@ -20968,7 +21023,7 @@
    "note": "Last held 5 Jul 2026. Next date not announced yet – if it runs again, expect it around July 2027.",
    "id": "ea84269221c0",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Great Trails of Penang",
@@ -21003,7 +21058,7 @@
    "note": "Last held 6 Jul 2025. Next date not announced yet – if it runs again, expect it around July 2027.",
    "id": "0c831ace25e8",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Mekong Delta Cross Country Marathon",
@@ -21040,7 +21095,7 @@
    "note": "Last held 5 Jul 2026. Next date not announced yet – if it runs again, expect it around July 2027.",
    "id": "e9ae81a5bbd0",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Nong Khai Running Festival",
@@ -21080,7 +21135,7 @@
    "popularity_flag": true,
    "popularity_reason": "AIMS Certified",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "PUMA Philippine Half Marathon Series - Iloilo",
@@ -21119,7 +21174,7 @@
    "note": "Last held 12 Jul 2026. Next date not announced yet – if it runs again, expect it around July 2027.",
    "id": "05dec0ba5fc8",
    "first_seen_date": "2026-11-24",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "SINGLIFE Cebu International Marathon",
@@ -21156,7 +21211,7 @@
    "note": "Last held 12 Jul 2026. Next date not announced yet – if it runs again, expect it around July 2027.",
    "id": "75eb6650ac4a",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Lactacyd Women's Run PH - Iloilo",
@@ -21192,7 +21247,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-25",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Midnight Run Asia - Manila by Hoka",
@@ -21229,7 +21284,7 @@
    "note": "Last held 19 Jul 2026. Next date not announced yet – if it runs again, expect it around July 2027.",
    "id": "6164b6860506",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "PUMA Philippine Half Marathon Series - Davao",
@@ -21266,7 +21321,7 @@
    "note": "Last held 19 Jul 2026. Next date not announced yet – if it runs again, expect it around July 2027.",
    "id": "531578eb704b",
    "first_seen_date": "2026-11-24",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Thailand Earth Trail Series Saraburi",
@@ -21301,7 +21356,7 @@
    "note": "Last held 25 Jul 2026. Next date not announced yet – if it runs again, expect it around July 2027.",
    "id": "26d6d06b7475",
    "first_seen_date": "2026-11-24",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "St. Donat Mudskipper Quebec SwimRun Championships and Open Water Swim",
@@ -21341,7 +21396,7 @@
    "note": "Last held 26 Jul 2026. Next date not announced yet – if it runs again, expect it around July 2027.",
    "id": "2d0736999d30",
    "first_seen_date": "2026-11-24",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "EastWest Dream Run - Manila",
@@ -21376,7 +21431,7 @@
    "note": "Last held 2 Aug 2026. Next date not announced yet – if it runs again, expect it around August 2027.",
    "id": "570a41bc0dc3",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "PUMA Philippine Half Marathon Series - Cebu",
@@ -21413,7 +21468,7 @@
    "note": "Last held 2 Aug 2026. Next date not announced yet – if it runs again, expect it around August 2027.",
    "id": "b9125bc91155",
    "first_seen_date": "2026-11-24",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Yukon River Trail Marathon",
@@ -21451,7 +21506,7 @@
    "note": "Last held 2 Aug 2026. Next date not announced yet – if it runs again, expect it around August 2027.",
    "id": "0fb2ce82ed92",
    "first_seen_date": "2026-11-25",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Angkor Empire Marathon",
@@ -21494,7 +21549,7 @@
    "popularity_flag": true,
    "popularity_reason": "AIMS Certified",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Sarawak Energy Marathon",
@@ -21533,7 +21588,7 @@
    "popularity_flag": true,
    "popularity_reason": "AIMS Certified",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Taiping Half Marathon",
@@ -21571,7 +21626,7 @@
    "popularity_flag": true,
    "popularity_reason": "AIMS Certified",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Singlife Davao Marathon",
@@ -21608,7 +21663,7 @@
    "note": "Last held 15 Aug 2026. Next date not announced yet – if it runs again, expect it around August 2027.",
    "id": "ac989060e3fe",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Squamish 50",
@@ -21646,7 +21701,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-24",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Borneo Run Half Marathon",
@@ -21685,7 +21740,7 @@
    "note": "Last held 17 Aug 2025. Next date not announced yet – if it runs again, expect it around August 2027.",
    "id": "4e25d2b3cbda",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Penang Hill Heritage Forest Challenge",
@@ -21722,7 +21777,7 @@
    "note": "Last held 16 Aug 2026. Next date not announced yet – if it runs again, expect it around August 2027.",
    "id": "d2cd7a36ecb5",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Servus Edmonton Marathon",
@@ -21760,7 +21815,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Titan 77.7 Malaysia",
@@ -21799,7 +21854,7 @@
    "note": "Last held 17 Aug 2025. Next date not announced yet – if it runs again, expect it around August 2027.",
    "id": "fe4e21f38a0d",
    "first_seen_date": "2026-11-24",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "TriFactor Vietnam Championship",
@@ -21834,7 +21889,7 @@
    "note": "Last held 16 Aug 2026. Next date not announced yet – if it runs again, expect it around August 2027.",
    "id": "79b4029f016d",
    "first_seen_date": "2026-11-24",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Songkhla Marathon",
@@ -21873,7 +21928,7 @@
    "popularity_flag": true,
    "popularity_reason": "AIMS Certified",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Bangkok Airways Sukhothai Half Marathon",
@@ -21910,7 +21965,7 @@
    "note": "Last held 23 Aug 2026. Next date not announced yet – if it runs again, expect it around August 2027.",
    "id": "2bb741701604",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Maybank Marathon in Bali",
@@ -21947,7 +22002,7 @@
    "note": "Last held 23 Aug 2026. Next date not announced yet – if it runs again, expect it around August 2027.",
    "id": "a47b1bd164c9",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "PUMA Philippine Half Marathon Series - Clark",
@@ -21984,7 +22039,7 @@
    "note": "Last held 23 Aug 2026. Next date not announced yet – if it runs again, expect it around August 2027.",
    "id": "fdd80285af2a",
    "first_seen_date": "2026-11-24",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Chiangmai 22K, Doi Suthep Night Run",
@@ -22021,7 +22076,7 @@
    "note": "Last held 29 Aug 2026. Next date not announced yet – if it runs again, expect it around August 2027.",
    "id": "13393cc5c380",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Hokkaido Marathon",
@@ -22058,7 +22113,7 @@
    "note": "Last held 30 Aug 2026. Next date not announced yet – if it runs again, expect it around August 2027.",
    "id": "77aaa651c245",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Huế Amazing Marathon",
@@ -22095,7 +22150,7 @@
    "note": "Last held 30 Aug 2026. Next date not announced yet – if it runs again, expect it around August 2027.",
    "id": "3b60e7018c6d",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Travis Hegel Marathon du Trans Penang",
@@ -22132,7 +22187,7 @@
    "note": "Last held 30 Aug 2026. Next date not announced yet – if it runs again, expect it around August 2027.",
    "id": "70d8230298ce",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Melaka Marathon",
@@ -22169,7 +22224,7 @@
    "note": "Last held 7 Sep 2025. Next date not announced yet – if it runs again, expect it around September 2027.",
    "id": "5d1aabcfcf05",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Ride Run Discover Vientiane Province",
@@ -22209,7 +22264,7 @@
    "note": "Last held 7 Sep 2025. Next date not announced yet – if it runs again, expect it around September 2027.",
    "id": "7bd71f52d192",
    "first_seen_date": "2026-11-24",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Watlaharnrai Half Marathon",
@@ -22247,7 +22302,7 @@
    "popularity_flag": true,
    "popularity_reason": "AIMS Certified",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Kota Bharu Half Marathon",
@@ -22285,7 +22340,7 @@
    "popularity_flag": true,
    "popularity_reason": "AIMS Certified",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "RBC GranFondo Whistler",
@@ -22320,7 +22375,7 @@
    "note": "Last held 12 Sep 2026. Next date not announced yet – if it runs again, expect it around September 2027.",
    "id": "eb5fe7f8c607",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Canmore Rocky Mountain Half Marathon, 10km & 5km",
@@ -22360,7 +22415,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Phuket Trail",
@@ -22395,7 +22450,7 @@
    "note": "Last held 13 Sep 2026. Next date not announced yet – if it runs again, expect it around September 2027.",
    "id": "ba9fb0dceec7",
    "first_seen_date": "2026-11-24",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Scenic Half Marathon Krabi",
@@ -22432,7 +22487,7 @@
    "note": "Last held 13 Sep 2026. Next date not announced yet – if it runs again, expect it around September 2027.",
    "id": "019efec1344d",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "TriFactor Triathlon & Duathlon Singapore",
@@ -22467,7 +22522,7 @@
    "note": "Last held 13 Sep 2026. Next date not announced yet – if it runs again, expect it around September 2027.",
    "id": "30c834957d7a",
    "first_seen_date": "2026-11-24",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Beneva Montreal Marathon",
@@ -22505,7 +22560,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Vietnam Mountain Marathon",
@@ -22542,7 +22597,7 @@
    "note": "Last held 20 Sep 2025. Next date not announced yet – if it runs again, expect it around September 2027.",
    "id": "4e890fa52149",
    "first_seen_date": "2026-11-25",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Brooks Marathon Kuala Lumpur",
@@ -22579,7 +22634,7 @@
    "note": "Last held 20 Sep 2026. Next date not announced yet – if it runs again, expect it around September 2027.",
    "id": "79a4273eb7fd",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Canada Army Run",
@@ -22614,7 +22669,7 @@
    "note": "Last held 20 Sep 2026. Next date not announced yet – if it runs again, expect it around September 2027.",
    "id": "5e8caa389c6b",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Incheon Songdo International Marathon",
@@ -22651,7 +22706,7 @@
    "note": "Last held 20 Sep 2026. Next date not announced yet – if it runs again, expect it around September 2027.",
    "id": "20832340893e",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Jinshanling Great Wall Trail",
@@ -22688,7 +22743,7 @@
    "note": "Last held 22 Sep 2024. Next date not announced yet – if it runs again, expect it around September 2027.",
    "id": "0bf4510ac20b",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Seoul 100K",
@@ -22725,7 +22780,7 @@
    "note": "Last held 20 Sep 2026. Next date not announced yet – if it runs again, expect it around September 2027.",
    "id": "0fa025fce2ff",
    "first_seen_date": "2026-11-24",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Putrajaya Night Marathon",
@@ -22762,7 +22817,7 @@
    "note": "Last held 28 Sep 2024. Next date not announced yet – if it runs again, expect it around September 2027.",
    "id": "c015010ffda1",
    "first_seen_date": "2026-11-24",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2027 3rd Yi Sun-sin Trail Run",
@@ -22801,7 +22856,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2027 Green Sea Breeze Marathon",
@@ -22842,7 +22897,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Chiang Mai 24-Hour Challenge",
@@ -22879,7 +22934,7 @@
    "note": "Last held 28 Sep 2025. Next date not announced yet – if it runs again, expect it around September 2027.",
    "id": "e49dad95c80c",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Mekong Half Marathon",
@@ -22916,7 +22971,7 @@
    "note": "Last held 27 Sep 2026. Next date not announced yet – if it runs again, expect it around September 2027.",
    "id": "e57fe8937d7a",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Pattaya Marathon",
@@ -22953,7 +23008,7 @@
    "note": "Last held 27 Sep 2026. Next date not announced yet – if it runs again, expect it around September 2027.",
    "id": "cc0eeb45403a",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "THE GREAT WALL MARATHON OF HUAIROU AND ZAYED CHARITY RUN",
@@ -22990,7 +23045,7 @@
    "note": "Last held 27 Sep 2026. Next date not announced yet – if it runs again, expect it around September 2027.",
    "id": "0797a279544a",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Trans Jeju by UTMB",
@@ -23027,7 +23082,7 @@
    "note": "Last held 2 Oct 2026. Next date not announced yet – if it runs again, expect it around October 2027.",
    "id": "08146c42c52d",
    "first_seen_date": "2026-11-24",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Beneva Quebec Marathon",
@@ -23064,7 +23119,7 @@
    "note": "Last held 3 Oct 2026. Next date not announced yet – if it runs again, expect it around October 2027.",
    "id": "0e28bfd3865e",
    "first_seen_date": "2026-11-24",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Bintan Triathlon by TriFactor",
@@ -23099,7 +23154,7 @@
    "note": "Last held 4 Oct 2026. Next date not announced yet – if it runs again, expect it around October 2027.",
    "id": "3d135860329b",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Legs for Literacy Fun Run",
@@ -23139,7 +23194,7 @@
    "note": "Last held 4 Oct 2026. Next date not announced yet – if it runs again, expect it around October 2027.",
    "id": "f79f7a0949d2",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Techcombank Hanoi International Marathon",
@@ -23176,7 +23231,7 @@
    "note": "Last held 4 Oct 2026. Next date not announced yet – if it runs again, expect it around October 2027.",
    "id": "f10e203c8924",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "7th Cheonan Samgeori Heungtaryeong Ultramarathon",
@@ -23214,7 +23269,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "AIA Pink Run - Breast Cancer Awareness Charity Run",
@@ -23250,7 +23305,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-24",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Beijing Haidian Marathon",
@@ -23287,7 +23342,7 @@
    "note": "Last held 12 Oct 2025. Next date not announced yet – if it runs again, expect it around October 2027.",
    "id": "a8eab120f203",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Global Gate Ha Long ESG++ Marathon",
@@ -23325,7 +23380,7 @@
    "note": "Last held 11 Oct 2026. Next date not announced yet – if it runs again, expect it around October 2027.",
    "id": "9c6f6d3aa1b0",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Luang Prabang Trail",
@@ -23363,7 +23418,7 @@
    "note": "Last held 11 Oct 2026. Next date not announced yet – if it runs again, expect it around October 2027.",
    "id": "f4fde29d3d85",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Midnight Run Asia - Cebu by Hoka",
@@ -23398,7 +23453,7 @@
    "note": "Last held 11 Oct 2026. Next date not announced yet – if it runs again, expect it around October 2027.",
    "id": "e8dcc372cec5",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "PUMA Philippine Half Marathon Series - Manila",
@@ -23435,7 +23490,7 @@
    "note": "Last held 11 Oct 2026. Next date not announced yet – if it runs again, expect it around October 2027.",
    "id": "48c14553a9b4",
    "first_seen_date": "2026-11-24",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Royal Victoria Marathon",
@@ -23475,7 +23530,7 @@
    "popularity_flag": true,
    "popularity_reason": "AIMS Certified",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Seoul Race",
@@ -23510,7 +23565,7 @@
    "note": "Last held 11 Oct 2026. Next date not announced yet – if it runs again, expect it around October 2027.",
    "id": "5e033a3a9602",
    "first_seen_date": "2026-11-24",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Thailand Earth Trail Series Kanchanaburi",
@@ -23545,7 +23600,7 @@
    "note": "Last held 11 Oct 2026. Next date not announced yet – if it runs again, expect it around October 2027.",
    "id": "0078cbb14e1b",
    "first_seen_date": "2026-11-24",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Ultimate Trails of Penang",
@@ -23580,7 +23635,7 @@
    "note": "Last held 11 Oct 2026. Next date not announced yet – if it runs again, expect it around October 2027.",
    "id": "ba7f1d7d136b",
    "first_seen_date": "2026-11-24",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2027 Gyeongpo Marathon",
@@ -23619,7 +23674,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Gyeongju Marathon",
@@ -23659,7 +23714,7 @@
    "note": "Last held 17 Oct 2026. Next date not announced yet – if it runs again, expect it around October 2027.",
    "id": "f6bbad204ec7",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "HK50 - Hong Kong Island",
@@ -23696,7 +23751,7 @@
    "note": "Last held 17 Oct 2026. Next date not announced yet – if it runs again, expect it around October 2027.",
    "id": "5b6deb3d8507",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Vietnam Jungle Marathon",
@@ -23733,7 +23788,7 @@
    "note": "Last held 18 Oct 2025. Next date not announced yet – if it runs again, expect it around October 2027.",
    "id": "9f79d10edad1",
    "first_seen_date": "2026-11-25",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Beijing Marathon",
@@ -23771,7 +23826,7 @@
    "note": "Last held 18 Oct 2026. Next date not announced yet – if it runs again, expect it around October 2027.",
    "id": "a45871e13d74",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "GARMIN Marathon Series - Vietnam",
@@ -23808,7 +23863,7 @@
    "note": "Last held 18 Oct 2026. Next date not announced yet – if it runs again, expect it around October 2027.",
    "id": "6f46735f30e6",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Kuching Marathon",
@@ -23848,7 +23903,7 @@
    "popularity_flag": true,
    "popularity_reason": "AIMS Certified",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Malaysia Women Marathon",
@@ -23888,7 +23943,7 @@
    "note": "Last held 20 Oct 2024. Next date not announced yet – if it runs again, expect it around October 2027.",
    "id": "2c3130fce455",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "TCS Toronto Waterfront Marathon",
@@ -23926,7 +23981,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-24",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Tokyo Legacy Half Marathon",
@@ -23963,7 +24018,7 @@
    "note": "Last held 18 Oct 2026. Next date not announced yet – if it runs again, expect it around October 2027.",
    "id": "e0fd2554f15a",
    "first_seen_date": "2026-11-24",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "VPBank Hanoi International Marathon",
@@ -24000,7 +24055,7 @@
    "note": "Last held 18 Oct 2026. Next date not announced yet – if it runs again, expect it around October 2027.",
    "id": "7ad3465476a4",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Luang Prabang Half Marathon",
@@ -24037,7 +24092,7 @@
    "note": "Last held 24 Oct 2026. Next date not announced yet – if it runs again, expect it around October 2027.",
    "id": "de3dca0183ce",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "The Bali Hope Swimrun",
@@ -24072,7 +24127,7 @@
    "note": "Last held 24 Oct 2026. Next date not announced yet – if it runs again, expect it around October 2027.",
    "id": "8ff0dc8e7b32",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Chengdu Marathon",
@@ -24109,7 +24164,7 @@
    "note": "Last held 26 Oct 2025. Next date not announced yet – if it runs again, expect it around October 2027.",
    "id": "9d3a59ecf0ea",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "China Triathlon Open Huangshan T100 & Huangshan International Triathlon",
@@ -24144,7 +24199,7 @@
    "note": "Last held 25 Oct 2026. Next date not announced yet – if it runs again, expect it around October 2027.",
    "id": "79e2e00ea77c",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "EVA Air Marathon",
@@ -24183,7 +24238,7 @@
    "popularity_flag": true,
    "popularity_reason": "AIMS Certified",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Gemadept Run HCMC",
@@ -24218,7 +24273,7 @@
    "note": "Last held 25 Oct 2026. Next date not announced yet – if it runs again, expect it around October 2027.",
    "id": "97870df77337",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Jakarta Running Festival",
@@ -24253,7 +24308,7 @@
    "note": "Last held 25 Oct 2026. Next date not announced yet – if it runs again, expect it around October 2027.",
    "id": "f60b9760856b",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Kanazawa Marathon",
@@ -24290,7 +24345,7 @@
    "note": "Last held 25 Oct 2026. Next date not announced yet – if it runs again, expect it around October 2027.",
    "id": "f44fab182b34",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Midnight Run Asia - Iloilo City by Hoka",
@@ -24325,7 +24380,7 @@
    "note": "Last held 25 Oct 2026. Next date not announced yet – if it runs again, expect it around October 2027.",
    "id": "a5eba5f33d39",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Yokohama Marathon",
@@ -24362,7 +24417,7 @@
    "note": "Last held 25 Oct 2026. Next date not announced yet – if it runs again, expect it around October 2027.",
    "id": "c4cb9fe69ce1",
    "first_seen_date": "2026-11-25",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "24H Bangkok International Championships",
@@ -24400,7 +24455,7 @@
    "note": "Last held 31 Oct 2026. Next date not announced yet – if it runs again, expect it around October 2027.",
    "id": "421425eb5bc3",
    "first_seen_date": "2026-11-24",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "China Airlines Marathon – The Starry Night Run",
@@ -24438,7 +24493,7 @@
    "popularity_flag": true,
    "popularity_reason": "AIMS Certified",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Pattaya International Bikini Beach Race",
@@ -24473,7 +24528,7 @@
    "note": "Last held 31 Oct 2026. Next date not announced yet – if it runs again, expect it around October 2027.",
    "id": "d0eb735b9bd8",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Geely Auto Hangzhou Marathon",
@@ -24510,7 +24565,7 @@
    "note": "Last held 1 Nov 2026. Next date not announced yet – if it runs again, expect it around October 2027.",
    "id": "12525bf1d71c",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Hamilton Marathon Road2Hope",
@@ -24548,7 +24603,7 @@
    "note": "Last held 1 Nov 2026. Next date not announced yet – if it runs again, expect it around October 2027.",
    "id": "dc0139287048",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "JTBC Seoul Marathon",
@@ -24585,7 +24640,7 @@
    "note": "Last held 1 Nov 2026. Next date not announced yet – if it runs again, expect it around October 2027.",
    "id": "6cab92cd8699",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Osaka Yodo-River Citizens Marathon",
@@ -24622,7 +24677,7 @@
    "note": "Last held 3 Nov 2024. Next date not announced yet – if it runs again, expect it around October 2027.",
    "id": "8d37144925f4",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Scenic Half Marathon Chiang Mai",
@@ -24659,7 +24714,7 @@
    "note": "Last held 1 Nov 2026. Next date not announced yet – if it runs again, expect it around October 2027.",
    "id": "a4f778903760",
    "first_seen_date": "2026-11-24",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Sun Moon Lake Marathon",
@@ -24696,7 +24751,7 @@
    "note": "Last held 1 Nov 2026. Next date not announced yet – if it runs again, expect it around October 2027.",
    "id": "94b1c0836560",
    "first_seen_date": "2026-11-24",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "The Great Wall of China Marathon Autumn",
@@ -24734,7 +24789,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-24",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Challenge Xiamen",
@@ -24769,7 +24824,7 @@
    "note": "Last held 8 Nov 2026. Next date not announced yet – if it runs again, expect it around November 2027.",
    "id": "9b883db7386f",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Fukuoka Marathon",
@@ -24807,7 +24862,7 @@
    "note": "Last held 8 Nov 2026. Next date not announced yet – if it runs again, expect it around November 2027.",
    "id": "97263e53521d",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Korat Marathon",
@@ -24844,7 +24899,7 @@
    "note": "Last held 8 Nov 2026. Next date not announced yet – if it runs again, expect it around November 2027.",
    "id": "6169d85ed648",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Police Run Bangkok",
@@ -24879,7 +24934,7 @@
    "note": "Last held 10 Nov 2024. Next date not announced yet – if it runs again, expect it around November 2027.",
    "id": "02032782fb51",
    "first_seen_date": "2026-11-24",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Standard Chartered Hanoi Marathon - Heritage Race",
@@ -24916,7 +24971,7 @@
    "note": "Last held 8 Nov 2026. Next date not announced yet – if it runs again, expect it around November 2027.",
    "id": "3f956bfc6276",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "The LDB Bank Pakse Half Marathon",
@@ -24955,7 +25010,7 @@
    "note": "Last held 8 Nov 2026. Next date not announced yet – if it runs again, expect it around November 2027.",
    "id": "b2726c91f737",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "MSIG Taiwan Action Asia 50 Shihmen Reservoir",
@@ -24990,7 +25045,7 @@
    "note": "Last held 14 Nov 2026. Next date not announced yet – if it runs again, expect it around November 2027.",
    "id": "1a9000ee9a8e",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Taiwan’s Rice Heaven Tianzhong Marathon",
@@ -25028,7 +25083,7 @@
    "popularity_flag": true,
    "popularity_reason": "AIMS Certified",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Bank Jateng Borobudur Marathon",
@@ -25067,7 +25122,7 @@
    "note": "Last held 15 Nov 2026. Next date not announced yet – if it runs again, expect it around November 2027.",
    "id": "e2efa9180f8c",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Garmin Run Korea",
@@ -25102,7 +25157,7 @@
    "note": "Last held 15 Nov 2026. Next date not announced yet – if it runs again, expect it around November 2027.",
    "id": "e15a130a51bd",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Hong Kong-Zhuhai-Macau Bridge Half Marathon",
@@ -25139,7 +25194,7 @@
    "note": "Last held 15 Nov 2026. Next date not announced yet – if it runs again, expect it around November 2027.",
    "id": "cb872e892b18",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Midnight Run Asia - Clark City by Hoka",
@@ -25174,7 +25229,7 @@
    "note": "Last held 15 Nov 2026. Next date not announced yet – if it runs again, expect it around November 2027.",
    "id": "9a1e409d9a55",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "New Taipei 5K Challenge – November",
@@ -25211,7 +25266,7 @@
    "note": "Last held 18 Nov 2026. Next date not announced yet – if it runs again, expect it around November 2027.",
    "id": "d395690d34cb",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Yilan Dongshan River Ultramarathon",
@@ -25250,7 +25305,7 @@
    "note": "Last held 20 Nov 2026. Next date not announced yet – if it runs again, expect it around November 2027.",
    "id": "3d37e256a282",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "ASICS Seoul Shinmun Go Free Run",
@@ -25288,7 +25343,7 @@
    "note": "Last held 21 Nov 2026. Next date not announced yet – if it runs again, expect it around November 2027.",
    "id": "3401d5f14fba",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Dongshi National Marathon",
@@ -25328,7 +25383,7 @@
    "note": "Last held 21 Nov 2026. Next date not announced yet – if it runs again, expect it around November 2027.",
    "id": "c033bf3497f1",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "GETR Gumi Eco Trail Race",
@@ -25366,7 +25421,7 @@
    "note": "Last held 21 Nov 2026. Next date not announced yet – if it runs again, expect it around November 2027.",
    "id": "1cb284ba73bd",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Give Run Busan",
@@ -25404,7 +25459,7 @@
    "note": "Last held 21 Nov 2026. Next date not announced yet – if it runs again, expect it around November 2027.",
    "id": "b40e3d5761e3",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Kyoto Fukuchiyama Marathon",
@@ -25441,7 +25496,7 @@
    "note": "Last held 23 Nov 2024. Next date not announced yet – if it runs again, expect it around November 2027.",
    "id": "d914169cc46e",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Liudui Hakka Village Run",
@@ -25480,7 +25535,7 @@
    "note": "Last held 21 Nov 2026. Next date not announced yet – if it runs again, expect it around November 2027.",
    "id": "56689db1a67e",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Mother Marathon Beigang Matsu Cup National Marathon",
@@ -25520,7 +25575,7 @@
    "note": "Last held 21 Nov 2026. Next date not announced yet – if it runs again, expect it around November 2027.",
    "id": "8eea8ae0370a",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Namhae Trail Race (Autumn)",
@@ -25558,7 +25613,7 @@
    "note": "Last held 21 Nov 2026. Next date not announced yet – if it runs again, expect it around November 2027.",
    "id": "45b11ce76d27",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Run10 Race 14 – Just Run 10 Daegu",
@@ -25596,7 +25651,7 @@
    "note": "Last held 21 Nov 2026. Next date not announced yet – if it runs again, expect it around November 2027.",
    "id": "54ac83f5fe67",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Sejung Autumn Breeze Running Festa",
@@ -25634,7 +25689,7 @@
    "note": "Last held 21 Nov 2026. Next date not announced yet – if it runs again, expect it around November 2027.",
    "id": "f91fe067f461",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Seoul Life Marathon (Autumn)",
@@ -25673,7 +25728,7 @@
    "note": "Last held 21 Nov 2026. Next date not announced yet – if it runs again, expect it around November 2027.",
    "id": "d47c86b18fa7",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2027 Kenting JAL International Marathon",
@@ -25713,7 +25768,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Allianz Ayudhya World Run Thailand Series",
@@ -25748,7 +25803,7 @@
    "note": "Held in 26 Nov 2023, 22 Nov 2026. Next date not announced yet – if it runs again, expect it around November 2027.",
    "id": "091fcd69dd05",
    "first_seen_date": "2026-11-25",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Bagan Marathon",
@@ -25785,7 +25840,7 @@
    "note": "Last held 22 Nov 2026. Next date not announced yet – if it runs again, expect it around November 2027.",
    "id": "3373170ca635",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Cebu Half Marathon",
@@ -25822,7 +25877,7 @@
    "note": "Last held 24 Nov 2024. Next date not announced yet – if it runs again, expect it around November 2027.",
    "id": "e03f85cd6579",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Daegu Mayor's Cup Athletics Meet",
@@ -25859,7 +25914,7 @@
    "note": "Last held 22 Nov 2026. Next date not announced yet – if it runs again, expect it around November 2027.",
    "id": "5a86226a19db",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Forest of Peace Marathon",
@@ -25897,7 +25952,7 @@
    "note": "Last held 22 Nov 2026. Next date not announced yet – if it runs again, expect it around November 2027.",
    "id": "f99fce13e03c",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Golden Tiger Lord National Road Race",
@@ -25935,7 +25990,7 @@
    "note": "Last held 22 Nov 2026. Next date not announced yet – if it runs again, expect it around November 2027.",
    "id": "635f71b1de19",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Halong Bay Heritage Marathon",
@@ -25972,7 +26027,7 @@
    "note": "Last held 22 Nov 2026. Next date not announced yet – if it runs again, expect it around November 2027.",
    "id": "2beac615b107",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Hsinchu City Marathon",
@@ -26011,7 +26066,7 @@
    "popularity_flag": true,
    "popularity_reason": "AIMS Certified",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Incheon Marathon",
@@ -26050,7 +26105,7 @@
    "note": "Last held 22 Nov 2026. Next date not announced yet – if it runs again, expect it around November 2027.",
    "id": "ed9cb7ecfe29",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Incheon Marathon",
@@ -26089,7 +26144,7 @@
    "note": "Last held 22 Nov 2026. Next date not announced yet – if it runs again, expect it around November 2027.",
    "id": "20e4a7053281",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Kerry Hong Kong Streetathon",
@@ -26126,7 +26181,7 @@
    "note": "Last held 23 Nov 2025. Next date not announced yet – if it runs again, expect it around November 2027.",
    "id": "e733f3fb0bab",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Kim Dae-jung Marathon",
@@ -26165,7 +26220,7 @@
    "note": "Last held 22 Nov 2026. Next date not announced yet – if it runs again, expect it around November 2027.",
    "id": "38f3380fb026",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "L'Étape Udon Thani by Tour de France",
@@ -26200,7 +26255,7 @@
    "note": "Last held 24 Nov 2024. Next date not announced yet – if it runs again, expect it around November 2027.",
    "id": "2d74a1e641e9",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Mar Backyard Ultra 6",
@@ -26241,7 +26296,7 @@
    "note": "Last held 22 Nov 2026. Next date not announced yet – if it runs again, expect it around November 2027.",
    "id": "69e02ca99388",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Minister of Employment Cup Workers' Marathon",
@@ -26279,7 +26334,7 @@
    "note": "Last held 22 Nov 2026. Next date not announced yet – if it runs again, expect it around November 2027.",
    "id": "81d96e3fd05e",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Muju Firefly Peace Marathon",
@@ -26318,7 +26373,7 @@
    "note": "Last held 22 Nov 2026. Next date not announced yet – if it runs again, expect it around November 2027.",
    "id": "ac538144bb5f",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "NS Run",
@@ -26358,7 +26413,7 @@
    "note": "Last held 22 Nov 2026. Next date not announced yet – if it runs again, expect it around November 2027.",
    "id": "8f23b922260f",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "REDLINE Fitness Games Bangkok",
@@ -26393,7 +26448,7 @@
    "note": "Last held 22 Nov 2026. Next date not announced yet – if it runs again, expect it around November 2027.",
    "id": "0827b79d0593",
    "first_seen_date": "2026-11-24",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Run for freedom — Bitcoin Half Marathon",
@@ -26430,7 +26485,7 @@
    "note": "Last held 22 Nov 2026. Next date not announced yet – if it runs again, expect it around November 2027.",
    "id": "a3e803f9f03c",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Seoul Silver Grass Marathon",
@@ -26469,7 +26524,7 @@
    "note": "Last held 22 Nov 2026. Next date not announced yet – if it runs again, expect it around November 2027.",
    "id": "8f4f8301b50a",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Taoyuan Bald Cypress Marathon",
@@ -26509,7 +26564,7 @@
    "note": "Last held 22 Nov 2026. Next date not announced yet – if it runs again, expect it around November 2027.",
    "id": "c7ef7974ae63",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "TriFactor Bike Cycle Run & Singapore Duathlon National Championship",
@@ -26544,7 +26599,7 @@
    "note": "Last held 24 Nov 2024. Next date not announced yet – if it runs again, expect it around November 2027.",
    "id": "1f4d88bd7c27",
    "first_seen_date": "2026-11-24",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Wandan Red Bean Charity Marathon",
@@ -26584,7 +26639,7 @@
    "note": "Last held 22 Nov 2026. Next date not announced yet – if it runs again, expect it around November 2027.",
    "id": "8a4d90588ed4",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Xiamen Shanhai Urban Trail",
@@ -26623,7 +26678,7 @@
    "note": "Last held 22 Nov 2026. Next date not announced yet – if it runs again, expect it around November 2027.",
    "id": "10d748ec39d4",
    "first_seen_date": "2026-11-25",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Zeiss Smile Race",
@@ -26661,7 +26716,7 @@
    "note": "Last held 22 Nov 2026. Next date not announced yet – if it runs again, expect it around November 2027.",
    "id": "158fab8d4398",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "LAVA Wild Playground",
@@ -26702,7 +26757,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "2027 Taichung City Half Marathon",
@@ -26740,7 +26795,7 @@
    "popularity_flag": false,
    "popularity_reason": null,
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Angkor Wat International Half Marathon",
@@ -26778,7 +26833,7 @@
    "popularity_flag": true,
    "popularity_reason": "AIMS Certified",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Shenzhen Marathon",
@@ -26816,7 +26871,7 @@
    "popularity_flag": true,
    "popularity_reason": "AIMS Certified",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   },
   {
    "name": "Taipei Marathon",
@@ -26855,7 +26910,7 @@
    "popularity_flag": true,
    "popularity_reason": "AIMS Certified",
    "first_seen_date": "2026-11-23",
-   "last_seen_date": "2026-11-26"
+   "last_seen_date": "2026-11-27"
   }
  ]
 }

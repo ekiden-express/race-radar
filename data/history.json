@@ -1477,6 +1477,7 @@
 },
 "China|greatwallofchinamarathon": {
 "aims_certified": false,
+"city": "Huangyaguan",
 "country": "China",
 "dates": [
 "2027-05-01"
@@ -1489,7 +1490,8 @@
 "region": "East Asia",
 "registration_url": "https://worldsmarathons.com/marathon/great-wall-of-china-marathon",
 "sources": [
-"World's Marathons"
+"World's Marathons",
+"Marathon Index"
 ],
 "surface": "Road"
 },
@@ -1729,6 +1731,7 @@
 "registration_url": "https://worldsmarathons.com/marathon/shanghai-international-marathon",
 "sources": [
 "World's Marathons",
+"Marathon Index",
 "AIMS"
 ],
 "surface": "Road"
@@ -2258,6 +2261,7 @@
 "registration_url": "https://running.biji.co/index.php?q=competition&act=info&cid=13239",
 "sources": [
 "運動筆記",
+"Marathon Index",
 "AIMS"
 ],
 "surface": "Road"
@@ -3703,6 +3707,7 @@
 "sources": [
 "運動筆記",
 "World's Marathons",
+"Marathon Index",
 "AIMS"
 ],
 "surface": "Road"
@@ -5518,7 +5523,8 @@
 "region": "Southeast Asia",
 "registration_url": "https://worldsmarathons.com/marathon/langkawi-international-half-marathon",
 "sources": [
-"World's Marathons"
+"World's Marathons",
+"Marathon Index"
 ],
 "surface": "Road"
 },
@@ -9836,7 +9842,8 @@
 "region": "East Asia",
 "registration_url": "https://running.biji.co/index.php?q=competition&act=info&cid=13076",
 "sources": [
-"運動筆記"
+"運動筆記",
+"Marathon Index"
 ],
 "surface": "Road"
 },
@@ -9935,7 +9942,7 @@
 "name_local": "2027 SUPERACE 野馬越野系列賽 冬嶺野馬",
 "popularity_flag": false,
 "region": "East Asia",
-"registration_url": "https://bao-ming.com/eb/content/7163#reg",
+"registration_url": "https://running.biji.co/index.php?q=competition&act=info&cid=13167",
 "sources": [
 "運動筆記"
 ],
@@ -10875,6 +10882,29 @@
 "popularity_reason": "Popular on 運動筆記",
 "region": "East Asia",
 "registration_url": "https://running.biji.co/index.php?q=competition&act=info&cid=13036",
+"sources": [
+"運動筆記"
+],
+"surface": "Road"
+},
+"Taiwan|將軍漁港馬拉松": {
+"aims_certified": false,
+"city": "Tainan",
+"country": "Taiwan",
+"dates": [
+"2027-05-23"
+],
+"distances": [
+"5K",
+"10K",
+"Half Marathon",
+"Marathon"
+],
+"name": "2027 General Fishing Port Marathon",
+"name_local": "2027將軍漁港馬拉松",
+"popularity_flag": false,
+"region": "East Asia",
+"registration_url": "https://bao-ming.com/eb/content/7280#reg",
 "sources": [
 "運動筆記"
 ],
@@ -13956,7 +13986,8 @@
 "region": "Southeast Asia",
 "registration_url": "https://worldsmarathons.com/marathon/ho-chi-minh-city-marathon",
 "sources": [
-"World's Marathons"
+"World's Marathons",
+"Marathon Index"
 ],
 "surface": "Road"
 },

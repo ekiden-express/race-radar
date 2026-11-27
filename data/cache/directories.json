@@ -6027,5 +6027,676 @@
 "skip": true,
 "country_code": "US"
 }
+},
+"https://marathon-index.com/races/goa-marathon/": {
+"fetched": "2026-11-27",
+"v": 1,
+"data": {
+"skip": true,
+"country_code": "IN"
+}
+},
+"https://marathon-index.com/races/gold-coast-half-marathon/": {
+"fetched": "2026-11-27",
+"v": 1,
+"data": {
+"skip": true,
+"country_code": "AU"
+}
+},
+"https://marathon-index.com/races/gold-coast-marathon/": {
+"fetched": "2026-11-27",
+"v": 1,
+"data": {
+"skip": true,
+"country_code": "AU"
+}
+},
+"https://marathon-index.com/races/goteborgsvarvet/": {
+"fetched": "2026-11-27",
+"v": 1,
+"data": {
+"skip": true,
+"country_code": "SE"
+}
+},
+"https://marathon-index.com/races/gothenburg-marathon/": {
+"fetched": "2026-11-27",
+"v": 1,
+"data": null
+},
+"https://marathon-index.com/races/gran-canaria-marathon/": {
+"fetched": "2026-11-27",
+"v": 1,
+"data": null
+},
+"https://marathon-index.com/races/grandmas-marathon/": {
+"fetched": "2026-11-27",
+"v": 1,
+"data": {
+"skip": true,
+"country_code": "US"
+}
+},
+"https://marathon-index.com/races/graz-marathon/": {
+"fetched": "2026-11-27",
+"v": 1,
+"data": {
+"skip": true,
+"country_code": "AT"
+}
+},
+"https://marathon-index.com/races/great-manchester-run/": {
+"fetched": "2026-11-27",
+"v": 1,
+"data": {
+"skip": true,
+"country_code": "GB"
+}
+},
+"https://marathon-index.com/races/great-north-run/": {
+"fetched": "2026-11-27",
+"v": 1,
+"data": {
+"skip": true,
+"country_code": "GB"
+}
+},
+"https://marathon-index.com/races/great-ocean-road-marathon/": {
+"fetched": "2026-11-27",
+"v": 1,
+"data": {
+"skip": true,
+"country_code": "AU"
+}
+},
+"https://marathon-index.com/races/great-scottish-run/": {
+"fetched": "2026-11-27",
+"v": 1,
+"data": {
+"skip": true,
+"country_code": "GB"
+}
+},
+"https://marathon-index.com/races/great-wall-marathon-2/": {
+"fetched": "2026-11-27",
+"v": 1,
+"data": {
+"name": "Great Wall of China Marathon",
+"race_date": "2027-05-15",
+"country": "China",
+"region": "East Asia",
+"city": "Huangyaguan",
+"distances": [
+"Half Marathon",
+"Marathon",
+"Other"
+],
+"url": "https://marathon-index.com/races/great-wall-marathon-2/"
+}
+},
+"https://marathon-index.com/races/guadalajara-marathon/": {
+"fetched": "2026-11-27",
+"v": 1,
+"data": null
+},
+"https://marathon-index.com/races/guam-marathon/": {
+"fetched": "2026-11-27",
+"v": 1,
+"data": null
+},
+"https://marathon-index.com/races/guangzhou-marathon/": {
+"fetched": "2026-11-27",
+"v": 1,
+"data": {
+"name": "Guangzhou Marathon",
+"race_date": "2026-12-20",
+"country": "China",
+"region": "East Asia",
+"city": "Guangzhou",
+"distances": [
+"Marathon"
+],
+"url": "https://marathon-index.com/races/guangzhou-marathon/"
+}
+},
+"https://marathon-index.com/races/guayaquil-marathon/": {
+"fetched": "2026-11-27",
+"v": 1,
+"data": null
+},
+"https://marathon-index.com/races/gyeongju-marathon/": {
+"fetched": "2026-11-27",
+"v": 1,
+"data": null
+},
+"https://marathon-index.com/races/hamburg-half-marathon/": {
+"fetched": "2026-11-27",
+"v": 1,
+"data": {
+"skip": true,
+"country_code": "DE"
+}
+},
+"https://marathon-index.com/races/hamburg-marathon/": {
+"fetched": "2026-11-27",
+"v": 1,
+"data": {
+"skip": true,
+"country_code": "DE"
+}
+},
+"https://marathon-index.com/races/hangzhou-half-marathon/": {
+"fetched": "2026-11-27",
+"v": 1,
+"data": null
+},
+"https://marathon-index.com/races/hangzhou-marathon/": {
+"fetched": "2026-11-27",
+"v": 1,
+"data": null
+},
+"https://marathon-index.com/races/hannover-marathon/": {
+"fetched": "2026-11-27",
+"v": 1,
+"data": {
+"skip": true,
+"country_code": "DE"
+}
+},
+"https://marathon-index.com/races/hanoi-marathon/": {
+"fetched": "2026-11-27",
+"v": 1,
+"data": null
+},
+"https://marathon-index.com/races/harare-marathon/": {
+"fetched": "2026-11-27",
+"v": 1,
+"data": null
+},
+"https://marathon-index.com/races/hartford-marathon/": {
+"fetched": "2026-11-27",
+"v": 1,
+"data": null
+},
+"https://marathon-index.com/races/hatfield-mccoy-marathon/": {
+"fetched": "2026-11-27",
+"v": 1,
+"data": {
+"skip": true,
+"country_code": "US"
+}
+},
+"https://marathon-index.com/races/havana-marathon/": {
+"fetched": "2026-11-27",
+"v": 1,
+"data": null
+},
+"https://marathon-index.com/races/hawaii-big-island-marathon/": {
+"fetched": "2026-11-27",
+"v": 1,
+"data": {
+"skip": true,
+"country_code": "US"
+}
+},
+"https://marathon-index.com/races/helsinki-half-marathon/": {
+"fetched": "2026-11-27",
+"v": 1,
+"data": {
+"skip": true,
+"country_code": "FI"
+}
+},
+"https://marathon-index.com/races/helsinki-marathon/": {
+"fetched": "2026-11-27",
+"v": 1,
+"data": {
+"skip": true,
+"country_code": "FI"
+}
+},
+"https://marathon-index.com/races/ho-chi-minh-marathon/": {
+"fetched": "2026-11-27",
+"v": 1,
+"data": {
+"name": "Ho Chi Minh City Marathon",
+"race_date": "2027-01-17",
+"country": "Vietnam",
+"region": "Southeast Asia",
+"city": "Ho Chi Minh City",
+"distances": [
+"Marathon"
+],
+"url": "https://marathon-index.com/races/ho-chi-minh-marathon/"
+}
+},
+"https://marathon-index.com/races/hobart-marathon/": {
+"fetched": "2026-11-27",
+"v": 1,
+"data": {
+"skip": true,
+"country_code": "AU"
+}
+},
+"https://marathon-index.com/races/hong-kong-half-marathon/": {
+"fetched": "2026-11-27",
+"v": 1,
+"data": {
+"name": "Hong Kong Half Marathon",
+"race_date": "2027-01-17",
+"country": "Hong Kong",
+"region": "East Asia",
+"city": "Hong Kong",
+"distances": [
+"10K",
+"Half Marathon",
+"Marathon"
+],
+"url": "https://marathon-index.com/races/hong-kong-half-marathon/"
+}
+},
+"https://marathon-index.com/races/honolulu-half-marathon/": {
+"fetched": "2026-11-27",
+"v": 1,
+"data": {
+"skip": true,
+"country_code": "US"
+}
+},
+"https://marathon-index.com/races/honolulu-marathon/": {
+"fetched": "2026-11-27",
+"v": 1,
+"data": {
+"skip": true,
+"country_code": "US"
+}
+},
+"https://marathon-index.com/races/houston-half-marathon/": {
+"fetched": "2026-11-27",
+"v": 1,
+"data": null
+},
+"https://marathon-index.com/races/houston-marathon/": {
+"fetched": "2026-11-27",
+"v": 1,
+"data": {
+"skip": true,
+"country_code": "US"
+}
+},
+"https://marathon-index.com/races/hunter-valley-marathon/": {
+"fetched": "2026-11-27",
+"v": 1,
+"data": {
+"skip": true,
+"country_code": "AU"
+}
+},
+"https://marathon-index.com/races/hyderabad-marathon/": {
+"fetched": "2026-11-27",
+"v": 1,
+"data": null
+},
+"https://marathon-index.com/races/ibiza-marathon/": {
+"fetched": "2026-11-27",
+"v": 1,
+"data": {
+"skip": true,
+"country_code": "ES"
+}
+},
+"https://marathon-index.com/races/inca-trail-half/": {
+"fetched": "2026-11-27",
+"v": 1,
+"data": {
+"skip": true,
+"country_code": "PE"
+}
+},
+"https://marathon-index.com/races/inca-trail-marathon/": {
+"fetched": "2026-11-27",
+"v": 1,
+"data": {
+"skip": true,
+"country_code": "PE"
+}
+},
+"https://marathon-index.com/races/indianapolis-marathon/": {
+"fetched": "2026-11-27",
+"v": 1,
+"data": null
+},
+"https://marathon-index.com/races/istanbul-half-marathon/": {
+"fetched": "2026-11-27",
+"v": 1,
+"data": null
+},
+"https://marathon-index.com/races/istanbul-marathon/": {
+"fetched": "2026-11-27",
+"v": 1,
+"data": null
+},
+"https://marathon-index.com/races/jacksonville-marathon/": {
+"fetched": "2026-11-27",
+"v": 1,
+"data": {
+"skip": true,
+"country_code": "US"
+}
+},
+"https://marathon-index.com/races/jeddah-half-marathon/": {
+"fetched": "2026-11-27",
+"v": 1,
+"data": null
+},
+"https://marathon-index.com/races/jerusalem-marathon/": {
+"fetched": "2026-11-27",
+"v": 1,
+"data": {
+"skip": true,
+"country_code": "IL"
+}
+},
+"https://marathon-index.com/races/jungfrau-marathon/": {
+"fetched": "2026-11-27",
+"v": 1,
+"data": {
+"skip": true,
+"country_code": "CH"
+}
+},
+"https://marathon-index.com/races/kansas-city-marathon/": {
+"fetched": "2026-11-27",
+"v": 1,
+"data": {
+"skip": true,
+"country_code": "US"
+}
+},
+"https://marathon-index.com/races/kaohsiung-marathon/": {
+"fetched": "2026-11-27",
+"v": 1,
+"data": {
+"name": "Kaohsiung Marathon",
+"race_date": "2027-01-10",
+"country": "Taiwan",
+"region": "East Asia",
+"city": "Kaohsiung",
+"distances": [
+"5K",
+"Half Marathon",
+"Marathon"
+],
+"url": "https://marathon-index.com/races/kaohsiung-marathon/"
+}
+},
+"https://marathon-index.com/races/kassel-marathon/": {
+"fetched": "2026-11-27",
+"v": 1,
+"data": {
+"skip": true,
+"country_code": "DE"
+}
+},
+"https://marathon-index.com/races/kathmandu-marathon/": {
+"fetched": "2026-11-27",
+"v": 1,
+"data": null
+},
+"https://marathon-index.com/races/kaunas-marathon/": {
+"fetched": "2026-11-27",
+"v": 1,
+"data": {
+"skip": true,
+"country_code": "LT"
+}
+},
+"https://marathon-index.com/races/kigali-marathon/": {
+"fetched": "2026-11-27",
+"v": 1,
+"data": {
+"skip": true,
+"country_code": "RW"
+}
+},
+"https://marathon-index.com/races/kilimanjaro-half-marathon/": {
+"fetched": "2026-11-27",
+"v": 1,
+"data": {
+"skip": true,
+"country_code": "TZ"
+}
+},
+"https://marathon-index.com/races/kilimanjaro-marathon/": {
+"fetched": "2026-11-27",
+"v": 1,
+"data": {
+"skip": true,
+"country_code": "TZ"
+}
+},
+"https://marathon-index.com/races/kobe-marathon/": {
+"fetched": "2026-11-27",
+"v": 1,
+"data": null
+},
+"https://marathon-index.com/races/kosice-marathon/": {
+"fetched": "2026-11-27",
+"v": 1,
+"data": null
+},
+"https://marathon-index.com/races/krakow-half-marathon/": {
+"fetched": "2026-11-27",
+"v": 1,
+"data": null
+},
+"https://marathon-index.com/races/kuala-lumpur-half-marathon/": {
+"fetched": "2026-11-27",
+"v": 1,
+"data": null
+},
+"https://marathon-index.com/races/kuala-lumpur-marathon/": {
+"fetched": "2026-11-27",
+"v": 1,
+"data": null
+},
+"https://marathon-index.com/races/kuwait-marathon/": {
+"fetched": "2026-11-27",
+"v": 1,
+"data": {
+"skip": true,
+"country_code": "KW"
+}
+},
+"https://marathon-index.com/races/kyiv-marathon/": {
+"fetched": "2026-11-27",
+"v": 1,
+"data": null
+},
+"https://marathon-index.com/races/kyoto-marathon/": {
+"fetched": "2026-11-27",
+"v": 1,
+"data": {
+"name": "Kyoto Marathon",
+"race_date": "2027-02-21",
+"country": "Japan",
+"region": "East Asia",
+"city": "Kyoto",
+"distances": [
+"Marathon"
+],
+"url": "https://marathon-index.com/races/kyoto-marathon/"
+}
+},
+"https://marathon-index.com/races/la-paz-marathon/": {
+"fetched": "2026-11-27",
+"v": 1,
+"data": {
+"skip": true,
+"country_code": "BO"
+}
+},
+"https://marathon-index.com/races/ladakh-marathon/": {
+"fetched": "2026-11-27",
+"v": 1,
+"data": null
+},
+"https://marathon-index.com/races/lagos-marathon/": {
+"fetched": "2026-11-27",
+"v": 1,
+"data": null
+},
+"https://marathon-index.com/races/lake-tahoe-marathon/": {
+"fetched": "2026-11-27",
+"v": 1,
+"data": {
+"skip": true,
+"country_code": "US"
+}
+},
+"https://marathon-index.com/races/langkawi-marathon/": {
+"fetched": "2026-11-27",
+"v": 1,
+"data": {
+"name": "Langkawi International Half Marathon",
+"race_date": "2026-12-12",
+"country": "Malaysia",
+"region": "Southeast Asia",
+"city": "Langkawi",
+"distances": [
+"Half Marathon"
+],
+"url": "https://marathon-index.com/races/langkawi-marathon/"
+}
+},
+"https://marathon-index.com/races/lanzarote-marathon/": {
+"fetched": "2026-11-27",
+"v": 1,
+"data": {
+"skip": true,
+"country_code": "ES"
+}
+},
+"https://marathon-index.com/races/las-vegas-half-marathon/": {
+"fetched": "2026-11-27",
+"v": 1,
+"data": {
+"skip": true,
+"country_code": "US"
+}
+},
+"https://marathon-index.com/races/lausanne-marathon/": {
+"fetched": "2026-11-27",
+"v": 1,
+"data": {
+"skip": true,
+"country_code": "CH"
+}
+},
+"https://marathon-index.com/races/leipzig-marathon/": {
+"fetched": "2026-11-27",
+"v": 1,
+"data": {
+"skip": true,
+"country_code": "DE"
+}
+},
+"https://marathon-index.com/races/libreville-marathon/": {
+"fetched": "2026-11-27",
+"v": 1,
+"data": null
+},
+"https://marathon-index.com/races/lima-half-marathon/": {
+"fetched": "2026-11-27",
+"v": 1,
+"data": null
+},
+"https://marathon-index.com/races/lima-marathon/": {
+"fetched": "2026-11-27",
+"v": 1,
+"data": null
+},
+"https://marathon-index.com/races/limassol-marathon/": {
+"fetched": "2026-11-27",
+"v": 1,
+"data": {
+"skip": true,
+"country_code": "CY"
+}
+},
+"https://marathon-index.com/races/linz-marathon/": {
+"fetched": "2026-11-27",
+"v": 1,
+"data": {
+"skip": true,
+"country_code": "AT"
+}
+},
+"https://marathon-index.com/races/lisbon-half-marathon/": {
+"fetched": "2026-11-27",
+"v": 1,
+"data": {
+"skip": true,
+"country_code": "PT"
+}
+},
+"https://marathon-index.com/races/lisbon-marathon/": {
+"fetched": "2026-11-27",
+"v": 1,
+"data": null
+},
+"https://marathon-index.com/races/little-rock-marathon/": {
+"fetched": "2026-11-27",
+"v": 1,
+"data": {
+"skip": true,
+"country_code": "US"
+}
+},
+"https://marathon-index.com/races/ljubljana-marathon/": {
+"fetched": "2026-11-27",
+"v": 1,
+"data": {
+"skip": true,
+"country_code": "SI"
+}
+},
+"https://marathon-index.com/races/loch-ness-marathon/": {
+"fetched": "2026-11-27",
+"v": 1,
+"data": {
+"skip": true,
+"country_code": "GB"
+}
+},
+"https://marathon-index.com/races/london-marathon/": {
+"fetched": "2026-11-27",
+"v": 1,
+"data": {
+"skip": true,
+"country_code": "GB"
+}
+},
+"https://marathon-index.com/races/los-angeles-marathon/": {
+"fetched": "2026-11-27",
+"v": 1,
+"data": {
+"skip": true,
+"country_code": "US"
+}
+},
+"https://marathon-index.com/races/luanda-half-marathon/": {
+"fetched": "2026-11-27",
+"v": 1,
+"data": null
+},
+"https://marathon-index.com/races/lucerne-marathon/": {
+"fetched": "2026-11-27",
+"v": 1,
+"data": {
+"skip": true,
+"country_code": "CH"
+}
 }
 }
